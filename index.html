@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSA Kampftool – Spielleiter</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-deep: #0a0a0f;
+  --bg-panel: #12121a;
+  --bg-card: #1a1a26;
+  --bg-card-hover: #222233;
+  --border: #2a2a3a;
+  --border-light: #3a3a4f;
+  --gold: #c9a84c;
+  --gold-dim: #8a7234;
+  --gold-glow: #c9a84c44;
+  --red: #c0392b;
+  --red-soft: #e74c3c;
+  --red-glow: #c0392b44;
+  --green: #27ae60;
+  --green-soft: #2ecc71;
+  --blue: #2980b9;
+  --blue-soft: #3498db;
+  --text: #e8e4dc;
+  --text-dim: #8a8698;
+  --text-muted: #5a5670;
+  --white: #f0ece4;
+  --orange: #e67e22;
+  --purple: #8e44ad;
+  --wound-color: #e74c3c;
+  --heal-color: #2ecc71;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-deep);
+  color: var(--text);
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
+
+/* ─── HEADER ─── */
+header {
+  background: linear-gradient(180deg, #111118 0%, var(--bg-deep) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--gold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+header h1 span {
+  color: var(--text-dim);
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  display: block;
+  margin-top: 2px;
+}
+
+.header-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.round-display {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  color: var(--gold);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.round-display strong {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3rem;
+}
+
+/* ─── BUTTONS ─── */
+button {
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.4rem 0.9rem;
+  background: var(--bg-card);
+  color: var(--text);
+  transition: all 0.15s;
+}
+
+button:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--gold-dim);
+}
+
+button.primary {
+  background: var(--gold);
+  color: var(--bg-deep);
+  border-color: var(--gold);
+  font-weight: 600;
+}
+
+button.primary:hover {
+  background: #d4b35a;
+  box-shadow: 0 0 12px var(--gold-glow);
+}
+
+button.danger {
+  border-color: var(--red);
+  color: var(--red-soft);
+}
+
+button.danger:hover {
+  background: #2a1515;
+}
+
+button.small {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+}
+
+button.icon-btn {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+/* ─── LAYOUT ─── */
+.app {
+  display: grid;
+  grid-template-columns: 340px 1fr 300px;
+  gap: 0;
+  height: calc(100vh - 60px);
+}
+
+.sidebar-left {
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.main-area {
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.sidebar-right {
+  background: var(--bg-panel);
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+/* ─── SECTION TITLES ─── */
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gold-dim);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ─── ADD COMBATANT FORM ─── */
+.add-form {
+  margin-bottom: 1rem;
+}
+
+.add-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.add-form .form-row.full {
+  grid-template-columns: 1fr;
+}
+
+.add-form .form-row.triple {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.add-form label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  display: block;
+  margin-bottom: 2px;
+  letter-spacing: 0.05em;
+}
+
+.add-form input, .add-form select {
+  width: 100%;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.35rem 0.5rem;
+  border-radius: 3px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}
+
+.add-form input:focus, .add-form select:focus {
+  outline: none;
+  border-color: var(--gold-dim);
+}
+
+.add-form select {
+  font-family: 'Crimson Pro', serif;
+}
+
+.type-selector {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.type-selector button {
+  flex: 1;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+}
+
+.type-selector button.active {
+  background: var(--gold);
+  color: var(--bg-deep);
+  border-color: var(--gold);
+}
+
+/* ─── INITIATIVE LIST (main area) ─── */
+.ini-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.combatant-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+  gap: 0.8rem;
+  align-items: center;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.combatant-card.active-turn {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px var(--gold-glow), inset 0 0 30px rgba(201, 168, 76, 0.03);
+}
+
+.combatant-card.hero { border-left: 3px solid var(--green); }
+.combatant-card.enemy { border-left: 3px solid var(--red); }
+.combatant-card.npc { border-left: 3px solid var(--blue); }
+
+.combatant-card.dead {
+  opacity: 0.35;
+  filter: grayscale(0.5);
+}
+
+.ini-badge {
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  color: var(--gold);
+  text-align: center;
+  line-height: 1;
+}
+
+.ini-badge small {
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: var(--text-dim);
+  display: block;
+  letter-spacing: 0.1em;
+}
+
+.combatant-info h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 0.3rem;
+}
+
+.combatant-info h3 .type-tag {
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.type-tag.hero { background: #1a3a2a; color: var(--green-soft); }
+.type-tag.enemy { background: #3a1a1a; color: var(--red-soft); }
+.type-tag.npc { background: #1a2a3a; color: var(--blue-soft); }
+
+.stat-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.stat {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.stat strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.stat.le-stat strong {
+  color: var(--green-soft);
+}
+
+.stat.le-stat.critical strong {
+  color: var(--red-soft);
+  animation: pulse-red 1.5s ease infinite;
+}
+
+@keyframes pulse-red {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.stat.au-stat strong { color: var(--blue-soft); }
+
+.wound-pips {
+  display: inline-flex;
+  gap: 2px;
+  margin-left: 0.3rem;
+}
+
+.wound-pip {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--red);
+  border: 1px solid var(--red-soft);
+}
+
+/* ─── Card Actions ─── */
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: flex-end;
+}
+
+.card-actions .action-row {
+  display: flex;
+  gap: 0.25rem;
+}
+
+/* ─── COMBAT LOG ─── */
+.log-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.82rem;
+}
+
+.log-entry {
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  border-left: 2px solid var(--border);
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.log-entry.damage { border-left-color: var(--red); }
+.log-entry.heal { border-left-color: var(--green); }
+.log-entry.info { border-left-color: var(--gold-dim); }
+.log-entry.round { 
+  border-left-color: var(--gold); 
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  margin-top: 0.3rem;
+}
+
+.log-entry .timestamp {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-right: 0.3rem;
+}
+
+/* ─── DICE ROLLER ─── */
+.dice-section {
+  margin-bottom: 1.5rem;
+}
+
+.dice-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.dice-btn {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  color: var(--gold);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.dice-btn:hover {
+  border-color: var(--gold-dim);
+  box-shadow: 0 0 8px var(--gold-glow);
+}
+
+.dice-result {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--gold);
+  padding: 0.5rem;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dice-result .crit {
+  color: var(--green-soft);
+  text-shadow: 0 0 8px var(--green);
+}
+
+.dice-result .fumble {
+  color: var(--red-soft);
+  text-shadow: 0 0 8px var(--red);
+}
+
+/* ─── QUICK REFERENCE ─── */
+.quick-ref {
+  margin-top: 1rem;
+}
+
+.ref-block {
+  margin-bottom: 0.8rem;
+}
+
+.ref-block summary {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold-dim);
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0;
+}
+
+.ref-block summary:hover {
+  color: var(--gold);
+}
+
+.ref-content {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  padding: 0.4rem 0;
+  line-height: 1.6;
+}
+
+.ref-content code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  background: var(--bg-deep);
+  padding: 1px 4px;
+  border-radius: 2px;
+  color: var(--gold);
+}
+
+/* ─── MODAL ─── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay.show {
+  display: flex;
+}
+
+.modal {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  min-width: 350px;
+  max-width: 500px;
+}
+
+.modal h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.modal .form-group {
+  margin-bottom: 0.8rem;
+}
+
+.modal label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.modal input, .modal select {
+  width: 100%;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.4rem 0.6rem;
+  border-radius: 3px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+}
+
+.modal input:focus, .modal select:focus {
+  outline: none;
+  border-color: var(--gold-dim);
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+/* ─── TEMPLATES ─── */
+.template-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.template-btn {
+  text-align: left;
+  font-size: 0.82rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-deep);
+}
+
+.template-btn:hover {
+  background: var(--bg-card);
+}
+
+.template-btn .tpl-name {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.template-btn .tpl-stats {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+/* ─── STATUS BADGES ─── */
+.status-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 0.2rem;
+}
+
+.status-badge {
+  font-size: 0.65rem;
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: var(--bg-deep);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.status-badge.active-status {
+  background: var(--purple);
+  color: white;
+  border-color: var(--purple);
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1100px) {
+  .app {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .sidebar-left, .sidebar-right {
+    border: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+/* ─── Animations ─── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.combatant-card {
+  animation: fadeIn 0.2s ease;
+}
+
+/* ─── NOTES on card ─── */
+.card-notes {
+  grid-column: 1 / -1;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-style: italic;
+  padding-top: 0.3rem;
+  border-top: 1px solid var(--border);
+  display: none;
+}
+
+.combatant-card.has-notes .card-notes {
+  display: block;
+}
+
+/* Collapsible sections */
+.collapse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.collapse-header:hover .section-title {
+  color: var(--gold);
+}
+
+.collapse-body {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.collapse-body.collapsed {
+  max-height: 0 !important;
+  overflow: hidden;
+}
+
+/* AT/PA probe highlight */
+.probe-success { color: var(--green-soft) !important; }
+.probe-fail { color: var(--red-soft) !important; }
+
+/* Separator between sidebar sections */
+.sidebar-sep {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1rem 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚔ Kampftool <span>Das Schwarze Auge 4.1 — Spielleiterhilfe</span></h1>
+  <div class="header-controls">
+    <div class="round-display">Runde <strong id="roundNum">0</strong></div>
+    <button class="primary" onclick="nextTurn()" title="Nächster Kämpfer">▶ Nächster</button>
+    <button onclick="newRound()" title="Neue Runde starten">↻ Neue Runde</button>
+    <button onclick="resetCombat()" class="danger" title="Kampf zurücksetzen">✕ Reset</button>
+  </div>
+</header>
+
+<div class="app">
+  <!-- ═══ LEFT SIDEBAR ═══ -->
+  <div class="sidebar-left">
+    
+    <!-- ADD COMBATANT -->
+    <div class="section-title">Kämpfer hinzufügen</div>
+    <div class="add-form" id="addForm">
+      <div class="type-selector">
+        <button class="active" onclick="setType('hero', this)">🛡 Held</button>
+        <button onclick="setType('enemy', this)">💀 Gegner</button>
+        <button onclick="setType('npc', this)">👤 NSC</button>
+      </div>
+      <div class="form-row full">
+        <div><label>Name</label><input id="fName" placeholder="Name"></div>
+      </div>
+      <div class="form-row">
+        <div><label>MU</label><input id="fMU" type="number" value="11"></div>
+        <div><label>IN</label><input id="fIN" type="number" value="11"></div>
+      </div>
+      <div class="form-row">
+        <div><label>GE</label><input id="fGE" type="number" value="11"></div>
+        <div><label>KK</label><input id="fKK" type="number" value="11"></div>
+      </div>
+      <div class="form-row">
+        <div><label>KO</label><input id="fKO" type="number" value="11"></div>
+        <div><label>FF</label><input id="fFF" type="number" value="11"></div>
+      </div>
+      <div class="form-row triple">
+        <div><label>AT</label><input id="fAT" type="number" value="10"></div>
+        <div><label>PA</label><input id="fPA" type="number" value="8"></div>
+        <div><label>FK</label><input id="fFK" type="number" value="8"></div>
+      </div>
+      <div class="form-row">
+        <div><label>LE max</label><input id="fLE" type="number" value="30"></div>
+        <div><label>AU max</label><input id="fAU" type="number" value="30"></div>
+      </div>
+      <div class="form-row">
+        <div><label>RS</label><input id="fRS" type="number" value="2"></div>
+        <div><label>BE</label><input id="fBE" type="number" value="2"></div>
+      </div>
+      <div class="form-row">
+        <div><label>INI-Basis (auto / manuell)</label><input id="fINIBase" type="number" placeholder="auto"></div>
+        <div><label>INI-Mod (Waffe etc.)</label><input id="fINIMod" type="number" value="0"></div>
+      </div>
+      <div class="form-row">
+        <div><label>TP (z.B. 1W6+4)</label><input id="fTP" placeholder="1W6+4"></div>
+        <div><label>GS</label><input id="fGS" type="number" value="8"></div>
+      </div>
+      <div class="form-row full">
+        <div><label>Notizen</label><input id="fNotes" placeholder="Sonderfertigkeiten, Waffe, etc."></div>
+      </div>
+      <div style="margin-top:0.5rem; display:flex; gap:0.3rem;">
+        <button class="primary" onclick="addCombatant()" style="flex:1">+ Hinzufügen</button>
+      </div>
+    </div>
+
+    <hr class="sidebar-sep">
+
+    <!-- TEMPLATES -->
+    <div class="collapse-header" onclick="toggleCollapse('tplBody')">
+      <div class="section-title" style="margin:0;border:0;padding:0">Schnellvorlagen</div>
+      <span style="color:var(--text-dim);font-size:0.8rem">▾</span>
+    </div>
+    <div class="collapse-body" id="tplBody">
+      <div class="template-list" id="templateList"></div>
+    </div>
+
+    <hr class="sidebar-sep">
+
+    <!-- DICE ROLLER -->
+    <div class="section-title">Würfel</div>
+    <div class="dice-section">
+      <div class="dice-buttons">
+        <button class="dice-btn" onclick="rollDice(6)">W6</button>
+        <button class="dice-btn" onclick="rollDice(20)">W20</button>
+        <button class="dice-btn" onclick="rollDice(6,2)">2W6</button>
+      </div>
+      <div class="dice-buttons" style="grid-template-columns: 1fr 1fr;">
+        <button class="dice-btn" onclick="rollDice(6,3)">3W6</button>
+        <button class="dice-btn" onclick="rollDice(3)">W3</button>
+      </div>
+      <div class="dice-result" id="diceResult">—</div>
+      <div style="display:flex; gap:0.3rem; margin-top:0.3rem;">
+        <input id="customDice" placeholder="z.B. 2W6+3" style="flex:1;background:var(--bg-deep);border:1px solid var(--border);color:var(--text);padding:0.3rem 0.5rem;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:0.85rem;">
+        <button onclick="rollCustom()">Würfeln</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ MAIN AREA ═══ -->
+  <div class="main-area">
+    <div class="section-title" style="display:flex;justify-content:space-between;align-items:center;">
+      <span>Initiative-Reihenfolge</span>
+      <span id="turnIndicator" style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--text-muted)"></span>
+    </div>
+    <div class="ini-list" id="iniList">
+      <div style="text-align:center; color:var(--text-muted); padding:3rem; font-style:italic;">
+        Füge Kämpfer hinzu und starte eine neue Runde.
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ RIGHT SIDEBAR ═══ -->
+  <div class="sidebar-right">
+    <div class="section-title">Kampfprotokoll</div>
+    <div class="log-entries" id="logEntries">
+      <div class="log-entry info">Bereit. Füge Kämpfer hinzu.</div>
+    </div>
+
+    <hr class="sidebar-sep">
+
+    <!-- QUICK REFERENCE -->
+    <div class="section-title">Kurzreferenz</div>
+    <div class="quick-ref">
+      <details class="ref-block">
+        <summary>Kampfablauf</summary>
+        <div class="ref-content">
+          1. Initiative: <code>INI-Basis + W6 − BE ± Waffe</code><br>
+          INI-Basis: <code>(MU+MU+IN+GE)/5</code><br>
+          2. Ansage (umgekehrte INI-Reihenfolge)<br>
+          3. Aktionen nach INI absteigend<br>
+          4. AT-Probe → PA-Probe → TP − RS = SP<br>
+          KR ≈ 3 Sekunden
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Basiswerte</summary>
+        <div class="ref-content">
+          AT-Basis: <code>(MU+GE+KK)/5</code><br>
+          PA-Basis: <code>(IN+GE+KK)/5</code><br>
+          FK-Basis: <code>(IN+FF+KK)/5</code><br>
+          INI-Basis: <code>(MU+MU+IN+GE)/5</code><br>
+          Wundschwelle: <code>KO/2</code>
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Wunden</summary>
+        <div class="ref-content">
+          SP > KO/2 → 1 Wunde<br>
+          SP > KO → 2 Wunden<br>
+          SP > KO×1.5 → 3 Wunden<br>
+          Pro Wunde: AT/PA/FK/INI <code>−2</code>, GS <code>−1</code><br>
+          Wundschwelle ±2 je nach Waffe/Vorteil
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Kampfunfähigkeit</summary>
+        <div class="ref-content">
+          LE ≤ 5 → kampfunfähig (außer Zäher Hund/Eisern)<br>
+          LE ≤ 0 → lebensbedrohlich, Tod in W6×KO KR<br>
+          LE < −KO → tot<br>
+          INI < 0 → nur noch Abwehr möglich
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Niedrige LE (Optional)</summary>
+        <div class="ref-content">
+          LE < ½ max: AT/PA +1, Talente +3<br>
+          LE < ⅓ max: AT/PA +2, Talente +6<br>
+          LE < ¼ max: AT/PA +3, Talente +9<br>
+          GS −1/−2/−3 entsprechend
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Besondere Situationen</summary>
+        <div class="ref-content">
+          Überraschung: Keine PA in 1. KR<br>
+          Am Boden: AT/PA −3<br>
+          Im Rücken: Keine PA, AT+4<br>
+          Dunkelheit: AT/PA −5 bis −8<br>
+          Berittener vs. Fußkämpfer: +4/−4<br>
+          Enge: AT/PA bis −4
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Manöver-Übersicht</summary>
+        <div class="ref-content">
+          <b>Wuchtschlag:</b> AT−(1–6), TP+(1–6)<br>
+          <b>Finte:</b> AT−(1–8), PA-Gegner −(1–8)<br>
+          <b>Gezielter Stich:</b> AT−4, Wundschwelle −2<br>
+          <b>Meisterparade:</b> PA+4, nächste AT −4<br>
+          <b>Sturmangriff:</b> AT+4, PA−4, +Bonus-TP<br>
+          <b>Defensiv:</b> PA+Bonus, keine AT<br>
+          <b>Passierschlag:</b> Freie Aktion, AT−4
+        </div>
+      </details>
+      <details class="ref-block">
+        <summary>Kritisch & Patzer</summary>
+        <div class="ref-content">
+          <b>AT 1:</b> Bestätigung (erneuter AT ≤ AT)<br>
+          → Treffer ignoriert Parade<br>
+          <b>AT 20:</b> Patzer-Tabelle (2W6)<br>
+          <b>PA 1:</b> Bestätigung (erneuter PA ≤ PA)<br>
+          → Sofort-Gegenangriff möglich<br>
+          <b>PA 20:</b> Patzer-Tabelle
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ DAMAGE MODAL ═══ -->
+<div class="modal-overlay" id="damageModal">
+  <div class="modal">
+    <h3 id="dmgModalTitle">Schaden / Heilung</h3>
+    <div class="form-group">
+      <label>Schadenspunkte (positiv = Schaden, negativ = Heilung)</label>
+      <input id="dmgValue" type="number" value="0" autofocus>
+    </div>
+    <div class="form-group">
+      <label>Typ</label>
+      <select id="dmgType">
+        <option value="normal">Normal (TP − RS = SP von LE)</option>
+        <option value="direct">Direkt (SP ohne RS)</option>
+        <option value="au">Ausdauer (SP von AU, ½ von LE)</option>
+        <option value="heal_le">Heilung LE</option>
+        <option value="heal_au">Heilung AU</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Notiz (optional)</label>
+      <input id="dmgNote" placeholder="z.B. Wuchtschlag, Armbrustbolzen">
+    </div>
+    <div class="modal-buttons">
+      <button onclick="closeDamageModal()">Abbrechen</button>
+      <button class="primary" onclick="applyDamage()">Anwenden</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ EDIT MODAL ═══ -->
+<div class="modal-overlay" id="editModal">
+  <div class="modal" style="max-width:600px">
+    <h3>Kämpfer bearbeiten</h3>
+    <div id="editModalBody"></div>
+    <div class="modal-buttons">
+      <button onclick="closeEditModal()">Abbrechen</button>
+      <button class="primary" onclick="saveEdit()">Speichern</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════
+let combatants = [];
+let roundNum = 0;
+let currentTurnIdx = -1;
+let combatantIdCounter = 0;
+let currentType = 'hero';
+let dmgTargetId = null;
+let editTargetId = null;
+
+// ═══════════════════════════════════════════
+// TEMPLATES
+// ═══════════════════════════════════════════
+const TEMPLATES = [
+  { name: "Räuber (leicht)", type:"enemy", MU:11, IN:10, GE:11, KK:12, KO:12, FF:10, AT:10, PA:7, FK:8, LE:28, AU:25, RS:2, BE:2, GS:8, TP:"1W6+3", INIMod:0, notes:"Kurzschwert, Lederharnisch" },
+  { name: "Räuber (mittel)", type:"enemy", MU:12, IN:11, GE:12, KK:13, KO:13, FF:10, AT:12, PA:8, FK:9, LE:32, AU:28, RS:3, BE:3, GS:8, TP:"1W6+4", INIMod:0, notes:"Säbel, Kettenhemd" },
+  { name: "Ork-Krieger", type:"enemy", MU:14, IN:10, GE:10, KK:15, KO:15, FF:8, AT:12, PA:7, FK:7, LE:38, AU:30, RS:3, BE:3, GS:7, TP:"1W6+5", INIMod:0, notes:"Orkischer Säbel, Wuchtschlag" },
+  { name: "Goblin", type:"enemy", MU:8, IN:12, GE:14, KK:8, KO:8, FF:12, AT:8, PA:8, FK:10, LE:15, AU:18, RS:1, BE:1, GS:7, TP:"1W6+1", INIMod:1, notes:"Kurzschwert, flink, feige" },
+  { name: "Oger", type:"enemy", MU:16, IN:8, GE:8, KK:21, KO:20, FF:6, AT:10, PA:4, FK:4, LE:60, AU:50, RS:3, BE:0, GS:6, TP:"2W6+4", INIMod:-1, notes:"Keule, GS langsam, INI niedrig" },
+  { name: "Wolf", type:"enemy", MU:12, IN:13, GE:13, KK:11, KO:12, FF:8, AT:10, PA:5, FK:0, LE:18, AU:30, RS:1, BE:0, GS:12, TP:"1W6+2", INIMod:0, notes:"Biss, schnell" },
+  { name: "Skelettkrieger", type:"enemy", MU:20, IN:8, GE:10, KK:12, KO:15, FF:8, AT:10, PA:8, FK:0, LE:25, AU:99, RS:2, BE:0, GS:6, TP:"1W6+3", INIMod:0, notes:"Keine Wunden, kein Schmerz" },
+  { name: "Wache (Stadt)", type:"npc", MU:11, IN:11, GE:11, KK:12, KO:12, FF:10, AT:11, PA:8, FK:8, LE:30, AU:28, RS:3, BE:3, GS:8, TP:"1W6+3", INIMod:0, notes:"Schwert, Kettenhemd, Schild (PA+1)" },
+  { name: "Ritter", type:"npc", MU:14, IN:12, GE:12, KK:14, KO:14, FF:10, AT:14, PA:12, FK:8, LE:38, AU:35, RS:5, BE:4, GS:8, TP:"1W6+4", INIMod:0, notes:"Langschwert, Platte, Schild, RüG I" },
+];
+
+function renderTemplates() {
+  const el = document.getElementById('templateList');
+  el.innerHTML = TEMPLATES.map((t, i) => `
+    <button class="template-btn" onclick="loadTemplate(${i})">
+      <div class="tpl-name">${t.name}</div>
+      <div class="tpl-stats">AT ${t.AT} PA ${t.PA} LE ${t.LE} RS ${t.RS} TP ${t.TP}</div>
+    </button>
+  `).join('');
+}
+
+function loadTemplate(idx) {
+  const t = TEMPLATES[idx];
+  document.getElementById('fName').value = t.name;
+  document.getElementById('fMU').value = t.MU;
+  document.getElementById('fIN').value = t.IN;
+  document.getElementById('fGE').value = t.GE;
+  document.getElementById('fKK').value = t.KK;
+  document.getElementById('fKO').value = t.KO;
+  document.getElementById('fFF').value = t.FF;
+  document.getElementById('fAT').value = t.AT;
+  document.getElementById('fPA').value = t.PA;
+  document.getElementById('fFK').value = t.FK;
+  document.getElementById('fLE').value = t.LE;
+  document.getElementById('fAU').value = t.AU;
+  document.getElementById('fRS').value = t.RS;
+  document.getElementById('fBE').value = t.BE;
+  document.getElementById('fGS').value = t.GS;
+  document.getElementById('fTP').value = t.TP;
+  document.getElementById('fINIMod').value = t.INIMod || 0;
+  document.getElementById('fINIBase').value = '';
+  document.getElementById('fNotes').value = t.notes || '';
+  setType(t.type, null);
+}
+
+// ═══════════════════════════════════════════
+// COMBATANT MANAGEMENT
+// ═══════════════════════════════════════════
+function setType(type, btn) {
+  currentType = type;
+  document.querySelectorAll('.type-selector button').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  else document.querySelectorAll('.type-selector button').forEach(b => {
+    if ((type==='hero' && b.textContent.includes('Held')) ||
+        (type==='enemy' && b.textContent.includes('Gegner')) ||
+        (type==='npc' && b.textContent.includes('NSC'))) b.classList.add('active');
+  });
+}
+
+function getVal(id, def=0) {
+  const v = document.getElementById(id).value;
+  return v === '' ? def : Number(v);
+}
+
+function calcINIBase(mu, in_, ge) {
+  return Math.round((mu + mu + in_ + ge) / 5);
+}
+
+function addCombatant() {
+  const name = document.getElementById('fName').value.trim();
+  if (!name) return;
+  
+  const mu = getVal('fMU',11), in_ = getVal('fIN',11), ge = getVal('fGE',11);
+  const kk = getVal('fKK',11), ko = getVal('fKO',11), ff = getVal('fFF',11);
+  
+  let iniBase = getVal('fINIBase', null);
+  if (iniBase === null || iniBase === 0) iniBase = calcINIBase(mu, in_, ge);
+
+  const c = {
+    id: ++combatantIdCounter,
+    name,
+    type: currentType,
+    MU: mu, IN: in_, GE: ge, KK: kk, KO: ko, FF: ff,
+    AT: getVal('fAT',10), PA: getVal('fPA',8), FK: getVal('fFK',8),
+    leMax: getVal('fLE',30), leCur: getVal('fLE',30),
+    auMax: getVal('fAU',30), auCur: getVal('fAU',30),
+    RS: getVal('fRS',2), BE: getVal('fBE',2),
+    GS: getVal('fGS',8),
+    iniBase, iniMod: getVal('fINIMod',0),
+    ini: 0,
+    TP: document.getElementById('fTP').value || '1W6+3',
+    notes: document.getElementById('fNotes').value,
+    wounds: 0,
+    statuses: [],
+    acted: false,
+  };
+  
+  combatants.push(c);
+  addLog(`${c.name} betritt den Kampf.`, 'info');
+  render();
+  
+  // Clear name for quick re-add
+  document.getElementById('fName').value = '';
+}
+
+function removeCombatant(id) {
+  const c = combatants.find(x => x.id === id);
+  if (c && confirm(`${c.name} entfernen?`)) {
+    combatants = combatants.filter(x => x.id !== id);
+    render();
+  }
+}
+
+// ═══════════════════════════════════════════
+// INITIATIVE & ROUNDS
+// ═══════════════════════════════════════════
+function rollW6() { return Math.floor(Math.random() * 6) + 1; }
+function rollW20() { return Math.floor(Math.random() * 20) + 1; }
+
+function newRound() {
+  roundNum++;
+  document.getElementById('roundNum').textContent = roundNum;
+  
+  combatants.forEach(c => {
+    const roll = rollW6();
+    c.ini = c.iniBase + roll - c.BE + c.iniMod - (c.wounds * 2);
+    c.acted = false;
+  });
+  
+  // Sort by INI descending
+  combatants.sort((a, b) => b.ini - a.ini);
+  currentTurnIdx = -1;
+  
+  addLog(`═══ Kampfrunde ${roundNum} ═══`, 'round');
+  combatants.forEach(c => {
+    if (c.leCur > 0) addLog(`${c.name}: INI ${c.ini}`, 'info');
+  });
+  
+  render();
+}
+
+function nextTurn() {
+  if (combatants.length === 0) return;
+  
+  // Mark current as acted
+  if (currentTurnIdx >= 0 && currentTurnIdx < combatants.length) {
+    combatants[currentTurnIdx].acted = true;
+  }
+  
+  // Find next alive combatant
+  let found = false;
+  for (let i = currentTurnIdx + 1; i < combatants.length; i++) {
+    if (combatants[i].leCur > 5 || (combatants[i].leCur > 0 && combatants[i].leCur <= 5)) {
+      currentTurnIdx = i;
+      found = true;
+      break;
+    }
+  }
+  
+  if (!found) {
+    // Round over
+    addLog('Alle Kämpfer haben gehandelt.', 'info');
+    currentTurnIdx = -1;
+  }
+  
+  render();
+}
+
+function resetCombat() {
+  if (!confirm('Kampf komplett zurücksetzen?')) return;
+  combatants.forEach(c => {
+    c.leCur = c.leMax;
+    c.auCur = c.auMax;
+    c.wounds = 0;
+    c.ini = 0;
+    c.statuses = [];
+    c.acted = false;
+  });
+  roundNum = 0;
+  currentTurnIdx = -1;
+  document.getElementById('roundNum').textContent = '0';
+  document.getElementById('logEntries').innerHTML = '<div class="log-entry info">Kampf zurückgesetzt.</div>';
+  render();
+}
+
+// ═══════════════════════════════════════════
+// DAMAGE / HEALING
+// ═══════════════════════════════════════════
+function openDamageModal(id) {
+  dmgTargetId = id;
+  const c = combatants.find(x => x.id === id);
+  document.getElementById('dmgModalTitle').textContent = `Schaden/Heilung: ${c.name}`;
+  document.getElementById('dmgValue').value = '';
+  document.getElementById('dmgNote').value = '';
+  document.getElementById('dmgType').value = 'normal';
+  document.getElementById('damageModal').classList.add('show');
+  setTimeout(() => document.getElementById('dmgValue').focus(), 100);
+}
+
+function closeDamageModal() {
+  document.getElementById('damageModal').classList.remove('show');
+  dmgTargetId = null;
+}
+
+function applyDamage() {
+  const c = combatants.find(x => x.id === dmgTargetId);
+  if (!c) return;
+  
+  const val = Number(document.getElementById('dmgValue').value) || 0;
+  const type = document.getElementById('dmgType').value;
+  const note = document.getElementById('dmgNote').value;
+  
+  if (type === 'heal_le') {
+    c.leCur = Math.min(c.leMax, c.leCur + Math.abs(val));
+    addLog(`${c.name} heilt ${Math.abs(val)} LE (→${c.leCur}/${c.leMax})${note ? ' ['+note+']' : ''}`, 'heal');
+  } else if (type === 'heal_au') {
+    c.auCur = Math.min(c.auMax, c.auCur + Math.abs(val));
+    addLog(`${c.name} heilt ${Math.abs(val)} AU (→${c.auCur}/${c.auMax})${note ? ' ['+note+']' : ''}`, 'heal');
+  } else if (type === 'normal') {
+    const sp = Math.max(0, val - c.RS);
+    c.leCur -= sp;
+    checkWounds(c, sp);
+    addLog(`${c.name} erleidet ${val} TP − ${c.RS} RS = ${sp} SP (LE ${c.leCur}/${c.leMax})${note ? ' ['+note+']' : ''}`, 'damage');
+    checkDeath(c);
+  } else if (type === 'direct') {
+    c.leCur -= val;
+    checkWounds(c, val);
+    addLog(`${c.name} erleidet ${val} SP direkt (LE ${c.leCur}/${c.leMax})${note ? ' ['+note+']' : ''}`, 'damage');
+    checkDeath(c);
+  } else if (type === 'au') {
+    const sp = Math.max(0, val - c.RS);
+    c.auCur -= sp;
+    const realSP = Math.floor(sp / 2);
+    c.leCur -= realSP;
+    checkWounds(c, realSP);
+    addLog(`${c.name}: ${sp} SP(A) → AU −${sp} (${c.auCur}/${c.auMax}), LE −${realSP} (${c.leCur}/${c.leMax})${note ? ' ['+note+']' : ''}`, 'damage');
+    checkDeath(c);
+  }
+  
+  closeDamageModal();
+  render();
+}
+
+function checkWounds(c, sp) {
+  const ws = Math.round(c.KO / 2);
+  let newWounds = 0;
+  if (sp > ws * 1.5) newWounds = 3; // > 1.5×KO  → not quite right, let me fix
+  // Actually: SP > KO/2 → 1 Wunde, SP > KO → 2, SP > 1.5×KO → 3
+  newWounds = 0;
+  if (sp > Math.round(c.KO * 1.5)) newWounds = 3;
+  else if (sp > c.KO) newWounds = 2;
+  else if (sp > ws) newWounds = 1;
+  
+  if (newWounds > 0) {
+    c.wounds += newWounds;
+    addLog(`💢 ${c.name} erleidet ${newWounds} Wunde(n)! (Gesamt: ${c.wounds}) AT/PA/INI je −${c.wounds*2}`, 'damage');
+  }
+}
+
+function checkDeath(c) {
+  if (c.leCur <= -c.KO) {
+    addLog(`💀 ${c.name} ist TOT!`, 'damage');
+  } else if (c.leCur <= 0) {
+    const krLeft = rollW6() * c.KO;
+    addLog(`⚠ ${c.name} ist bewusstlos/lebensgefährlich! Tod in ~${krLeft} KR ohne Hilfe.`, 'damage');
+  } else if (c.leCur <= 5) {
+    addLog(`⚠ ${c.name} ist kampfunfähig! (LE ${c.leCur})`, 'damage');
+  }
+}
+
+function addWound(id) {
+  const c = combatants.find(x => x.id === id);
+  if (!c) return;
+  c.wounds++;
+  addLog(`💢 ${c.name}: +1 Wunde (Gesamt: ${c.wounds}) → AT/PA/INI je −${c.wounds*2}`, 'damage');
+  render();
+}
+
+function removeWound(id) {
+  const c = combatants.find(x => x.id === id);
+  if (!c || c.wounds <= 0) return;
+  c.wounds--;
+  addLog(`Wunde versorgt bei ${c.name} (Verbleibend: ${c.wounds})`, 'heal');
+  render();
+}
+
+function modIni(id, delta) {
+  const c = combatants.find(x => x.id === id);
+  if (!c) return;
+  c.ini += delta;
+  addLog(`${c.name}: INI ${delta > 0 ? '+' : ''}${delta} → ${c.ini}`, 'info');
+  combatants.sort((a, b) => b.ini - a.ini);
+  render();
+}
+
+// ═══════════════════════════════════════════
+// EDIT MODAL
+// ═══════════════════════════════════════════
+function openEditModal(id) {
+  editTargetId = id;
+  const c = combatants.find(x => x.id === id);
+  if (!c) return;
+  
+  const fields = [
+    ['Name', 'e_name', c.name, 'text'],
+    ['AT', 'e_at', c.AT, 'number'], ['PA', 'e_pa', c.PA, 'number'],
+    ['FK', 'e_fk', c.FK, 'number'], ['RS', 'e_rs', c.RS, 'number'],
+    ['LE aktuell', 'e_leCur', c.leCur, 'number'], ['LE max', 'e_leMax', c.leMax, 'number'],
+    ['AU aktuell', 'e_auCur', c.auCur, 'number'], ['AU max', 'e_auMax', c.auMax, 'number'],
+    ['KO', 'e_ko', c.KO, 'number'], ['BE', 'e_be', c.BE, 'number'],
+    ['GS', 'e_gs', c.GS, 'number'], ['INI aktuell', 'e_ini', c.ini, 'number'],
+    ['TP', 'e_tp', c.TP, 'text'], ['Notizen', 'e_notes', c.notes, 'text'],
+  ];
+  
+  let html = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem">';
+  fields.forEach(([label, id, val, type]) => {
+    const full = (label === 'Notizen' || label === 'Name') ? 'style="grid-column:1/-1"' : '';
+    html += `<div class="form-group" ${full}><label>${label}</label><input id="${id}" type="${type}" value="${val}"></div>`;
+  });
+  html += '</div>';
+  
+  document.getElementById('editModalBody').innerHTML = html;
+  document.getElementById('editModal').classList.add('show');
+}
+
+function closeEditModal() {
+  document.getElementById('editModal').classList.remove('show');
+  editTargetId = null;
+}
+
+function saveEdit() {
+  const c = combatants.find(x => x.id === editTargetId);
+  if (!c) return;
+  
+  c.name = document.getElementById('e_name').value;
+  c.AT = Number(document.getElementById('e_at').value);
+  c.PA = Number(document.getElementById('e_pa').value);
+  c.FK = Number(document.getElementById('e_fk').value);
+  c.RS = Number(document.getElementById('e_rs').value);
+  c.leCur = Number(document.getElementById('e_leCur').value);
+  c.leMax = Number(document.getElementById('e_leMax').value);
+  c.auCur = Number(document.getElementById('e_auCur').value);
+  c.auMax = Number(document.getElementById('e_auMax').value);
+  c.KO = Number(document.getElementById('e_ko').value);
+  c.BE = Number(document.getElementById('e_be').value);
+  c.GS = Number(document.getElementById('e_gs').value);
+  c.ini = Number(document.getElementById('e_ini').value);
+  c.TP = document.getElementById('e_tp').value;
+  c.notes = document.getElementById('e_notes').value;
+  
+  closeEditModal();
+  combatants.sort((a, b) => b.ini - a.ini);
+  render();
+}
+
+// ═══════════════════════════════════════════
+// AT/PA QUICK ROLL
+// ═══════════════════════════════════════════
+function quickAT(id) {
+  const c = combatants.find(x => x.id === id);
+  if (!c) return;
+  const effAT = c.AT - c.wounds * 2;
+  const roll = rollW20();
+  const success = roll <= effAT;
+  const crit = roll === 1;
+  const fumble = roll === 20;
+  
+  let msg = `⚔ ${c.name} AT: ${roll} vs ${effAT}`;
+  if (crit) msg += ' — KRITISCH! (Bestätigung nötig)';
+  else if (fumble) msg += ' — PATZER!';
+  else msg += success ? ' → TREFFER!' : ' → Verfehlt.';
+  
+  addLog(msg, success ? 'info' : 'damage');
+  
+  if (success && !crit) {
+    // Auto-roll TP
+    const tp = rollTP(c.TP);
+    addLog(`   TP: ${tp} (${c.TP})`, 'info');
+  }
+  render();
+}
+
+function quickPA(id) {
+  const c = combatants.find(x => x.id === id);
+  if (!c) return;
+  const effPA = c.PA - c.wounds * 2;
+  const roll = rollW20();
+  const success = roll <= effPA;
+  const crit = roll === 1;
+  const fumble = roll === 20;
+  
+  let msg = `🛡 ${c.name} PA: ${roll} vs ${effPA}`;
+  if (crit) msg += ' — KRITISCHE PARADE!';
+  else if (fumble) msg += ' — PATZER!';
+  else msg += success ? ' → Pariert!' : ' → Nicht pariert!';
+  
+  addLog(msg, success ? 'info' : 'damage');
+  render();
+}
+
+function rollTP(tpStr) {
+  // Parse strings like "1W6+4", "2W6+2", "1W6+3"
+  const match = tpStr.match(/(\d*)W(\d+)([+-]\d+)?/i);
+  if (!match) return 0;
+  const count = parseInt(match[1]) || 1;
+  const sides = parseInt(match[2]);
+  const mod = parseInt(match[3]) || 0;
+  let total = mod;
+  for (let i = 0; i < count; i++) {
+    total += Math.floor(Math.random() * sides) + 1;
+  }
+  return total;
+}
+
+// ═══════════════════════════════════════════
+// DICE ROLLER
+// ═══════════════════════════════════════════
+function rollDice(sides, count = 1) {
+  let results = [];
+  let total = 0;
+  for (let i = 0; i < count; i++) {
+    const r = Math.floor(Math.random() * sides) + 1;
+    results.push(r);
+    total += r;
+  }
+  
+  const el = document.getElementById('diceResult');
+  let html = '';
+  if (count === 1 && sides === 20) {
+    const cls = results[0] === 1 ? 'crit' : results[0] === 20 ? 'fumble' : '';
+    html = `<span class="${cls}">${results[0]}</span>`;
+    if (results[0] === 1) html += ' <span class="crit" style="font-size:0.7em">KRIT!</span>';
+    if (results[0] === 20) html += ' <span class="fumble" style="font-size:0.7em">PATZER!</span>';
+  } else {
+    html = `${results.join(' + ')} = <strong>${total}</strong>`;
+  }
+  el.innerHTML = html;
+  addLog(`🎲 ${count}W${sides}: ${results.join('+')} = ${total}`, 'info');
+}
+
+function rollCustom() {
+  const input = document.getElementById('customDice').value.trim();
+  if (!input) return;
+  const total = rollTP(input);
+  document.getElementById('diceResult').innerHTML = `<strong>${total}</strong> <span style="font-size:0.7em;color:var(--text-dim)">(${input})</span>`;
+  addLog(`🎲 ${input}: ${total}`, 'info');
+}
+
+// ═══════════════════════════════════════════
+// LOGGING
+// ═══════════════════════════════════════════
+function addLog(msg, type = 'info') {
+  const el = document.getElementById('logEntries');
+  const ts = `R${roundNum}`;
+  const div = document.createElement('div');
+  div.className = `log-entry ${type}`;
+  div.innerHTML = `<span class="timestamp">[${ts}]</span>${msg}`;
+  el.prepend(div);
+  
+  // Keep max 200 entries
+  while (el.children.length > 200) el.removeChild(el.lastChild);
+}
+
+// ═══════════════════════════════════════════
+// RENDERING
+// ═══════════════════════════════════════════
+function render() {
+  const list = document.getElementById('iniList');
+  
+  if (combatants.length === 0) {
+    list.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:3rem;font-style:italic;">Füge Kämpfer hinzu und starte eine neue Runde.</div>';
+    return;
+  }
+  
+  list.innerHTML = combatants.map((c, idx) => {
+    const isActive = idx === currentTurnIdx;
+    const isDead = c.leCur <= -c.KO;
+    const isDown = c.leCur <= 0 && !isDead;
+    const isIncap = c.leCur <= 5 && c.leCur > 0;
+    const leCritical = c.leCur <= Math.round(c.leMax / 3);
+    
+    const woundPips = Array(c.wounds).fill('<span class="wound-pip"></span>').join('');
+    
+    let statusText = '';
+    if (isDead) statusText = ' <span style="color:var(--red)">💀 TOT</span>';
+    else if (isDown) statusText = ' <span style="color:var(--red)">⚠ Bewusstlos</span>';
+    else if (isIncap) statusText = ' <span style="color:var(--orange)">⚠ Kampfunfähig</span>';
+    
+    const effAT = Math.max(0, c.AT - c.wounds * 2);
+    const effPA = Math.max(0, c.PA - c.wounds * 2);
+    
+    return `
+    <div class="combatant-card ${c.type} ${isActive ? 'active-turn' : ''} ${isDead ? 'dead' : ''} ${c.notes ? 'has-notes' : ''}">
+      <div class="ini-badge">
+        ${c.ini}<small>INI</small>
+      </div>
+      <div class="combatant-info">
+        <h3>
+          ${c.name}
+          <span class="type-tag ${c.type}">${c.type === 'hero' ? 'Held' : c.type === 'enemy' ? 'Gegner' : 'NSC'}</span>
+          ${statusText}
+        </h3>
+        <div class="stat-row">
+          <span class="stat le-stat ${leCritical ? 'critical' : ''}">LE <strong>${c.leCur}/${c.leMax}</strong></span>
+          <span class="stat au-stat">AU <strong>${c.auCur}/${c.auMax}</strong></span>
+          <span class="stat">AT <strong>${effAT}</strong></span>
+          <span class="stat">PA <strong>${effPA}</strong></span>
+          <span class="stat">RS <strong>${c.RS}</strong></span>
+          <span class="stat">TP <strong>${c.TP}</strong></span>
+          <span class="stat">GS <strong>${Math.max(1, c.GS - c.wounds)}</strong></span>
+          ${c.wounds > 0 ? `<span class="stat" style="color:var(--red)">Wunden: <strong>${c.wounds}</strong></span><span class="wound-pips">${woundPips}</span>` : ''}
+        </div>
+      </div>
+      <div class="card-actions">
+        <div class="action-row">
+          <button class="small" onclick="quickAT(${c.id})" title="Attacke würfeln" style="color:var(--red-soft)">⚔AT</button>
+          <button class="small" onclick="quickPA(${c.id})" title="Parade würfeln" style="color:var(--blue-soft)">🛡PA</button>
+          <button class="small" onclick="openDamageModal(${c.id})" title="Schaden/Heilung">±SP</button>
+        </div>
+        <div class="action-row">
+          <button class="icon-btn small" onclick="addWound(${c.id})" title="+1 Wunde" style="color:var(--red-soft)">+W</button>
+          <button class="icon-btn small" onclick="removeWound(${c.id})" title="−1 Wunde" style="color:var(--green-soft)">−W</button>
+          <button class="icon-btn small" onclick="modIni(${c.id}, -2)" title="INI −2">↓</button>
+          <button class="icon-btn small" onclick="modIni(${c.id}, 2)" title="INI +2">↑</button>
+        </div>
+        <div class="action-row">
+          <button class="icon-btn small" onclick="openEditModal(${c.id})" title="Bearbeiten">✎</button>
+          <button class="icon-btn small danger" onclick="removeCombatant(${c.id})" title="Entfernen">✕</button>
+        </div>
+      </div>
+      <div class="card-notes">${c.notes}</div>
+    </div>`;
+  }).join('');
+  
+  // Turn indicator
+  const ti = document.getElementById('turnIndicator');
+  if (currentTurnIdx >= 0 && currentTurnIdx < combatants.length) {
+    ti.textContent = `Am Zug: ${combatants[currentTurnIdx].name}`;
+  } else {
+    ti.textContent = '';
+  }
+  
+  // Save to localStorage
+  saveState();
+}
+
+// ═══════════════════════════════════════════
+// PERSISTENCE
+// ═══════════════════════════════════════════
+function saveState() {
+  try {
+    localStorage.setItem('dsa_combat', JSON.stringify({
+      combatants, roundNum, currentTurnIdx, combatantIdCounter
+    }));
+  } catch(e) {}
+}
+
+function loadState() {
+  try {
+    const data = JSON.parse(localStorage.getItem('dsa_combat'));
+    if (data) {
+      combatants = data.combatants || [];
+      roundNum = data.roundNum || 0;
+      currentTurnIdx = data.currentTurnIdx ?? -1;
+      combatantIdCounter = data.combatantIdCounter || 0;
+      document.getElementById('roundNum').textContent = roundNum;
+      render();
+    }
+  } catch(e) {}
+}
+
+// ═══════════════════════════════════════════
+// HELPERS
+// ═══════════════════════════════════════════
+function toggleCollapse(id) {
+  document.getElementById(id).classList.toggle('collapsed');
+}
+
+// ═══════════════════════════════════════════
+// KEYBOARD SHORTCUTS
+// ═══════════════════════════════════════════
+document.addEventListener('keydown', e => {
+  // Don't trigger if in input
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+  
+  if (e.key === 'n' || e.key === 'N') nextTurn();
+  if (e.key === 'r' || e.key === 'R') newRound();
+});
+
+// Handle enter in damage modal
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && document.getElementById('damageModal').classList.contains('show')) {
+    applyDamage();
+  }
+  if (e.key === 'Escape') {
+    closeDamageModal();
+    closeEditModal();
+  }
+});
+
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+renderTemplates();
+loadState();
+</script>
+
+</body>
+</html>
