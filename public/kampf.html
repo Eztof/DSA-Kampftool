@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSA Kampf-Tracker</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ═══════════════════════════════════════════════
+   THEMES
+═══════════════════════════════════════════════ */
+:root {
+  --bg: #0d0b08; --surface: #1a1510; --surface2: #221c14;
+  --border: #4a3820; --border-glow: #8b6914;
+  --gold: #c9922a; --gold-light: #e8b84b;
+  --red: #8b2020; --red-light: #c0392b;
+  --green-light: #27ae60;
+  --text: #d4c4a0; --text-dim: #8a7a60;
+  --at-color: #c0392b; --pa-color: #2980b9;
+  --header-bg: linear-gradient(180deg,#120f0a,#1a1510);
+  --map-bg: #090c09;
+  --grid-minor: rgba(74,56,32,0.32);
+  --grid-major: rgba(74,56,32,0.62);
+  --slot-active-bg: linear-gradient(90deg,rgba(201,146,42,0.11),var(--surface));
+  --slot-active-shadow: 0 0 12px rgba(201,146,42,0.17);
+  --input-bg: var(--bg);
+  --badge-hero-col: #5aba8a; --badge-hero-brd: #3a7a5a;
+  --badge-enemy-col: #ba5a5a; --badge-enemy-brd: #7a3a3a;
+  --body-overlay: radial-gradient(ellipse at 20% 20%,rgba(139,105,20,0.06) 0%,transparent 60%),
+                  radial-gradient(ellipse at 80% 80%,rgba(139,32,32,0.05) 0%,transparent 60%),
+                  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='1' height='1' fill='%23ffffff05'/%3E%3C/svg%3E");
+}
+
+body.light {
+  --bg: #f4f0e8; --surface: #ffffff; --surface2: #ede8de;
+  --border: #b0a080; --border-glow: #7a6030;
+  --gold: #8b5e10; --gold-light: #6b4a08;
+  --red: #a01818; --red-light: #cc2222;
+  --text: #1a1208; --text-dim: #6a5a3a;
+  --at-color: #b01818; --pa-color: #1060a0;
+  --header-bg: linear-gradient(180deg,#d8caa0,#e8dfc0);
+  --map-bg: #e0d8c0;
+  --grid-minor: rgba(140,110,60,0.25);
+  --grid-major: rgba(140,110,60,0.5);
+  --slot-active-bg: linear-gradient(90deg,rgba(139,94,16,0.12),var(--surface));
+  --slot-active-shadow: 0 0 10px rgba(139,94,16,0.2);
+  --input-bg: #f9f6ee;
+  --badge-hero-col: #1a6b3a; --badge-hero-brd: #1a6b3a;
+  --badge-enemy-col: #a01818; --badge-enemy-brd: #a01818;
+  --body-overlay: none;
+}
+
+/* ═══════════════════════════════════════════════
+   BASE
+═══════════════════════════════════════════════ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Crimson Text', Georgia, serif; overflow: hidden; height: 100vh; transition: background 0.3s, color 0.3s; }
+body::before { content: ''; position: fixed; inset: 0; pointer-events: none; background: var(--body-overlay); }
+
+.app { position: relative; z-index: 1; display: grid; grid-template-rows: auto 1fr; height: 100vh; }
+
+/* ── HEADER ── */
+header { background: var(--header-bg); border-bottom: 2px solid var(--border);
+  padding: 9px 16px; display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+header::before { content: '⚔'; font-size: 22px; color: var(--gold); text-shadow: 0 0 10px var(--gold); }
+header h1 { font-family: 'Cinzel', serif; font-size: 17px; color: var(--gold); letter-spacing: 3px; }
+.h-sep { flex: 1; }
+.h-round { font-family: 'Cinzel', serif; font-size: 12px; color: var(--text-dim); letter-spacing: 2px; display: flex; align-items: center; gap: 5px; }
+.h-round b { color: var(--gold); font-size: 20px; min-width: 24px; text-align: center; }
+
+/* Theme toggle */
+.theme-toggle { display: flex; align-items: center; gap: 6px; font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 1px; color: var(--text-dim); cursor: pointer; padding: 5px 10px; border: 1px solid var(--border); background: var(--surface2); transition: all 0.2s; user-select: none; }
+.theme-toggle:hover { border-color: var(--gold); color: var(--text); }
+.theme-toggle .tt-icon { font-size: 13px; }
+
+/* ── BUTTONS ── */
+.btn { font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 1.5px; padding: 6px 13px;
+  border: 1px solid var(--border); background: var(--surface2); color: var(--text);
+  cursor: pointer; transition: all 0.18s; text-transform: uppercase; white-space: nowrap; }
+.btn:hover { border-color: var(--gold); color: var(--gold); box-shadow: 0 0 8px rgba(139,94,16,0.2); }
+.btn-primary { background: var(--surface); border-color: var(--gold); color: var(--gold); font-weight: 600; }
+.btn-primary:hover { background: var(--surface2); }
+.btn-danger { border-color: var(--red); color: var(--red-light); }
+.btn-danger:hover { border-color: var(--red-light); color: var(--red-light); }
+.btn-sm { padding: 4px 9px; font-size: 9px; }
+.btn-xs { padding: 2px 6px; font-size: 9px; }
+
+/* ── LAYOUT ── */
+.main { display: grid; grid-template-columns: 360px 1fr 310px; height: calc(100vh - 54px); overflow: hidden; }
+
+/* ── PANEL ── */
+.panel { border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; }
+.ph { padding: 9px 13px; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
+.ph h2 { font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 2px; color: var(--gold); text-transform: uppercase; flex: 1; }
+.pb { flex: 1; overflow-y: auto; padding: 9px; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── TIMELINE ── */
+.timeline { display: flex; flex-direction: column; gap: 3px; }
+.ini-sep { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; color: var(--text-dim);
+  padding: 5px 5px 2px; display: flex; align-items: center; gap: 6px; }
+.ini-sep::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+.aslot { display: flex; align-items: center; gap: 7px; padding: 6px 9px;
+  border: 1px solid var(--border); background: var(--surface); cursor: pointer;
+  transition: all 0.13s; position: relative; }
+.aslot:hover { border-color: var(--border-glow); }
+.aslot.active { border-color: var(--gold); background: var(--slot-active-bg); box-shadow: var(--slot-active-shadow); }
+.aslot.active::before { content: '▶'; position: absolute; left: 3px; top: 50%; transform: translateY(-50%);
+  color: var(--gold); font-size: 9px; animation: pulse 1.1s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.2} }
+.aslot.used { opacity: 0.35; }
+.aslot.dead { opacity: 0.2; pointer-events: none; }
+.aslot.sel { outline: 2px solid var(--gold); outline-offset: -1px; }
+.aslot.at-s { border-left: 3px solid; }
+.aslot.pa-s { border-left: 3px solid var(--pa-color); }
+
+.sl-ini { font-family: 'Cinzel', serif; font-size: 14px; font-weight: 700; min-width: 28px; text-align: right; }
+.sl-inf { flex: 1; min-width: 0; }
+.sl-name { font-family: 'Cinzel', serif; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sl-sub { font-size: 10px; color: var(--text-dim); display: flex; align-items: center; gap: 5px; margin-top: 1px; }
+
+.badge { font-family: 'Cinzel', serif; font-size: 8px; letter-spacing: 1px; padding: 1px 5px; border: 1px solid; text-transform: uppercase; }
+.badge.hero { color: var(--badge-hero-col); border-color: var(--badge-hero-brd); }
+.badge.enemy { color: var(--badge-enemy-col); border-color: var(--badge-enemy-brd); }
+.badge.at { color: var(--at-color); border-color: var(--at-color); background: rgba(192,57,43,0.08); }
+.badge.pa { color: var(--pa-color); border-color: var(--pa-color); background: rgba(41,128,185,0.08); }
+
+.sl-hp { width: 56px; flex-shrink: 0; }
+.hbm { height: 5px; background: rgba(0,0,0,0.15); border: 1px solid var(--border); overflow: hidden; }
+.hbm-f { height: 100%; transition: width 0.3s; }
+.hbm-l { font-size: 9px; color: var(--text-dim); text-align: right; margin-top: 1px; font-family: 'Cinzel', serif; }
+
+/* ── ADD FORM ── */
+.add-form { display: none; flex-direction: column; gap: 7px; padding: 9px; background: var(--surface); border-top: 1px solid var(--border); flex-shrink: 0; max-height: 46vh; overflow-y: auto; }
+.add-form.open { display: flex; }
+.fr { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.fg { display: flex; flex-direction: column; gap: 2px; }
+label { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 1.5px; color: var(--text-dim); text-transform: uppercase; }
+input[type=text], input[type=number], select {
+  background: var(--input-bg); border: 1px solid var(--border); color: var(--text);
+  padding: 5px 8px; font-family: 'Crimson Text', serif; font-size: 13px; outline: none; transition: border-color 0.2s; width: 100%; }
+input:focus, select:focus { border-color: var(--gold); }
+select option { background: var(--surface); }
+
+/* ── MAP ── */
+.map-panel { display: flex; flex-direction: column; border-right: 1px solid var(--border); overflow: hidden; }
+.map-tb { display: flex; gap: 4px; padding: 7px 10px; background: var(--surface); border-bottom: 1px solid var(--border); flex-wrap: wrap; align-items: center; flex-shrink: 0; }
+.map-cont { flex: 1; position: relative; overflow: hidden; background: var(--map-bg); }
+#mapCanvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tbtn { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim); cursor: pointer; font-size: 13px; transition: all 0.13s; }
+.tbtn:hover, .tbtn.active { border-color: var(--gold); color: var(--gold); background: var(--surface); }
+.msep { width: 1px; height: 20px; background: var(--border); margin: 0 2px; }
+
+/* ── DETAIL ── */
+.detail-panel { display: flex; flex-direction: column; overflow: hidden; }
+.db { flex: 1; overflow-y: auto; padding: 13px; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+.d-empty { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: var(--text-dim); font-size: 14px; gap: 10px; text-align: center; font-style: italic; }
+.d-empty::before { content: '⚔'; font-size: 34px; opacity: 0.15; font-style: normal; }
+.d-name { font-family: 'Cinzel', serif; font-size: 17px; margin-bottom: 2px; }
+.d-sub { font-size: 11px; color: var(--text-dim); font-family: 'Cinzel', serif; letter-spacing: 1.5px; margin-bottom: 12px; }
+.dsec { margin-bottom: 10px; border: 1px solid var(--border); background: var(--surface); }
+.dst { padding: 5px 10px; font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; color: var(--gold); background: rgba(139,94,16,0.07); border-bottom: 1px solid var(--border); text-transform: uppercase; }
+.dsb { padding: 9px; }
+.sg { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.si { display: flex; flex-direction: column; gap: 1px; }
+.sv { font-family: 'Cinzel', serif; font-size: 14px; }
+.hp-big { font-family: 'Cinzel', serif; font-size: 24px; text-align: center; margin: 5px 0; }
+.hp-big span { font-size: 13px; color: var(--text-dim); }
+.hp-bar-o { height: 10px; background: rgba(0,0,0,0.15); border: 1px solid var(--border); overflow: hidden; margin-bottom: 7px; }
+.hp-bar-i { height: 100%; transition: width 0.3s, background 0.3s; }
+.hp-ctrl { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+.hp-ctrl input { width: 60px; text-align: center; }
+
+.ac-row { display: flex; align-items: center; gap: 5px; padding: 4px 7px; border: 1px solid var(--border); background: var(--surface2); margin-bottom: 3px; }
+.ac-lbl { font-family: 'Cinzel', serif; font-size: 10px; color: var(--text-dim); min-width: 75px; }
+.ac-used { flex: 1; padding: 3px 7px; font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 1px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-dim); cursor: pointer; transition: all 0.13s; text-transform: uppercase; text-align: center; }
+.ac-used:hover { border-color: var(--gold); color: var(--text); }
+.ac-used.used { border-color: var(--text-dim); color: var(--text-dim); opacity: 0.4; text-decoration: line-through; }
+
+.est-row { display: flex; gap: 3px; flex-wrap: wrap; }
+.est-b { flex: 1; min-width: 48px; padding: 4px 3px; font-family: 'Cinzel', serif; font-size: 8px; letter-spacing: 0.8px; border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim); cursor: pointer; text-align: center; transition: all 0.13s; text-transform: uppercase; }
+.est-b:hover, .est-b.active { border-color: var(--gold); color: var(--gold); }
+
+textarea.notes { width: 100%; background: var(--input-bg); border: 1px solid var(--border); color: var(--text); font-family: 'Crimson Text', serif; font-size: 13px; padding: 6px; resize: vertical; min-height: 56px; outline: none; }
+textarea.notes:focus { border-color: var(--gold); }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>DSA KAMPF-TRACKER</h1>
+    <div class="h-sep"></div>
+    <div class="h-round">RUNDE <b id="rndDisp">1</b></div>
+    <button class="btn btn-primary" onclick="nextSlot()">Nächster Slot ▶</button>
+    <button class="btn" onclick="nextRound()">Neue Runde ⟳</button>
+    <button class="btn" onclick="openPlayerWindow()">INI-Fenster ⧉</button>
+    <button class="btn" onclick="openMapWindow()">Bodenplan ⧉</button>
+    <div class="theme-toggle" onclick="toggleTheme()" title="Farbschema wechseln">
+      <span class="tt-icon" id="themeIcon">☀</span>
+      <span id="themeLabel">Hell</span>
+    </div>
+    <button class="btn btn-sm" onclick="exportCombat()" title="Kampf als JSON-Datei speichern">⬇ Exportieren</button>
+    <button class="btn btn-sm" onclick="document.getElementById('importFile').click()" title="Kampf aus JSON-Datei laden">⬆ Importieren</button>
+    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importCombat(event)">
+    <button class="btn btn-danger btn-sm" onclick="resetCombat()">Reset</button>
+    <button class="btn btn-sm" id="serverBtn" onclick="openServerModal()" style="display:none;border-color:#5ababa;color:#5ababa" title="Auf Heimserver speichern/laden">🖥 Server-Saves</button>
+  </header>
+  <div class="main">
+
+    <!-- LEFT: Timeline -->
+    <div class="panel">
+      <div class="ph">
+        <h2>Kampfreihenfolge</h2>
+        <button class="btn btn-sm btn-primary" onclick="toggleAddForm()">+ Kämpfer</button>
+      </div>
+      <div class="pb"><div class="timeline" id="timeline"></div></div>
+      <div class="add-form" id="addForm">
+        <div class="fr">
+          <div class="fg"><label>Name</label><input type="text" id="nName" placeholder="Name" onkeydown="if(event.key==='Enter')addCombatant()"></div>
+          <div class="fg"><label>Typ</label><select id="nType"><option value="hero">Held</option><option value="enemy">Gegner</option></select></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label>Initiative (fest)</label><input type="number" id="nIni" value="12"></div>
+          <div class="fg"><label>Farbe</label><input type="color" id="nColor" value="#c9922a"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label>LP aktuell</label><input type="number" id="nHp" value="30"></div>
+          <div class="fg"><label>LP max</label><input type="number" id="nHpMax" value="30"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label>AT-Aktionen</label><input type="number" id="nAT" value="1" min="0" max="6"></div>
+          <div class="fg"><label>PA-Aktionen</label><input type="number" id="nPA" value="1" min="0" max="6"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label>AT-Wert</label><input type="number" id="nATv" value="12"></div>
+          <div class="fg"><label>PA-Wert</label><input type="number" id="nPAv" value="6"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label>RS</label><input type="number" id="nRS" value="0"></div>
+          <div class="fg" style="justify-content:flex-end;"><label>&nbsp;</label><button class="btn btn-primary" onclick="addCombatant()">Hinzufügen</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CENTER: Map -->
+    <div class="map-panel">
+      <div class="ph"><h2>Schlachtfeld</h2></div>
+      <div class="map-tb">
+        <button class="tbtn active" id="toolMove" title="Bewegen" onclick="setTool('move')">✥</button>
+        <button class="tbtn" id="toolDraw" title="Zeichnen" onclick="setTool('draw')">✏</button>
+        <button class="tbtn" id="toolErase" title="Radiergummi" onclick="setTool('erase')">◻</button>
+        <button class="tbtn" id="toolRuler" title="Lineal – Distanz messen" onclick="setTool('ruler')">📐</button>
+        <div class="msep"></div>
+        <input type="color" id="drawColor" value="#e8b84b" title="Stiftfarbe"
+          style="width:26px;height:26px;padding:1px;border:1px solid var(--border);background:var(--surface2);cursor:pointer;"
+          onchange="drawColor=this.value">
+        <select id="drawWidth" title="Stiftstärke"
+          style="height:26px;padding:0 4px;font-family:'Cinzel',serif;font-size:9px;border:1px solid var(--border);background:var(--surface2);color:var(--text);cursor:pointer;"
+          onchange="drawWidth=parseInt(this.value)">
+          <option value="2">Dünn</option>
+          <option value="4" selected>Mittel</option>
+          <option value="8">Dick</option>
+          <option value="16">Breit</option>
+        </select>
+        <button class="tbtn" title="Zeichnung löschen" onclick="clearDrawing()" style="font-size:10px;width:auto;padding:0 6px;">✕ Löschen</button>
+        <div class="msep"></div>
+        <button class="tbtn" onclick="zoomMap(1.15)">+</button>
+        <button class="tbtn" onclick="zoomMap(0.87)">−</button>
+        <button class="tbtn" title="Ansicht zurücksetzen" onclick="resetMapView()">⌖</button>
+        <div class="msep"></div>
+        <button class="tbtn active" id="btnGrid" title="Raster ein/ausblenden" onclick="toggleGrid()">⊞</button>
+        <label style="font-size:10px;color:var(--text-dim);display:flex;align-items:center;gap:4px;margin-left:4px;">
+          m/Feld: <input type="number" id="gridM" value="1.5" step="0.5" min="0.5" style="width:46px;padding:2px 4px;" onchange="renderMap()">
+        </label>
+        <div class="msep"></div>
+        <button class="tbtn" title="Hintergrundbild laden (JPEG, PNG, WebP…)" onclick="document.getElementById('bgImgFile').click()" style="font-size:11px;width:auto;padding:0 7px;">🖼 Bild</button>
+        <input type="file" id="bgImgFile" accept="image/jpeg,image/png,image/webp,image/gif,image/bmp" style="display:none" onchange="loadBgImage(event)">
+        <label style="font-size:10px;color:var(--text-dim);display:flex;align-items:center;gap:4px;" title="Bildgröße in %">
+          <span>Skala:</span>
+          <input type="number" id="bgScale" value="100" min="5" max="2000" step="5" style="width:52px;padding:2px 4px;" onchange="setBgScale(this.value)">
+          <span>%</span>
+        </label>
+        <button class="tbtn" id="btnBgLock" title="Hintergrundbild fixieren / lösen" onclick="toggleBgLock()" style="font-size:10px;width:auto;padding:0 6px;">🔓 Fixieren</button>
+        <button class="tbtn" title="Hintergrundbild entfernen" onclick="removeBgImage()" style="font-size:10px;width:auto;padding:0 6px;color:#c0392b;">✕ Bild</button>
+        <div style="margin-left:auto;font-family:'Cinzel',serif;font-size:9px;color:var(--text-dim);" id="scaleLabel">1 □ = 1.5m</div>
+      </div>
+      <div class="map-cont" id="mapCont"><canvas id="mapCanvas"></canvas></div>
+    </div>
+
+    <!-- RIGHT: Detail -->
+    <div class="detail-panel">
+      <div class="ph"><h2>Details</h2><span id="dhName" style="font-size:10px;color:var(--text-dim);font-family:'Cinzel',serif;letter-spacing:1px;"></span></div>
+      <div class="db" id="detailBody"><div class="d-empty">Kämpfer auswählen</div></div>
+    </div>
+
+  </div>
+</div>
+<script>
+'use strict';
+
+// ════════════════════════════════════════════════════════
+// STATE
+// ════════════════════════════════════════════════════════
+let combatants = [], uid = 1, round = 1;
+let selectedId = null, currentSlotKey = null;
+let mapOffset = {x:70,y:70}, mapZoom = 1;
+const CELL = 48;
+let dragging = null, dragOff = {x:0,y:0}, panStart = null;
+let currentTool = 'move';
+let drawStrokes = []; // [{color, width, points:[{x,y}]}] – in world coords
+let currentStroke = null;
+let drawColor = '#e8b84b';
+let drawWidth = 4; // in screen px at zoom=1
+let showGrid = true;
+let rulerLine = null; // {x1,y1,x2,y2} in world coords, active while dragging
+let playerWindow = null;
+let mapWindow = null;
+let animId = null;
+let isLightTheme = false;
+
+// Background image state
+let bgImage = null;        // HTMLImageElement
+let bgImageDataURL = null; // base64 data URL for export
+let bgImageScale = 1.0;    // scale factor (1 = 1 pixel per world pixel at zoom=1)
+let bgImageOffset = {x:0, y:0}; // world-coord offset of image top-left
+let bgImageLocked = false; // when true, image cannot be moved/scaled
+let bgDragging = false;
+let bgDragStart = {sx:0, sy:0, ox:0, oy:0};
+
+// ════════════════════════════════════════════════════════
+// THEME
+// ════════════════════════════════════════════════════════
+function toggleTheme() {
+  isLightTheme = !isLightTheme;
+  document.body.classList.toggle('light', isLightTheme);
+  document.getElementById('themeIcon').textContent = isLightTheme ? '🌙' : '☀';
+  document.getElementById('themeLabel').textContent = isLightTheme ? 'Dunkel' : 'Hell';
+  renderMap();
+  // Tell player window to switch theme too
+  if (playerWindow && !playerWindow.closed) {
+    try { playerWindow.setTheme(isLightTheme); } catch(e) {}
+  }
+  // Rebuild map window with new theme colors (background/header change)
+  if (mapWindow && !mapWindow.closed) {
+    try {
+      const d = mapWindow.document;
+      const bg = isLightTheme ? '#e8e0c8' : '#090c09';
+      d.body.style.background = bg;
+      updateMapWindow();
+    } catch(e) {}
+  }
+}
+
+// ════════════════════════════════════════════════════════
+// DATA MODEL
+// ════════════════════════════════════════════════════════
+function makeActions(c) {
+  const acts = [];
+  for (let i = 0; i < c.atCount; i++)
+    acts.push({type:'at', iniVal: c.ini - i*8, used: false, idx: acts.length});
+  for (let i = 0; i < c.paCount; i++)
+    acts.push({type:'pa', iniVal: null, used: false, idx: acts.length});
+  return acts;
+}
+
+function addCombatantDirect(d) {
+  const c = {
+    id: uid++,
+    name: d.name||'Unbekannt', type: d.type||'hero',
+    ini: d.ini||10,
+    hp: d.hp!=null ? d.hp : (d.hpMax||30),
+    hpMax: d.hpMax||30,
+    atCount: d.atCount!=null ? d.atCount : 1,
+    paCount: d.paCount!=null ? d.paCount : 1,
+    at: d.at||12, pa: d.pa||6, rs: d.rs||0,
+    color: d.color||'#c9922a',
+    notes: d.notes||'',
+    estimation: d.estimation||'medium',
+    // Per-combatant fuzzy offset: random shift applied to bar display.
+    // Regenerated each round to prevent reverse-engineering over time.
+    fuzzyOffset: 0,
+    mapX: d.mapX!=null ? d.mapX : (3+Math.floor(Math.random()*10)),
+    mapY: d.mapY!=null ? d.mapY : (3+Math.floor(Math.random()*8)),
+  };
+  c.actions = makeActions(c);
+  c.fuzzyOffset = makeFuzzyOffset(c);
+  combatants.push(c);
+  return c;
+}
+
+// Fuzzy offset: random shift so the stripe zone is NOT centered on the real HP.
+// The shift is random in [-tol*0.8, +tol*0.8] but clamped so bar stays in [0,hpMax].
+// Regenerated each round to prevent players tracking changes.
+function makeFuzzyOffset(c) {
+  const tol = getTolerance(c.estimation, c.hpMax);
+  if (tol === 0) return 0;
+  const range = tol * 0.8;
+  return (Math.random() * 2 - 1) * range;
+}
+
+function refreshFuzzyOffsets() {
+  combatants.forEach(c => { c.fuzzyOffset = makeFuzzyOffset(c); });
+}
+
+function addCombatant() {
+  const name = document.getElementById('nName').value.trim();
+  if (!name) { document.getElementById('nName').focus(); return; }
+  addCombatantDirect({
+    name, type: document.getElementById('nType').value,
+    ini: parseInt(document.getElementById('nIni').value)||10,
+    hp: parseInt(document.getElementById('nHp').value)||30,
+    hpMax: parseInt(document.getElementById('nHpMax').value)||30,
+    atCount: parseInt(document.getElementById('nAT').value)||1,
+    paCount: parseInt(document.getElementById('nPA').value)||1,
+    at: parseInt(document.getElementById('nATv').value)||12,
+    pa: parseInt(document.getElementById('nPAv').value)||6,
+    rs: parseInt(document.getElementById('nRS').value)||0,
+    color: document.getElementById('nColor').value,
+  });
+  document.getElementById('nName').value = '';
+  renderAll(); updatePW();
+}
+
+function removeCombatant(id) {
+  combatants = combatants.filter(c => c.id !== id);
+  if (selectedId === id) selectedId = null;
+  renderAll(); updatePW();
+}
+
+function toggleAddForm() {
+  const f = document.getElementById('addForm');
+  f.classList.toggle('open');
+  if (f.classList.contains('open')) document.getElementById('nName').focus();
+}
+
+// ════════════════════════════════════════════════════════
+// SLOT SYSTEM
+// ════════════════════════════════════════════════════════
+function getATSlots() {
+  const slots = [];
+  for (const c of combatants)
+    for (const a of c.actions)
+      if (a.type === 'at') slots.push({c, a, key: c.id+'_'+a.idx});
+  slots.sort((x,y) => y.a.iniVal - x.a.iniVal || y.c.ini - x.c.ini);
+  return slots;
+}
+
+function nextSlot() {
+  const slots = getATSlots().filter(s => s.c.hp > 0);
+  if (!slots.length) return;
+  if (!currentSlotKey) { currentSlotKey = slots[0].key; renderAll(); updatePW(); return; }
+  let idx = slots.findIndex(s => s.key === currentSlotKey);
+  if (idx < 0) { currentSlotKey = slots[0].key; renderAll(); updatePW(); return; }
+  slots[idx].a.used = true;
+  idx++;
+  if (idx >= slots.length) {
+    const first = slots.findIndex(s => !s.a.used);
+    currentSlotKey = first >= 0 ? slots[first].key : null;
+  } else {
+    currentSlotKey = slots[idx].key;
+  }
+  renderAll(); updatePW();
+}
+
+function nextRound() {
+  round++;
+  document.getElementById('rndDisp').textContent = round;
+  combatants.forEach(c => c.actions.forEach(a => { a.used = false; }));
+  // KEIN refreshFuzzyOffsets() hier! Offset bleibt fix pro Kampf –
+  // sonst können Spieler durch Beobachtung über mehrere Runden den Mittelwert
+  // bilden und auf den echten LE-Wert zurückrechnen.
+  currentSlotKey = null;
+  renderAll(); updatePW();
+}
+
+function resetCombat() {
+  if (!confirm('Kampf zurücksetzen?')) return;
+  combatants = []; uid = 1; round = 1; currentSlotKey = null; selectedId = null;
+  drawStrokes = []; currentStroke = null; rulerLine = null;
+  bgImage = null; bgImageDataURL = null; bgImageLocked = false; bgImageScale = 1; bgImageOffset = {x:0,y:0};
+  document.getElementById('bgScale').value = '100';
+  document.getElementById('btnBgLock').textContent = '🔓 Fixieren';
+  document.getElementById('btnBgLock').style.color = '';
+  document.getElementById('rndDisp').textContent = '1';
+  renderAll(); updatePW();
+}
+
+// ════════════════════════════════════════════════════════
+// EXPORT / IMPORT
+// ════════════════════════════════════════════════════════
+function exportCombat() {
+  const data = {
+    version: 1,
+    round,
+    uid,
+    currentSlotKey,
+    selectedId,
+    mapOffset,
+    mapZoom,
+    showGrid,
+    drawStrokes,
+    bgImageDataURL: bgImageDataURL || null,
+    bgImageScale,
+    bgImageOffset: {...bgImageOffset},
+    bgImageLocked,
+    combatants: combatants.map(c => ({
+      id: c.id,
+      name: c.name, type: c.type,
+      ini: c.ini, hp: c.hp, hpMax: c.hpMax,
+      atCount: c.atCount, paCount: c.paCount,
+      at: c.at, pa: c.pa, rs: c.rs,
+      color: c.color, notes: c.notes,
+      estimation: c.estimation,
+      fuzzyOffset: c.fuzzyOffset,
+      mapX: c.mapX, mapY: c.mapY,
+      actions: c.actions.map(a => ({ type: a.type, iniVal: a.iniVal, used: a.used, idx: a.idx }))
+    }))
+  };
+  const now = new Date();
+  const stamp = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}_R${round}`;
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = `dsa-kampf_${stamp}.json`;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+function importCombat(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!data.combatants || !Array.isArray(data.combatants)) throw new Error('Ungültiges Format');
+      if (!confirm(`Kampf laden? "${file.name}"\n${data.combatants.length} Kämpfer, Runde ${data.round || 1}\n\nAktueller Kampf wird überschrieben.`)) return;
+      round = data.round || 1;
+      uid = data.uid || (Math.max(0, ...data.combatants.map(c => c.id || 0)) + 1);
+      currentSlotKey = data.currentSlotKey || null;
+      selectedId = data.selectedId || null;
+      if (data.mapOffset) mapOffset = data.mapOffset;
+      if (data.mapZoom) mapZoom = data.mapZoom;
+      if (typeof data.showGrid === 'boolean') {
+        showGrid = data.showGrid;
+        document.getElementById('btnGrid').classList.toggle('active', showGrid);
+      }
+      drawStrokes = Array.isArray(data.drawStrokes) ? data.drawStrokes : [];
+      currentStroke = null; rulerLine = null;
+      // Restore background image
+      bgImage = null; bgImageDataURL = null;
+      if (data.bgImageDataURL) {
+        bgImageDataURL = data.bgImageDataURL;
+        bgImageScale = data.bgImageScale || 1;
+        bgImageOffset = data.bgImageOffset || {x:0,y:0};
+        bgImageLocked = data.bgImageLocked || false;
+        document.getElementById('bgScale').value = Math.round(bgImageScale*100);
+        const btn = document.getElementById('btnBgLock');
+        btn.textContent = bgImageLocked ? '🔒 Lösen' : '🔓 Fixieren';
+        btn.style.color = bgImageLocked ? 'var(--gold)' : '';
+        const img = new Image();
+        img.onload = () => { bgImage = img; renderMap(); };
+        img.src = bgImageDataURL;
+      }
+      combatants = data.combatants.map(d => {
+        const c = {
+          id: d.id, name: d.name, type: d.type,
+          ini: d.ini, hp: d.hp, hpMax: d.hpMax,
+          atCount: d.atCount, paCount: d.paCount,
+          at: d.at, pa: d.pa, rs: d.rs,
+          color: d.color, notes: d.notes,
+          estimation: d.estimation || 'medium',
+          fuzzyOffset: d.fuzzyOffset || 0,
+          mapX: d.mapX, mapY: d.mapY,
+        };
+        if (d.actions && d.actions.length) {
+          c.actions = d.actions;
+        } else {
+          c.actions = makeActions(c);
+        }
+        return c;
+      });
+      document.getElementById('rndDisp').textContent = round;
+      renderAll(); updatePW();
+    } catch (err) {
+      alert('Fehler beim Laden: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = ''; // Reset so same file can be re-imported
+}
+
+// ════════════════════════════════════════════════════════
+// RENDER ALL
+// ════════════════════════════════════════════════════════
+function renderAll() {
+  renderTimeline(); renderDetail(); renderMap();
+  const c = combatants.find(x => x.id === selectedId);
+  document.getElementById('dhName').textContent = c ? c.name : '';
+}
+
+function hpColor(hp, max) {
+  const p = hp / max;
+  return p > 0.66 ? '#27ae60' : p > 0.33 ? '#e8b84b' : hp > 0 ? '#c0392b' : '#666';
+}
+
+// ════════════════════════════════════════════════════════
+// TIMELINE
+// ════════════════════════════════════════════════════════
+function renderTimeline() {
+  const tl = document.getElementById('timeline');
+  const slots = getATSlots();
+  const curSlot = slots.find(s => s.key === currentSlotKey);
+
+  // Group AT slots by INI value
+  const groups = {};
+  for (const s of slots) {
+    const k = s.a.iniVal;
+    if (!groups[k]) groups[k] = [];
+    groups[k].push(s);
+  }
+  const iniVals = Object.keys(groups).map(Number).sort((a,b) => b-a);
+
+  // PA slots
+  const paList = combatants
+    .map(c => ({ c, pas: c.actions.filter(a => a.type==='pa') }))
+    .filter(x => x.pas.length > 0);
+
+  let html = '';
+
+  for (const iv of iniVals) {
+    html += `<div class="ini-sep">INI ${iv}</div>`;
+    for (const s of groups[iv]) {
+      const c = s.c;
+      const isActive = s.key === currentSlotKey;
+      const isSelected = c.id === selectedId;
+      const isDead = c.hp <= 0;
+      const hpPct = Math.max(0, c.hp / c.hpMax * 100);
+      const col = hpColor(Math.max(0,c.hp), c.hpMax);
+      const atIdx = c.actions.filter(a => a.type==='at').indexOf(s.a) + 1;
+      const cls = ['aslot','at-s',c.type,isActive?'active':'',s.a.used?'used':'',isDead?'dead':'',isSelected?'sel':''].filter(Boolean).join(' ');
+      html += `<div class="${cls}" style="border-left-color:${c.color};" onclick="selectCombatant(${c.id})">
+        <div class="sl-ini" style="color:${c.color};">${iv}</div>
+        <div class="sl-inf">
+          <div class="sl-name">${isActive ? '<span style="color:var(--gold);margin-right:2px;">▶</span>' : ''}${c.name}</div>
+          <div class="sl-sub">
+            <span class="badge ${c.type}">${c.type==='hero'?'Held':'Gegner'}</span>
+            <span class="badge at">AT ${atIdx}</span>
+            ${s.a.used ? '<span style="color:var(--text-dim);font-size:9px;">✕</span>' : ''}
+          </div>
+        </div>
+        <div class="sl-hp">
+          <div class="hbm"><div class="hbm-f" style="width:${hpPct}%;background:${col};"></div></div>
+          <div class="hbm-l">${Math.max(0,c.hp)}/${c.hpMax}</div>
+        </div>
+      </div>`;
+    }
+  }
+
+  if (paList.length) {
+    html += `<div class="ini-sep" style="margin-top:8px;">Paraden (passiv, jederzeit)</div>`;
+    for (const {c, pas} of paList) {
+      const isDead = c.hp <= 0;
+      const isSelected = c.id === selectedId;
+      const usedN = pas.filter(a => a.used).length;
+      const cls = ['aslot','pa-s',c.type,isDead?'dead':'',isSelected?'sel':''].filter(Boolean).join(' ');
+      html += `<div class="${cls}" onclick="selectCombatant(${c.id})">
+        <div class="sl-ini" style="color:var(--pa-color);font-size:10px;font-weight:700;">PA</div>
+        <div class="sl-inf">
+          <div class="sl-name">${c.name}</div>
+          <div class="sl-sub">
+            <span class="badge pa">×${pas.length}</span>
+            <span style="color:${usedN?'var(--red-light)':'var(--text-dim)'};">${usedN ? usedN+' verbraucht' : 'alle verfügbar'}</span>
+          </div>
+        </div>
+      </div>`;
+    }
+  }
+
+  if (!html) html = `<div style="color:var(--text-dim);font-style:italic;font-size:13px;padding:16px;text-align:center;">Noch keine Kämpfer</div>`;
+  tl.innerHTML = html;
+}
+
+// ════════════════════════════════════════════════════════
+// DETAIL PANEL
+// ════════════════════════════════════════════════════════
+function selectCombatant(id) { selectedId = id; renderAll(); }
+
+function renderDetail() {
+  const body = document.getElementById('detailBody');
+  const c = combatants.find(x => x.id === selectedId);
+  if (!c) { body.innerHTML = '<div class="d-empty">Kämpfer auswählen</div>'; return; }
+
+  const hpPct = Math.max(0, c.hp / c.hpMax * 100);
+  const col = hpColor(Math.max(0,c.hp), c.hpMax);
+  const atActs = c.actions.filter(a => a.type==='at');
+  const paActs = c.actions.filter(a => a.type==='pa');
+
+  let acHtml = '';
+  atActs.forEach((a,i) => {
+    acHtml += `<div class="ac-row">
+      <div class="ac-lbl" style="color:var(--at-color);">AT ${i+1} (INI ${a.iniVal})</div>
+      <div class="ac-used ${a.used?'used':''}" onclick="toggleUsed(${c.id},${a.idx})">${a.used?'Verbraucht':'Verfügbar'}</div>
+    </div>`;
+  });
+  paActs.forEach((a,i) => {
+    acHtml += `<div class="ac-row">
+      <div class="ac-lbl" style="color:var(--pa-color);">PA ${i+1} (passiv)</div>
+      <div class="ac-used ${a.used?'used':''}" onclick="toggleUsed(${c.id},${a.idx})">${a.used?'Verbraucht':'Verfügbar'}</div>
+    </div>`;
+  });
+  acHtml += `<div style="display:flex;gap:5px;align-items:center;flex-wrap:wrap;margin-top:5px;">
+    <span style="font-family:'Cinzel',serif;font-size:9px;color:var(--at-color);letter-spacing:1px;">AT</span>
+    <button class="btn btn-xs" onclick="chgAC(${c.id},'at',-1)">−</button>
+    <span style="font-family:'Cinzel',serif;font-size:12px;color:var(--gold);min-width:14px;text-align:center;">${c.atCount}</span>
+    <button class="btn btn-xs" onclick="chgAC(${c.id},'at',1)">+</button>
+    <span style="font-family:'Cinzel',serif;font-size:9px;color:var(--pa-color);letter-spacing:1px;margin-left:8px;">PA</span>
+    <button class="btn btn-xs" onclick="chgAC(${c.id},'pa',-1)">−</button>
+    <span style="font-family:'Cinzel',serif;font-size:12px;color:var(--gold);min-width:14px;text-align:center;">${c.paCount}</span>
+    <button class="btn btn-xs" onclick="chgAC(${c.id},'pa',1)">+</button>
+    <button class="btn btn-sm" style="margin-left:auto;" onclick="resetActions(${c.id})">⟳ Alle reset</button>
+  </div>`;
+
+  const estLvls = ['verygood','good','medium','bad','verybad'];
+  const estLbl = {verygood:'Sehr gut',good:'Gut',medium:'Mittel',bad:'Schlecht',verybad:'Sehr schlecht'};
+  let estHtml = '<div class="est-row">';
+  estLvls.forEach(l => { estHtml += `<button class="est-b ${c.estimation===l?'active':''}" onclick="setEst(${c.id},'${l}')">${estLbl[l]}</button>`; });
+  estHtml += '</div>';
+
+  body.innerHTML = `
+    <div class="d-name" style="color:${c.color}">${c.name}</div>
+    <div class="d-sub">${c.type==='hero'?'HELD':'GEGNER'} · INI ${c.ini}</div>
+
+    <div class="dsec">
+      <div class="dst">Lebenspunkte</div>
+      <div class="dsb">
+        <div class="hp-big">${Math.max(0,c.hp)} <span>/ ${c.hpMax}</span></div>
+        <div class="hp-bar-o"><div class="hp-bar-i" style="width:${hpPct}%;background:${col};"></div></div>
+        <div class="hp-ctrl">
+          <input type="number" id="hpD" placeholder="±" min="0" style="width:60px;text-align:center;">
+          <button class="btn btn-danger btn-sm" onclick="modHP(-1)">Schaden</button>
+          <button class="btn btn-sm" style="border-color:#1a6b3a;color:var(--green-light);" onclick="modHP(1)">Heilung</button>
+        </div>
+        <div style="display:flex;gap:4px;margin-top:5px;align-items:flex-end;flex-wrap:wrap;">
+          <button class="btn btn-sm" onclick="setHP(${c.hpMax})">Max</button>
+          <button class="btn btn-danger btn-sm" onclick="setHP(0)">KO</button>
+          <div class="fg" style="flex:1;min-width:80px;">
+            <label>Direkt setzen</label>
+            <div style="display:flex;gap:3px;"><input type="number" id="hpDirect" value="${c.hp}" min="0" max="${c.hpMax}"><button class="btn btn-sm" onclick="setHPD()">OK</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dsec">
+      <div class="dst">Initiative</div>
+      <div class="dsb">
+        <div style="display:flex;gap:5px;align-items:flex-end;flex-wrap:wrap;">
+          <div class="fg" style="flex:1;"><label>INI-Wert</label><input type="number" id="iniEdit" value="${c.ini}"></div>
+          <button class="btn btn-sm" onclick="setINI(${c.id})">Setzen</button>
+        </div>
+        <div style="display:flex;gap:4px;margin-top:5px;flex-wrap:wrap;">
+          <button class="btn btn-sm" onclick="modINI(${c.id},-1)">−1</button>
+          <button class="btn btn-sm" onclick="modINI(${c.id},-2)">−2</button>
+          <button class="btn btn-sm" onclick="modINI(${c.id},-4)">−4 (Ori.)</button>
+          <button class="btn btn-sm" onclick="modINI(${c.id},1)">+1</button>
+          <button class="btn btn-sm" onclick="modINI(${c.id},2)">+2</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dsec">
+      <div class="dst">Aktionen (diese Runde)</div>
+      <div class="dsb">${acHtml}</div>
+    </div>
+
+    <div class="dsec">
+      <div class="dst">Kampfwerte</div>
+      <div class="dsb">
+        <div class="sg">
+          <div class="si"><label>AT</label><div class="sv">${c.at}</div></div>
+          <div class="si"><label>PA</label><div class="sv">${c.pa}</div></div>
+          <div class="si"><label>RS</label><div class="sv">${c.rs}</div></div>
+        </div>
+      </div>
+    </div>
+
+    ${c.type==='enemy' ? `<div class="dsec">
+      <div class="dst">LP-Einschätzung der Spieler</div>
+      <div class="dsb">
+        <div style="font-size:10px;color:var(--text-dim);margin-bottom:6px;font-style:italic;">Wie genau sehen die Spieler den LP-Balken?</div>
+        ${estHtml}
+        <div style="font-size:10px;color:var(--text-dim);margin-top:6px;font-style:italic;">Verschiebung wird jede Runde neu gewürfelt.</div>
+      </div>
+    </div>` : ''}
+
+    <div class="dsec">
+      <div class="dst">Notizen (sichtbar für Spieler)</div>
+      <div class="dsb"><textarea class="notes" placeholder="Notizen, die im Spielerfenster angezeigt werden…" onchange="updateNotes(this.value)">${c.notes}</textarea></div>
+    </div>
+
+    <div style="display:flex;gap:5px;margin-top:8px;">
+      <button class="btn btn-danger btn-sm" style="flex:1;" onclick="removeCombatant(${c.id})">Kämpfer entfernen</button>
+    </div>
+  `;
+}
+
+// Detail helpers
+function toggleUsed(cid, idx) {
+  const c = combatants.find(x => x.id===cid); if (!c) return;
+  const a = c.actions[idx]; if (a) { a.used = !a.used; renderAll(); updatePW(); }
+}
+function chgAC(cid, type, d) {
+  const c = combatants.find(x => x.id===cid); if (!c) return;
+  const usedState = {};
+  c.actions.forEach(a => {
+    const localIdx = a.type==='at' ? c.actions.filter(x=>x.type==='at').indexOf(a) : c.actions.filter(x=>x.type==='pa').indexOf(a);
+    usedState[a.type+'_'+localIdx] = a.used;
+  });
+  if (type==='at') c.atCount = Math.max(0, Math.min(6, c.atCount+d));
+  else c.paCount = Math.max(0, Math.min(6, c.paCount+d));
+  c.actions = makeActions(c);
+  c.actions.forEach(a => {
+    const localIdx = a.type==='at' ? c.actions.filter(x=>x.type==='at').indexOf(a) : c.actions.filter(x=>x.type==='pa').indexOf(a);
+    a.used = usedState[a.type+'_'+localIdx] || false;
+  });
+  renderAll(); updatePW();
+}
+function resetActions(cid) {
+  const c = combatants.find(x => x.id===cid); if (!c) return;
+  c.actions.forEach(a => { a.used = false; }); renderAll(); updatePW();
+}
+function modHP(sign) {
+  const c = combatants.find(x => x.id===selectedId); if (!c) return;
+  const d = parseInt(document.getElementById('hpD')?.value) || 0;
+  c.hp = Math.min(c.hpMax, Math.max(0, c.hp + sign*d)); renderAll(); updatePW();
+}
+function setHP(v) {
+  const c = combatants.find(x => x.id===selectedId); if (!c) return;
+  c.hp = Math.max(0, Math.min(c.hpMax, v)); renderAll(); updatePW();
+}
+function setHPD() {
+  const c = combatants.find(x => x.id===selectedId); if (!c) return;
+  const v = parseInt(document.getElementById('hpDirect')?.value);
+  if (!isNaN(v)) { c.hp = Math.max(0, Math.min(c.hpMax, v)); renderAll(); updatePW(); }
+}
+function setINI(cid) {
+  const c = combatants.find(x => x.id===cid); if (!c) return;
+  const v = parseInt(document.getElementById('iniEdit')?.value);
+  if (!isNaN(v)) { c.ini = v; let ai=0; c.actions.forEach(a => { if(a.type==='at'){a.iniVal=c.ini-ai*8;ai++;} }); renderAll(); updatePW(); }
+}
+function modINI(cid, d) {
+  const c = combatants.find(x => x.id===cid); if (!c) return;
+  c.ini += d; let ai=0; c.actions.forEach(a => { if(a.type==='at'){a.iniVal=c.ini-ai*8;ai++;} }); renderAll(); updatePW();
+}
+function updateNotes(v) { const c = combatants.find(x => x.id===selectedId); if (c) c.notes = v; }
+function setEst(cid, l) {
+  const c = combatants.find(x => x.id===cid); if (!c) return;
+  c.estimation = l;
+  c.fuzzyOffset = makeFuzzyOffset(c); // regenerate when estimation changes
+  renderAll(); updatePW();
+}
+
+// ════════════════════════════════════════════════════════
+// MAP
+// ════════════════════════════════════════════════════════
+const canvas = document.getElementById('mapCanvas');
+const ctx = canvas.getContext('2d');
+
+function resizeCv() { const cn = document.getElementById('mapCont'); canvas.width = cn.offsetWidth; canvas.height = cn.offsetHeight; }
+window.addEventListener('load', () => { resizeCv(); renderMap(); });
+window.addEventListener('resize', () => { resizeCv(); renderMap(); });
+
+function w2s(wx,wy) { return {x: mapOffset.x+wx*CELL*mapZoom, y: mapOffset.y+wy*CELL*mapZoom}; }
+function s2w(sx,sy) { return {x: (sx-mapOffset.x)/(CELL*mapZoom), y: (sy-mapOffset.y)/(CELL*mapZoom)}; }
+function lighten(hex,a) { const n=parseInt(hex.replace('#',''),16); return `rgb(${Math.min(255,(n>>16)+a)},${Math.min(255,((n>>8)&0xff)+a)},${Math.min(255,(n&0xff)+a)})`; }
+
+// Shared map drawing – used by both master canvas and player map window
+function drawMapOnContext(ctx, w, h, offset, zoom, lightTheme, drawGrid) {
+  ctx.clearRect(0,0,w,h);
+  const bg = lightTheme ? '#e8e0c8' : '#090c09';
+  ctx.fillStyle = bg; ctx.fillRect(0,0,w,h);
+
+  // Draw background image (below grid, below tokens)
+  if (bgImage) {
+    const imgW = bgImage.naturalWidth * bgImageScale * zoom;
+    const imgH = bgImage.naturalHeight * bgImageScale * zoom;
+    const sx = offset.x + bgImageOffset.x * CELL * zoom;
+    const sy = offset.y + bgImageOffset.y * CELL * zoom;
+    ctx.globalAlpha = 0.92;
+    ctx.drawImage(bgImage, sx, sy, imgW, imgH);
+    ctx.globalAlpha = 1;
+
+    // If not locked: show resize handle corner & border
+    if (!bgImageLocked) {
+      ctx.save();
+      ctx.strokeStyle = '#e8b84b';
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([5,4]);
+      ctx.strokeRect(sx, sy, imgW, imgH);
+      ctx.setLineDash([]);
+      // Corner resize handle
+      ctx.fillStyle = '#e8b84b';
+      ctx.fillRect(sx + imgW - 8, sy + imgH - 8, 10, 10);
+      ctx.restore();
+    }
+  }
+
+  if (drawGrid) {
+    const step = CELL*zoom;
+    const ox = ((offset.x%step)+step)%step, oy = ((offset.y%step)+step)%step;
+    const gMinor = lightTheme ? 'rgba(140,110,60,0.25)' : 'rgba(74,56,32,0.32)';
+    const gMajor  = lightTheme ? 'rgba(140,110,60,0.5)'  : 'rgba(74,56,32,0.62)';
+    ctx.strokeStyle = gMinor; ctx.lineWidth = 0.5;
+    for (let x=ox;x<w;x+=step){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke();}
+    for (let y=oy;y<h;y+=step){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke();}
+    ctx.strokeStyle = gMajor; ctx.lineWidth = 1;
+    const ox5=((offset.x%(step*5))+(step*5))%(step*5), oy5=((offset.y%(step*5))+(step*5))%(step*5);
+    for (let x=ox5;x<w;x+=step*5){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke();}
+    for (let y=oy5;y<h;y+=step*5){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke();}
+  }
+
+  const toS = (wx,wy) => ({x: offset.x+wx*CELL*zoom, y: offset.y+wy*CELL*zoom});
+  const slots = getATSlots();
+  const curSlot = slots.find(s => s.key===currentSlotKey);
+  const t = Date.now()/1000;
+
+  for (const c of combatants) {
+    const s = toS(c.mapX, c.mapY);
+    const r = CELL*zoom*0.42;
+    const isActive = curSlot && c.id===curSlot.c.id;
+    const isDead = c.hp <= 0;
+    ctx.globalAlpha = isDead ? 0.22 : 1;
+
+    if (isActive) {
+      const pl = Math.sin(t*3)*0.5+0.5;
+      ctx.save(); ctx.shadowColor = c.color; ctx.shadowBlur = 14+pl*14;
+      ctx.beginPath(); ctx.arc(s.x,s.y,r+5,0,Math.PI*2);
+      ctx.strokeStyle = c.color; ctx.lineWidth = 2; ctx.stroke(); ctx.restore();
+    }
+    if (c.id === selectedId) {
+      ctx.beginPath(); ctx.arc(s.x,s.y,r+7,0,Math.PI*2);
+      ctx.strokeStyle = lightTheme ? '#8b5e10' : '#e8b84b'; ctx.lineWidth = 1.5;
+      ctx.setLineDash([4,3]); ctx.stroke(); ctx.setLineDash([]);
+    }
+
+    const g = ctx.createRadialGradient(s.x-r*0.3,s.y-r*0.3,r*0.05,s.x,s.y,r);
+    g.addColorStop(0, lighten(c.color,45)); g.addColorStop(1, c.color);
+    ctx.beginPath(); ctx.arc(s.x,s.y,r,0,Math.PI*2);
+    ctx.fillStyle = g; ctx.fill();
+    ctx.strokeStyle = lighten(c.color,55); ctx.lineWidth = 1.5; ctx.stroke();
+
+    if (!isDead) {
+      ctx.beginPath(); ctx.arc(s.x,s.y,r-3,-Math.PI/2,-Math.PI/2+Math.PI*2*(c.hp/c.hpMax));
+      ctx.strokeStyle = hpColor(c.hp,c.hpMax); ctx.lineWidth = 2.5; ctx.stroke();
+    }
+
+    ctx.fillStyle = lightTheme ? '#111' : '#fff';
+    ctx.font = `bold ${Math.max(9,r*0.68)}px Cinzel,serif`;
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(c.name[0].toUpperCase(), s.x, s.y);
+
+    ctx.font = `${Math.max(8,CELL*zoom*0.19)}px Crimson Text,serif`;
+    ctx.fillStyle = isDead ? '#888' : (lightTheme ? '#2a1a08' : '#d4c4a0');
+    ctx.fillText(c.name.length>12 ? c.name.slice(0,11)+'…' : c.name, s.x, s.y+r+11);
+    ctx.globalAlpha = 1;
+  }
+
+  // Draw strokes (on top of map, below nothing – just above tokens so annotations are visible)
+  ctx.save();
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  const allStrokes = currentStroke ? [...drawStrokes, currentStroke] : drawStrokes;
+  for (const stroke of allStrokes) {
+    if (stroke.points.length < 2) continue;
+    ctx.beginPath();
+    ctx.strokeStyle = stroke.color;
+    ctx.lineWidth = stroke.width * zoom;
+    ctx.globalAlpha = 0.85;
+    ctx.moveTo(toS(stroke.points[0].x, stroke.points[0].y).x, toS(stroke.points[0].x, stroke.points[0].y).y);
+    for (let i = 1; i < stroke.points.length; i++) {
+      const p = toS(stroke.points[i].x, stroke.points[i].y);
+      ctx.lineTo(p.x, p.y);
+    }
+    ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+  ctx.restore();
+
+  // Ruler overlay
+  if (rulerLine) {
+    const p1 = {x: offset.x + rulerLine.x1*CELL*zoom, y: offset.y + rulerLine.y1*CELL*zoom};
+    const p2 = {x: offset.x + rulerLine.x2*CELL*zoom, y: offset.y + rulerLine.y2*CELL*zoom};
+    const gm = parseFloat(document.getElementById('gridM')?.value || '1.5');
+    const dist = Math.hypot(rulerLine.x2-rulerLine.x1, rulerLine.y2-rulerLine.y1) * gm;
+    const label = dist.toFixed(1) + ' m';
+
+    ctx.save();
+    // Line
+    ctx.setLineDash([6,4]);
+    ctx.strokeStyle = '#00cfff'; ctx.lineWidth = 2; ctx.globalAlpha = 0.9;
+    ctx.beginPath(); ctx.moveTo(p1.x, p1.y); ctx.lineTo(p2.x, p2.y); ctx.stroke();
+    ctx.setLineDash([]);
+    // Endpoint circles
+    ctx.fillStyle = '#00cfff'; ctx.globalAlpha = 0.9;
+    ctx.beginPath(); ctx.arc(p1.x, p1.y, 5, 0, Math.PI*2); ctx.fill();
+    ctx.beginPath(); ctx.arc(p2.x, p2.y, 5, 0, Math.PI*2); ctx.fill();
+    // Label box
+    const mx = (p1.x+p2.x)/2, my = (p1.y+p2.y)/2;
+    ctx.font = 'bold 13px Cinzel,serif';
+    const tw = ctx.measureText(label).width;
+    ctx.globalAlpha = 0.82;
+    ctx.fillStyle = '#0a1a22';
+    ctx.fillRect(mx - tw/2 - 7, my - 11, tw + 14, 22);
+    ctx.strokeStyle = '#00cfff'; ctx.lineWidth = 1.5; ctx.globalAlpha = 0.9;
+    ctx.strokeRect(mx - tw/2 - 7, my - 11, tw + 14, 22);
+    ctx.fillStyle = '#00cfff'; ctx.globalAlpha = 1;
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(label, mx, my);
+    ctx.restore();
+  }
+}
+
+// ════════════════════════════════════════════════════════
+// MAP PLAYER WINDOW
+// ════════════════════════════════════════════════════════
+let mapWinAnimId = null;
+
+function openMapWindow() {
+  if (mapWindow && !mapWindow.closed) { mapWindow.focus(); return; }
+  mapWindow = window.open('', 'DSA_MAP', 'width=1100,height=700,menubar=no,toolbar=no,resizable=yes');
+  const d = mapWindow.document;
+  d.open();
+  d.write(buildMapWindowHTML());
+  d.close();
+  setTimeout(() => updateMapWindow(), 200);
+}
+
+function buildMapWindowHTML() {
+  const light = isLightTheme;
+  const bg = light ? '#e8e0c8' : '#090c09';
+  const gold = light ? '#8b5e10' : '#c9922a';
+  const goldLight = light ? '#6b4a08' : '#e8b84b';
+  const dim = light ? '#6a5a3a' : '#8a7a60';
+  return `<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>DSA – Bodenplan (Spieler)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:${bg};display:flex;flex-direction:column;height:100vh;overflow:hidden;transition:background 0.3s;}
+header{background:${light?'#d8caa0':'#1a1510'};border-bottom:2px solid ${light?'#b0a080':'#4a3820'};padding:8px 16px;display:flex;align-items:center;gap:10px;flex-shrink:0;}
+header::before{content:'⚔';font-size:18px;color:${gold};}
+h1{font-family:'Cinzel',serif;font-size:14px;color:${goldLight};letter-spacing:3px;}
+.ri{font-family:'Cinzel',serif;font-size:11px;color:${dim};letter-spacing:2px;margin-left:auto;display:flex;align-items:center;gap:5px;}
+.ri b{color:${gold};font-size:18px;}
+.map-cont{flex:1;position:relative;overflow:hidden;}
+canvas{position:absolute;inset:0;width:100%;height:100%;}
+.scale{position:absolute;bottom:10px;right:14px;font-family:'Cinzel',serif;font-size:10px;color:${dim};letter-spacing:1px;}
+</style>
+</head><body>
+<header><h1>DSA SCHLACHTFELD</h1><div class="ri">RUNDE <b id="mw_r">1</b></div></header>
+<div class="map-cont" id="mwCont"><canvas id="mwCanvas"></canvas></div>
+<div class="scale" id="mwScale"></div>
+<!-- ═══ SERVER SAVES MODAL ═══ -->
+<div class="modal-overlay" id="serverModalOverlay" onclick="if(event.target===this)closeServerModal()">
+<div class="modal" style="width:460px"><div class="modal-hd">🖥 Server-Saves</div><div class="modal-body" id="serverModalBody" style="min-height:140px"></div><div class="modal-ft"><button class="btn" onclick="closeServerModal()">Schließen</button></div></div></div>
+</body></html>`;
+}
+
+function updateMapWindow() {
+  if (!mapWindow || mapWindow.closed) return;
+  try {
+    const d = mapWindow.document;
+    const rEl = d.getElementById('mw_r');
+    if (rEl) rEl.textContent = round;
+    const cont = d.getElementById('mwCont');
+    const cv = d.getElementById('mwCanvas');
+    if (!cont || !cv) return;
+    // Resize canvas to container
+    if (cv.width !== cont.offsetWidth || cv.height !== cont.offsetHeight) {
+      cv.width = cont.offsetWidth; cv.height = cont.offsetHeight;
+    }
+    const mwCtx = cv.getContext('2d');
+    drawMapOnContext(mwCtx, cv.width, cv.height, mapOffset, mapZoom, isLightTheme, showGrid);
+    // Scale label
+    const scEl = d.getElementById('mwScale');
+    const gm = parseFloat(document.getElementById('gridM')?.value||'1.5');
+    if (scEl) scEl.textContent = `1 □ = ${gm}m`;
+    // Keep animating while combat is running
+    if (currentSlotKey) {
+      if (mapWinAnimId) cancelAnimationFrame(mapWinAnimId);
+      mapWinAnimId = requestAnimationFrame(updateMapWindow);
+    }
+  } catch(e) { /* window might be closed */ }
+}
+
+function renderMap() { if (animId) cancelAnimationFrame(animId); animId = requestAnimationFrame(_draw); }
+
+function _draw() {
+  const w = canvas.width, h = canvas.height;
+  drawMapOnContext(ctx, w, h, mapOffset, mapZoom, isLightTheme, showGrid);
+  const gm = parseFloat(document.getElementById('gridM')?.value||'1.5');
+  document.getElementById('scaleLabel').textContent = `1 □ = ${gm}m`;
+  if (currentSlotKey) animId = requestAnimationFrame(_draw);
+  updateMapWindow();
+}
+
+canvas.addEventListener('mousedown', e => {
+  const r = canvas.getBoundingClientRect(), sx = e.clientX-r.left, sy = e.clientY-r.top;
+  if (currentTool === 'move') {
+    let hit = null;
+    for (const c of [...combatants].reverse()) {
+      const s = w2s(c.mapX,c.mapY);
+      if (Math.hypot(sx-s.x,sy-s.y) < CELL*mapZoom*0.42+5) { hit=c; break; }
+    }
+    if (hit) { dragging=hit; dragOff={x:sx-w2s(hit.mapX,hit.mapY).x,y:sy-w2s(hit.mapX,hit.mapY).y}; selectCombatant(hit.id); }
+    else if (bgImage && !bgImageLocked && isBgResizeHandle(sx, sy)) {
+      // resize handle drag – handled in mousemove
+      bgDragging = 'resize';
+      bgDragStart = {sx, sy, scale: bgImageScale};
+    } else if (bgImage && !bgImageLocked && isOverBgImage(sx, sy)) {
+      bgDragging = 'move';
+      bgDragStart = {sx, sy, ox: bgImageOffset.x, oy: bgImageOffset.y};
+    } else { panStart = {x:sx-mapOffset.x, y:sy-mapOffset.y}; }
+  } else if (currentTool === 'draw') {
+    const wp = s2w(sx, sy);
+    currentStroke = { color: drawColor, width: drawWidth / mapZoom, points: [{x:wp.x, y:wp.y}] };
+  } else if (currentTool === 'erase') {
+    eraseAt(sx, sy);
+  } else if (currentTool === 'ruler') {
+    const wp = s2w(sx, sy);
+    rulerLine = {x1:wp.x, y1:wp.y, x2:wp.x, y2:wp.y};
+    renderMap();
+  }
+});
+canvas.addEventListener('mousemove', e => {
+  const r = canvas.getBoundingClientRect(), sx = e.clientX-r.left, sy = e.clientY-r.top;
+  if (currentTool === 'move') {
+    if (dragging) {
+      const ww = s2w(sx-dragOff.x, sy-dragOff.y);
+      if (showGrid) { dragging.mapX=Math.round(ww.x); dragging.mapY=Math.round(ww.y); }
+      else { dragging.mapX=ww.x; dragging.mapY=ww.y; }
+      renderMap(); updatePW();
+    } else if (bgDragging === 'move') {
+      const dx = (sx - bgDragStart.sx) / (CELL * mapZoom);
+      const dy = (sy - bgDragStart.sy) / (CELL * mapZoom);
+      bgImageOffset.x = bgDragStart.ox + dx;
+      bgImageOffset.y = bgDragStart.oy + dy;
+      renderMap();
+    } else if (bgDragging === 'resize') {
+      const dx = sx - bgDragStart.sx;
+      const newScale = Math.max(0.05, bgDragStart.scale + dx / (canvas.width * 0.5));
+      bgImageScale = newScale;
+      document.getElementById('bgScale').value = Math.round(newScale * 100);
+      renderMap();
+    } else if (panStart) {
+      mapOffset.x=sx-panStart.x; mapOffset.y=sy-panStart.y; renderMap();
+    } else {
+      let over = false;
+      for (const c of combatants) { const s=w2s(c.mapX,c.mapY); if(Math.hypot(sx-s.x,sy-s.y)<CELL*mapZoom*0.42+5){over=true;break;} }
+      if (!over && bgImage && !bgImageLocked) {
+        if (isBgResizeHandle(sx, sy)) canvas.style.cursor = 'nwse-resize';
+        else if (isOverBgImage(sx, sy)) canvas.style.cursor = 'move';
+        else canvas.style.cursor = 'default';
+      } else {
+        canvas.style.cursor = over ? 'grab' : 'default';
+      }
+    }
+  } else if (currentTool === 'draw' && currentStroke) {
+    const wp = s2w(sx, sy);
+    currentStroke.points.push({x:wp.x, y:wp.y});
+    renderMap();
+  } else if (currentTool === 'erase' && e.buttons === 1) {
+    eraseAt(sx, sy);
+  } else if (currentTool === 'ruler' && rulerLine && e.buttons === 1) {
+    const wp = s2w(sx, sy);
+    rulerLine.x2 = wp.x; rulerLine.y2 = wp.y;
+    renderMap();
+  }
+});
+canvas.addEventListener('mouseup', () => {
+  if (currentTool === 'draw' && currentStroke) {
+    if (currentStroke.points.length > 1) drawStrokes.push(currentStroke);
+    currentStroke = null;
+    renderMap();
+  }
+  if (currentTool === 'ruler') {
+    rulerLine = null;
+    renderMap();
+  }
+  dragging=null; panStart=null; bgDragging = false;
+});
+canvas.addEventListener('mouseleave', () => {
+  if (currentTool === 'draw' && currentStroke) {
+    if (currentStroke.points.length > 1) drawStrokes.push(currentStroke);
+    currentStroke = null;
+    renderMap();
+  }
+  if (currentTool === 'ruler') {
+    rulerLine = null;
+    renderMap();
+  }
+  dragging=null; panStart=null;
+});
+canvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  const r = canvas.getBoundingClientRect(), sx = e.clientX-r.left, sy = e.clientY-r.top;
+  const f = e.deltaY<0?1.12:0.88, nz = Math.max(0.2,Math.min(5,mapZoom*f));
+  mapOffset.x=sx-(sx-mapOffset.x)*(nz/mapZoom); mapOffset.y=sy-(sy-mapOffset.y)*(nz/mapZoom);
+  mapZoom=nz; renderMap();
+}, {passive:false});
+
+function eraseAt(sx, sy) {
+  const eraseRadius = 18 / mapZoom; // world units
+  const wp = s2w(sx, sy);
+  const newStrokes = [];
+  for (const stroke of drawStrokes) {
+    // Split stroke at erased points
+    let segment = [];
+    for (const p of stroke.points) {
+      if (Math.hypot(p.x - wp.x, p.y - wp.y) < eraseRadius) {
+        if (segment.length > 1) newStrokes.push({...stroke, points: segment});
+        segment = [];
+      } else {
+        segment.push(p);
+      }
+    }
+    if (segment.length > 1) newStrokes.push({...stroke, points: segment});
+  }
+  drawStrokes = newStrokes;
+  renderMap();
+}
+
+function toggleGrid() {
+  showGrid = !showGrid;
+  document.getElementById('btnGrid').classList.toggle('active', showGrid);
+  renderMap();
+}
+
+function clearDrawing() {
+  if (!drawStrokes.length && !currentStroke) return;
+  if (!confirm('Alle Zeichnungen löschen?')) return;
+  drawStrokes = []; currentStroke = null; renderMap();
+}
+
+function setTool(t) {
+  currentTool=t;
+  document.querySelectorAll('.tbtn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tool'+t[0].toUpperCase()+t.slice(1))?.classList.add('active');
+  // Keep grid button state independent
+  document.getElementById('btnGrid').classList.toggle('active', showGrid);
+  if (t === 'draw') canvas.style.cursor = 'crosshair';
+  else if (t === 'erase') canvas.style.cursor = 'cell';
+  else if (t === 'ruler') canvas.style.cursor = 'crosshair';
+  else canvas.style.cursor = 'default';
+}
+function zoomMap(f) {
+  const cx=canvas.width/2,cy=canvas.height/2,nz=Math.max(0.2,Math.min(5,mapZoom*f));
+  mapOffset.x=cx-(cx-mapOffset.x)*(nz/mapZoom); mapOffset.y=cy-(cy-mapOffset.y)*(nz/mapZoom);
+  mapZoom=nz; renderMap();
+}
+function resetMapView() { mapZoom=1; mapOffset={x:70,y:70}; renderMap(); }
+
+// ════════════════════════════════════════════════════════
+// PLAYER WINDOW - FUZZY HP LOGIC
+// ════════════════════════════════════════════════════════
+
+// Tolerance (half-width of stripe zone) as fraction of hpMax
+function getTolerance(est, max) {
+  return Math.round({verygood:0, good:0.10, medium:0.20, bad:0.35, verybad:0.50}[est||'medium'] * max);
+}
+
+// Build the fuzzy bar parameters for a single enemy combatant.
+// The stripe zone is randomly shifted so it's NOT centered on real HP.
+// solidEnd..stripeEnd is the uncertain zone.
+// We return { solidPct, stripePct, labelText }
+function buildFuzzyBar(c) {
+  const tol = getTolerance(c.estimation, c.hpMax);
+  const hp = Math.max(0, c.hp);
+
+  if (tol === 0) {
+    // Very good: exact, show numbers
+    const pct = (hp / c.hpMax) * 100;
+    return { solidPct: pct, stripePct: 0, labelText: `${hp} / ${c.hpMax}` };
+  }
+
+  // Apply random fuzzy offset so stripe zone is not perfectly centered
+  const offset = c.fuzzyOffset || 0;
+  const zoneLo = Math.max(0, Math.min(c.hpMax, hp - tol + offset));
+  const zoneHi = Math.max(0, Math.min(c.hpMax, hp + tol + offset));
+
+  const solidPct = (zoneLo / c.hpMax) * 100;
+  const stripePct = ((zoneHi - zoneLo) / c.hpMax) * 100;
+
+  // Never show exact numbers for fuzzy bars
+  return { solidPct, stripePct, labelText: null };
+}
+
+// ════════════════════════════════════════════════════════
+// PLAYER WINDOW HTML
+// ════════════════════════════════════════════════════════
+function buildPlayerWindowCSS(light) {
+  if (light) {
+    return `
+:root{--bg:#f4f0e8;--s:#ffffff;--brd:#b0a080;--gold:#8b5e10;--gl:#6b4a08;--txt:#1a1208;--dim:#6a5a3a;--at:#b01818;--pa:#1060a0;}
+body{background:var(--bg);}
+h1{color:var(--gl);text-shadow:none;}
+.ri b{color:var(--gold);}
+th{color:var(--gold);}
+td{border-bottom-color:rgba(140,100,40,0.2);}
+tr.ar td{background:rgba(139,94,16,0.07);}
+tr.hr td:first-child{border-left-color:#1a6b3a;}
+tr.er td:first-child{border-left-color:#a01818;}
+.ic{color:var(--gold);}
+.aa{color:var(--gold);}
+.hpo{background:rgba(0,0,0,0.08);border-color:var(--brd);}
+.hpl{color:var(--dim);}
+.pip{background:var(--s);border-color:var(--brd);}
+.pip.at{border-color:#b01818;}
+.pip.pa{border-color:#1060a0;}
+.notes-box{background:#f0ece0;border-color:var(--brd);color:var(--txt);}`;
+  }
+  return `
+:root{--bg:#0d0b08;--s:#1a1510;--brd:#4a3820;--gold:#c9922a;--gl:#e8b84b;--txt:#d4c4a0;--dim:#8a7a60;--at:#c0392b;--pa:#2980b9;}`;
+}
+
+function openPlayerWindow() {
+  if (playerWindow && !playerWindow.closed) { playerWindow.focus(); updatePW(); return; }
+  playerWindow = window.open('', 'DSA_PW', 'width=1000,height=660,menubar=no,toolbar=no,resizable=yes');
+  const d = playerWindow.document;
+  d.open();
+  d.write(buildPlayerWindowHTML(isLightTheme));
+  d.close();
+  // Expose setTheme on that window
+  playerWindow.setTheme = function(light) {
+    try {
+      const styleEl = playerWindow.document.getElementById('themeStyle');
+      if (styleEl) styleEl.textContent = buildPlayerWindowCSS(light);
+    } catch(e) {}
+  };
+  setTimeout(() => updatePW(), 350);
+}
+
+function buildPlayerWindowHTML(light) {
+  return `<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>DSA – Kampf (Spieler)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+/* base (dark) */
+:root{--bg:#0d0b08;--s:#1a1510;--brd:#4a3820;--gold:#c9922a;--gl:#e8b84b;--txt:#d4c4a0;--dim:#8a7a60;--at:#c0392b;--pa:#2980b9;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--txt);font-family:'Crimson Text',serif;padding:24px 28px;min-height:100vh;transition:background 0.3s,color 0.3s;}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(139,105,20,0.08),transparent 70%);pointer-events:none;}
+h1{font-family:'Cinzel',serif;font-size:24px;color:var(--gl);text-align:center;letter-spacing:5px;margin-bottom:4px;text-shadow:0 0 18px rgba(201,146,42,0.35);}
+.ri{text-align:center;font-family:'Cinzel',serif;font-size:12px;color:var(--dim);letter-spacing:2px;margin-bottom:22px;}
+.ri b{color:var(--gold);font-size:22px;}
+table{width:100%;border-collapse:collapse;}
+th{font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--gold);border-bottom:1px solid var(--brd);padding:8px 12px;text-align:left;text-transform:uppercase;}
+td{padding:10px 12px;border-bottom:1px solid rgba(74,56,32,0.22);vertical-align:middle;font-size:14px;}
+tr.ar td{background:rgba(201,146,42,0.07);}
+tr.dr td{opacity:0.2;}
+tr.hr td:first-child{border-left:3px solid #5aba8a;}
+tr.er td:first-child{border-left:3px solid #ba5a5a;}
+.ic{font-family:'Cinzel',serif;font-size:20px;font-weight:700;color:var(--gold);}
+.nc{font-family:'Cinzel',serif;font-size:14px;}
+.aa{color:var(--gold);font-size:13px;animation:blink 1s infinite;margin-right:4px;}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.15}}
+/* HP bar */
+.hpw{display:flex;flex-direction:column;gap:3px;min-width:160px;max-width:240px;}
+.hpo{height:13px;background:rgba(0,0,0,0.4);border:1px solid var(--brd);position:relative;overflow:hidden;}
+.hps{position:absolute;top:0;left:0;height:100%;}
+.hpst{position:absolute;top:0;height:100%;background-image:repeating-linear-gradient(45deg,transparent,transparent 3px,rgba(255,255,255,0.2) 3px,rgba(255,255,255,0.2) 6px);}
+.hpl{font-size:10px;color:var(--dim);font-family:'Cinzel',serif;text-align:right;}
+/* pips */
+.pip{display:inline-block;width:13px;height:13px;border:1px solid var(--brd);background:var(--s);margin:0 1px;vertical-align:middle;position:relative;}
+.pip.at{border-color:var(--at);}
+.pip.pa{border-color:var(--pa);}
+.pip.u{opacity:0.2;}
+.pip.u::after{content:'×';position:absolute;left:50%;top:50%;transform:translate(-50%,-55%);font-size:9px;color:#777;}
+/* notes */
+.notes-box{font-size:13px;color:var(--txt);font-style:italic;background:rgba(0,0,0,0.2);border:1px solid var(--brd);padding:5px 8px;border-radius:0;max-width:260px;white-space:pre-wrap;word-break:break-word;}
+</style>
+<style id="themeStyle">${buildPlayerWindowCSS(light)}</style>
+</head><body>
+<h1>⚔ DSA KAMPF ⚔</h1>
+<div class="ri">RUNDE <b id="pw_r">1</b></div>
+<table>
+  <thead><tr>
+    <th>INI</th><th>Kämpfer</th><th>Lebenspunkte</th><th>Aktionen</th><th>Notizen</th>
+  </tr></thead>
+  <tbody id="pw_body"></tbody>
+</table>
+<!-- ═══ SERVER SAVES MODAL ═══ -->
+<div class="modal-overlay" id="serverModalOverlay" onclick="if(event.target===this)closeServerModal()">
+<div class="modal" style="width:460px"><div class="modal-hd">🖥 Server-Saves</div><div class="modal-body" id="serverModalBody" style="min-height:140px"></div><div class="modal-ft"><button class="btn" onclick="closeServerModal()">Schließen</button></div></div></div>
+</body></html>`;
+}
+
+// ════════════════════════════════════════════════════════
+// UPDATE PLAYER WINDOW
+// ════════════════════════════════════════════════════════
+function updatePW() {
+  if (!playerWindow || playerWindow.closed) return;
+  const d = playerWindow.document;
+  const rEl = d.getElementById('pw_r'), body = d.getElementById('pw_body');
+  if (!rEl || !body) return;
+  rEl.textContent = round;
+
+  const slots = getATSlots();
+  const curSlot = slots.find(s => s.key === currentSlotKey);
+
+  // Build one row per AT slot (so a combatant with 2 ATs gets 2 rows)
+  // AND one row for their PA block if they have any
+  // Sort: by iniVal descending, same as timeline
+  const allSlots = getATSlots(); // already sorted
+
+  // Collect PA combatants too
+  const paEntries = combatants
+    .filter(c => c.actions.some(a => a.type==='pa'))
+    .sort((a,b) => b.ini - a.ini);
+
+  // We want: AT slots in order, then PA section
+  // But to keep it clean: one row per AT slot, then a divider, then PA rows
+  let rows = '';
+
+  for (const s of allSlots) {
+    const c = s.c;
+    const isActive = s.key === currentSlotKey;
+    const isDead = c.hp <= 0;
+    const atIdx = c.actions.filter(a=>a.type==='at').indexOf(s.a)+1;
+
+    // HP bar
+    let hpHtml = '';
+    if (c.type === 'hero') {
+      const pct = Math.max(0, c.hp/c.hpMax*100);
+      const col = hpColor(Math.max(0,c.hp), c.hpMax);
+      hpHtml = `<div class="hpw"><div class="hpo"><div class="hps" style="width:${pct}%;background:${col};"></div></div><div class="hpl">${Math.max(0,c.hp)} / ${c.hpMax}</div></div>`;
+    } else {
+      const fb = buildFuzzyBar(c);
+      const col = hpColor(Math.max(0,c.hp), c.hpMax);
+      hpHtml = `<div class="hpw"><div class="hpo">
+        <div class="hps" style="left:0;width:${fb.solidPct}%;background:${col};"></div>
+        <div class="hpst" style="left:${fb.solidPct}%;width:${fb.stripePct}%;background-color:${col}AA;"></div>
+      </div><div class="hpl">${fb.labelText !== null ? fb.labelText : '?? / ??'}</div></div>`;
+    }
+
+    // Pips: only show ATs (this row is specifically one AT slot)
+    const atA = c.actions.filter(a=>a.type==='at');
+    const paA = c.actions.filter(a=>a.type==='pa');
+    let pips = '';
+    atA.forEach(a => pips += `<span class="pip at${a.used?' u':''}" title="AT"></span>`);
+    paA.forEach(a => pips += `<span class="pip pa${a.used?' u':''}" title="PA"></span>`);
+
+    const rc = [isActive?'ar':'', isDead?'dr':'', c.type==='hero'?'hr':'er'].filter(Boolean).join(' ');
+
+    // INI: show the specific iniVal of this action slot
+    rows += `<tr class="${rc}">
+      <td class="ic" style="color:${c.color};">${s.a.iniVal}</td>
+      <td class="nc">
+        ${isActive ? '<span class="aa">▶</span>' : ''}
+        <span>${c.name}</span>
+        <div style="font-size:10px;color:var(--dim);font-family:'Cinzel',serif;letter-spacing:1px;margin-top:1px;">AT ${atIdx}${s.a.used?' <span style="opacity:0.5;">✕</span>':''}</div>
+      </td>
+      <td>${hpHtml}</td>
+      <td>${pips}</td>
+      <td>${c.notes ? `<div class="notes-box">${escHtml(c.notes)}</div>` : ''}</td>
+    </tr>`;
+  }
+
+  // PA section rows (passive actions)
+  if (paEntries.length > 0) {
+    rows += `<tr><td colspan="5" style="padding:6px 12px;font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--dim);border-bottom:1px solid var(--brd);background:rgba(41,128,185,0.04);">PARADEN (passiv – jederzeit einsetzbar)</td></tr>`;
+    for (const c of paEntries) {
+      const isDead = c.hp <= 0;
+      const paA = c.actions.filter(a=>a.type==='pa');
+      const usedN = paA.filter(a=>a.used).length;
+      let pips = '';
+      paA.forEach(a => pips += `<span class="pip pa${a.used?' u':''}" title="PA"></span>`);
+      const rc = [isDead?'dr':'', c.type==='hero'?'hr':'er'].filter(Boolean).join(' ');
+      rows += `<tr class="${rc}" style="opacity:0.8;">
+        <td class="ic" style="font-size:12px;color:var(--pa);font-family:'Cinzel',serif;">PA</td>
+        <td class="nc">${c.name}</td>
+        <td></td>
+        <td>${pips}<div style="font-size:10px;color:${usedN?'#c0392b':'var(--dim)'};font-family:'Cinzel',serif;margin-top:2px;">${usedN?usedN+' verbraucht':'alle verfügbar'}</div></td>
+        <td></td>
+      </tr>`;
+    }
+  }
+
+  body.innerHTML = rows;
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');
+}
+
+// ════════════════════════════════════════════════════════
+// DEMO DATA
+// ════════════════════════════════════════════════════════
+window.addEventListener('load', () => {
+  addCombatantDirect({name:'Aldric Eisenherz', type:'hero', ini:14, hp:35, hpMax:35, atCount:1, paCount:1, at:14, pa:8, rs:3, color:'#5aba8a', notes:'', mapX:5, mapY:5});
+  addCombatantDirect({name:'Fiara von Donnerhall', type:'hero', ini:12, hp:28, hpMax:28, atCount:1, paCount:1, at:12, pa:7, rs:1, color:'#5a8aba', notes:'', mapX:5, mapY:7});
+  addCombatantDirect({name:'Ork-Krieger I', type:'enemy', ini:10, hp:40, hpMax:40, atCount:1, paCount:1, at:11, pa:5, rs:4, color:'#ba5a5a', estimation:'medium', notes:'Scheint verwundet zu sein.', mapX:10, mapY:5});
+  addCombatantDirect({name:'Ork-Häuptling', type:'enemy', ini:13, hp:60, hpMax:60, atCount:2, paCount:1, at:14, pa:7, rs:5, color:'#c87a3a', estimation:'bad', notes:'Wirkt furchteinflößend – sehr kräftig gebaut.', mapX:12, mapY:6});
+  renderAll();
+});
+
+// ════════════════════════════════════════════════════════
+// SERVER MODUS (Heimserver-Integration)
+// Funktioniert nur wenn server.js läuft – sonst versteckt.
+// ════════════════════════════════════════════════════════
+let serverMode = false;
+
+async function detectServer() {
+  try {
+    const r = await fetch('/api/saves', { signal: AbortSignal.timeout(1500) });
+    serverMode = r.ok;
+  } catch(e) { serverMode = false; }
+  document.getElementById('serverBtn').style.display = serverMode ? '' : 'none';
+}
+
+function openServerModal() {
+  document.getElementById('serverModalOverlay').classList.add('open');
+  loadServerSaveList();
+}
+function closeServerModal() {
+  document.getElementById('serverModalOverlay').classList.remove('open');
+}
+
+async function loadServerSaveList() {
+  const body = document.getElementById('serverModalBody');
+  body.innerHTML = '<div style="color:var(--text-dim);padding:10px">Lade...</div>';
+  try {
+    const r = await fetch('/api/saves');
+    const saves = await r.json();
+    const now = new Date();
+    const rows = saves.length ? saves.map(s => {
+      const d = new Date(s.modified);
+      const age = Math.floor((now - d) / 60000);
+      const ageStr = age < 60 ? `vor ${age} Min.` : age < 1440 ? `vor ${Math.floor(age/60)} Std.` : `vor ${Math.floor(age/1440)} Tagen`;
+      return `<div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border)">
+        <span style="flex:1;font-family:'Cinzel',serif;font-size:12px">${escHtml(s.name)}</span>
+        <span style="font-size:10px;color:var(--text-dim)">${ageStr}</span>
+        <button class="btn btn-sm btn-primary" onclick="serverLoad('${s.name}')">Laden</button>
+        <button class="btn btn-sm btn-danger" onclick="serverDelete('${s.name}')">✕</button>
+      </div>`;
+    }).join('') : '<div style="color:var(--text-dim);font-style:italic;padding:8px">Noch keine Saves auf dem Server.</div>';
+
+    body.innerHTML = `
+      <div style="margin-bottom:10px">
+        <label style="font-family:\'Cinzel\',serif;font-size:9px;letter-spacing:1.5px;color:var(--text-dim);text-transform:uppercase;display:block;margin-bottom:4px">Jetzt speichern unter:</label>
+        <div style="display:flex;gap:5px">
+          <input type="text" id="saveNameInput" placeholder="Kampf-Name (z.B. Gruft_R3)" style="flex:1;background:var(--input-bg);border:1px solid var(--border);color:var(--text);padding:5px 8px;font-family:\'Crimson Text\',serif;font-size:13px" value="Kampf_R${round}">
+          <button class="btn btn-primary" onclick="serverSave()">💾 Speichern</button>
+        </div>
+      </div>
+      <div style="font-family:\'Cinzel\',serif;font-size:9px;letter-spacing:1.5px;color:var(--text-dim);text-transform:uppercase;margin-bottom:6px;border-bottom:1px solid var(--border);padding-bottom:4px">Gespeicherte Kämpfe</div>
+      ${rows}`;
+  } catch(e) {
+    body.innerHTML = `<div style="color:var(--red);padding:10px">Server nicht erreichbar. Läuft server.js?</div>`;
+  }
+}
+
+async function serverSave() {
+  const name = (document.getElementById('saveNameInput').value.trim() || `Kampf_R${round}`).replace(/[^a-zA-Z0-9_\-äöüÄÖÜ]/g, '_');
+  const data = buildExportData();
+  try {
+    await fetch(`/api/saves/${encodeURIComponent(name)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    logAdd(`Kampf als "${name}" auf Server gespeichert.`, 'info');
+    loadServerSaveList();
+  } catch(e) { alert('Speichern fehlgeschlagen: ' + e.message); }
+}
+
+async function serverLoad(name) {
+  if (!confirm(`Kampf "${name}" laden? Aktueller Stand geht verloren.`)) return;
+  try {
+    const r = await fetch(`/api/saves/${encodeURIComponent(name)}`);
+    const data = await r.json();
+    loadCombatData(data);
+    closeServerModal();
+    logAdd(`Kampf "${name}" vom Server geladen.`, 'info');
+  } catch(e) { alert('Laden fehlgeschlagen: ' + e.message); }
+}
+
+async function serverDelete(name) {
+  if (!confirm(`"${name}" löschen?`)) return;
+  await fetch(`/api/saves/${encodeURIComponent(name)}`, { method: 'DELETE' });
+  loadServerSaveList();
+}
+
+function buildExportData() {
+  return {
+    version: 2, round, uid, currentSlotKey, selectedId,
+    mapOffset, mapZoom, showGrid, drawStrokes,
+    bgImageDataURL: bgImageDataURL || null,
+    bgImageScale, bgImageOffset: {...bgImageOffset}, bgImageLocked,
+    combatLog,
+    combatants: combatants.map(c => ({
+      ...c, actions: c.actions.map(a => ({...a}))
+    }))
+  };
+}
+
+function loadCombatData(data) {
+  if (!data.combatants || !Array.isArray(data.combatants)) return;
+  round = data.round || 1;
+  uid = data.uid || (Math.max(0, ...data.combatants.map(c => c.id || 0)) + 1);
+  currentSlotKey = data.currentSlotKey || null;
+  selectedId = data.selectedId || null;
+  if (data.mapOffset) mapOffset = data.mapOffset;
+  if (data.mapZoom) mapZoom = data.mapZoom;
+  if (typeof data.showGrid === 'boolean') {
+    showGrid = data.showGrid;
+    document.getElementById('btnGrid').classList.toggle('active', showGrid);
+  }
+  drawStrokes = Array.isArray(data.drawStrokes) ? data.drawStrokes : [];
+  currentStroke = null; rulerLine = null;
+  combatLog = Array.isArray(data.combatLog) ? data.combatLog : [];
+  bgImage = null; bgImageDataURL = null;
+  if (data.bgImageDataURL) {
+    bgImageDataURL = data.bgImageDataURL;
+    bgImageScale = data.bgImageScale || 1;
+    bgImageOffset = data.bgImageOffset || { x: 0, y: 0 };
+    bgImageLocked = data.bgImageLocked || false;
+    document.getElementById('bgScale').value = Math.round(bgImageScale * 100);
+    const img = new Image();
+    img.onload = () => { bgImage = img; renderMap(); };
+    img.src = bgImageDataURL;
+  }
+  combatants = data.combatants.map(d => {
+    const c = Object.assign(
+      addCombatantDirect({ ...d, hp: d.le, hpMax: d.leMax }, true),
+      { id: d.id, iniRoll: d.iniRoll || 0, wounds: d.wounds || 0, status: [...(d.status || [])], fuzzyOffset: d.fuzzyOffset || 0 }
+    );
+    if (d.actions && d.actions.length) c.actions = d.actions;
+    else c.actions = makeActions(c);
+    return c;
+  });
+  document.getElementById('rndDisp').textContent = round;
+  renderAll();
+}
+
+// Beim Laden Server erkennen
+window.addEventListener('load', () => { detectServer(); });
+// ════════════════════════════════════════════════════════
+function loadBgImage(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    bgImageDataURL = e.target.result;
+    const img = new Image();
+    img.onload = () => {
+      bgImage = img;
+      const targetW = canvas.width * 0.9;
+      bgImageScale = targetW / (img.naturalWidth * mapZoom);
+      bgImageOffset = { x: -mapOffset.x / (CELL * mapZoom), y: -mapOffset.y / (CELL * mapZoom) };
+      document.getElementById('bgScale').value = Math.round(bgImageScale * 100);
+      bgImageLocked = false;
+      document.getElementById('btnBgLock').textContent = '🔓 Fixieren';
+      document.getElementById('btnBgLock').style.color = '';
+      renderMap();
+    };
+    img.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+  event.target.value = '';
+}
+
+function setBgScale(val) {
+  const v = parseFloat(val);
+  if (!isNaN(v) && v > 0) { bgImageScale = v / 100; renderMap(); }
+}
+
+function toggleBgLock() {
+  if (!bgImage) return;
+  bgImageLocked = !bgImageLocked;
+  const btn = document.getElementById('btnBgLock');
+  btn.textContent = bgImageLocked ? '🔒 Lösen' : '🔓 Fixieren';
+  btn.style.color = bgImageLocked ? 'var(--gold)' : '';
+  renderMap();
+}
+
+function removeBgImage() {
+  bgImage = null; bgImageDataURL = null; bgImageLocked = false;
+  document.getElementById('btnBgLock').textContent = '🔓 Fixieren';
+  document.getElementById('btnBgLock').style.color = '';
+  document.getElementById('bgScale').value = '100';
+  renderMap();
+}
+
+function isBgResizeHandle(sx, sy) {
+  if (!bgImage) return false;
+  const imgW = bgImage.naturalWidth * bgImageScale * mapZoom;
+  const imgH = bgImage.naturalHeight * bgImageScale * mapZoom;
+  const bx = mapOffset.x + bgImageOffset.x * CELL * mapZoom;
+  const by = mapOffset.y + bgImageOffset.y * CELL * mapZoom;
+  return sx >= bx+imgW-12 && sx <= bx+imgW+4 && sy >= by+imgH-12 && sy <= by+imgH+4;
+}
+
+function isOverBgImage(sx, sy) {
+  if (!bgImage) return false;
+  const imgW = bgImage.naturalWidth * bgImageScale * mapZoom;
+  const imgH = bgImage.naturalHeight * bgImageScale * mapZoom;
+  const bx = mapOffset.x + bgImageOffset.x * CELL * mapZoom;
+  const by = mapOffset.y + bgImageOffset.y * CELL * mapZoom;
+  return sx >= bx && sx <= bx+imgW && sy >= by && sy <= by+imgH;
+}
+</script>
+<!-- ═══ SERVER SAVES MODAL ═══ -->
+<div class="modal-overlay" id="serverModalOverlay" onclick="if(event.target===this)closeServerModal()">
+<div class="modal" style="width:460px"><div class="modal-hd">🖥 Server-Saves</div><div class="modal-body" id="serverModalBody" style="min-height:140px"></div><div class="modal-ft"><button class="btn" onclick="closeServerModal()">Schließen</button></div></div></div>
+</body>
+</html>

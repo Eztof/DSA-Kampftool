@@ -1,0 +1,9 @@
+{
+  "name": "dsa-sl-tool",
+  "version": "1.0.0",
+  "description": "DSA 4.1 Spielleiter-Tool - Heimserver (keine npm-Pakete noetig)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
