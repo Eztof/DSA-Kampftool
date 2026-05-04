@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heldenverwaltung – DSA 4.1</title>
+<style>
+:root {
+  --bg:       #1a1a1f;
+  --bg2:      #22222a;
+  --bg3:      #2a2a35;
+  --border:   #383848;
+  --accent:   #c8a96e;
+  --accent2:  #7eb8c9;
+  --danger:   #c96e6e;
+  --success:  #6ec98a;
+  --text:     #e8e4d8;
+  --text2:    #9a9485;
+  --text3:    #6a6460;
+  --shadow:   0 4px 24px rgba(0,0,0,.5);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Palatino Linotype', Palatino, Georgia, serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+/* ── Navigation ── */
+.topbar { background: var(--bg2); border-bottom: 1px solid var(--border); padding: .6rem 1.2rem; display: flex; align-items: center; gap: 1rem; }
+.topbar a { color: var(--text2); text-decoration: none; font-size: .85rem; font-family: monospace; }
+.topbar a:hover { color: var(--accent); }
+.topbar .sep { color: var(--border); }
+.topbar .current { color: var(--accent); }
+
+/* ── Layout ── */
+.layout { display: grid; grid-template-columns: 260px 1fr; min-height: calc(100vh - 42px); }
+
+/* ── Heldenliste (links) ── */
+.sidebar { background: var(--bg2); border-right: 1px solid var(--border); display: flex; flex-direction: column; }
+.sidebar-header { padding: 1rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+.sidebar-header h2 { font-size: 1rem; color: var(--accent); letter-spacing: .05em; font-weight: normal; }
+.btn { background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: .35rem .75rem; font-size: .8rem; cursor: pointer; border-radius: 3px; font-family: inherit; transition: all .15s; }
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.btn.primary { background: var(--accent); color: #1a1208; border-color: var(--accent); font-weight: bold; }
+.btn.primary:hover { background: #d4bc82; }
+.btn.danger { border-color: var(--danger); color: var(--danger); }
+.btn.danger:hover { background: var(--danger); color: #fff; }
+.btn.small { padding: .2rem .5rem; font-size: .75rem; }
+
+.held-liste { flex: 1; overflow-y: auto; }
+.held-item { padding: .75rem 1rem; border-bottom: 1px solid var(--border); cursor: pointer; transition: background .1s; display: flex; align-items: center; justify-content: space-between; }
+.held-item:hover { background: var(--bg3); }
+.held-item.aktiv { background: var(--bg3); border-left: 3px solid var(--accent); }
+.held-item .held-name { font-size: .95rem; color: var(--text); }
+.held-item .held-info { font-size: .75rem; color: var(--text3); margin-top: .2rem; }
+.held-item .held-actions { opacity: 0; transition: opacity .15s; display: flex; gap: .3rem; }
+.held-item:hover .held-actions { opacity: 1; }
+
+/* ── Hauptbereich (rechts) ── */
+.main { overflow-y: auto; }
+.empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: var(--text3); gap: 1rem; }
+.empty-state .icon { font-size: 3rem; opacity: .3; }
+
+/* ── Heldenbogen ── */
+.heldenbogen { padding: 1.5rem; max-width: 900px; }
+.held-kopf { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+.held-avatar { width: 80px; height: 80px; background: var(--bg3); border: 1px solid var(--border); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--text3); font-size: 2rem; flex-shrink: 0; }
+.held-titel { flex: 1; }
+.held-titel h1 { font-size: 1.6rem; font-weight: normal; color: var(--text); }
+.held-titel .held-meta { display: flex; gap: 1rem; margin-top: .4rem; flex-wrap: wrap; }
+.held-titel .meta-item { font-size: .8rem; color: var(--text2); }
+.held-titel .meta-item span { color: var(--accent); }
+.held-ap { background: var(--bg3); border: 1px solid var(--border); padding: .5rem .8rem; border-radius: 3px; text-align: center; flex-shrink: 0; }
+.held-ap .ap-wert { font-size: 1.4rem; color: var(--accent); }
+.held-ap .ap-label { font-size: .7rem; color: var(--text3); }
+
+/* ── Tabs ── */
+.tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin-bottom: 1.5rem; }
+.tab { padding: .5rem 1.2rem; cursor: pointer; font-size: .85rem; color: var(--text2); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all .15s; white-space: nowrap; }
+.tab:hover { color: var(--text); }
+.tab.aktiv { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ── Tab-Inhalte ── */
+.tab-content { display: none; }
+.tab-content.aktiv { display: block; }
+
+/* ── Eigenschaften ── */
+.eigenschaften-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 1.5rem; }
+.eigenschaft-box { background: var(--bg2); border: 1px solid var(--border); padding: .75rem; text-align: center; border-radius: 3px; }
+.eigenschaft-box .e-kuerzel { font-size: .7rem; color: var(--text3); letter-spacing: .1em; margin-bottom: .3rem; }
+.eigenschaft-box .e-wert { font-size: 1.6rem; color: var(--accent); line-height: 1; cursor: pointer; }
+.eigenschaft-box .e-wert:focus { outline: none; border-bottom: 1px solid var(--accent); }
+
+/* ── Energieleisten ── */
+.energien-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; margin-bottom: 1.5rem; }
+.energie-box { background: var(--bg2); border: 1px solid var(--border); padding: .75rem; border-radius: 3px; }
+.energie-box .e-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: .5rem; }
+.energie-box .e-name { font-size: .8rem; color: var(--text2); }
+.energie-box .e-zahlen { display: flex; gap: .5rem; align-items: center; }
+.energie-box .e-aktuell { font-size: 1.4rem; color: var(--accent); cursor: pointer; min-width: 2ch; text-align: center; }
+.energie-box .e-max { font-size: .9rem; color: var(--text3); }
+.energie-bar { height: 4px; background: var(--bg3); border-radius: 2px; overflow: hidden; }
+.energie-bar-fill { height: 100%; border-radius: 2px; transition: width .3s; }
+.bar-le { background: #c96e6e; }
+.bar-au { background: #6e9cc9; }
+.bar-ae { background: #9c6ec9; }
+.bar-ke { background: #6ec98a; }
+
+/* ── Wunden ── */
+.wunden-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: .5rem; margin-bottom: 1.5rem; }
+.wunden-box { background: var(--bg2); border: 1px solid var(--border); padding: .5rem; text-align: center; border-radius: 3px; }
+.wunden-box .w-zone { font-size: .65rem; color: var(--text3); margin-bottom: .3rem; }
+.wunden-box .w-wert { font-size: 1.2rem; color: var(--text); cursor: pointer; }
+.wunden-box.verletzt { border-color: var(--danger); }
+.wunden-box.verletzt .w-wert { color: var(--danger); }
+
+/* ── Tabellen (Talente, Zauber etc.) ── */
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: .75rem; }
+.section-title { font-size: .9rem; color: var(--accent2); letter-spacing: .05em; text-transform: uppercase; font-family: monospace; }
+.search-box { background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: .3rem .7rem; font-size: .8rem; border-radius: 3px; font-family: inherit; width: 200px; }
+.search-box:focus { outline: none; border-color: var(--accent2); }
+
+.data-table { width: 100%; border-collapse: collapse; font-size: .85rem; margin-bottom: 1.5rem; }
+.data-table th { text-align: left; padding: .4rem .6rem; font-size: .7rem; color: var(--text3); font-weight: normal; letter-spacing: .05em; text-transform: uppercase; border-bottom: 1px solid var(--border); font-family: monospace; }
+.data-table td { padding: .4rem .6rem; border-bottom: 1px solid rgba(255,255,255,.04); vertical-align: middle; }
+.data-table tr:hover td { background: rgba(255,255,255,.02); }
+.data-table .num { text-align: right; font-family: monospace; color: var(--accent); }
+.data-table .actions { text-align: right; opacity: 0; transition: opacity .1s; }
+.data-table tr:hover .actions { opacity: 1; }
+
+/* ── Probe-Dialog ── */
+.probe-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.7); z-index: 1000; align-items: center; justify-content: center; }
+.probe-overlay.aktiv { display: flex; }
+.probe-dialog { background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; width: 380px; box-shadow: var(--shadow); }
+.probe-dialog h3 { color: var(--accent); font-size: 1.1rem; font-weight: normal; margin-bottom: 1rem; }
+.probe-wuerfel { display: flex; gap: .5rem; justify-content: center; margin: 1rem 0; }
+.wuerfel-anzeige { width: 60px; height: 60px; background: var(--bg3); border: 2px solid var(--border); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; color: var(--text); font-family: monospace; transition: all .2s; }
+.wuerfel-anzeige.erfolg { border-color: var(--success); color: var(--success); }
+.wuerfel-anzeige.misserfolg { border-color: var(--danger); color: var(--danger); }
+.probe-ergebnis { text-align: center; padding: .75rem; background: var(--bg3); border-radius: 3px; margin: .75rem 0; font-size: .9rem; }
+.probe-mods { display: flex; gap: .5rem; align-items: center; margin-bottom: .75rem; font-size: .85rem; }
+.probe-mods input { background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: .3rem .5rem; width: 60px; text-align: center; border-radius: 3px; font-family: monospace; }
+.probe-buttons { display: flex; gap: .5rem; justify-content: flex-end; margin-top: 1rem; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── Inline-Edit ── */
+[contenteditable] { cursor: text; padding: 1px 3px; border-radius: 2px; transition: background .1s; }
+[contenteditable]:hover { background: rgba(200,169,110,.1); }
+[contenteditable]:focus { outline: none; background: rgba(200,169,110,.15); }
+
+.unsaved-dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; display: inline-block; margin-left: .4rem; opacity: 0; transition: opacity .2s; }
+.unsaved-dot.aktiv { opacity: 1; }
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="topbar">
+  <a href="index.html">⌂ Hauptmenü</a>
+  <span class="sep">›</span>
+  <span class="current">Helden</span>
+  <div style="flex:1"></div>
+  <span id="save-status" style="font-size:.8rem; color:var(--text3)"></span>
+  <button class="btn small" onclick="speichereAktuellenHeld()">Speichern</button>
+</div>
+
+<!-- Layout -->
+<div class="layout">
+
+  <!-- Heldenliste -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h2>Helden</h2>
+      <button class="btn primary small" onclick="neuerHeld()">+ Neu</button>
+    </div>
+    <div class="held-liste" id="held-liste"></div>
+  </div>
+
+  <!-- Hauptbereich -->
+  <div class="main" id="main-bereich">
+    <div class="empty-state">
+      <div class="icon">⚔</div>
+      <div>Held auswählen oder neu erstellen</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Probe-Dialog -->
+<div class="probe-overlay" id="probe-overlay" onclick="if(event.target===this)schliesseProbe()">
+  <div class="probe-dialog">
+    <h3 id="probe-titel">Probe</h3>
+    <div style="font-size:.8rem; color:var(--text2); margin-bottom:.5rem">
+      Eigenschaften: <span id="probe-eigenschaften" style="color:var(--accent2)"></span>
+      | TaW: <span id="probe-taw" style="color:var(--accent)"></span>
+    </div>
+    <div class="probe-mods">
+      <span>Modifikator:</span>
+      <input type="number" id="probe-mod" value="0" min="-30" max="30">
+      <button class="btn small" onclick="würfleProbe()">Würfeln!</button>
+    </div>
+    <div class="probe-wuerfel">
+      <div class="wuerfel-anzeige" id="w1">–</div>
+      <div class="wuerfel-anzeige" id="w2">–</div>
+      <div class="wuerfel-anzeige" id="w3">–</div>
+    </div>
+    <div class="probe-ergebnis" id="probe-ergebnis">–</div>
+    <div class="probe-buttons">
+      <button class="btn" onclick="würfleProbe()">Nochmal</button>
+      <button class="btn primary" onclick="schliesseProbe()">Schließen</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════
+
+let helden = [];       // Liste aller Helden (Name + GUID)
+let aktHeld = null;    // Aktuell geladener Held (vollständig)
+let aktTab  = 'eigenschaften';
+let ungespeichert = false;
+let probeAktuell = null;
+
+// ═══════════════════════════════════════════════════════
+// API
+// ═══════════════════════════════════════════════════════
+
+async function api(method, path, body) {
+    const opts = { method, headers: { 'Content-Type': 'application/json' } };
+    if (body) opts.body = JSON.stringify(body);
+    const r = await fetch('/api' + path, opts);
+    if (!r.ok) throw new Error(await r.text());
+    return r.json();
+}
+
+// ═══════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════
+
+async function init() {
+    helden = await api('GET', '/helden') || [];
+    renderHeldListe();
+}
+
+// ═══════════════════════════════════════════════════════
+// HELDENLISTE
+// ═══════════════════════════════════════════════════════
+
+function renderHeldListe() {
+    const el = document.getElementById('held-liste');
+    if (!helden.length) {
+        el.innerHTML = '<div style="padding:1rem; color:var(--text3); font-size:.85rem">Noch keine Helden vorhanden.</div>';
+        return;
+    }
+    el.innerHTML = helden.map(h => `
+        <div class="held-item ${aktHeld?.HeldGUID === h.guid ? 'aktiv' : ''}" onclick="ladeHeld('${h.guid}')">
+            <div>
+                <div class="held-name">${h.name || 'Unbenannt'}</div>
+                <div class="held-info">${h.spieler ? '↳ ' + h.spieler : ''}</div>
+            </div>
+            <div class="held-actions">
+                <button class="btn small danger" onclick="event.stopPropagation(); löscheHeld('${h.guid}')">✕</button>
+            </div>
+        </div>
+    `).join('');
+}
+
+// ═══════════════════════════════════════════════════════
+// HELD LADEN / NEU / LÖSCHEN
+// ═══════════════════════════════════════════════════════
+
+async function ladeHeld(guid) {
+    aktHeld = await api('GET', `/helden/${guid}`);
+    renderHeldListe();
+    renderHeldenbogen();
+}
+
+function neuerHeld() {
+    const guid = crypto.randomUUID();
+    aktHeld = {
+        HeldGUID: guid, Name: 'Neuer Held', Spieler: '', Rasse: '', Kultur: '', Profession: '',
+        Regelsystem: 'DSA4.1', Notizen: '',
+        Eigenschaften: { MU:12, KL:12, IN:12, CH:12, FF:12, GE:12, KO:12, KK:12 },
+        Energien: { LE_Basis:0, LE_Mod:0, LE_Aktuell:0, AU_Basis:0, AU_Mod:0, AU_Aktuell:0,
+                    AE_Basis:0, AE_Mod:0, AE_Aktuell:0, KE_Basis:0, KE_Mod:0, KE_Aktuell:0,
+                    MR_Mod:0, BE:0, INI_Mod:0, SO:0 },
+        Wunden: { Gesamt:0, Kopf:0, Brust:0, ArmL:0, ArmR:0, Bauch:0, BeinL:0, BeinR:0 },
+        RS_Zonen: { Kopf:0, Brust:0, Rücken:0, ArmL:0, ArmR:0, Bauch:0, BeinL:0, BeinR:0 },
+        APGesamt:0, APEingesetzt:0, Vermögen:0,
+        Talente: [], Zauber: [], Sonderfertigkeiten: [], VorNachteile: [], Waffen: [], Ausrüstung: []
+    };
+    helden.unshift({ guid, name: aktHeld.Name, spieler: '' });
+    renderHeldListe();
+    renderHeldenbogen();
+    markiereUngespeichert();
+}
+
+async function löscheHeld(guid) {
+    if (!confirm('Held wirklich löschen?')) return;
+    await api('DELETE', `/helden/${guid}`);
+    helden = helden.filter(h => h.guid !== guid);
+    if (aktHeld?.HeldGUID === guid) {
+        aktHeld = null;
+        document.getElementById('main-bereich').innerHTML =
+            '<div class="empty-state"><div class="icon">⚔</div><div>Held gelöscht</div></div>';
+    }
+    renderHeldListe();
+}
+
+async function speichereAktuellenHeld() {
+    if (!aktHeld) return;
+    // Aktuelle Werte aus DOM lesen
+    aktHeld.Name     = document.getElementById('held-name-edit')?.innerText || aktHeld.Name;
+    aktHeld.Spieler  = document.getElementById('held-spieler-edit')?.innerText || aktHeld.Spieler;
+    aktHeld.Rasse    = document.getElementById('held-rasse-edit')?.innerText || aktHeld.Rasse;
+    aktHeld.Kultur   = document.getElementById('held-kultur-edit')?.innerText || aktHeld.Kultur;
+    aktHeld.Profession = document.getElementById('held-prof-edit')?.innerText || aktHeld.Profession;
+
+    await api('POST', `/helden/${aktHeld.HeldGUID}`, aktHeld);
+    ungespeichert = false;
+    document.querySelector('.unsaved-dot')?.classList.remove('aktiv');
+    document.getElementById('save-status').textContent = '✓ Gespeichert ' + new Date().toLocaleTimeString();
+    // Heldenliste aktualisieren
+    const idx = helden.findIndex(h => h.guid === aktHeld.HeldGUID);
+    if (idx >= 0) { helden[idx].name = aktHeld.Name; helden[idx].spieler = aktHeld.Spieler; }
+    renderHeldListe();
+}
+
+// ═══════════════════════════════════════════════════════
+// HELDENBOGEN RENDERN
+// ═══════════════════════════════════════════════════════
+
+function renderHeldenbogen() {
+    const h = aktHeld;
+    if (!h) return;
+    const E = h.Eigenschaften || {};
+    const En = h.Energien || {};
+    const W = h.Wunden || {};
+
+    // Berechnete Werte
+    const le_basis = 2 * (E.KO || 0) + (E.KK || 0);
+    const le_max   = le_basis + (En.LE_Mod || 0);
+    const au_basis = (E.MU || 0) + (E.GE || 0) + (E.KO || 0);
+    const au_max   = au_basis + (En.AU_Mod || 0);
+    const ae_max   = En.AE_Basis + (En.AE_Mod || 0);
+    const ke_max   = En.KE_Basis + (En.KE_Mod || 0);
+    const ini      = ((E.MU||0) + (E.GE||0)) / 2 + (En.INI_Mod || 0);
+    const mr       = ((E.MU||0) + (E.KL||0) + (E.KO||0)) / 5 + (En.MR_Mod || 0);
+
+    const le_a = En.LE_Aktuell ?? le_max;
+    const au_a = En.AU_Aktuell ?? au_max;
+    const ae_a = En.AE_Aktuell ?? ae_max;
+
+    document.getElementById('main-bereich').innerHTML = `
+    <div class="heldenbogen">
+        <!-- Kopf -->
+        <div class="held-kopf">
+            <div class="held-avatar">⚔</div>
+            <div class="held-titel">
+                <h1>
+                    <span id="held-name-edit" contenteditable="true" oninput="markiereUngespeichert()">${h.Name||'Unbenannt'}</span>
+                    <span class="unsaved-dot ${ungespeichert?'aktiv':''}"></span>
+                </h1>
+                <div class="held-meta">
+                    <div class="meta-item">Spieler: <span><span id="held-spieler-edit" contenteditable="true" oninput="markiereUngespeichert()">${h.Spieler||'–'}</span></span></div>
+                    <div class="meta-item">Rasse: <span><span id="held-rasse-edit" contenteditable="true" oninput="markiereUngespeichert()">${h.Rasse||'–'}</span></span></div>
+                    <div class="meta-item">Kultur: <span><span id="held-kultur-edit" contenteditable="true" oninput="markiereUngespeichert()">${h.Kultur||'–'}</span></span></div>
+                    <div class="meta-item">Profession: <span><span id="held-prof-edit" contenteditable="true" oninput="markiereUngespeichert()">${h.Profession||'–'}</span></span></div>
+                    <div class="meta-item">INI: <span>${ini.toFixed(1)} + 1W6</span></div>
+                    <div class="meta-item">MR: <span>${Math.floor(mr)}</span></div>
+                </div>
+            </div>
+            <div class="held-ap">
+                <div class="ap-wert">${(h.APGesamt||0) - (h.APEingesetzt||0)}</div>
+                <div class="ap-label">AP frei</div>
+                <div class="ap-label" style="color:var(--text3)">${h.APGesamt||0} gesamt</div>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            ${['eigenschaften','talente','kampf','zauber','ausrüstung'].map(t =>
+                `<div class="tab ${aktTab===t?'aktiv':''}" onclick="wechsleTab('${t}')">${t.charAt(0).toUpperCase()+t.slice(1)}</div>`
+            ).join('')}
+        </div>
+
+        <!-- Tab: Eigenschaften -->
+        <div class="tab-content ${aktTab==='eigenschaften'?'aktiv':''}" id="tab-eigenschaften">
+            <div class="eigenschaften-grid">
+                ${['MU','KL','IN','CH','FF','GE','KO','KK'].map(e => `
+                    <div class="eigenschaft-box">
+                        <div class="e-kuerzel">${e}</div>
+                        <div class="e-wert" contenteditable="true"
+                            id="e-${e}"
+                            onblur="setzeEigenschaft('${e}', this.innerText)"
+                        >${E[e]||12}</div>
+                    </div>
+                `).join('')}
+            </div>
+
+            <div class="energien-grid">
+                ${[
+                    {k:'LE', name:'Lebensenergie', basis:le_max, aktuell:le_a, cls:'le'},
+                    {k:'AU', name:'Ausdauer',       basis:au_max, aktuell:au_a, cls:'au'},
+                    {k:'AE', name:'Astralenergie',  basis:ae_max, aktuell:ae_a, cls:'ae'},
+                    {k:'KE', name:'Karmaenergie',   basis:ke_max, aktuell:En.KE_Aktuell??ke_max, cls:'ke'},
+                ].map(en => `
+                    <div class="energie-box">
+                        <div class="e-header">
+                            <div class="e-name">${en.name}</div>
+                            <div class="e-zahlen">
+                                <div class="e-aktuell" contenteditable="true"
+                                    onblur="setzeEnergie('${en.k}_Aktuell', this.innerText)"
+                                >${en.aktuell}</div>
+                                <div class="e-max">/ ${en.basis}</div>
+                                <button class="btn small" onclick="änderEnergie('${en.k}_Aktuell', -1)">−</button>
+                                <button class="btn small" onclick="änderEnergie('${en.k}_Aktuell', +1)">+</button>
+                            </div>
+                        </div>
+                        <div class="energie-bar">
+                            <div class="energie-bar-fill bar-${en.cls}" style="width:${en.basis>0?Math.max(0,Math.min(100,(en.aktuell/en.basis)*100)):0}%"></div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+
+            <!-- Wunden -->
+            <div class="section-header" style="margin-bottom:.5rem">
+                <span class="section-title">Wunden</span>
+            </div>
+            <div class="wunden-grid">
+                ${[['Kopf','Kopf'],['Brust','Brust'],['ArmL','Arm L'],['ArmR','Arm R'],['Bauch','Bauch'],['BeinL','Bein L'],['BeinR','Bein R']].map(([k,label])=>`
+                    <div class="wunden-box ${(W[k]||0)>0?'verletzt':''}">
+                        <div class="w-zone">${label}</div>
+                        <div class="w-wert" contenteditable="true" onblur="setzeWunde('${k}', this.innerText)">${W[k]||0}</div>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+
+        <!-- Tab: Talente -->
+        <div class="tab-content ${aktTab==='talente'?'aktiv':''}" id="tab-talente">
+            <div class="section-header">
+                <span class="section-title">Talente (${(h.Talente||[]).length})</span>
+                <div style="display:flex;gap:.5rem">
+                    <input class="search-box" placeholder="Talent suchen..." oninput="sucheTalent(this.value)">
+                    <button class="btn small" onclick="talentHinzufügen()">+ Talent</button>
+                </div>
+            </div>
+            <table class="data-table" id="talente-tabelle">
+                <thead><tr>
+                    <th>Name</th><th>Probe</th><th class="num">TaW</th><th>Typ</th><th></th>
+                </tr></thead>
+                <tbody>
+                    ${(h.Talente||[]).map((t,i)=>`
+                        <tr>
+                            <td style="cursor:pointer" onclick="öffneProbe(${i})">${t.Talentname||t.name||'?'}</td>
+                            <td style="font-family:monospace;font-size:.75rem;color:var(--text2)">${t.Eigenschaft1||'?'}/${t.Eigenschaft2||'?'}/${t.Eigenschaft3||'?'}</td>
+                            <td class="num">
+                                <span contenteditable="true" onblur="setzeTaW(${i},this.innerText)" style="min-width:2ch;display:inline-block">${t.TaW??t.taw??0}</span>
+                            </td>
+                            <td style="font-size:.75rem;color:var(--text3)">${t.Talenttyp||''}</td>
+                            <td class="actions">
+                                <button class="btn small danger" onclick="entferneTalent(${i})">✕</button>
+                            </td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tab: Kampf -->
+        <div class="tab-content ${aktTab==='kampf'?'aktiv':''}" id="tab-kampf">
+            <div class="section-header">
+                <span class="section-title">Waffen & Kampfwerte</span>
+                <button class="btn small" onclick="waffeHinzufügen()">+ Waffe</button>
+            </div>
+            <table class="data-table">
+                <thead><tr>
+                    <th>Waffe</th><th>Talent</th><th class="num">AT</th><th class="num">PA</th>
+                    <th>TP</th><th>DK</th><th>WM</th><th></th>
+                </tr></thead>
+                <tbody>
+                    ${(h.Waffen||[]).map((w,i) => {
+                        const talentEintrag = (h.Talente||[]).find(t=>t.Talentname===w.Kampftalent||t.name===w.Kampftalent);
+                        const taW = talentEintrag?.TaW ?? 0;
+                        const at_basis = Math.round((E.MU||12)/2) + Math.round((E.GE||12)/4) + taW;
+                        const pa_basis = Math.round((E.IN||12)/2) + Math.round((E.GE||12)/4) + Math.round(taW/2);
+                        const at = at_basis + (w.AT_Mod||0) + (w.WMAT||0);
+                        const pa = pa_basis + (w.PA_Mod||0) + (w.WMPA||0);
+                        const tp = `${w.TPWürfelAnzahl||1}W${w.TPWürfel||6}${w.TPBonus?((w.TPBonus>0?'+':'')+w.TPBonus):''}`;
+                        return `<tr>
+                            <td>${w.Name||'?'}</td>
+                            <td style="font-size:.8rem;color:var(--text2)">${w.Kampftalent||'–'}</td>
+                            <td class="num">${at}</td>
+                            <td class="num">${pa}</td>
+                            <td style="font-family:monospace">${tp}</td>
+                            <td>${w.DK||'H'}</td>
+                            <td style="font-family:monospace;font-size:.8rem">${w.WMAT||0}/${w.WMPA||0}</td>
+                            <td class="actions"><button class="btn small danger" onclick="entferneWaffe(${i})">✕</button></td>
+                        </tr>`;
+                    }).join('')}
+                </tbody>
+            </table>
+            <div style="font-size:.75rem;color:var(--text3);margin-top:.5rem">
+                AT-Basis: MU/2 + GE/4 + TaW | PA-Basis: IN/2 + GE/4 + TaW/2 (DSA 4.1)
+            </div>
+        </div>
+
+        <!-- Tab: Zauber -->
+        <div class="tab-content ${aktTab==='zauber'?'aktiv':''}" id="tab-zauber">
+            <div class="section-header">
+                <span class="section-title">Zauber (${(h.Zauber||[]).length})</span>
+                <div style="display:flex;gap:.5rem">
+                    <input class="search-box" placeholder="Zauber suchen...">
+                    <button class="btn small" onclick="zauberHinzufügen()">+ Zauber</button>
+                </div>
+            </div>
+            <table class="data-table">
+                <thead><tr><th>Name</th><th>Probe</th><th class="num">ZfW</th><th>Repr.</th><th>Kosten</th><th></th></tr></thead>
+                <tbody>
+                    ${(h.Zauber||[]).map((z,i)=>`<tr>
+                        <td style="cursor:pointer" onclick="öffneZauberProbe(${i})">${z.Name||z.name||'?'}</td>
+                        <td style="font-family:monospace;font-size:.75rem;color:var(--text2)">${z.Eigenschaft1||'?'}/${z.Eigenschaft2||'?'}/${z.Eigenschaft3||'?'}</td>
+                        <td class="num"><span contenteditable="true" onblur="setzeZfW(${i},this.innerText)">${z.ZfW??0}</span></td>
+                        <td style="font-size:.8rem;color:var(--text2)">${z.Repräsentation||'–'}</td>
+                        <td style="font-size:.8rem;color:var(--text2)">${z.Kosten||'–'}</td>
+                        <td class="actions"><button class="btn small danger" onclick="entferneZauber(${i})">✕</button></td>
+                    </tr>`).join('')}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tab: Ausrüstung -->
+        <div class="tab-content ${aktTab==='ausrüstung'?'aktiv':''}" id="tab-ausrüstung">
+            <div class="section-header">
+                <span class="section-title">Ausrüstung</span>
+                <div style="display:flex;gap:.5rem;align-items:center">
+                    <span style="font-size:.8rem;color:var(--text2)">Silber: </span>
+                    <span contenteditable="true" style="color:var(--accent)"
+                        onblur="aktHeld.Vermögen=parseFloat(this.innerText)||0;markiereUngespeichert()"
+                    >${h.Vermögen||0}</span>
+                    <button class="btn small" onclick="ausrüstungHinzufügen()">+ Item</button>
+                </div>
+            </div>
+            <table class="data-table">
+                <thead><tr><th>Name</th><th class="num">Anz.</th><th class="num">Gewicht</th><th class="num">Preis</th><th>Trageort</th><th></th></tr></thead>
+                <tbody>
+                    ${(h.Ausrüstung||[]).map((a,i)=>`<tr>
+                        <td>${a.Name||'?'}</td>
+                        <td class="num">${a.Anzahl||1}</td>
+                        <td class="num" style="font-size:.8rem">${a.Gewicht||0} Stein</td>
+                        <td class="num" style="font-size:.8rem">${a.Preis||0} S</td>
+                        <td style="font-size:.8rem;color:var(--text2)">${a.Trageort||'–'}</td>
+                        <td class="actions"><button class="btn small danger" onclick="entferneAusrüstung(${i})">✕</button></td>
+                    </tr>`).join('')}
+                </tbody>
+            </table>
+            <div style="font-size:.8rem;color:var(--text3);margin-top:.5rem">
+                Gesamtgewicht: ${((h.Ausrüstung||[]).reduce((s,a)=>(s+(a.Gewicht||0)*(a.Anzahl||1)),0)).toFixed(1)} Stein
+            </div>
+        </div>
+
+    </div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+// INTERAKTION
+// ═══════════════════════════════════════════════════════
+
+function wechsleTab(tab) {
+    aktTab = tab;
+    renderHeldenbogen();
+}
+
+function markiereUngespeichert() {
+    ungespeichert = true;
+    document.querySelector('.unsaved-dot')?.classList.add('aktiv');
+    document.getElementById('save-status').textContent = '';
+}
+
+function setzeEigenschaft(kuerzel, wert) {
+    if (!aktHeld) return;
+    if (!aktHeld.Eigenschaften) aktHeld.Eigenschaften = {};
+    const v = parseInt(wert);
+    if (!isNaN(v)) { aktHeld.Eigenschaften[kuerzel] = v; markiereUngespeichert(); }
+    renderHeldenbogen();
+}
+
+function setzeEnergie(schluessel, wert) {
+    if (!aktHeld?.Energien) return;
+    const v = parseInt(wert);
+    if (!isNaN(v)) { aktHeld.Energien[schluessel] = v; markiereUngespeichert(); }
+    renderHeldenbogen();
+}
+
+function änderEnergie(schluessel, delta) {
+    if (!aktHeld?.Energien) return;
+    aktHeld.Energien[schluessel] = (aktHeld.Energien[schluessel] || 0) + delta;
+    markiereUngespeichert();
+    renderHeldenbogen();
+}
+
+function setzeWunde(zone, wert) {
+    if (!aktHeld?.Wunden) return;
+    const v = parseInt(wert);
+    if (!isNaN(v)) { aktHeld.Wunden[zone] = v; markiereUngespeichert(); }
+    renderHeldenbogen();
+}
+
+function setzeTaW(idx, wert) {
+    const v = parseInt(wert);
+    if (!isNaN(v) && aktHeld?.Talente?.[idx] != null) {
+        aktHeld.Talente[idx].TaW = v;
+        markiereUngespeichert();
+    }
+}
+
+function setzeZfW(idx, wert) {
+    const v = parseInt(wert);
+    if (!isNaN(v) && aktHeld?.Zauber?.[idx] != null) {
+        aktHeld.Zauber[idx].ZfW = v;
+        markiereUngespeichert();
+    }
+}
+
+function entferneTalent(idx) { aktHeld.Talente.splice(idx,1); markiereUngespeichert(); renderHeldenbogen(); }
+function entferneZauber(idx)  { aktHeld.Zauber.splice(idx,1);  markiereUngespeichert(); renderHeldenbogen(); }
+function entferneWaffe(idx)   { aktHeld.Waffen.splice(idx,1);  markiereUngespeichert(); renderHeldenbogen(); }
+function entferneAusrüstung(idx) { aktHeld.Ausrüstung.splice(idx,1); markiereUngespeichert(); renderHeldenbogen(); }
+
+// ═══════════════════════════════════════════════════════
+// PROBE-SYSTEM (DSA 4.1 Dreierprobe)
+// ═══════════════════════════════════════════════════════
+
+function öffneProbe(idx) {
+    const t = aktHeld?.Talente?.[idx];
+    if (!t) return;
+    const E = aktHeld.Eigenschaften || {};
+    probeAktuell = {
+        name: t.Talentname || t.name,
+        taw:  t.TaW ?? 0,
+        e1:   E[t.Eigenschaft1] || E[t.e1] || 12,
+        e2:   E[t.Eigenschaft2] || E[t.e2] || 12,
+        e3:   E[t.Eigenschaft3] || E[t.e3] || 12,
+        e1name: t.Eigenschaft1 || '?',
+        e2name: t.Eigenschaft2 || '?',
+        e3name: t.Eigenschaft3 || '?',
+    };
+    document.getElementById('probe-titel').textContent = `Probe: ${probeAktuell.name}`;
+    document.getElementById('probe-eigenschaften').textContent =
+        `${probeAktuell.e1name}(${probeAktuell.e1}) / ${probeAktuell.e2name}(${probeAktuell.e2}) / ${probeAktuell.e3name}(${probeAktuell.e3})`;
+    document.getElementById('probe-taw').textContent = probeAktuell.taw;
+    document.getElementById('probe-mod').value = 0;
+    document.getElementById('probe-ergebnis').textContent = '– Würfeln!';
+    ['w1','w2','w3'].forEach(id => {
+        const el = document.getElementById(id);
+        el.textContent = '–'; el.className = 'wuerfel-anzeige';
+    });
+    document.getElementById('probe-overlay').classList.add('aktiv');
+}
+
+function öffneZauberProbe(idx) {
+    const z = aktHeld?.Zauber?.[idx];
+    if (!z) return;
+    const E = aktHeld.Eigenschaften || {};
+    probeAktuell = {
+        name: z.Name || z.name,
+        taw:  z.ZfW ?? 0,
+        e1:   E[z.Eigenschaft1] || 12,
+        e2:   E[z.Eigenschaft2] || 12,
+        e3:   E[z.Eigenschaft3] || 12,
+        e1name: z.Eigenschaft1 || '?',
+        e2name: z.Eigenschaft2 || '?',
+        e3name: z.Eigenschaft3 || '?',
+    };
+    document.getElementById('probe-titel').textContent = `Zauberprobe: ${probeAktuell.name}`;
+    document.getElementById('probe-eigenschaften').textContent =
+        `${probeAktuell.e1name}(${probeAktuell.e1}) / ${probeAktuell.e2name}(${probeAktuell.e2}) / ${probeAktuell.e3name}(${probeAktuell.e3})`;
+    document.getElementById('probe-taw').textContent = probeAktuell.taw;
+    document.getElementById('probe-mod').value = 0;
+    document.getElementById('probe-ergebnis').textContent = '– Würfeln!';
+    ['w1','w2','w3'].forEach(id => {
+        const el = document.getElementById(id);
+        el.textContent = '–'; el.className = 'wuerfel-anzeige';
+    });
+    document.getElementById('probe-overlay').classList.add('aktiv');
+}
+
+function würfleProbe() {
+    if (!probeAktuell) return;
+    const mod = parseInt(document.getElementById('probe-mod').value) || 0;
+    const p   = probeAktuell;
+    const taw_eff = p.taw - mod;
+
+    // Drei W20 würfeln
+    const w = [Math.ceil(Math.random()*20), Math.ceil(Math.random()*20), Math.ceil(Math.random()*20)];
+    const schw = [p.e1, p.e2, p.e3];
+
+    // Patzer / Glanzleistung
+    const einser = w.filter(x=>x===1).length;
+    const zwanziger = w.filter(x=>x===20).length;
+
+    let taw_rest = taw_eff;
+    const erfolge = w.map((wert, i) => {
+        if (wert <= schw[i]) return true; // direkt geschafft
+        const diff = wert - schw[i];
+        taw_rest -= diff;
+        return false;
+    });
+
+    const zfp = taw_rest; // verbleibende Punkte = QS-Grundlage
+
+    // Qualitätsstufe
+    const qs = zfp >= 0 ? Math.min(6, Math.floor(zfp / 3) + 1) : 0;
+    const bestanden = zfp >= 0 || einser >= 2;
+    const patzer    = zwanziger >= 2;
+    const glanz     = einser >= 2;
+
+    // Würfel-Anzeige
+    ['w1','w2','w3'].forEach((id, i) => {
+        const el = document.getElementById(id);
+        el.textContent = w[i];
+        el.className = 'wuerfel-anzeige ' + (w[i] <= schw[i] ? 'erfolg' : 'misserfolg');
+        if (w[i] === 20) el.className = 'wuerfel-anzeige misserfolg';
+        if (w[i] === 1)  el.className = 'wuerfel-anzeige erfolg';
+    });
+
+    let text = '';
+    if (patzer)      text = `🎲 PATZER! Kritischer Misserfolg.`;
+    else if (glanz)  text = `⭐ GLANZLEISTUNG! QS 6.`;
+    else if (bestanden) text = `✓ Bestanden! ZfP* ${zfp >= 0 ? '+' : ''}${zfp} → QS ${qs}`;
+    else text = `✗ Misserfolg. ZfP* ${zfp}`;
+
+    const el = document.getElementById('probe-ergebnis');
+    el.textContent = text;
+    el.style.background = (patzer || !bestanden) ? 'rgba(201,110,110,.15)' : 'rgba(110,201,138,.15)';
+    el.style.color = (patzer || !bestanden) ? 'var(--danger)' : 'var(--success)';
+}
+
+function schliesseProbe() {
+    document.getElementById('probe-overlay').classList.remove('aktiv');
+}
+
+// ═══════════════════════════════════════════════════════
+// SUCHE (Talente)
+// ═══════════════════════════════════════════════════════
+
+function sucheTalent(q) {
+    if (!aktHeld) return;
+    const tbody = document.querySelector('#talente-tabelle tbody');
+    if (!tbody) return;
+    const zeilen = tbody.querySelectorAll('tr');
+    zeilen.forEach(z => {
+        const name = z.cells[0]?.textContent.toLowerCase() || '';
+        z.style.display = name.includes(q.toLowerCase()) ? '' : 'none';
+    });
+}
+
+// ═══════════════════════════════════════════════════════
+// HINZUFÜGEN (mit DB-Suche)
+// ═══════════════════════════════════════════════════════
+
+async function talentHinzufügen() {
+    const name = prompt('Talentname (oder leer lassen für DB-Suche):');
+    if (name === null) return;
+    if (!aktHeld.Talente) aktHeld.Talente = [];
+    if (name) {
+        // Direkt aus MG-DB suchen
+        try {
+            const results = await api('GET', `/db/Talent?q=${encodeURIComponent(name)}&limit=5`);
+            if (results.data?.length > 0) {
+                const t = results.data[0];
+                aktHeld.Talente.push({
+                    TalentGUID: t.TalentGUID, Talentname: t.Talentname,
+                    Eigenschaft1: t.Eigenschaft1, Eigenschaft2: t.Eigenschaft2, Eigenschaft3: t.Eigenschaft3,
+                    Talenttyp: t.Talenttyp, eBE: t.eBE, TaW: 0
+                });
+            } else {
+                aktHeld.Talente.push({ Talentname: name, TaW: 0 });
+            }
+        } catch {
+            aktHeld.Talente.push({ Talentname: name, TaW: 0 });
+        }
+    }
+    markiereUngespeichert();
+    renderHeldenbogen();
+}
+
+async function zauberHinzufügen() {
+    const name = prompt('Zaubername:');
+    if (!name) return;
+    if (!aktHeld.Zauber) aktHeld.Zauber = [];
+    try {
+        const results = await api('GET', `/db/Zauber?q=${encodeURIComponent(name)}&limit=5`);
+        const z = results.data?.[0];
+        if (z) {
+            aktHeld.Zauber.push({
+                ZauberGUID: z.ZauberGUID, Name: z.Name,
+                Eigenschaft1: z.Eigenschaft1, Eigenschaft2: z.Eigenschaft2, Eigenschaft3: z.Eigenschaft3,
+                Kosten: z.Kosten, ZfW: 0, Repräsentation: ''
+            });
+        } else {
+            aktHeld.Zauber.push({ Name: name, ZfW: 0 });
+        }
+    } catch {
+        aktHeld.Zauber.push({ Name: name, ZfW: 0 });
+    }
+    markiereUngespeichert();
+    renderHeldenbogen();
+}
+
+async function waffeHinzufügen() {
+    const name = prompt('Waffenname:');
+    if (!name) return;
+    if (!aktHeld.Waffen) aktHeld.Waffen = [];
+    try {
+        const results = await api('GET', `/db/Waffe?q=${encodeURIComponent(name)}&limit=5`);
+        const w = results.data?.[0];
+        if (w) {
+            aktHeld.Waffen.push({
+                WaffeGUID: w.WaffeGUID, Name: w.Name || name,
+                Kampftalent: '', AT_Mod: 0, PA_Mod: 0,
+                TPWürfelAnzahl: w.TPWürfelAnzahl||1, TPWürfel: w.TPWürfel||6,
+                TPBonus: w.TPBonus||0, DK: w.DK||'H',
+                WMAT: w.WMAT||0, WMPA: w.WMPA||0,
+                INI: w.INI||0, BF: w.BF||0,
+                TPKKSchwelle: w.TPKKSchwelle, TPKKSchritt: w.TPKKSchritt
+            });
+        } else {
+            aktHeld.Waffen.push({ Name: name, Kampftalent: '', TPWürfelAnzahl:1, TPWürfel:6, DK:'H' });
+        }
+    } catch {
+        aktHeld.Waffen.push({ Name: name, Kampftalent: '', TPWürfelAnzahl:1, TPWürfel:6, DK:'H' });
+    }
+    markiereUngespeichert();
+    renderHeldenbogen();
+}
+
+function ausrüstungHinzufügen() {
+    const name = prompt('Gegenstand:');
+    if (!name) return;
+    if (!aktHeld.Ausrüstung) aktHeld.Ausrüstung = [];
+    aktHeld.Ausrüstung.push({ Name: name, Anzahl: 1, Gewicht: 0, Preis: 0, Trageort: '' });
+    markiereUngespeichert();
+    renderHeldenbogen();
+}
+
+// ═══════════════════════════════════════════════════════
+// AUTO-SAVE & KEYBOARD
+// ═══════════════════════════════════════════════════════
+
+document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+        e.preventDefault();
+        speichereAktuellenHeld();
+    }
+});
+
+// Auto-Save alle 2 Minuten
+setInterval(() => {
+    if (ungespeichert && aktHeld) speichereAktuellenHeld();
+}, 120000);
+
+// ═══════════════════════════════════════════════════════
+// START
+// ═══════════════════════════════════════════════════════
+
+init();
+</script>
+</body>
+</html>

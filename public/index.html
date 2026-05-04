@@ -10,11 +10,10 @@
   --bg:#141008;--sf:#1e1810;--sf2:#261e12;--sf3:#2e2416;
   --brd:#3a2e18;--brdg:#6a5020;
   --gold:#c9922a;--goldl:#e8b84b;--goldd:#8b6010;
-  --red:#c0392b;--green:#27ae60;--blue:#2980b9;--teal:#1a9a8a;
+  --red:#c0392b;--green:#27ae60;--blue:#2980b9;
   --text:#d4c4a0;--dim:#8a7a5a;--dim2:#5a4a2a;
   --card:#1e1810;--card-hover:#261e12;
-  --overlay:radial-gradient(ellipse at 15% 10%,rgba(201,146,42,0.04),transparent 50%),
-            radial-gradient(ellipse at 85% 90%,rgba(139,32,32,0.04),transparent 50%);
+  --overlay:radial-gradient(ellipse at 15% 10%,rgba(201,146,42,0.04),transparent 50%),radial-gradient(ellipse at 85% 90%,rgba(139,32,32,0.04),transparent 50%);
 }
 body.light {
   --bg:#f0ece0;--sf:#faf8f2;--sf2:#eee8da;--sf3:#e4dcd0;
@@ -30,7 +29,6 @@ body{min-height:100vh;background:var(--bg);color:var(--text);font-family:'Crimso
 body::before{content:'';position:fixed;inset:0;pointer-events:none;background:var(--overlay);z-index:0}
 .wrap{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:0 20px 40px}
 
-/* ── HEADER ── */
 header{background:linear-gradient(180deg,var(--sf),var(--bg));border-bottom:1px solid var(--brd);padding:0 20px;position:sticky;top:0;z-index:50;box-shadow:0 4px 24px rgba(0,0,0,.4)}
 .hinner{max-width:1400px;margin:0 auto;display:flex;align-items:center;gap:12px;height:56px}
 .logo{font-family:'Cinzel',serif;font-size:18px;font-weight:700;color:var(--gold);letter-spacing:4px;white-space:nowrap;flex-shrink:0}
@@ -48,34 +46,23 @@ header{background:linear-gradient(180deg,var(--sf),var(--bg));border-bottom:1px 
 .date-full{font-size:13px;color:var(--text);white-space:nowrap}
 .date-year{font-size:10px;color:var(--dim);letter-spacing:1px}
 
-/* Weather widget */
-.weather-widget{display:flex;align-items:center;gap:7px;padding:4px 10px;border:1px solid var(--brd);background:var(--sf2);cursor:pointer;transition:all .13s;max-width:320px}
-.weather-widget:hover{border-color:var(--gold)}
-.weather-icon{font-size:20px;flex-shrink:0}
-.weather-txt{font-size:11px;color:var(--dim);line-height:1.4;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-
-/* Buttons */
 .btn{font-family:'Cinzel',serif;font-size:8px;letter-spacing:1.5px;padding:4px 10px;border:1px solid var(--brd);background:var(--sf2);color:var(--text);cursor:pointer;transition:all .15s;text-transform:uppercase;white-space:nowrap}
 .btn:hover{border-color:var(--gold);color:var(--gold)}
 .btn-gold{border-color:var(--gold);color:var(--gold)}
 .theme-btn{display:flex;align-items:center;gap:4px;font-family:'Cinzel',serif;font-size:8px;letter-spacing:1px;color:var(--dim);cursor:pointer;padding:4px 9px;border:1px solid var(--brd);background:var(--sf2);transition:all .2s;flex-shrink:0}
 .theme-btn:hover{color:var(--text);border-color:var(--gold)}
 
-/* ── MAIN GRID ── */
 .main-grid{display:grid;grid-template-columns:1fr 280px;gap:20px;margin-top:24px}
 @media(max-width:900px){.main-grid{grid-template-columns:1fr}}
 
-/* ── MODULE GRID ── */
 .section-title{font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;color:var(--dim);text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:10px}
 .section-title::after{content:'';flex:1;height:1px;background:var(--brd)}
 .module-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:20px}
 .mod-card{border:1px solid var(--brd);background:var(--card);padding:16px 14px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:6px}
 .mod-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--brd);transition:background .2s}
-.mod-card.available{cursor:pointer}
 .mod-card.available:hover{border-color:var(--brdg);background:var(--card-hover);transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,.3)}
 .mod-card.available:hover::before{background:var(--gold)}
 .mod-card.soon{opacity:.55;cursor:default}
-.mod-card.soon:hover{transform:none;box-shadow:none}
 .mod-icon{font-size:22px;line-height:1}
 .mod-name{font-family:'Cinzel',serif;font-size:13px;font-weight:600;color:var(--text)}
 .mod-desc{font-size:12px;color:var(--dim);line-height:1.5}
@@ -83,7 +70,6 @@ header{background:linear-gradient(180deg,var(--sf),var(--bg));border-bottom:1px 
 .mod-badge.ok{border-color:var(--green);color:var(--green)}
 .mod-badge.wip{border-color:var(--brd);color:var(--dim2)}
 
-/* ── NOTES ── */
 .notes-section{margin-bottom:0}
 .notes-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
 .notes-status{font-size:10px;font-family:'Cinzel',serif;color:var(--dim);letter-spacing:1px}
@@ -92,15 +78,13 @@ textarea.notes{width:100%;background:var(--sf);border:1px solid var(--brd);color
 textarea.notes:focus{border-color:var(--gold)}
 textarea.notes::placeholder{color:var(--dim2)}
 
-/* ── SIDEBAR ── */
 .sidebar{display:flex;flex-direction:column;gap:16px}
 .side-block{border:1px solid var(--brd);background:var(--sf);overflow:hidden}
 .side-hd{padding:8px 12px;background:var(--sf2);border-bottom:1px solid var(--brd);font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;display:flex;align-items:center;gap:6px}
 .side-bd{padding:10px 12px}
 
-/* Dice roller */
 .dice-btns{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px}
-.dice-btn{padding:5px 8px;font-family:'Cinzel',serif;font-size:9px;border:1px solid var(--brd);background:var(--sf2);color:var(--dim);cursor:pointer;transition:all .13s;letter-spacing:.5px;flex:1;min-width:34px;text-align:center}
+.dice-btn{padding:5px 8px;font-family:'Cinzel',serif;font-size:9px;border:1px solid var(--brd);background:var(--sf2);color:var(--dim);cursor:pointer;transition:all .13s;flex:1;min-width:34px;text-align:center}
 .dice-btn:hover{border-color:var(--gold);color:var(--gold);background:var(--sf)}
 .dice-result{background:var(--sf2);border:1px solid var(--brd);padding:8px;text-align:center;margin-bottom:8px;min-height:52px;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .dice-big{font-family:'Cinzel',serif;font-size:32px;font-weight:700;line-height:1;color:var(--goldl)}
@@ -110,13 +94,11 @@ textarea.notes::placeholder{color:var(--dim2)}
 .dl-entry:last-child{border-bottom:none}
 .dl-die{color:var(--dim);font-family:'Cinzel',serif;font-size:9px}
 .dl-val{font-family:'Cinzel',serif;font-weight:600;color:var(--text)}
-.dl-val.crit{color:var(--green)}
-.dl-val.fumble{color:var(--red)}
+.dl-val.crit{color:var(--green)}.dl-val.fumble{color:var(--red)}
 .multi-row{display:flex;gap:4px;margin-bottom:6px}
 .multi-row input{flex:1;background:var(--sf2);border:1px solid var(--brd);color:var(--text);padding:4px 7px;font-family:'Crimson Text',serif;font-size:13px;outline:none;width:40px;text-align:center}
 .multi-row input:focus{border-color:var(--gold)}
 
-/* Saves */
 .save-entry{display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid rgba(74,56,32,.15)}
 .save-entry:last-child{border-bottom:none}
 .save-name{font-family:'Cinzel',serif;font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;color:var(--goldl)}
@@ -126,7 +108,7 @@ textarea.notes::placeholder{color:var(--dim2)}
 .save-load:hover{border-color:var(--gold);color:var(--gold)}
 .no-server{font-size:11px;color:var(--dim);font-style:italic;text-align:center;padding:8px}
 
-/* Date editor popup */
+/* Date popup */
 .date-popup{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;z-index:200}
 .date-popup.open{display:flex}
 .date-box{background:var(--sf);border:2px solid var(--brd);padding:20px 24px;width:320px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
@@ -138,15 +120,8 @@ textarea.notes::placeholder{color:var(--dim2)}
 .df input:focus,.df select:focus{border-color:var(--gold)}
 .df select option{background:var(--sf)}
 
-/* Weather popup */
-.weather-detail{font-size:12px;color:var(--text);line-height:1.6;padding:8px 0}
-.weather-detail strong{color:var(--goldl)}
-
-/* Toast */
 .toast{position:fixed;bottom:20px;right:20px;background:var(--sf);border:1px solid var(--gold);padding:8px 16px;font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;color:var(--gold);z-index:500;transform:translateY(60px);opacity:0;transition:all .3s}
 .toast.show{transform:translateY(0);opacity:1}
-
-/* Server indicator */
 .server-dot{width:7px;height:7px;border-radius:50%;background:var(--brd);flex-shrink:0}
 .server-dot.online{background:var(--green);box-shadow:0 0 5px var(--green)}
 </style>
@@ -158,18 +133,13 @@ textarea.notes::placeholder{color:var(--dim2)}
   <div class="logo">DSA 4.1</div>
   <div class="hsep"></div>
   <div class="date-widget">
-    <button class="date-nav" onclick="shiftDay(-1)" title="Vorheriger Tag">◀</button>
+    <button class="date-nav" onclick="shiftDay(-1)">◀</button>
     <div class="date-main" onclick="openDatePopup()" title="Datum bearbeiten">
       <div class="date-day" id="hDayName">–</div>
       <div class="date-full" id="hDateFull">– – –</div>
       <div class="date-year" id="hYear">– BZ</div>
     </div>
-    <button class="date-nav" onclick="shiftDay(1)" title="Nächster Tag">▶</button>
-  </div>
-  <div class="hsep"></div>
-  <div class="weather-widget" onclick="rerollWeather()" title="Wetter neu würfeln (Klick)">
-    <div class="weather-icon" id="hWeatherIcon">☀</div>
-    <div class="weather-txt" id="hWeatherTxt">–</div>
+    <button class="date-nav" onclick="shiftDay(1)">▶</button>
   </div>
   <div class="hflex"></div>
   <div style="display:flex;align-items:center;gap:4px;font-family:'Cinzel',serif;font-size:9px;color:var(--dim)">
@@ -182,23 +152,18 @@ textarea.notes::placeholder{color:var(--dim2)}
 
 <div class="wrap">
 <div class="main-grid">
-  <!-- LEFT COLUMN -->
   <div>
     <div class="section-title">Module</div>
     <div class="module-grid" id="moduleGrid"></div>
-
     <div class="notes-section">
       <div class="notes-head">
         <div class="section-title" style="margin-bottom:0;flex:1">Kampagnen-Notizen</div>
         <div class="notes-status" id="notesStatus">–</div>
       </div>
-      <textarea class="notes" id="notesArea" placeholder="Hier kommen Kampagnen-Notizen, NSC-Infos, offene Fäden, Geheimnisse … alles was du nicht vergessen willst. Wird automatisch gespeichert." rows="8"></textarea>
+      <textarea class="notes" id="notesArea" placeholder="Kampagnen-Notizen, NSC-Infos, offene Fäden, Geheimnisse … Wird automatisch gespeichert." rows="8"></textarea>
     </div>
   </div>
-
-  <!-- SIDEBAR -->
   <div class="sidebar">
-    <!-- Dice roller -->
     <div class="side-block">
       <div class="side-hd">🎲 Würfelwurf</div>
       <div class="side-bd">
@@ -212,8 +177,7 @@ textarea.notes::placeholder{color:var(--dim2)}
           <select id="dSides" style="flex:2;background:var(--sf2);border:1px solid var(--brd);color:var(--text);padding:4px 7px;font-family:'Crimson Text',serif;font-size:12px;outline:none">
             <option value="6">W6</option><option value="20" selected>W20</option>
             <option value="4">W4</option><option value="8">W8</option>
-            <option value="10">W10</option><option value="12">W12</option>
-            <option value="100">W100</option>
+            <option value="10">W10</option><option value="12">W12</option><option value="100">W100</option>
           </select>
           <button class="btn" onclick="rollMulti()">Würfeln</button>
         </div>
@@ -221,28 +185,16 @@ textarea.notes::placeholder{color:var(--dim2)}
         <div class="dice-log" id="diceLog"></div>
       </div>
     </div>
-
-    <!-- Saves -->
-    <div class="side-block" id="savesBlock">
-      <div class="side-hd"><div class="server-dot" id="saveDot"></div> Server-Saves</div>
+    <div class="side-block">
+      <div class="side-hd"><div class="server-dot" id="saveDot"></div> Kampf-Saves</div>
       <div class="side-bd" id="savesBody">
         <div class="no-server">Server nicht verbunden.<br>Starte server.js für Speicher-Sync.</div>
-      </div>
-    </div>
-
-    <!-- Weather detail -->
-    <div class="side-block">
-      <div class="side-hd">🌦 Wetter – Detail</div>
-      <div class="side-bd">
-        <div class="weather-detail" id="weatherDetail">–</div>
-        <button class="btn btn-gold" style="margin-top:8px;width:100%" onclick="rerollWeather()">⟳ Wetter neu würfeln</button>
       </div>
     </div>
   </div>
 </div>
 </div>
 
-<!-- DATE POPUP -->
 <div class="date-popup" id="datePopup" onclick="if(event.target===this)closeDatePopup()">
 <div class="date-box">
   <h3>⚔ AVENTURINISCHES DATUM</h3>
@@ -258,182 +210,113 @@ textarea.notes::placeholder{color:var(--dim2)}
 </div>
 </div>
 
-<!-- TOAST -->
 <div class="toast" id="toast"></div>
 
 <script>
 'use strict';
 
-// ═══════════════════════════════════════════════════════
-// AVENTURINISCHER KALENDER
-// ═══════════════════════════════════════════════════════
-const AV_MONTHS = [
-  {n:'Praios',    days:30, season:'sommer',      god:'☀'},
-  {n:'Rondra',    days:30, season:'sommer',      god:'⚔'},
-  {n:'Efferd',    days:30, season:'herbst',      god:'🌊'},
-  {n:'Travia',    days:30, season:'herbst',      god:'🏠'},
-  {n:'Boron',     days:30, season:'winter_früh', god:'💀'},
-  {n:'Hesinde',   days:30, season:'winter',      god:'✨'},
-  {n:'Firun',     days:30, season:'winter',      god:'❄'},
-  {n:'Tsa',       days:30, season:'frühling',    god:'🌱'},
-  {n:'Phex',      days:30, season:'frühling',    god:'🗝'},
-  {n:'Peraine',   days:30, season:'frühling',    god:'🌾'},
-  {n:'Ingerimm',  days:30, season:'frühsommer',  god:'🔨'},
-  {n:'Rahja',     days:30, season:'sommer',      god:'🌹'},
-  {n:'Namenlose Tage', days:5, season:'namenlos', god:'😶'},
+const AV_MONTHS=[
+  {n:'Praios',days:30,god:'☀'},{n:'Rondra',days:30,god:'⚔'},{n:'Efferd',days:30,god:'🌊'},
+  {n:'Travia',days:30,god:'🏠'},{n:'Boron',days:30,god:'💀'},{n:'Hesinde',days:30,god:'✨'},
+  {n:'Firun',days:30,god:'❄'},{n:'Tsa',days:30,god:'🌱'},{n:'Phex',days:30,god:'🗝'},
+  {n:'Peraine',days:30,god:'🌾'},{n:'Ingerimm',days:30,god:'🔨'},{n:'Rahja',days:30,god:'🌹'},
+  {n:'Namenlose Tage',days:5,god:'😶'},
 ];
-const TAG_NAMEN = ['Windstag','Erdstag','Markttag','Praiostag','Nachtag','Zügeltag','Götterfeiertag'];
+const TAG_NAMEN=['Windstag','Erdstag','Markttag','Praiostag','Nachtag','Zügeltag','Götterfeiertag'];
 
-// State
-let avDate = JSON.parse(localStorage.getItem('dsa_date') || '{"day":1,"month":0,"year":1027}');
-let weather = JSON.parse(localStorage.getItem('dsa_weather') || 'null');
-let isLight = localStorage.getItem('dsa_theme') === 'light';
-let diceLog = JSON.parse(localStorage.getItem('dsa_dicelog') || '[]');
-let serverMode = false;
+let avDate={day:1,month:0,year:1027};
+let isLight=localStorage.getItem('dsa_theme')==='light';
+let diceLog=JSON.parse(localStorage.getItem('dsa_dicelog')||'[]');
+let serverMode=false;
+let notesSaveTimer=null;
+let campaignSaveTimer=null;
 
-// ── Datum berechnen ────────────────────────────────────
-function totalDay(d) {
-  let t = 0;
-  for (let i = 0; i < d.month; i++) t += AV_MONTHS[i].days;
-  return t + d.day;
+const MODULES=[
+  {id:'kampf',  icon:'⚔', name:'Kampfverwaltung',      desc:'Initiative, AT/PA, FK-Rechner, Karte, Statuseffekte',          href:'kampf.html',  ok:true},
+  {id:'namen',  icon:'🎲', name:'Namensgenerator',       desc:'Aventurinische Namen nach Volk, Region und Geschlecht',         href:'namen.html',  ok:true},
+  {id:'basar',  icon:'🛒', name:'Basar & Preisliste',    desc:'Gegenstände, Preise, Händler, Warenqualitäten',                href:null,          ok:false},
+  {id:'notizen',icon:'📝', name:'Kampagnen-Journal',     desc:'Strukturierte Sitzungsnotizen, NSC-Datenbank, Quests',          href:null,          ok:false},
+  {id:'regeln', icon:'📚', name:'Regelreferenz',         desc:'Manöver-Tabellen, Proben-Übersichten, Zauberlisten',            href:null,          ok:false},
+  {id:'helden', icon:'🧙', name:'Heldenblatt-Verwaltung',desc:'Heldenwerte, Steigerungen, Ausrüstung, Vorteile/Nachteile',    href:null,          ok:false},
+  {id:'karte',  icon:'🗺', name:'Kartenansicht',         desc:'Aventurien-Karte, eigene Markierungen, Regionen',              href:null,          ok:false},
+];
+
+// ── DATE ──
+function renderDate(){
+  const m=AV_MONTHS[avDate.month];
+  const doy=(()=>{let t=0;for(let i=0;i<avDate.month;i++)t+=AV_MONTHS[i].days;return t+avDate.day;})();
+  const wn=avDate.month===12?'Namenloser Tag':TAG_NAMEN[(doy-1)%7];
+  document.getElementById('hDayName').textContent=wn;
+  document.getElementById('hDateFull').textContent=`${avDate.day}. ${m.n}`;
+  document.getElementById('hYear').textContent=`${avDate.year} BZ`;
 }
-function dayOfYear() { return totalDay(avDate); }
-function weekDay() { return (dayOfYear() - 1) % 7; }
 
-function renderDate() {
-  const m = AV_MONTHS[avDate.month];
-  const wn = avDate.month === 12 ? 'Namenloser Tag' : TAG_NAMEN[weekDay()];
-  document.getElementById('hDayName').textContent = wn;
-  document.getElementById('hDateFull').textContent = `${avDate.day}. ${m.n}`;
-  document.getElementById('hYear').textContent = `${avDate.year} BZ`;
-}
-
-function saveDate() {
-  localStorage.setItem('dsa_date', JSON.stringify(avDate));
+function shiftDay(delta){
+  avDate.day+=delta;
+  const m=AV_MONTHS[avDate.month];
+  if(avDate.day>m.days){avDate.day=1;avDate.month++;if(avDate.month>=AV_MONTHS.length){avDate.month=0;avDate.year++;}}
+  if(avDate.day<1){avDate.month--;if(avDate.month<0){avDate.month=AV_MONTHS.length-1;avDate.year--;}avDate.day=AV_MONTHS[avDate.month].days;}
   renderDate();
-  // If we rolled weather for a different date, re-roll
-  const key = `${avDate.day}-${avDate.month}-${avDate.year}`;
-  if (!weather || weather.dateKey !== key) rerollWeather(false);
-  else renderWeather();
+  schedCampaignSave();
 }
 
-function shiftDay(delta) {
-  avDate.day += delta;
-  const m = AV_MONTHS[avDate.month];
-  if (avDate.day > m.days) {
-    avDate.day = 1;
-    avDate.month++;
-    if (avDate.month >= AV_MONTHS.length) { avDate.month = 0; avDate.year++; }
-  }
-  if (avDate.day < 1) {
-    avDate.month--;
-    if (avDate.month < 0) { avDate.month = AV_MONTHS.length - 1; avDate.year--; }
-    avDate.day = AV_MONTHS[avDate.month].days;
-  }
-  saveDate();
-}
-
-function openDatePopup() {
-  // Fill selects
-  const sel = document.getElementById('edMonth');
-  sel.innerHTML = AV_MONTHS.map((m,i)=>`<option value="${i}"${i===avDate.month?' selected':''}>${m.god} ${m.n}</option>`).join('');
-  document.getElementById('edDay').value = avDate.day;
-  document.getElementById('edYear').value = avDate.year;
+function openDatePopup(){
+  const sel=document.getElementById('edMonth');
+  sel.innerHTML=AV_MONTHS.map((m,i)=>`<option value="${i}"${i===avDate.month?' selected':''}>${m.god} ${m.n}</option>`).join('');
+  document.getElementById('edDay').value=avDate.day;
+  document.getElementById('edYear').value=avDate.year;
   document.getElementById('datePopup').classList.add('open');
 }
-function closeDatePopup() { document.getElementById('datePopup').classList.remove('open'); }
-function saveDateFromPopup() {
-  const m = parseInt(document.getElementById('edMonth').value);
-  let d = parseInt(document.getElementById('edDay').value) || 1;
-  const y = parseInt(document.getElementById('edYear').value) || 1027;
-  d = Math.max(1, Math.min(AV_MONTHS[m].days, d));
-  avDate = { day: d, month: m, year: y };
-  saveDate();
+function closeDatePopup(){document.getElementById('datePopup').classList.remove('open');}
+function saveDateFromPopup(){
+  const m=parseInt(document.getElementById('edMonth').value);
+  let d=Math.max(1,Math.min(AV_MONTHS[m].days,parseInt(document.getElementById('edDay').value)||1));
+  const y=parseInt(document.getElementById('edYear').value)||1027;
+  avDate={day:d,month:m,year:y};
+  renderDate();
+  schedCampaignSave();
   closeDatePopup();
 }
 
-// ── Weather ────────────────────────────────────────────
-const WEATHER = {
-  sommer: [
-    {icon:'☀',short:'Strahlend, heiß',long:'Strahlend blauer Himmel, kaum eine Wolke. Die Sonne der Praioszeit brennt gnadenlos herab. Für Reisende mit schwerer Rüstung eine echte Prüfung.'},
-    {icon:'🌤',short:'Sonnig, leichte Brise',long:'Warm und sonnig, eine angenehme Brise weht aus Süden. Gut für weite Märsche, das Wetter bleibt stabil.'},
-    {icon:'⛅',short:'Wechselhaft, schwül',long:'Schwül und drückend, vereinzelte Schäfchenwolken. Am Nachmittag könnten sich Gewitter entladen – Rondrais Zorn hallt in der Ferne.'},
-    {icon:'⛈',short:'Gewitter am Abend',long:'Ein schweres Sommergewitter zieht auf. Blitz und Donner erschüttern den Himmel. FK-Kämpfe und offene Märsche sind riskant.'},
-  ],
-  herbst: [
-    {icon:'🌥',short:'Bewölkt, mild',long:'Grau verhangen, die Luft riecht nach feuchtem Laub. Travia hält ihren sanften Schleier über das Land. Reisen ist möglich, aber ungemütlich.'},
-    {icon:'🌦',short:'Leichter Regen',long:'Efferds sanfter Herbstregen. Der Boden weicht auf, Wege werden schlammig. Pferde kommen langsamer voran.'},
-    {icon:'🌫',short:'Dichter Nebel',long:'Dichter Morgennebel liegt über Wiesen und Wäldern. FK-Reichweite effektiv halbiert. In der Stille lauern Gefahren.'},
-    {icon:'🌧',short:'Stürmisch, Dauerregen',long:'Heftige Herbststürme. Regen peitscht waagerecht. Lagerfeuer kaum möglich. Moral-Abzüge für längere Märsche.'},
-  ],
-  winter_früh: [
-    {icon:'🌫',short:'Kalt, nebelig',long:'Borons Atem liegt über der Welt. Kalt und nebelig, der Tod scheint nah. Die Tage werden spürbar kürzer.'},
-    {icon:'🌧',short:'Grau, Eisregen',long:'Trübe Wolkendecke, stellenweise Eisregen. Straßen werden rutschig. Kämpfe auf Eis: Sturz-Probe fällig.'},
-    {icon:'❄',short:'Erster Schnee',long:'Der erste Schnee des Jahres. Eine dünne weiße Decke liegt über dem Land. Noch harmlos, aber ein Vorbote härterer Tage.'},
-  ],
-  winter: [
-    {icon:'❄',short:'Schneefall, kalt',long:'Kontinuierlicher Schneefall. Sicht eingeschränkt, Kälte beißend. Übernachten im Freien ohne Ausrüstung lebensgefährlich.'},
-    {icon:'🌨',short:'Schneesturm',long:'Firun tobt. Ein echter Schneesturm – Orientierung ohne Karte kaum möglich. Bewaffnete Auseinandersetzungen –2 auf alle Proben.'},
-    {icon:'🌬',short:'Eisig klar',long:'Eisblauer Himmel, bittere Kälte. Kein Schneefall, aber jeder Atemzug schmerzt. Klarer Sichtverhältnisse – FK bis zu maximalem Wert.'},
-    {icon:'☁',short:'Düster, trocken kalt',long:'Grau und eisig. Keine Sonne seit Tagen. Hesindes stille Dunkelzeit.'},
-  ],
-  frühling: [
-    {icon:'🌱',short:'Mild, erste Knospen',long:'Tsas Erwachen! Mild und frisch, die ersten Knospen brechen auf. Der Boden ist noch weich, aber die Stimmung hebt sich.'},
-    {icon:'🌦',short:'Aprilwetter',long:'Sonne und Regen im raschen Wechsel. Peraines Segen für die Saat. Wetterbedingungen können sich in einer Stunde komplett ändern.'},
-    {icon:'🌤',short:'Sonnig, frisch',long:'Angenehm mild mit leichtem Wind. Der Frühling setzt sich durch. Gut für Fernkampf und zügige Märsche.'},
-  ],
-  frühsommer: [
-    {icon:'🌤',short:'Warm, sonnig',long:'Ingerimms warme Sonne. Angenehm für Reisen, nicht zu heiß. Handwerker und Schmiede fluchen über die Hitze in ihren Werkstätten.'},
-    {icon:'☀',short:'Heißer Sommertag',long:'Die Hitze des Frühsommers baut sich auf. Rahja naht – Feste und Trunkenheit liegen in der Luft.'},
-  ],
-  namenlos: [
-    {icon:'😶',short:'Namenlose Tage',long:'Die Namenlosen Tage. Eine unheimliche Stille liegt über dem Land. Dämonen sind aktiver, der Schleier zwischen den Welten ist dünn. Geweihte und Magier spüren es deutlich.'},
-    {icon:'🌑',short:'Düstere Stille',long:'Finstere Nächte, kaum Wind. Nichts scheint sich zu regen. Selbst Tiere verhalten sich merkwürdig. Besser nicht alleine reisen.'},
-  ],
-};
-
-function rerollWeather(save = true) {
-  const season = AV_MONTHS[avDate.month].season;
-  const pool = WEATHER[season] || WEATHER.sommer;
-  const w = pool[Math.floor(Math.random() * pool.length)];
-  const key = `${avDate.day}-${avDate.month}-${avDate.year}`;
-  weather = { ...w, dateKey: key, season };
-  if (save) {
-    localStorage.setItem('dsa_weather', JSON.stringify(weather));
-    showToast('Wetter neu gewürfelt');
+// ── CAMPAIGN SAVE (date + notes) ──
+function schedCampaignSave(){
+  clearTimeout(campaignSaveTimer);
+  campaignSaveTimer=setTimeout(saveCampaign,600);
+}
+async function saveCampaign(){
+  const data={date:avDate,notes:document.getElementById('notesArea').value};
+  localStorage.setItem('dsa_campaign',JSON.stringify(data));
+  if(serverMode){
+    try{
+      await fetch('/api/campaign',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+    }catch(e){}
   }
-  renderWeather();
+}
+async function loadCampaign(){
+  let data=null;
+  if(serverMode){
+    try{const r=await fetch('/api/campaign');if(r.ok)data=await r.json();}catch(e){}
+  }
+  if(!data){
+    const raw=localStorage.getItem('dsa_campaign');
+    data=raw?JSON.parse(raw):{date:{day:1,month:0,year:1027},notes:''};
+  }
+  avDate=data.date||{day:1,month:0,year:1027};
+  document.getElementById('notesArea').value=data.notes||'';
+  renderDate();
 }
 
-function renderWeather() {
-  if (!weather) { rerollWeather(false); return; }
-  document.getElementById('hWeatherIcon').textContent = weather.icon;
-  document.getElementById('hWeatherTxt').textContent = weather.short;
-  document.getElementById('weatherDetail').innerHTML =
-    `<strong>${weather.icon} ${weather.short}</strong><br>${weather.long}`;
+// ── THEME ──
+function toggleTheme(){
+  isLight=!isLight;
+  document.body.classList.toggle('light',isLight);
+  document.getElementById('themeBtn').textContent=isLight?'🌙 Dunkel':'☀ Hell';
+  localStorage.setItem('dsa_theme',isLight?'light':'dark');
 }
 
-// ── Theme ──────────────────────────────────────────────
-function toggleTheme() {
-  isLight = !isLight;
-  document.body.classList.toggle('light', isLight);
-  document.getElementById('themeBtn').textContent = isLight ? '🌙 Dunkel' : '☀ Hell';
-  localStorage.setItem('dsa_theme', isLight ? 'light' : 'dark');
-}
-
-// ── Modules ────────────────────────────────────────────
-const MODULES = [
-  { id:'kampf',   icon:'⚔',  name:'Kampfverwaltung',     desc:'Initiative, AT/PA, FK-Rechner, Karte, Statuseffekte',   href:'kampf.html',  ok:true  },
-  { id:'basar',   icon:'🛒', name:'Basar & Preisliste',   desc:'Gegenstände, Preise, Händler, Warenqualitäten',          href:null,           ok:false },
-  { id:'namen',   icon:'🎲', name:'Namensgenerator',      desc:'Aventurinische Namen nach Volk, Region und Geschlecht',  href:null,           ok:false },
-  { id:'notizen', icon:'📝', name:'Kampagnen-Journal',    desc:'Strukturierte Sitzungsnotizen, NSC-Datenbank, Quests',   href:null,           ok:false },
-  { id:'regeln',  icon:'📚', name:'Regelreferenz',        desc:'Manöver-Tabellen, Proben-Übersichten, Zauberlisten',     href:null,           ok:false },
-  { id:'helden',  icon:'🧙', name:'Heldenblatt-Verwaltung',desc:'Heldenwerte, Steigerungen, Ausrüstung, Vorteile/Nachteile', href:null,        ok:false },
-  { id:'karte',   icon:'🗺', name:'Kartenansicht',        desc:'Aventurien-Karte, eigene Markierungen, Regionen',       href:null,           ok:false },
-];
-
-function renderModules() {
-  document.getElementById('moduleGrid').innerHTML = MODULES.map(m => `
+// ── MODULES ──
+function renderModules(){
+  document.getElementById('moduleGrid').innerHTML=MODULES.map(m=>`
     <div class="mod-card ${m.ok?'available':'soon'}" onclick="${m.ok?`window.location='${m.href}'`:`showToast('${m.name} – noch in Entwicklung')`}">
       <div class="mod-icon">${m.icon}</div>
       <div class="mod-name">${m.name}</div>
@@ -442,136 +325,89 @@ function renderModules() {
     </div>`).join('');
 }
 
-// ── Notes ──────────────────────────────────────────────
-let notesTimer = null;
-function initNotes() {
-  const ta = document.getElementById('notesArea');
-  ta.value = localStorage.getItem('dsa_notes') || '';
-  ta.addEventListener('input', () => {
-    document.getElementById('notesStatus').textContent = '● Ungespeichert';
+// ── NOTES ──
+function initNotes(){
+  const ta=document.getElementById('notesArea');
+  ta.addEventListener('input',()=>{
+    document.getElementById('notesStatus').textContent='● Ungespeichert';
     document.getElementById('notesStatus').classList.remove('saved');
-    clearTimeout(notesTimer);
-    notesTimer = setTimeout(saveNotes, 1200);
+    schedCampaignSave();
   });
 }
-function saveNotes() {
-  localStorage.setItem('dsa_notes', document.getElementById('notesArea').value);
-  const el = document.getElementById('notesStatus');
-  el.textContent = '✓ Gespeichert';
-  el.classList.add('saved');
-  setTimeout(() => { el.textContent = '–'; el.classList.remove('saved'); }, 3000);
-}
 
-// ── Dice ───────────────────────────────────────────────
-const DICE_TYPES = [4, 6, 8, 10, 12, 20, 100];
-
-function renderDiceBtns() {
-  document.getElementById('diceBtns').innerHTML = DICE_TYPES.map(n =>
+// ── DICE ──
+function renderDiceBtns(){
+  document.getElementById('diceBtns').innerHTML=[4,6,8,10,12,20,100].map(n=>
     `<button class="dice-btn" onclick="rollDie(${n})">W${n}</button>`).join('');
 }
-
-function rollDie(sides) {
-  const result = Math.ceil(Math.random() * sides);
-  const isCrit = result === 1;
-  const isFumble = result === sides;
-  document.getElementById('diceResult').textContent = result;
-  document.getElementById('diceSub').textContent = `W${sides}`;
-  document.getElementById('diceResult').style.color = isCrit ? 'var(--green)' : isFumble ? 'var(--red)' : 'var(--goldl)';
-  diceLog.unshift({ die: sides, val: result });
-  if (diceLog.length > 12) diceLog.pop();
-  localStorage.setItem('dsa_dicelog', JSON.stringify(diceLog));
+function rollDie(sides){
+  const r=Math.ceil(Math.random()*sides);
+  document.getElementById('diceResult').textContent=r;
+  document.getElementById('diceSub').textContent=`W${sides}`;
+  document.getElementById('diceResult').style.color=r===1?'var(--green)':r===sides?'var(--red)':'var(--goldl)';
+  diceLog.unshift({die:sides,val:r});if(diceLog.length>12)diceLog.pop();
+  localStorage.setItem('dsa_dicelog',JSON.stringify(diceLog));
   renderDiceLog();
 }
-
-function rollMulti() {
-  const n = Math.max(1, Math.min(20, parseInt(document.getElementById('dCount').value) || 3));
-  const s = parseInt(document.getElementById('dSides').value) || 20;
-  let total = 0;
-  const rolls = [];
-  for (let i = 0; i < n; i++) { const r = Math.ceil(Math.random() * s); total += r; rolls.push(r); }
-  document.getElementById('diceResult').textContent = total;
-  document.getElementById('diceSub').textContent = `${n}×W${s} (${rolls.join('+')})`;
-  document.getElementById('diceResult').style.color = 'var(--goldl)';
-  diceLog.unshift({ die: `${n}×W${s}`, val: total });
-  if (diceLog.length > 12) diceLog.pop();
-  localStorage.setItem('dsa_dicelog', JSON.stringify(diceLog));
+function rollMulti(){
+  const n=Math.max(1,Math.min(20,parseInt(document.getElementById('dCount').value)||3));
+  const s=parseInt(document.getElementById('dSides').value)||20;
+  let total=0;const rolls=[];
+  for(let i=0;i<n;i++){const r=Math.ceil(Math.random()*s);total+=r;rolls.push(r);}
+  document.getElementById('diceResult').textContent=total;
+  document.getElementById('diceSub').textContent=`${n}×W${s} (${rolls.join('+')})`;
+  document.getElementById('diceResult').style.color='var(--goldl)';
+  diceLog.unshift({die:`${n}×W${s}`,val:total});if(diceLog.length>12)diceLog.pop();
+  localStorage.setItem('dsa_dicelog',JSON.stringify(diceLog));
   renderDiceLog();
 }
-
-function renderDiceLog() {
-  document.getElementById('diceLog').innerHTML = diceLog.map(e => {
-    const isCrit = e.val === 1;
-    const sides = typeof e.die === 'number' ? e.die : 0;
-    const isFumble = sides > 0 && e.val === sides;
-    const cls = isCrit ? 'crit' : isFumble ? 'fumble' : '';
-    return `<div class="dl-entry"><span class="dl-die">W${e.die}</span><span class="dl-val ${cls}">${e.val}</span></div>`;
+function renderDiceLog(){
+  document.getElementById('diceLog').innerHTML=diceLog.map(e=>{
+    const isCrit=e.val===1,sides=typeof e.die==='number'?e.die:0,isFumble=sides>0&&e.val===sides;
+    return `<div class="dl-entry"><span class="dl-die">W${e.die}</span><span class="dl-val ${isCrit?'crit':isFumble?'fumble':''}">${e.val}</span></div>`;
   }).join('');
 }
 
-// ── Server integration ─────────────────────────────────
-async function detectServer() {
-  try {
-    const r = await fetch('/api/saves', { signal: AbortSignal.timeout(1500) });
-    serverMode = r.ok;
-  } catch { serverMode = false; }
-  const dot = document.getElementById('serverDot');
-  const dot2 = document.getElementById('saveDot');
-  const lbl = document.getElementById('serverLbl');
-  dot.classList.toggle('online', serverMode);
-  dot2.classList.toggle('online', serverMode);
-  lbl.textContent = serverMode ? 'Server online' : 'lokal';
-  if (serverMode) loadServerSaves();
+// ── SERVER ──
+async function detectServer(){
+  try{const r=await fetch('/api/saves',{signal:AbortSignal.timeout(1500)});serverMode=r.ok;}catch{serverMode=false;}
+  const dots=[document.getElementById('serverDot'),document.getElementById('saveDot')];
+  dots.forEach(d=>{if(d)d.classList.toggle('online',serverMode)});
+  document.getElementById('serverLbl').textContent=serverMode?'Server online':'lokal';
+  await loadCampaign();
+  if(serverMode)loadServerSaves();
 }
-
-async function loadServerSaves() {
-  try {
-    const r = await fetch('/api/saves');
-    const saves = await r.json();
-    const body = document.getElementById('savesBody');
-    if (!saves.length) {
-      body.innerHTML = '<div class="no-server">Noch keine gespeicherten Kämpfe.</div>';
-      return;
-    }
-    const now = new Date();
-    body.innerHTML = saves.slice(0, 6).map(s => {
-      const d = new Date(s.modified);
-      const mins = Math.floor((now - d) / 60000);
-      const age = mins < 60 ? `${mins} Min.` : mins < 1440 ? `${Math.floor(mins/60)} Std.` : `${Math.floor(mins/1440)} T.`;
+async function loadServerSaves(){
+  try{
+    const r=await fetch('/api/saves');const saves=await r.json();
+    const body=document.getElementById('savesBody');
+    if(!saves.length){body.innerHTML='<div class="no-server">Noch keine gespeicherten Kämpfe.</div>';return;}
+    const now=new Date();
+    body.innerHTML=saves.slice(0,6).map(s=>{
+      const d=new Date(s.modified);const mins=Math.floor((now-d)/60000);
+      const age=mins<60?`${mins} Min.`:mins<1440?`${Math.floor(mins/60)} Std.`:`${Math.floor(mins/1440)} T.`;
       return `<div class="save-entry">
         <div class="save-name" onclick="goToKampf('${s.name}')">${s.name}</div>
-        <div class="save-meta">R${s.round} · ${s.combatants}K · ${age}</div>
+        <div class="save-meta">R${s.round}·${s.combatants}K·${age}</div>
         <button class="save-load" onclick="goToKampf('${s.name}')">→</button>
       </div>`;
     }).join('');
-    if (saves.length > 6) body.innerHTML += `<div style="font-size:10px;color:var(--dim);font-family:'Cinzel',serif;padding-top:4px">+${saves.length-6} weitere in der Kampfverwaltung</div>`;
-  } catch {}
+    if(saves.length>6)body.innerHTML+=`<div style="font-size:10px;color:var(--dim);font-family:'Cinzel',serif;padding-top:4px">+${saves.length-6} weitere in der Kampfverwaltung</div>`;
+  }catch{}
+}
+function goToKampf(saveName){sessionStorage.setItem('dsa_autoload',saveName);window.location.href='kampf.html';}
+
+// ── TOAST ──
+let toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2500);
 }
 
-function goToKampf(saveName) {
-  sessionStorage.setItem('dsa_autoload', saveName);
-  window.location.href = 'kampf.html';
-}
-
-// ── Toast ──────────────────────────────────────────────
-let toastTimer = null;
-function showToast(msg) {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => t.classList.remove('show'), 2500);
-}
-
-// ── INIT ───────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
-  if (isLight) { document.body.classList.add('light'); document.getElementById('themeBtn').textContent = '🌙 Dunkel'; }
-  renderModules();
-  renderDate();
-  renderWeather();
-  renderDiceBtns();
-  renderDiceLog();
-  initNotes();
-  detectServer();
+// ── INIT ──
+document.addEventListener('DOMContentLoaded',()=>{
+  if(isLight){document.body.classList.add('light');document.getElementById('themeBtn').textContent='🌙 Dunkel';}
+  renderModules();renderDiceBtns();renderDiceLog();initNotes();detectServer();
 });
 </script>
 </body>

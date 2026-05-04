@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSA 4.1 – Namensgenerator</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#141008;--sf:#1e1810;--sf2:#261e12;--sf3:#2e2416;--brd:#3a2e18;--brdg:#6a5020;--gold:#c9922a;--goldl:#e8b84b;--red:#c0392b;--green:#27ae60;--blue:#2980b9;--text:#d4c4a0;--dim:#8a7a5a;--dim2:#5a4a2a;--overlay:radial-gradient(ellipse at 20% 10%,rgba(201,146,42,0.05),transparent 50%)}
+body.light{--bg:#f0ece0;--sf:#faf8f2;--sf2:#eee8da;--sf3:#e4dcd0;--brd:#c0aa80;--brdg:#8a6a30;--gold:#8b5e10;--goldl:#6a4808;--text:#1a1208;--dim:#6a5a3a;--dim2:#9a8a6a;--overlay:none}
+*{box-sizing:border-box;margin:0;padding:0}
+html{height:100%}
+body{min-height:100vh;background:var(--bg);color:var(--text);font-family:'Crimson Text',Georgia,serif;transition:background .3s,color .3s}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;background:var(--overlay);z-index:0}
+.app{position:relative;z-index:1;display:grid;grid-template-rows:auto 1fr;height:100vh}
+
+/* HEADER */
+header{background:linear-gradient(180deg,var(--sf),var(--bg));border-bottom:1px solid var(--brd);padding:0 20px;display:flex;align-items:center;gap:12px;height:52px;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.4)}
+.logo{font-family:'Cinzel',serif;font-size:16px;font-weight:700;color:var(--gold);letter-spacing:3px}
+.logo::before{content:'⚔ ';text-shadow:0 0 10px var(--gold)}
+.breadcrumb{font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--dim);display:flex;align-items:center;gap:6px}
+.breadcrumb a{color:var(--dim);text-decoration:none;cursor:pointer;transition:color .13s}
+.breadcrumb a:hover{color:var(--goldl)}
+.hflex{flex:1}
+.btn{font-family:'Cinzel',serif;font-size:9px;letter-spacing:1.5px;padding:5px 12px;border:1px solid var(--brd);background:var(--sf2);color:var(--text);cursor:pointer;transition:all .15s;text-transform:uppercase;white-space:nowrap}
+.btn:hover{border-color:var(--gold);color:var(--gold)}
+.btn-gold{border-color:var(--gold);color:var(--gold);background:var(--sf)}
+.btn-gold:hover{background:var(--sf2)}
+.btn-sm{padding:3px 8px;font-size:8px}
+.theme-btn{display:flex;align-items:center;gap:4px;font-family:'Cinzel',serif;font-size:8px;color:var(--dim);cursor:pointer;padding:4px 9px;border:1px solid var(--brd);background:var(--sf2);transition:all .2s}
+.theme-btn:hover{color:var(--text);border-color:var(--gold)}
+
+/* MAIN LAYOUT */
+.main{display:grid;grid-template-columns:280px 1fr;height:calc(100vh - 52px);overflow:hidden}
+.side-panel{border-right:1px solid var(--brd);display:flex;flex-direction:column;overflow:hidden;background:var(--sf)}
+.side-hd{padding:10px 13px;background:var(--sf2);border-bottom:1px solid var(--brd);font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--gold);text-transform:uppercase}
+.side-bd{flex:1;overflow-y:auto;padding:12px;scrollbar-width:thin;scrollbar-color:var(--brd) transparent}
+.results-panel{display:flex;flex-direction:column;overflow:hidden}
+.results-hd{padding:10px 16px;background:var(--sf);border-bottom:1px solid var(--brd);display:flex;align-items:center;gap:8px;flex-shrink:0}
+.results-body{flex:1;overflow-y:auto;padding:16px;scrollbar-width:thin;scrollbar-color:var(--brd) transparent}
+
+/* Form elements */
+label{font-family:'Cinzel',serif;font-size:9px;letter-spacing:1.5px;color:var(--dim);text-transform:uppercase;display:block;margin-bottom:3px}
+select,input[type=number]{background:var(--sf2);border:1px solid var(--brd);color:var(--text);padding:6px 8px;font-family:'Crimson Text',serif;font-size:13px;outline:none;transition:border-color .2s;width:100%}
+select:focus,input:focus{border-color:var(--gold)}
+select option{background:var(--sf)}
+.fg{margin-bottom:10px}
+
+/* Gender toggle */
+.gender-row{display:flex;gap:3px;margin-bottom:10px}
+.gender-btn{flex:1;padding:6px 4px;font-family:'Cinzel',serif;font-size:9px;letter-spacing:1px;border:1px solid var(--brd);background:var(--sf2);color:var(--dim);cursor:pointer;text-align:center;transition:all .13s;text-transform:uppercase}
+.gender-btn:hover{color:var(--text)}
+.gender-btn.active.male{border-color:#2980b9;color:#2980b9;background:rgba(41,128,185,0.1)}
+.gender-btn.active.female{border-color:#c0392b;color:#c0392b;background:rgba(192,57,43,0.1)}
+.gender-btn.active.both{border-color:var(--gold);color:var(--gold);background:rgba(201,146,42,0.1)}
+
+/* Count */
+.count-row{display:flex;gap:4px;align-items:center;margin-bottom:10px}
+.count-row label{margin:0}
+.count-row input{width:56px}
+
+/* Surname toggle */
+.opt-row{display:flex;align-items:center;gap:6px;margin-bottom:8px;cursor:pointer}
+.opt-row input[type=checkbox]{width:auto;accent-color:var(--gold);cursor:pointer}
+.opt-row span{font-family:'Cinzel',serif;font-size:9px;letter-spacing:1px;color:var(--dim);text-transform:uppercase;cursor:pointer}
+
+/* Name cards */
+.names-section{margin-bottom:16px}
+.names-section-title{font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--brd);padding-bottom:6px}
+.names-section-title .icon{font-size:12px}
+.name-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px}
+.name-card{border:1px solid var(--brd);background:var(--sf);padding:10px 12px;display:flex;align-items:center;gap:8px;transition:all .13s}
+.name-card:hover{border-color:var(--brdg)}
+.name-text{flex:1}
+.name-first{font-family:'Cinzel',serif;font-size:15px;color:var(--text)}
+.name-last{font-size:12px;color:var(--dim);margin-top:2px}
+.name-copy{width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:1px solid var(--brd);background:var(--sf2);color:var(--dim);cursor:pointer;font-size:12px;transition:all .13s;flex-shrink:0}
+.name-copy:hover{border-color:var(--gold);color:var(--gold)}
+.name-copy.copied{border-color:var(--green);color:var(--green)}
+
+/* Favorites */
+.fav-list{display:flex;flex-direction:column;gap:4px}
+.fav-entry{display:flex;align-items:center;gap:6px;padding:5px 8px;border:1px solid var(--brd);background:var(--sf2);font-family:'Cinzel',serif;font-size:12px}
+.fav-entry span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fav-del{width:18px;height:18px;display:flex;align-items:center;justify-content:center;border:1px solid var(--brd);background:var(--sf);color:var(--dim);cursor:pointer;font-size:9px;flex-shrink:0;transition:all .13s}
+.fav-del:hover{border-color:var(--red);color:var(--red)}
+.empty-fav{font-style:italic;color:var(--dim2);font-size:12px;padding:6px 0}
+
+/* Info box */
+.info-box{background:rgba(201,146,42,.05);border:1px solid rgba(201,146,42,.2);padding:8px 10px;font-size:11px;color:var(--dim);line-height:1.6;margin-bottom:10px;font-style:italic}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="logo">DSA 4.1</div>
+  <div class="breadcrumb"><a onclick="window.location.href='index.html'">Übersicht</a>›<span style="color:var(--goldl)">Namensgenerator</span></div>
+  <div class="hflex"></div>
+  <button class="btn btn-gold" onclick="generate()">🎲 Generieren</button>
+  <div class="theme-btn" onclick="toggleTheme()" id="themeBtn">☀ Hell</div>
+</header>
+<div class="main">
+
+<!-- SIDEBAR -->
+<div class="side-panel">
+  <div class="side-hd">Einstellungen</div>
+  <div class="side-bd">
+    <div class="fg">
+      <label>Volk / Region</label>
+      <select id="selKultur" onchange="onKulturChange()"></select>
+    </div>
+    <div class="info-box" id="kulturInfo"></div>
+
+    <label>Geschlecht</label>
+    <div class="gender-row">
+      <div class="gender-btn male" id="gbMale" onclick="setGender('male')">♂ Männlich</div>
+      <div class="gender-btn female" id="gbFemale" onclick="setGender('female')">♀ Weiblich</div>
+      <div class="gender-btn both active" id="gbBoth" onclick="setGender('both')">⚥ Beide</div>
+    </div>
+
+    <div class="count-row">
+      <label>Anzahl</label>
+      <input type="number" id="nameCount" value="8" min="1" max="30" style="width:56px">
+      <span style="font-size:12px;color:var(--dim)">Namen</span>
+    </div>
+
+    <div class="opt-row">
+      <input type="checkbox" id="showSurname" checked>
+      <span onclick="document.getElementById('showSurname').click()">Nachname / Patronym</span>
+    </div>
+    <div class="opt-row">
+      <input type="checkbox" id="showOnly1">
+      <span onclick="document.getElementById('showOnly1').click()">Nur einen Namen</span>
+    </div>
+
+    <div style="margin-top:12px;border-top:1px solid var(--brd);padding-top:12px">
+      <div class="side-hd" style="padding:0;background:none;border:none;margin-bottom:8px">⭐ Favoriten</div>
+      <div class="fav-list" id="favList"></div>
+      <button class="btn btn-sm" style="margin-top:8px;width:100%" onclick="clearFavs()">Alle löschen</button>
+    </div>
+  </div>
+</div>
+
+<!-- RESULTS -->
+<div class="results-panel">
+  <div class="results-hd">
+    <span style="font-family:'Cinzel',serif;font-size:11px;color:var(--dim);letter-spacing:2px;text-transform:uppercase" id="resultsTitle">Generierte Namen</span>
+    <div style="flex:1"></div>
+    <button class="btn btn-sm" onclick="generate()">⟳ Neu würfeln</button>
+    <button class="btn btn-sm" onclick="copyAll()">📋 Alle kopieren</button>
+  </div>
+  <div class="results-body" id="resultsBody">
+    <div style="color:var(--dim);font-style:italic;text-align:center;margin-top:40px">Volk auswählen und auf „Generieren" klicken.</div>
+  </div>
+</div>
+</div>
+</div>
+
+<script>
+'use strict';
+
+// ═══════════════════════════════════════════════════════════
+// NAME DATABASE
+// ═══════════════════════════════════════════════════════════
+const KULTUREN = {
+  'mittelreich': {
+    label: 'Mensch – Mittelreich (Garetier)',
+    info: 'Deutsch klingende Namen. Häufig "von [Burg/Ort]" als Adelszusatz, oder einfacher Familienname.',
+    male: ['Aldric','Alrik','Answin','Arwed','Baldur','Barnhelm','Berin','Berthold','Bertram','Borek','Conrad','Dagobert','Dietmar','Dietrich','Egon','Einhard','Ernst','Erwin','Friedrich','Fritz','Fromund','Gernot','Gottfried','Gunther','Harald','Heinrich','Helm','Hildebrand','Hugo','Ingram','Jorim','Karl','Klaus','Konrad','Kurt','Leopold','Lukas','Magnus','Markus','Moritz','Nikolaus','Otto','Philipp','Ralf','Rudolf','Ruprecht','Siegmar','Simon','Stefan','Thomas','Ulrich','Viktor','Volker','Werner','Wilhelm','Wolf','Wolfgang','Zacharias','Alf','Allert','Arnulf','Bertwin','Bled','Brann','Brunolf','Burkhard','Dankmar','Eckhard','Eike','Eilo','Eitel','Elbfried','Elmar','Elmund','Erard','Erdwin','Erhardt'],
+    female: ['Adelheid','Adele','Agnes','Alisa','Almuth','Anna','Anrike','Berta','Birthe','Britta','Christina','Clara','Dagmar','Dorothea','Edith','Elfriede','Elisabeth','Emma','Friederike','Genoveva','Gertrud','Gudrun','Hedwig','Hilde','Hildegard','Irmgard','Johanna','Judith','Katharina','Klara','Lena','Lisbeth','Luise','Magdalene','Margarete','Maria','Martha','Mathilde','Meta','Nathalie','Ottilie','Petra','Rosa','Rosemunde','Sabine','Sophia','Theresia','Ursula','Veronika','Walburga','Wilhelmine','Wiltrud','Aelise','Alwine','Amalia','Armgard','Beatrix','Bele','Bele','Bertha','Clotilde','Dankrade','Eberline','Edeltraud'],
+    surname: ['von Achberg','von Allerheim','von Andergast','von Bergen','von Darkingon','von Eberstam','von Ehrenfels','von Falkenstein','von Gareth','von Greifenstein','von Hagen','von Hagenbach','von Hammerstein','von Horst','von Kirchtal','von Krakenau','von Löwenheim','von Markelshof','von Niederhagen','von Nordmark','von Oernhagen','von Pfauensee','von Rabenau','von Raschthal','von Reichenstein','von Rosenschloß','von Runkelstein','von Silbersee','von Steinmark','von Sternau','von Tiefenbach','von Waldenstein','von Walkenried','Bäcker','Eisenhut','Fischer','Gerber','Holzkäufer','Kürschner','Löwe','Müller','Rabe','Schmid','Schneider','Schwarzer','Weber'],
+    surnameType: 'von',
+  },
+  'thorwal': {
+    label: 'Mensch – Thorwal (Nordmann)',
+    info: 'Nordisch klingende Namen. Patronymisch: Sohn des Vaters → "Vaterssohn", Tochter → "Vatersdottir".',
+    male: ['Alar','Alarik','Alfar','Alrik','Arvid','Asger','Asmund','Björn','Brand','Dagmar','Eindride','Ejnar','Erik','Erling','Eystein','Gunnar','Hakon','Halvard','Halvar','Harald','Helmar','Hrolf','Ingmar','Ingvar','Ivar','Karl','Knut','Lars','Leif','Magnus','Njord','Olaf','Orm','Per','Ragnar','Ragnvald','Rolf','Sigbjörn','Sigmund','Sigurd','Sigvar','Sven','Thor','Thormod','Thorsten','Thorvald','Ulf','Vidar','Vigmar','Grimmar','Gunvor','Finnbogi','Fiskmal','Freymar','Eidmar','Erlend','Ásolf','Dagmar','Dankmar','Heidrek','Holt','Kolgrim','Kolmar','Kolmod','Ljotur'],
+    female: ['Aasa','Alfhild','Astrid','Birgitta','Bodil','Borgny','Brynhild','Dagmar','Dagny','Eivor','Freydis','Freya','Groa','Gudrid','Gudrun','Gunnhild','Hallgerda','Helga','Herdis','Hervor','Ingeborg','Ingrid','Jorid','Kolfrosta','Maja','Nanna','Ragna','Ragnhild','Randi','Sigrid','Sigrun','Signe','Solveig','Svanhild','Thora','Thorborg','Thordis','Thurid','Tove','Ulfhild','Unn','Vanja','Vigdis','Ylfa','Bergljot','Birna','Borghild','Borghildr','Bothildr','Hallbera','Heiðrún'],
+    surnameType: 'patronym',
+    patronymM: 'son', patronymF: 'dottir',
+  },
+  'tulamiden': {
+    label: 'Mensch – Tulamiden (Wüstenvolk)',
+    info: 'Arabisch klingende Namen. Üblich: "ibn [Vatername]" (Sohn) oder "bint [Vatername]" (Tochter).',
+    male: ['Abbas','Ahmad','Akbar','Akil','Ali','Amir','Asim','Ayoub','Bahir','Bassam','Bilal','Dhul','Emir','Fadl','Farid','Farouk','Fawzi','Ghalib','Ghani','Habib','Hadi','Hamid','Hassan','Ibrahim','Idris','Imad','Ismail','Jabir','Jasim','Kamil','Khalid','Latif','Mahdi','Mahmoud','Malik','Mansur','Marwan','Mukhtar','Murad','Nadir','Nasser','Omar','Qasim','Rashid','Said','Saleh','Samir','Sharif','Tariq','Walid','Yahya','Yasir','Yusuf','Zubair','Aamir','Abidin','Adel','Adnan','Afif','Agha','Ahmed','Akhtar','Alaa','Alam','Alawi','Alim','Allam','Alwan','Amad'],
+    female: ['Aisha','Amira','Asma','Bahira','Dalila','Dima','Fatima','Ghalia','Habiba','Halima','Hana','Hanan','Hayat','Ihsan','Inaya','Iman','Jamila','Jasmine','Karima','Khadija','Layla','Leila','Lina','Malika','Mariam','Marwa','Miriam','Nadia','Nadira','Najwa','Nour','Rahel','Razan','Rima','Saffiya','Salma','Sama','Samira','Sara','Tamara','Yasmin','Yusra','Zainab','Zahra','Zara','Zina','Abeera','Abida','Abir','Abla','Abra','Adala','Adela','Adila','Adilah','Adina','Adira','Afaf','Afana','Afifa','Afiya'],
+    surnameType: 'patronym_arab',
+    patronymM: 'ibn', patronymF: 'bint',
+  },
+  'horasier': {
+    label: 'Mensch – Horasier (Romantisch)',
+    info: 'Romanisch/Italienisch klingende Namen. Häufig "da [Stadt]", "di [Familienname]" oder "[Name]i".',
+    male: ['Adriano','Agostino','Alberto','Alessandro','Alfredo','Andrea','Angelo','Antonio','Bartolomeo','Benedicto','Carlo','Cesare','Damiano','Daniele','Domenico','Eduardo','Enzo','Ernesto','Ettore','Fabio','Federico','Felice','Filippo','Flavio','Francesco','Giacomo','Giovanni','Giulio','Giuseppe','Gregorio','Guido','Leonardo','Lorenzo','Luca','Luigi','Marco','Massimo','Matteo','Michele','Nicola','Orlando','Paolo','Piero','Raffaele','Riccardo','Roberto','Salvatore','Sebastiano','Stefano','Tiberio','Tiziano','Tommaso','Umberto','Vincenzo','Amadeo','Ambrogio','Amilcare','Amintore','Anacleto','Aniceto','Annibale','Ansaldo','Antelmo'],
+    female: ['Adriana','Agnese','Alessandra','Angela','Anna','Antonia','Beatrice','Bianca','Camilla','Carlotta','Cecilia','Chiara','Claudia','Clorinda','Costanza','Cristina','Daniela','Elena','Eleonora','Elisabetta','Emilia','Federica','Fiammetta','Francesca','Gabriella','Gemma','Ginevra','Giovanna','Giulia','Grazia','Isabella','Lavinia','Laura','Leonora','Livia','Lorenza','Lucia','Luisa','Margherita','Maria','Marta','Martina','Natalia','Nicoletta','Orietta','Paola','Patrizia','Penelope','Raffaella','Roberta','Rosa','Sara','Silvana','Sofia','Stefania','Teresa','Valentina','Veronica','Violante','Ada','Adalgisa','Adalinda'],
+    surname: ['da Ancona','da Bari','da Firenza','da Genova','da Mila','da Napoli','da Palermo','da Rimini','da Roma','da Siena','da Torino','da Venezia','dei Bardi','dei Corsini','dei Medici','dei Pazzi','di Bello','di Bruno','di Caro','di Falco','di Fiore','di Leone','di Luca','di Marco','di Marino','di Napoli','di Palma','di Pietro','di Roma','di Russo','di Serra'],
+    surnameType: 'simple',
+  },
+  'aranien': {
+    label: 'Mensch – Aranien (Griechisch)',
+    info: 'Griechisch klingende Namen, oft mit mythologischen Bezügen.',
+    male: ['Alexios','Alexandros','Anastasios','Andreas','Apollon','Aristarchos','Aristoteles','Arkadios','Athanasios','Christodulos','Demetrios','Dionysios','Eusebios','Eustathios','Georgios','Gregorios','Heraklios','Hieronymos','Ignatios','Ioannes','Isaakios','Kallimachos','Konstantinos','Kyriakos','Kyrillos','Leon','Leonidas','Makedonios','Michael','Nikolaos','Nikephoros','Odysseus','Orestes','Panagiotis','Pankratios','Petros','Philippos','Prokopios','Romanos','Simeon','Sokrates','Stavros','Stephanos','Theodoros','Theophilos','Thomas','Timotheos','Achilles','Adonis','Agamemnon','Ajax','Amphitrite','Antinoos','Arion'],
+    female: ['Aikaterine','Alexandra','Anastasia','Anthousa','Ariadne','Artemisia','Athanasia','Basilike','Chrysanthi','Demetra','Despina','Dionysia','Ekaterine','Eirene','Elene','Eudokia','Georgia','Helene','Ioanna','Irene','Kalliope','Katerine','Konstantina','Kyriake','Lamprini','Magdalene','Maria','Melite','Nikolaou','Olympia','Ourania','Panagiota','Parthena','Pelagia','Petra','Photeine','Sofia','Stavroula','Theodosia','Theodote','Zoe','Agape','Agafia','Agalliasis','Agapeta','Agapetos','Agapia','Agapios','Agapita','Agapitos','Agapodoros'],
+    surname: ['tou Axiou','tou Bronzou','tou Khrusou','tou Lekkou','tou Melissou','tou Petrakou','tou Petra','Alexiou','Andreou','Athanassiou','Christodoulou','Demetriou','Georgiou','Ioannou','Konstantinou','Kyriakou','Nikolaou','Papadimitriou','Papadopoulos','Papagiannakis','Papaioannou','Papanastasiou','Petrou','Philippou','Stavrou','Stefanou','Theodossiou'],
+    surnameType: 'simple',
+  },
+  'almadaner': {
+    label: 'Mensch – Almadaner (Iberisch)',
+    info: 'Spanisch/Portugiesisch klingende Namen. Häufig Familiennamen mit Adelsbezug.',
+    male: ['Alvaro','Bartolomeo','Carlos','Diego','Enrique','Fernando','Gonzalo','Henrique','Isidro','Jorge','Luis','Manuel','Nicolas','Pedro','Rodrigo','Sebastian','Tomas','Alfonzo','Alejandro','Alonzo','Andres','Antonio','Bernardo','Bernabe','Blas','Calixto','Candido','Casimir','Catalino','Celestino','Christobal','Claudio','Clemente','Cornelio','Cosme','Crisanto','Cruz','Damian','Dario','David','Eduardo','Ernesto','Esteban','Eugenio','Fausto','Felipe','Felix','Florencio','Francisco','Gaspar','Gerardo','Gilberto','Gregorio'],
+    female: ['Alicia','Beatriz','Carmen','Dolores','Elena','Filipa','Gabriela','Helena','Inês','Juanita','Luisa','Mercedes','Nuria','Pilar','Rosa','Teresa','Agustina','Ana','Antonia','Aurora','Blanca','Carlota','Carolina','Catalina','Cecilia','Clara','Concepcion','Consuelo','Cristina','Dolores','Eduvigis','Elvira','Emilia','Encarnacion','Esmeralda','Esperanza','Eugenia','Evangelina','Felisa','Fernanda','Florinda','Francisca','Gloria','Graciana','Hortensia','Isabel','Josefina','Julia','Leocadia','Leonor','Lola','Lucia','Lucrecia','Magdalena','Manuela','Margarita','Matilde'],
+    surname: ['de Almeida','de Almeria','de Alvarez','de Aragon','de Aranda','de Arenas','de Arroyo','de Asturias','de Avila','de Badajoz','de Braganza','de Burgos','de Cabrera','de Cadiz','de Castilla','de Castro','de Cordoba','de Coruña','de Cuellar','de Estremadura','de Galicia','de Granada','de Guadalupe','de Guevara','de Herrera','de Hinojosa','de Huelva','de Jaen','de Jerez','de la Cerda','de la Cruz','de la Fuente','de la Garza','de la Mora','de la Roca','de la Rosa','de la Torre','de la Vega','de Leon','de Lerma','de Llorente','de Madrid','de Malaga','de Mallorca','de Medina'],
+    surnameType: 'simple',
+  },
+  'norbarden': {
+    label: 'Mensch – Norbarden',
+    info: 'Nordwestliche Menschenvölker, keltisch/germanisch geprägte Namen.',
+    male: ['Aidan','Alban','Aldwin','Aldwyn','Angar','Angus','Ardan','Ardeth','Ardwyn','Aren','Argus','Arnan','Arrand','Arren','Arros','Arrun','Arthan','Arwin','Bran','Brandor','Brandyn','Brek','Brelorn','Brendan','Brenn','Brennan','Breon','Brian','Bron','Brondan','Brondel','Brondan','Bronwin','Cadoc','Caer','Cailean','Cain','Cairn','Cal','Calan','Cale','Calen','Calian','Callo','Callum','Cavan','Cawlen','Celyn','Cerin','Cernach','Clann','Claran','Clavin','Claw','Clea','Cleran','Clern','Coll','Collan','Collen','Collier','Collin','Colt','Conall','Conan','Conn','Conor','Cor'],
+    female: ['Ailish','Aine','Aislinn','Aoife','Beira','Bran','Branna','Breda','Breen','Brenda','Bridhe','Brigid','Brigit','Brina','Briona','Britta','Brona','Bronagh','Caitlin','Caitriona','Callie','Caoimhe','Cara','Cari','Carina','Caris','Carra','Cate','Catriona','Ceinwen','Celie','Cera','Ceri','Ceridwen','Ciara','Cliona','Connie','Dana','Dara','Darby','Darcy','Darra','Darthin','Darva','Darvie','Dea','Deana','Deara','Deb','Decca','Dedia','Dee','Deena','Deira','Dena','Denica','Denise','Dere','Dina','Dinda','Dinna','Dion','Diona','Dionne'],
+    surname: ['ap Bren','ap Cael','ap Calen','ap Carn','ap Coll','ap Conn','ap Dar','ap Dun','ap Galen','ap Garn','ap Gor','ap Halen','ap Idal','ap Kern','ap Lan','ap Lorn','ap Mael','ap Morn','ap Narn','ap Norm','ap Orn','ap Pell','ap Ran','ap Rann','ap Rorn','ap Taln','ap Torn','ferch Bren','ferch Cael','ferch Calen','ferch Carn','ferch Coll'],
+    surnameType: 'clan',
+  },
+  'waldmensch': {
+    label: 'Mensch – Waldmensch',
+    info: 'Naturverbundene Waldvölker. Namen oft tier- oder naturinspiriert, einfach und klangvoll.',
+    male: ['Adler','Ahorn','Ast','Bach','Bär','Birke','Blatt','Blitz','Buche','Dachs','Dorn','Eich','Eiche','Eichel','Eichhörnchen','Elch','Erle','Farn','Feuer','Fichte','Fichtenbaum','Fluss','Forst','Fuchs','Gras','Habicht','Hasel','Hirsch','Holz','Horizont','Kiefer','Klippe','Kranich','Lärche','Laubaum','Laube','Licht','Linde','Luchs','Marder','Moos','Nebel','Nordwind','Nuss','Nussbaum','Rabe','Reif','Rinde','Roggen','Rotkehlchen','Salweide','Schatten','Schnee','Specht','Stein','Storch','Sturm','Tanne','Taue','Wacholder','Wasser','Weide','Weißdorn','Wildnis','Wind','Wolf','Wurzel','Zedern','Zilpzalp'],
+    female: ['Amsel','Bachstelze','Birke','Blüte','Brombeer','Buche','Distel','Dornröschen','Eisvogel','Elberl','Erle','Feder','Fels','Fenchel','Flechte','Flocke','Ginster','Günsel','Haselnuss','Hasel','Heidekraut','Heide','Immergrün','Iris','Klee','Kornblume','Krähe','Lavendel','Lerche','Linde','Lorbeer','Maiglöckchen','Malve','Maus','Minze','Moos','Nachtfalter','Nachtfalke','Narzisse','Nesseln','Ortolan','Pappel','Primel','Ranke','Rauch','Reh','Ringelblume','Rose','Rosmarin','Rowan','Salbei','Schlehe','Schmetterling','Schwalbe','Seegras','Seidelbast','Silberweide','Steinröschen','Sternblume','Storchschnabel','Tanne','Vergissmeinnicht','Veilchen','Waldmeister','Weide'],
+    surnameType: 'none',
+  },
+  'elf_au': {
+    label: 'Elfen – Auelfen',
+    info: 'Auelfen bevorzugen fließende, zweisilbige Namen mit -el, -iel, -indel Endungen. Kein Familienname.',
+    male: ['Aerindel','Alathar','Aldandel','Amrindel','Andrindel','Argonindel','Arindel','Caladindel','Calindel','Carnindel','Celebindel','Daerindel','Darandindel','Eilindel','Eirindel','Elarindel','Elorandel','Eredindel','Faerindel','Falindel','Firindel','Gaerindel','Galindel','Gondindel','Halindel','Helindel','Hirindel','Iorindel','Ivrandel','Landindel','Larindel','Laurindel','Legindel','Maerandel','Manindel','Marindel','Meladindel','Merindel','Mirindel','Naerindel','Nandindel','Narindel','Orindel','Perindel','Raindel','Rendel','Rhindel','Rindel','Saerindel','Sarindel','Tarandel','Thandel','Tirindel','Aerval','Arendel','Brandelindel','Carandel','Derindel','Erandel','Ferandel','Garandel','Harandel','Larandel','Marandel','Narandel'],
+    female: ['Aeriel','Alathariel','Aldandriel','Amriel','Andriel','Argoniel','Ariel','Caladiel','Caliel','Carniel','Celebriel','Daeriel','Eiliel','Eiriel','Elariel','Elindrie','Eloraniel','Erediel','Faeriel','Faliel','Firiel','Gaeriel','Galiel','Gondiel','Haliel','Heliel','Hiriel','Ioriel','Ivraniel','Landiel','Lariel','Lauriel','Legiel','Maeraniel','Maniel','Mariel','Meladiel','Meriel','Miriel','Naeriel','Nandiel','Nariel','Oriel','Periel','Rainiel','Rendiel','Rhindel','Rindel','Saeriel','Sariel','Taraniel','Thandiel','Tiriel','Arendel','Caraniel','Daraniel','Eraniel','Feraniel','Garaniel','Haraniel','Laraniel','Maraniel','Naraniel'],
+    surnameType: 'none',
+  },
+  'elf_firn': {
+    label: 'Elfen – Firnelfen',
+    info: 'Firnelfen haben härtere, konsonantisch geprägte Namen. Leben in eisigen Regionen.',
+    male: ['Achren','Aesil','Aeryn','Aglar','Aglos','Agris','Agron','Agrus','Ahred','Ahroth','Ailen','Ailin','Ainvar','Ainver','Aivar','Aiven','Akrin','Akron','Akrus','Aldin','Aldon','Aldrin','Aldron','Aledon','Aledin','Aleron','Aleven','Alfin','Alfon','Alfren','Alfrin','Algon','Algren','Alhren','Alron','Alven','Alvin','Alvon','Alvor','Andar','Andin','Andor','Andrin','Andron','Anron','Anven','Ardan','Ardin','Ardon','Ardrin','Ardron','Ardven','Arelin','Arelyn','Aren','Arenn','Aren','Arik','Aril','Arin','Arindel','Arindon','Aris','Arishe','Ariss','Arist','Arix'],
+    female: ['Achen','Achin','Achre','Aelon','Aelyn','Aerin','Aerine','Aeryn','Aesa','Aesian','Aeshe','Aeshik','Aeshin','Aeshis','Aeshit','Aeshix','Aeshiy','Aeshiz','Aesk','Aesm','Aesn','Aesp','Aesr','Aess','Aest','Aesy','Aesyn','Aeysh','Aglen','Aglin','Aglon','Aglyn','Ailinn','Ailine','Ailon','Ailyn','Ainen','Ainne','Ainon','Airon','Airyn','Aisha','Aishea','Aisheen','Aishein','Aishene','Aishenne','Aishen','Aishik','Aishim','Aishin','Aishinn','Aishion','Aishit','Aishiv','Aishix','Aishiy','Aishiz'],
+    surnameType: 'none',
+  },
+  'zwerg': {
+    label: 'Zwerge',
+    info: 'Zwergnamen klingen oft kompakt und hart, mit vielen Konsonanten. Frauen haben oft -a Endungen.',
+    male: ['Ambadol','Angradol','Angradir','Ardallin','Ardor','Arndol','Arnold','Arond','Balin','Balindor','Barak','Baruk','Bigin','Boldur','Borek','Borgik','Borgmar','Bormar','Brandur','Brindor','Brunhur','Bulgor','Bulin','Dalin','Dambrak','Dankmar','Darbrak','Darnuk','Daruk','Doldur','Dombrak','Dordak','Dormar','Dornhur','Droin','Dronar','Dugar','Dumar','Dunbar','Durak','Durin','Durnor','Duruk','Galin','Gandur','Garbrak','Gardar','Gardul','Garok','Gondur','Gordak','Gordar','Gordul','Gormar','Gormur','Grambak','Grandur','Grobak','Grombar','Grondar','Grondur','Grorak','Guldur','Gundar','Gundur','Gurdar','Gurdur','Halgin','Hardur','Harmdur','Harndur','Harnhur','Ingmar','Inkmar','Jorak','Jordul','Jormar','Kaldur','Kandur','Kardak','Kardar','Kardur','Karmar'],
+    female: ['Ambala','Angrada','Ardalla','Ardhild','Balina','Balindora','Baraka','Baruka','Bigina','Boldura','Borekka','Borgika','Borgmara','Bormara','Brandura','Brindora','Brunhura','Bulina','Dalina','Dambraka','Dankmaraa','Darbraka','Darnuka','Daruka','Daruma','Doldura','Dombraka','Dordaka','Dormara','Dornhura','Droina','Drubela','Drudura','Dugara','Dumara','Dunbara','Duraka','Durina','Durgun','Durnora','Duruka','Galina','Gandura','Garbraka','Gardara','Gardul','Garndura','Garnhura','Garoka','Gondura','Gordaka','Gordara','Gordul','Gormaril','Gormura','Grambaka','Grandura','Grobaka','Grombaraa','Grondara','Grondura','Grorika','Guldura','Gundara','Gundura','Gurdara','Gurdura','Halgina','Hardura','Harmdura','Harndura','Harnhura'],
+    surname: ['Ambossfuß','Bergeimer','Bleiherz','Blinkaugen','Bronzezahn','Doppelaxthalt','Düsterfels','Eisenschädel','Eisenstein','Felsenfaust','Felsenherz','Felskluft','Feuerschmied','Glanzstein','Goldader','Goldbärtig','Goldschimmer','Granitfaust','Graustein','Grobschmied','Hammerfall','Hammerschlag','Heim','Heimstein','Herdstein','Höhlenherz','Ironbrow','Kalkstein','Kieselstein','Kohleherz','Kristallherz','Kupferbart','Mithrilhand'],
+    surnameType: 'simple',
+  },
+  'halbling': {
+    label: 'Halblinge',
+    info: 'Halblinge bevorzugen kurze, freundliche Namen, oft mit -o, -a Endungen. Familiäre Nachnamen.',
+    male: ['Ansel','Baldur','Beldo','Benne','Bennet','Berto','Bimbo','Bobbo','Boggo','Bonko','Boppo','Bordo','Botho','Brambo','Brando','Brocco','Bruno','Bunco','Burdo','Carbo','Carco','Corbo','Cormo','Curdo','Dado','Darbo','Dingo','Domo','Dumbo','Dunco','Falbo','Falco','Frisco','Frodo','Fulco','Garbo','Gardo','Gimbo','Grumbo','Gulco','Gurbo','Hambo','Hamco','Hamo','Harbo','Harco','Hardy','Harmo','Harpo','Hilco','Hingo','Holco','Holdo','Holmo','Jolbo','Jolco','Jombo','Kombo','Korbo','Largo','Lingo','Loco','Lombo','Lorbo','Lorco','Lormo','Lucco','Marco','Melco','Mingo','Moco','Mombo','Morbo','Morco','Mungo','Murdo','Nerco','Norbo','Norco','Ormbo','Ormo','Palmo','Pingo','Polmo','Pombo','Popco','Porco','Primo','Rimbo','Ringo','Robbo','Rocco','Rolbo','Rombo'],
+    female: ['Ada','Adela','Amela','Amia','Amida','Amila','Amira','Amita','Amla','Amona','Amora','Amra','Belda','Bela','Bella','Bema','Bena','Benda','Bilba','Bilda','Binda','Binga','Bitta','Bobba','Bonda','Bonka','Braida','Branda','Brinda','Calda','Cama','Carda','Caria','Carta','Clara','Corda','Daila','Dalba','Dalea','Dalia','Dalla','Dalma','Dama','Danda','Daria','Darla','Dava','Delia','Della','Delpa','Dema','Dena','Denia','Lila','Linda','Linbe','Lingbe','Lotte','Lottelinde','Lottlinde','Lula','Lulbe','Lulea','Lulia','Lulida','Lulima','Lulira','Lulita','Lulitcha','Lulitchka','Lulka','Mila','Milbe','Milda','Milde','Mildi','Milia','Milida','Milika','Milina','Milis','Milita','Milka','Milla','Millie','Rola','Rolba','Rolda','Rolide','Rolika'],
+    surname: ['Blumenfuß','Brombeer','Dunkelhaar','Fröhlichherz','Gemütlich','Glückskind','Grashüpfer','Grünzopf','Gutherz','Hasentritt','Hasenzahn','Herzlich','Kleeblatt','Kleinfuß','Krausebein','Krauslocke','Kurzbein','Langfuß','Lustigherz','Mäuslein','Moosbart','Naschkater','Naschkätzchen','Nimmersatt','Pfeifenholz','Piepsmäuschen','Pimpernell','Pollenhaar','Pummelfuß','Puschelnase','Quengelherz','Rippchen','Rollsocke','Rosenwange','Rühlchen','Sanftauge','Schelmenhaar','Schlampertritt','Silberschopf','Sorglos','Spaßvogel','Strohkopf','Stubenhüter','Tanzmäuschen','Trottelfuß','Wanderlust','Warmherz','Wollknäuel','Wollsocke','Zottelkopf'],
+    surnameType: 'simple',
+  },
+  'ork': {
+    label: 'Orks',
+    info: 'Orknamen sind kurz, hart und guttural. Kein Familienname; höchstens ein Ehrentitel.',
+    male: ['Aghur','Agrak','Agrash','Agrob','Akram','Akrik','Alkur','Allak','Alrak','Alrash','Argush','Arkash','Arkra','Arkrak','Arkrosh','Arrak','Arrash','Arzash','Arzuk','Ashak','Ashrak','Ashrob','Ashrosh','Bakrug','Bakruk','Bakrus','Balrug','Balruk','Barnash','Barnug','Bigrug','Birnak','Borak','Borash','Borbug','Bornak','Bornash','Bornug','Brak','Brakash','Bram','Brag','Drak','Drash','Drob','Drog','Drosh','Drub','Drum','Drun','Drut','Fruk','Grak','Grash','Grobar','Grobuk','Grok','Gron','Gror','Gros','Grot','Grov','Grow','Grox','Grum','Grun','Grur','Grus','Grut','Gurak','Gurash','Jrak','Krak','Krash','Krob','Krog','Krosh','Krub','Krum','Krun','Krut','Mrak','Mrash','Nrak','Rak','Rash','Robb','Rog','Rosh','Rub','Rum','Rut','Shrak','Shrash','Shrob','Shrog','Throb','Trog','Trok'],
+    female: ['Asha','Ashka','Ashna','Ashta','Arka','Arkha','Arkna','Arkta','Arma','Armha','Armna','Armta','Grasha','Grashka','Grashna','Grashta','Grishka','Grishna','Grishta','Grisha','Groshka','Groshna','Groshta','Grosha','Nasha','Nashka','Nashna','Nashta','Ursha','Urshka','Urshna','Urshta','Vrasha','Vrashka','Vrashna','Vrashta','Brasha','Drasha','Drashka','Graka','Grasha','Kasha','Kashka','Kasha','Koshka','Kosha','Masha','Mashka','Nashva','Nashvka','Rasha','Rashka','Shasha','Shashka','Trosha','Troshka','Urka','Urkha','Vasha','Vashka'],
+    surname: ['Blutsauger','Brecherarm','der Brutale','der Gewaltige','der Grausame','der Harte','der Mächtige','der Schreckliche','Eisenfaust','Gorgenfresser','Grossmaul','Habgierig','Halsbrecher','Knochenbrecher','Kopfabschneider','Kriegsbeil','Krustnagel','Lederhaut','Menschenfresser','Nasenschlitzer','Rottöter','Schädelbrecher','Schädeltrümmerer','Schlachter','Schläger','Schwarzklaue','Steinzertrümmerer','Totschläger','Wildauge','Würger'],
+    surnameType: 'titel',
+  },
+};
+
+// ── STATE ──
+let kultur = 'mittelreich';
+let gender = 'both';
+let favorites = JSON.parse(localStorage.getItem('dsa_namen_favs') || '[]');
+let isLight = localStorage.getItem('dsa_theme') === 'light';
+let lastGenerated = [];
+
+// ── INIT ──
+document.addEventListener('DOMContentLoaded', () => {
+  if (isLight) { document.body.classList.add('light'); document.getElementById('themeBtn').textContent = '🌙 Dunkel'; }
+  buildKulturSelect();
+  onKulturChange();
+  renderFavs();
+});
+
+function buildKulturSelect() {
+  const sel = document.getElementById('selKultur');
+  // Group by type
+  const groups = {
+    'Mensch': ['mittelreich','thorwal','tulamiden','horasier','aranien','almadaner','norbarden','waldmensch'],
+    'Elfen': ['elf_au','elf_firn'],
+    'Andere Völker': ['zwerg','halbling','ork'],
+  };
+  for (const [grp, keys] of Object.entries(groups)) {
+    const og = document.createElement('optgroup');
+    og.label = grp;
+    for (const k of keys) {
+      const o = document.createElement('option');
+      o.value = k; o.textContent = KULTUREN[k].label;
+      if (k === kultur) o.selected = true;
+      og.appendChild(o);
+    }
+    sel.appendChild(og);
+  }
+}
+
+function onKulturChange() {
+  kultur = document.getElementById('selKultur').value;
+  const k = KULTUREN[kultur];
+  document.getElementById('kulturInfo').textContent = k.info;
+  document.getElementById('resultsBody').innerHTML = '<div style="color:var(--dim);font-style:italic;text-align:center;margin-top:30px">Klick auf „Generieren" für neue Namen.</div>';
+}
+
+function setGender(g) {
+  gender = g;
+  ['male','female','both'].forEach(x => {
+    document.getElementById('gb'+x.charAt(0).toUpperCase()+x.slice(1)).classList.toggle('active', x===g);
+  });
+}
+
+function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+function generateName(k, gend) {
+  const pool = k[gend] || (gend === 'male' ? k.male : k.female);
+  const first = pick(pool);
+  let last = '';
+  const showSurname = document.getElementById('showSurname').checked;
+  const onlyOne = document.getElementById('showOnly1').checked;
+  if (!onlyOne && showSurname) {
+    switch(k.surnameType) {
+      case 'von':
+        last = pick(k.surname);
+        break;
+      case 'simple':
+        last = pick(k.surname);
+        break;
+      case 'patronym': {
+        // Pick a father's name from male pool
+        const fatherName = pick(k.male);
+        last = fatherName + (gend === 'female' ? k.patronymF : k.patronymM);
+        break;
+      }
+      case 'patronym_arab': {
+        const fatherName = pick(k.male);
+        last = (gend === 'female' ? k.patronymF : k.patronymM) + ' ' + fatherName;
+        break;
+      }
+      case 'clan':
+        // Norbarden: ap (male) or ferch (female)
+        const clanBase = pick(k.male);
+        const prefix = gend === 'female' ? 'ferch' : 'ap';
+        last = prefix + ' ' + clanBase;
+        break;
+      case 'titel':
+        if (Math.random() > 0.4) last = pick(k.surname);
+        break;
+      case 'none':
+      default:
+        last = '';
+    }
+  }
+  return { first, last };
+}
+
+function generate() {
+  const k = KULTUREN[kultur];
+  const count = Math.max(1, Math.min(30, parseInt(document.getElementById('nameCount').value) || 8));
+  lastGenerated = [];
+  const results = { male: [], female: [] };
+
+  const genders = gender === 'both' ? ['male','female'] : [gender];
+
+  for (const g of genders) {
+    const n = gender === 'both' ? Math.ceil(count / 2) : count;
+    for (let i = 0; i < n; i++) {
+      const name = generateName(k, g);
+      name.gender = g;
+      results[g].push(name);
+      lastGenerated.push(name);
+    }
+  }
+
+  // Build HTML
+  let html = '';
+  const kulLabel = k.label;
+  document.getElementById('resultsTitle').textContent = kulLabel;
+
+  if (results.male.length) {
+    html += `<div class="names-section">
+      <div class="names-section-title"><span class="icon" style="color:#2980b9">♂</span> Männliche Namen</div>
+      <div class="name-grid">
+        ${results.male.map((n,i) => nameCard(n, 'm'+i)).join('')}
+      </div>
+    </div>`;
+  }
+  if (results.female.length) {
+    html += `<div class="names-section">
+      <div class="names-section-title"><span class="icon" style="color:#c0392b">♀</span> Weibliche Namen</div>
+      <div class="name-grid">
+        ${results.female.map((n,i) => nameCard(n, 'f'+i)).join('')}
+      </div>
+    </div>`;
+  }
+
+  document.getElementById('resultsBody').innerHTML = html;
+}
+
+function nameCard(n, id) {
+  const full = n.last ? `${n.first} ${n.last}` : n.first;
+  return `<div class="name-card" id="nc_${id}">
+    <div class="name-text">
+      <div class="name-first">${n.first}</div>
+      ${n.last ? `<div class="name-last">${n.last}</div>` : ''}
+    </div>
+    <button class="name-copy" onclick="favAdd('${esc(n.first)}','${esc(n.last || '')}',this)" title="Zu Favoriten hinzufügen">★</button>
+    <button class="name-copy" onclick="copyName('${esc(full)}',this)" title="Kopieren">📋</button>
+  </div>`;
+}
+
+function esc(s) { return String(s).replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+function copyName(name, btn) {
+  navigator.clipboard.writeText(name).then(() => {
+    btn.textContent = '✓';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋'; btn.classList.remove('copied'); }, 1500);
+  }).catch(() => {
+    // Fallback
+    const ta = document.createElement('textarea');
+    ta.value = name; document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); document.body.removeChild(ta);
+  });
+}
+
+function copyAll() {
+  if (!lastGenerated.length) return;
+  const text = lastGenerated.map(n => n.last ? `${n.first} ${n.last}` : n.first).join('\n');
+  navigator.clipboard.writeText(text).catch(() => {});
+}
+
+function favAdd(first, last, btn) {
+  const full = last ? `${first} ${last}` : first;
+  if (!favorites.find(f => f.full === full)) {
+    favorites.push({ first, last, full, kultur });
+    localStorage.setItem('dsa_namen_favs', JSON.stringify(favorites));
+    renderFavs();
+  }
+  btn.textContent = '✓'; btn.classList.add('copied');
+  setTimeout(() => { btn.textContent = '★'; btn.classList.remove('copied'); }, 1500);
+}
+
+function favRemove(idx) {
+  favorites.splice(idx, 1);
+  localStorage.setItem('dsa_namen_favs', JSON.stringify(favorites));
+  renderFavs();
+}
+
+function clearFavs() {
+  if (!favorites.length) return;
+  if (!confirm('Alle Favoriten löschen?')) return;
+  favorites = [];
+  localStorage.setItem('dsa_namen_favs', '[]');
+  renderFavs();
+}
+
+function renderFavs() {
+  const el = document.getElementById('favList');
+  if (!favorites.length) {
+    el.innerHTML = '<div class="empty-fav">Noch keine Favoriten.<br>Klick auf ★ um Namen zu speichern.</div>';
+    return;
+  }
+  el.innerHTML = favorites.map((f,i) => `<div class="fav-entry">
+    <span title="${KULTUREN[f.kultur]?.label||f.kultur}">${f.full}</span>
+    <button class="fav-del" onclick="copyFav('${esc(f.full)}')" title="Kopieren">📋</button>
+    <button class="fav-del" onclick="favRemove(${i})" title="Entfernen">✕</button>
+  </div>`).join('');
+}
+
+function copyFav(name) {
+  navigator.clipboard.writeText(name).catch(() => {});
+}
+
+function toggleTheme() {
+  isLight = !isLight;
+  document.body.classList.toggle('light', isLight);
+  document.getElementById('themeBtn').textContent = isLight ? '🌙 Dunkel' : '☀ Hell';
+  localStorage.setItem('dsa_theme', isLight ? 'light' : 'dark');
+}
+</script>
+</body>
+</html>
