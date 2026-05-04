@@ -1,0 +1,122 @@
+﻿[
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000021",
+        "StartStrukturpunkte":  10,
+        "HeldAusrüstungGUID":  "0824e011-aa4c-4cf3-bc00-188321b2213f",
+        "Strukturpunkte":  10
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000027",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "5e1ca706-b719-427b-82c8-43bdb6f2f7ae",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000047",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "be8b14bd-f331-4501-8a4f-31f63a0fdd0d",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000047",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "f8281fc9-9b27-4989-943f-63ca37beccaf",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000048",
+        "StartStrukturpunkte":  10,
+        "HeldAusrüstungGUID":  "a118ba0c-8095-4962-abc3-cdb0b1375055",
+        "Strukturpunkte":  10
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000021",
+        "StartStrukturpunkte":  10,
+        "HeldAusrüstungGUID":  "c8a83a38-89bd-4f7a-ac5e-1699e8ae4bc5",
+        "Strukturpunkte":  10
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000027",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "dfe2fd46-7b0d-4de0-bc17-20a0b905f54e",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000031",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "59b19f99-bbdb-4450-add3-86fb4ee3364b",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000004",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "4284cfe6-e4f4-4641-8a4e-92e2318e5c50",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000044",
+        "StartStrukturpunkte":  10,
+        "HeldAusrüstungGUID":  "2c27a82a-ec51-466d-a7a0-885056a6fd90",
+        "Strukturpunkte":  10
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000004",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "9323aeaf-ca7b-4dc6-9a3d-ad19bbb3049b",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000023",
+        "StartStrukturpunkte":  20,
+        "HeldAusrüstungGUID":  "5a1ed452-7316-441e-94d1-444ccae1f4f3",
+        "Strukturpunkte":  20
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000009",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "637a7798-fd9c-4455-a905-6d56bdab6211",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000047",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "06ee01c2-fd62-4d7f-a5a1-700c66ea2142",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000027",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "650181ec-8348-489f-bd84-970009cd111d",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000048",
+        "StartStrukturpunkte":  10,
+        "HeldAusrüstungGUID":  "a695c9f3-282c-4392-a71a-fb7cda518ff7",
+        "Strukturpunkte":  10
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000027",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "8cf0ff26-eae1-4c77-a5ed-e9400c1377e9",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000047",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "c3f31d32-a4e7-41dc-88da-276d267c4b02",
+        "Strukturpunkte":  0
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000021",
+        "StartStrukturpunkte":  10,
+        "HeldAusrüstungGUID":  "cd8ba646-1577-4f34-9b67-cde76b562125",
+        "Strukturpunkte":  10
+    },
+    {
+        "RüstungGUID":  "00000000-0000-0000-0004-000000000004",
+        "StartStrukturpunkte":  0,
+        "HeldAusrüstungGUID":  "d92ce938-0c40-4c29-8c02-9f73792dccf0",
+        "Strukturpunkte":  0
+    }
+]

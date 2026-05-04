@@ -1,0 +1,3056 @@
+﻿[
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Augen",
+        "W20":  7,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Augen",
+        "W20":  7,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Augen",
+        "W20":  13,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000010",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000010",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000010",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000012",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000012",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000012",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  21
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  8,
+        "FarbeID":  22
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  23
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  24
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  26
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  22
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  8,
+        "FarbeID":  23
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  28
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  29
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  1,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  31
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  7,
+        "FarbeID":  32
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  22
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  15,
+        "FarbeID":  23
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  28
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  6,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  6,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  6,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  6,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  18,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  15
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  25
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Augen",
+        "W20":  12,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Augen",
+        "W20":  16,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Augen",
+        "W20":  8,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Augen",
+        "W20":  13,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Augen",
+        "W20":  1,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  44
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  42
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  41
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  45
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Augen",
+        "W20":  1,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  44
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  42
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  41
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  45
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  50
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  51
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  50
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  51
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  50
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  51
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  50
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  4,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  51
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Augen",
+        "W20":  5,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Augen",
+        "W20":  10,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Augen",
+        "W20":  14,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Augen",
+        "W20":  2,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Augen",
+        "W20":  9,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Augen",
+        "W20":  11,
+        "FarbeID":  8
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Augen",
+        "W20":  17,
+        "FarbeID":  9
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Augen",
+        "W20":  19,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Augen",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Haare",
+        "W20":  7,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Haare",
+        "W20":  12,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Haare",
+        "W20":  16,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000001",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Haare",
+        "W20":  6,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Haare",
+        "W20":  12,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  11
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000002",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  8,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  13
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000003",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  8,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  13
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000004",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Haare",
+        "W20":  4,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Haare",
+        "W20":  8,
+        "FarbeID":  13
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000005",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Haare",
+        "W20":  16,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000006",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000007",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  11
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000008",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  11
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  12
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000009",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000010",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000010",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000010",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Haare",
+        "W20":  2,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Haare",
+        "W20":  4,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000011",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  11
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000012",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000012",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  1,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  17
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  7,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  19
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000014",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  7,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  17
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  16,
+        "FarbeID":  19
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000015",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  27
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  1,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  2,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  17
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  30
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  19
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000016",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  6,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000017",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  6,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000018",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  6,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000019",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  6,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  18
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000020",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  33
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  34
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  35
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  36
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000021",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  33
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  34
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  35
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  36
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000022",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  33
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  34
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  35
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  36
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000023",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  33
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  34
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  35
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  36
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000024",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  33
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  34
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  35
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  36
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000025",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000027",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  10
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000028",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000029",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000030",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000031",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000032",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000033",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000034",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000035",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000036",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000037",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  7
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Haare",
+        "W20":  19,
+        "FarbeID":  39
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000038",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Haare",
+        "W20":  4,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Haare",
+        "W20":  12,
+        "FarbeID":  38
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000039",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Haare",
+        "W20":  4,
+        "FarbeID":  20
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Haare",
+        "W20":  12,
+        "FarbeID":  38
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000040",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  16
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Haare",
+        "W20":  2,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Haare",
+        "W20":  6,
+        "FarbeID":  6
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Haare",
+        "W20":  12,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000041",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Haare",
+        "W20":  2,
+        "FarbeID":  40
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Haare",
+        "W20":  7,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  41
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  42
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000043",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  43
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Haare",
+        "W20":  2,
+        "FarbeID":  40
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Haare",
+        "W20":  7,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  41
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  42
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000044",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  43
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  49
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000046",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  49
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000047",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  49
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000048",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  46
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Haare",
+        "W20":  10,
+        "FarbeID":  47
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  48
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  49
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000049",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  5,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  9,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  11,
+        "FarbeID":  33
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  13,
+        "FarbeID":  34
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  14,
+        "FarbeID":  35
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  15,
+        "FarbeID":  36
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  17,
+        "FarbeID":  37
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000050",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  14
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Haare",
+        "W20":  3,
+        "FarbeID":  1
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Haare",
+        "W20":  7,
+        "FarbeID":  2
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Haare",
+        "W20":  12,
+        "FarbeID":  3
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Haare",
+        "W20":  16,
+        "FarbeID":  4
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Haare",
+        "W20":  18,
+        "FarbeID":  5
+    },
+    {
+        "RasseGUID":  "00000000-0000-0000-0000-000000000051",
+        "Kategorie":  "Haare",
+        "W20":  20,
+        "FarbeID":  6
+    }
+]

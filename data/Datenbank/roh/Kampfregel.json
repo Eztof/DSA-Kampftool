@@ -1,0 +1,1206 @@
+﻿[
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 69, 75",
+        "Name":  "Klingenwand",
+        "Bemerkung":  "SF Defensiver Kampfstil, Kampfreflexe 2PA/2+2, versch. Gegner",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000113"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 69, 75",
+        "Name":  "Meisterparade",
+        "Bemerkung":  "PA+Z (Z=Erleichterung für nächste Aktion), BE max. 4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000114"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 71, 77",
+        "Name":  "Waffe zerbrechen",
+        "Bemerkung":  "SF Binden PA+8-BF+4(Stichwaffen) +6(einhändige Waffen) +10 (Bi-Händer)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000115"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 71, 77",
+        "Name":  "Windmühle",
+        "Bemerkung":  "PA+(Geg. Ansage, min.+8), Erfolg: AT mit voller Erschwernis, Misserfolg: -1INI",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000116"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 72, 71",
+        "Name":  "Beidhändiger Kampf I",
+        "Bemerkung":  "SF Linkhand linke Hand +3/+3, KK-Bonus",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000117"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 72, 71",
+        "Name":  "Beidhändiger Kampf II",
+        "Bemerkung":  "SF Beidhändiger Kampf I linke Hand +0/+0, KK-Bonus, 1 zusätzliche Aktion/Reaktion mit zwei Waffen",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000118"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 72, 74",
+        "Name":  "Halbschwert",
+        "Bemerkung":  "Eine DK niedriger einsetzten. +2AT/+2PA-2TP, kein Schildspalter, Hammerschlag, Niederwerfen, Befreiungsschlag",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000119"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 73",
+        "Name":  "Aufmerksamkeit",
+        "Bemerkung":  "1 Aktion orientieren, Überraschungs-IN –4, Passierschlag +4, kurz vor der ersten eigenen Aktion entscheiden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000120"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 73",
+        "Name":  "Ausfall",
+        "Bemerkung":  "SF Finte AT+4+X+Y, BE max. 4, mehr INI, Erfolg: 2 AT pro Runde, Gegner 2 PA, Misserfolg: Passierschlag, –1W6 INI",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000121"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 73",
+        "Name":  "Ausweichen I",
+        "Bemerkung":  "Ausweichen -3",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000122"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 73",
+        "Name":  "Ausweichen II",
+        "Bemerkung":  "Ausweichen -3 (-6)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000123"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 73",
+        "Name":  "Ausweichen III",
+        "Bemerkung":  "SF Ausweichen II, Kampfreflexe Ausweichen -3 (-9)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000124"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 74",
+        "Name":  "Blindkampf",
+        "Bemerkung":  "max. +2/+2 wegen schlechter Sicht, Überraschungs-IN-2, nicht bei FK und DK P",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000125"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 74",
+        "Name":  "Kampf im Wasser",
+        "Bemerkung":  "Aufschläge/2 bei Kampf im Wasser, einige Manöver benutzen",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000126"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 74",
+        "Name":  "Kampfgespür",
+        "Bemerkung":  "SF Aufmerksamkeit, Kampfreflexe INI-Basis+2, Passierschlag+2, jederzeit Aktion in Reaktion, Überraschungs-IN-4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000127"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 75",
+        "Name":  "Entwaffnen (meisterlich)",
+        "Bemerkung":  "SF Binden AT/PA+8+Y, Erfolg: Verteidiger KK+10 (Waffe weg), auch Zweihandwaffen, außer Anderthalbhänder. nicht mit Säbeln ausführbar",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000128"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 75",
+        "Name":  "Kampfreflexe",
+        "Bemerkung":  "INI-Basis+4, BE max. 4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000129"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 75",
+        "Name":  "Klingentänzer",
+        "Bemerkung":  "+ 1W6 INI, kann bei KS und KW bis zu 3 Gegner angreifen/parieren, max. BE 2",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000130"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 75",
+        "Name":  "Linkhand",
+        "Bemerkung":  "Linke Hand +6/+6, PA-Bonus+1",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000131"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 75",
+        "Name":  "Parierwaffen I",
+        "Bemerkung":  "SF Linkhand PA-Bonus+1 mit Parierwaffe, PA-Basis für Parierwaffe = PA der Hauptwaffe-3",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000132"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 75",
+        "Name":  "Parierwaffen II",
+        "Bemerkung":  "SF Parierwaffen I PA-Bonus+1 mit Parierwaffe, PA-Basis für Parierwaffe = PA der Hauptwaffe-1, eine zusätzliche Parade",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000133"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 114 / ZBA 11",
+        "Name":  "Würgen",
+        "Bemerkung":  "Nur möglich in DK H. Jede KR werden automatisch TP ermittelt die nicht parierbar sind. Angriffe des Opfers sind möglich. Das Tier richtet echte TP an. Die SP summieren sich. Bei mehr als KO entsteht eine Wunde. Tier beendet Angriff erst wenn es eine Wunde erlitten hat. Um Angriff zu brechen muss eine KK und eine GE-Probe gelingen die zusätzlich erschwert ist (siehe Angaben). Das Opfer kann eine TaW Ringen Probe ablegen um Probe zu erleichtern. TaW* sind auf AT/PA zu verteilen. Schüsse ins Kampfgetümmel werden normal abgehandelt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000083"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 114 / ZBA 11",
+        "Name":  "Festkrallen ",
+        "Bemerkung":  "Nur möglich in DK H. Jede KR werden automatisch TP ermittelt die nicht parierbar sind. Angriffe des Opfers sind möglich. Das Tier richtet echte TP an. Die SP summieren sich. Bei mehr als KO entsteht eine Wunde. Tier beendet Angriff erst wenn es eine Wunde erlitten hat. Ausgenommen Tiere die ihre Brut verteidigen oder in Enge getrieben worden sind.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000084"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 114 / ZBA 12",
+        "Name":  "Schwanz",
+        "Bemerkung":  "Normale AT. Bei besonders kräftigen Tieren gilt der Angriff zum Niederwerfen. Diese Angriffsform kann von Tieren der Größenklasse groß nur mit Schild pariert werden, von sehr großen gar nicht. Gegenhalten und Klingenwand sind bei großen Tieren möglich (Siehe Prankenhieb).",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000085"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 114 / ZBA 12",
+        "Name":  "Tentakelschlag",
+        "Bemerkung":  "Normale AT. Bei besonders kräftigen Tieren gilt der Angriff zum Niederwerfen. Diese Angriffsform kann von Tieren der Größenklasse groß nur mit Schild pariert werden, von sehr großen gar nicht. Gegenhalten und Klingenwand sind bei großen Tieren möglich (Siehe Prankenhieb).",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000086"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 65, 114 / ZBA 12",
+        "Name":  "Umreißen",
+        "Bemerkung":  "AT +8 +Ansage. Wenn die AT nicht erfolgreich durch (meisterliches) ausweichen  (Waffen- und Schildparaden verhindern nur den Schaden, nicht das umwerfen) oder eine waffenlose PA mit Manöver Auspendeln bzw. Beinarbeit ( bei Tieren bis max. mittlerer Größe) abgewehrt wird muss eine KK bzw. GE erschwert durch BE und den in Klammern angegeben Wert abgelegt werden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000087"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 101",
+        "Name":  "Turnierreiterrei",
+        "Bemerkung":  "Lanzenreiten-5 (nicht kumulativ), max. Ansage in Höhe AT, Probe/2 um im Sattel zu bleiben",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000089"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 56, 76",
+        "Name":  "Rüstungsgewöhnung III",
+        "Bemerkung":  "SF Rüstungsgewöhnung II BE-2 bei JEDER Rüstungskombination, kein INI-Abzug durch BE",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000090"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 60, 71",
+        "Name":  "Befreiungsschlag",
+        "Bemerkung":  "AT +4 pro Gegner, verbraucht eine Abwehrreaktion",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000091"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 61, 68, 74",
+        "Name":  "Entwaffnen",
+        "Bemerkung":  "SF Binden AT/PA+8+Y, Erfolg: Verteidiger KK+8 (Waffe weg)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000092"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 61, 71",
+        "Name":  "Betäubungsschlag",
+        "Bemerkung":  "AT +2/+4/+8 +Ansage",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000093"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 61, 74",
+        "Name":  "Doppelangriff",
+        "Bemerkung":  "AT +2, ist mit allen einhändig geführten Waffen außer Kettenwaffen und Speeren möglich.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000094"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 62, 74",
+        "Name":  "Festnageln",
+        "Bemerkung":  "AT +4 +Ansage, verbraucht auch die Abwehrreaktion",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000095"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 62, 74",
+        "Name":  "Finte",
+        "Bemerkung":  "AT +Ansage",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000096"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 62, 74",
+        "Name":  "gezielter Stich",
+        "Bemerkung":  "AT +4 +halber gegnerischer RS +Ansage",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000097"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 63",
+        "Name":  "Schild-Attacke",
+        "Bemerkung":  "Raufen-AT +3  + AT-WM; wenn SF Schildkampf II oder SF Knaufschlag oder SF schmutzige Tricks dann unmodifiziert. Zusätzlich kann der Kämpfer eine AT+ tätigen um die TP zu erhöhen oder mit Schild ein Angriff zum Niederwerfen durchzuführen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000098"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 63, 74",
+        "Name":  "Hammerschlag",
+        "Bemerkung":  "AT +8 +Ansage, verbraucht alle Aktionen der KR",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000099"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 63, 75",
+        "Name":  "Klingensturm",
+        "Bemerkung":  "AT gegen zwei Gegner ",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000100"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 64",
+        "Name":  "Stumpfer Schlag",
+        "Bemerkung":  "AT +2/+4/+8 ",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000102"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 64, 76",
+        "Name":  "Schildspalter",
+        "Bemerkung":  "AT +8 -PA-WM des Schildes",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000103"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 64, 76",
+        "Name":  "Sturmangriff",
+        "Bemerkung":  "AT +4, verbraucht die Abwehrreaktion",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000104"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 65, 77",
+        "Name":  "Tod von Links",
+        "Bemerkung":  "Angriffsaktion mit Parierwaffe. Findet 8 Initiativphasen später statt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000106"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 65, 77",
+        "Name":  "Todesstoß",
+        "Bemerkung":  "AT +8 + halber gegnerischer RS +Ansage, verbraucht die Abwehrreaktion",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000107"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 65, 77",
+        "Name":  "Wuchtschlag",
+        "Bemerkung":  "AT +Ansage",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000108"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 67, 71",
+        "Name":  "Defensiver Kampfstil",
+        "Bemerkung":  "AT wird in PA ohne Malus umgewandelt. Einsetzbar mit Nahkampftalent außer Kettenwaffen und Zweihandflegel. ",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000109"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 67, 73",
+        "Name":  "Binden",
+        "Bemerkung":  "SF Meisterparade o. Parierwaffen I PA+4+Z, nächste AT erleichtert, PA vom Gegner erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000110"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 68, 74",
+        "Name":  "Formation",
+        "Bemerkung":  "Diese PA ist mit Infanteriewaffen, Speeren, Zweihandschwertern und Schilden möglich. Alle an der Formation beteiligten müssen die SF Formation beherrschen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000111"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 68, 74",
+        "Name":  "Gegenhalten",
+        "Bemerkung":  "SF Meisterparade AT+4+X+Y (PA-Aktion), vergleichs-AT – bessere TP, schlechtere TP/2, nicht mit anderen Manövern kombinierbar",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000112"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 76",
+        "Name":  "Rüstungsgewöhnung I",
+        "Bemerkung":  "BE-1 bei EINEM Rüstungsteil/Rüstungskombination",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000134"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 76",
+        "Name":  "Rüstungsgewöhnung II",
+        "Bemerkung":  "BE-1 bei JEDER Rüstungskombination",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000135"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 76",
+        "Name":  "Schildkampf I",
+        "Bemerkung":  "PA-Bonus+2 für Schilde (Angriff mit dem Schild möglich)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000136"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 76",
+        "Name":  "Schildkampf II",
+        "Bemerkung":  "PA-Bonus+2 für Schilde, 1 zusätzliche Schildparade",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000137"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 76",
+        "Name":  "Schnellziehen",
+        "Bemerkung":  "Gürtel: Freie Aktion, Rücken: 1 Aktion, Schild von Rücken: 3 Aktionen, BE max. 4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000138"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 76",
+        "Name":  "Spießgespann",
+        "Bemerkung":  "SF Sturmangriff Zweimannführung von DK P, addierte KK, TPx2",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000139"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 77",
+        "Name":  "Unterwasserkampf",
+        "Bemerkung":  "keine Aufschläge beim Kampf unter Wasser (nicht mit allen Waffen machbar!)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000140"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 77",
+        "Name":  "Waffenmeister (Schild)",
+        "Bemerkung":  "kann Boni aus Waffenmeisterbeschreibung nutzen",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000141"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 77",
+        "Name":  "Waffenmeister (Waffe)",
+        "Bemerkung":  "kann Boni aus Waffenmeisterbeschreibung nutzen",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000142"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 89",
+        "Name":  "Bornländisch",
+        "Bemerkung":  "Ringen +1/+1",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000143"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 89",
+        "Name":  "Gladiatorenstil",
+        "Bemerkung":  "Raufen o. Ringen +1/+1 Optional: 3 TP in 3 Ausdauerschaden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000144"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 89, 90",
+        "Name":  "Hammerfaust",
+        "Bemerkung":  "Ausfall möglich und kann TP(A) als Strukturschaden anrichten",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000145"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 90",
+        "Name":  "Hruruzat",
+        "Bemerkung":  "Raufen +1/+1, Tritt: 2W TP (A) und Chance auf Zat",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000146"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 90",
+        "Name":  "Mercenario",
+        "Bemerkung":  "Raufen +1/+1, Attacke gegen N +3, DK vermindern: +2",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000147"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 90",
+        "Name":  "Unauer Schule",
+        "Bemerkung":  "Ringen +1/+1 alle Entwinden-Manöver -2",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000148"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 90",
+        "Name":  "Auspendeln",
+        "Bemerkung":  "Ohne SF Auspendeln sind PA gegen Gerade, Hoher Tritt, Schmetterschlag, Schwinger +4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000149"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 90",
+        "Name":  "Beinarbeit",
+        "Bemerkung":  "Ohne SF Beinarbeit sind PA gegen Fußfeger, Knie, Tritt +4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000150"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Block",
+        "Bemerkung":  "PA+X, bei gelingen ist die nächste gegnerische PA+X",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000152"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Doppelschlag",
+        "Bemerkung":  "AT+4+X, Punkte aus Kreuzblock sind nutzbar; mögliche Reaktion: zwei Parade (durch Umwandeln), Block +4, Gezieltes Ausweichen +6; bei Erfolg richten die Treffer jeweils separate TP(A) an",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000153"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Eisenarm",
+        "Bemerkung":  "PA gegen alle DK (erleidet TP (A) anstatt TP), Binden und Entwaffnen sind gegen Bewaffnete möglich (SF vorhanden und +4 erschwert), keine INI-Modifikation gegen Bewaffnete",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000154"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Fußfeger",
+        "Bemerkung":  "AT+X; X=Zuschlag auf PA und/oder GE-Probe des Gegners; ohne Beinarbeit ist die PA nochmal um +4 erschwert, Balance erleichtert um +2, Herausragende Balance um +4 und Standfest um +1 (beide Proben); Bei Misslingen der GE ist der Gegner am Boden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000155"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Gerade",
+        "Bemerkung":  "AT+X; bei Gelingen: TP(A) +X, ohne Auspendeln ist die PA um +4 erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000156"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Griff",
+        "Bemerkung":  "AT+X; Gegner erleidet Zuschläge von (X/2) auf Manöver, Angriffs- \u0026 Abwehraktionen solange der Griff hält, kann durch PA abgewehrt werden erschwert um (X/2), kann durch AT+(X/2) abgeschüttelt werden (erzeugt keine TP(A))",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000157"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Halten",
+        "Bemerkung":  "AT+X oder PA+X, nächste gegnerische Aktion ist um +X erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000158"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Handkante",
+        "Bemerkung":  "AT+X, TP(A)+X, wenn die TP (nicht TP(A)) höher sind als KO/2, dann entsteht eine Wunde; Erhöhung der Wundschwelle im Nahkampf zählt hier nicht !",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000159"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Hoher Tritt",
+        "Bemerkung":  "AT+X, TP(A)+X, ohne Auspendeln oder Kreuzblock (oder Ausweichen oder Waffenparade) ist die PA um +4 erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000160"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Klammer",
+        "Bemerkung":  "AT+X, Gegner Ringen-PA+X oder KK-Probe+doppelte KK-Differenz zum Angreifer (mind. +X), beide können nur Biss, Kopfstoß, Knie, Schwitzkasten, Würgegriff einsetzten, der Geklammerte hat immer +X",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000161"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Knaufschlag",
+        "Bemerkung":  "AT+X mit einem Waffenknauf, Schaden: 1W6+2 TP(A), X=1W6+2+X TP(A) oder PA+X",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000162"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Knie",
+        "Bemerkung":  "AT+X, ohne Beinarbeit, Kreuzblock oder Ausweichen ist die PA+4, Frauen und Achaz: 1W6+X TP(A), Männer: 1W6+2+X TP(A), wenn SP(A) \u003e Wundschwelle 1W3 KR kampfunfähig, INI-2W6, Verlust aller Aktionen dieser KR",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000163"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Kopfstoß",
+        "Bemerkung":  "AT+X, TP+X, Parade eines Waffenträgers ergibt die vollen TP der Waffe (ohne TP/KK), mit einem Metalhelm: 1W6+2+X TP(A)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000164"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Kreuzblock",
+        "Bemerkung":  "PA+X, die Ansage X kann sowohl auf die eigene AT als auch auf die Gegner-PA verteilt werden, reguläre Parade gegen Knie, Tritt und Sprungtritt",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000165"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 91",
+        "Name":  "Niederringen",
+        "Bemerkung":  "AT+X, gegnerische PA erschweren und/oder nächste AT erleichtern, beide Kämpfer am Boden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000166"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Schmetterschlag",
+        "Bemerkung":  "AT+X, mehr SP(A) als Wundschwelle  =KO-Probe, sonst 1W6 SR bewusstlos, wenn TP(A) \u003e KO dann steht keine KO-Probe zu, keine Erhöhung der Wundschwelle um +2 !",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000167"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Schmutzige Tricks",
+        "Bemerkung":  "kann Umgebung im Kampf einsetzen (Meisterentscheid)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000168"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Schwanzfeger",
+        "Bemerkung":  "AT+X, X=PA-Erschwernis oder GE-Erschwernis, ohne Beinarbeit ist PA+4",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000169"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Schwanzschlag  ",
+        "Bemerkung":  "Differenz AT-Wert und AT-Wurf / 2 gilt als PA-Erschwernis",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000170"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Schwinger",
+        "Bemerkung":  "AT+X, bei Gelingen ist die PA+X erschwert, ohne Auspendeln ist die PA um weitere +4 erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000171"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Schwitzkasten",
+        "Bemerkung":  "Beginnt mit einer Ringen-AT und misslungene Ringen-PA, jede weitere Runde erleichtert sich die AT um 1, die Parade erschwert sich um 1, die TP(A) steigen um +1 (nicht die TP), endet wenn AT misslingt oder PA gelingt, Verteidiger kann nur Biss, Knie oder Schwanzschlag einsetzten jedoch um +4 erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000172"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Sprung",
+        "Bemerkung":  "PA+X (jedoch nur für Sprungtritt oder Schwanzschlag nutzbar), Handgemenge +4, Nahkampf +2 (+2 gegen Bewaffnete), Misslingen: GE-Probe+echte TP-2 (Standfest)-(2 Balance oder -4 Herausragende Balance), am Boden, Gelingen: -4 INI",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000173"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Sprungtritt",
+        "Bemerkung":  "AT+4+X, Punkte aus Sprung nutzbar, Ausweichen, Kreuzblock oder Schildparade, Waffenparade +4, waffenlose PA sind nicht erschwert, Schaden: TP(A) +2+X, bewaffnete PA = voller Schaden, misslingt der Sprungtritt GE-Probe, Gelingen: INI-4, misslingen am Boden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000174"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Tritt",
+        "Bemerkung":  "AT+X, TP+X, ohne Beinarbeit ist die PA+4 erschwert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000175"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 92",
+        "Name":  "Versteckte Klinge",
+        "Bemerkung":  "kann DK H-Waffe mit Raufen-AT/-PA einsetzten, kann mit Gerade und Schwinger kombiniert werden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000176"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 93",
+        "Name":  "Würgegriff",
+        "Bemerkung":  "einmalige AT zu Beginn, jede KR automatisch 1W6+2 TP(A), keine Parade für den Verteidiger, aber Raufen- oder Ringen-AT+2 (nicht parierbar vom \"Angreifer\")",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000177"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 93",
+        "Name":  "Wurf",
+        "Bemerkung":  "AT+4+X, Halten oder Griff muss vorausgehen,",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000178"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 95",
+        "Name":  "Eisenhagel",
+        "Bemerkung":  "kann bis zu 5 Wurfscheiben mit Erschwernis Anzahlx2 auf ein Ziel werfen (+5 pro weiteres Ziel)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000179"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 95",
+        "Name":  "Scharfschütze ( )",
+        "Bemerkung":  "Ansage/2=Aktionen, Aufschläge/3 gezielter Schuss, max. Ansage in Höhe FK-TaW (alles zu TP), Schnellschüsse +1",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000180"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 95",
+        "Name":  "Schnellladen (Armbrust)",
+        "Bemerkung":  "Ladezeit -¼ der Aktionen (aufrunden) (Minimum 1 Aktion)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000181"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdS 95",
+        "Name":  "Schnellladen (Bogen)",
+        "Bemerkung":  "Ladezeit -1 Aktion (Minimum 1 Aktion)",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000182"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "VTuU 110",
+        "Name":  "Nekrotischer Griff",
+        "Bemerkung":  "Der Griff eines Untoten lässt berührte Gliedmaßen verkümmern und absterben. Zusätzlich zu einem Folgeschaden von 1 SP für 3 KR liegt die Wundschwelle des Opfers für diese Angriffe um 2 niedriger. Bereits zwei Wunden an einem Körperteil lassen es absterben.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000183"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdH 117 ",
+        "Name":  "Berittener Schütze",
+        "Bemerkung":  "Aufschläge/2 bei schießen vom Pferd, spannen auf Pferd",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000184"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdH 279 ",
+        "Name":  "Geschützmeister",
+        "Bemerkung":  "Nachladezeit sinkt auf ¾, +2 auf die Fernkampf-Probe",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000185"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdH 74",
+        "Name":  "Improvisierte Waffen",
+        "Bemerkung":  "alle Manöver mit improvisierter Waffen, Patzer auf 20",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000186"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdH 101 ",
+        "Name":  "Kriegsreiterei",
+        "Bemerkung":  "SF Reiterkampf keine Aufschläge bei Reiterkampf, Lanzenreiten-2 (nicht kumulativ), Orientieren-1, max. Ansage in Höhe AT",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000187"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "WdH 101",
+        "Name":  "Reiterkampf",
+        "Bemerkung":  "Aufschläge/2 bei Reiterkampf, Sturmangriff gegen Fußkämpfer",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000188"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Belebte Gliedmaßen",
+        "Bemerkung":  "Abgetrennte Gliedmaßen des Untoten kämpfen eigenständig weiter. Der Anblick ist so erschreckend, dass auch weitere Angriffe gegen den Untoten wie unter Schreckgestalt I behandelt werden.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000191"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Dunkelheit",
+        "Bemerkung":  "Um das Wesen herum befindet sich eine Zone der Dunkelheit, die alles nicht übernatürliche Licht verschluckt, wie DUNKELHEIT.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000192"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "[Elementarer] Griff (Stufe)",
+        "Bemerkung":  "Die Füße oder Hände des Untoten sind mit elementarer Kraft umgeben. Jeder Angriff richtet 1 SP pro Stufe extra bei Gegnern an.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000193"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Einlullen",
+        "Bemerkung":  "Durch einen hypnotischen Blick, Gesang oder Sekret ermüden die Opfer langsam. Jede SR ist eine Selbstbeherrschungs-Probe notwendig um nicht einzuschlafen. Der Schlaf ist voller Alpträume und ohne Regeneration.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000197"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Erhöhtes Infektionsrisiko (Stufe)",
+        "Bemerkung":  "Zu allen W20-Würfen, die durchgeführt werden, um die Infektion mit einer Krankheit festzustellen, wird die Stufe dieser Eigenschaft addiert.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000198"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Ersäufen (Untot)",
+        "Bemerkung":  "Der Untote kann seinen Gegner unter Wasser ziehen oder pressen. Der Untote kann maximal einen Gegner gleichzeitig unter Wasser halten.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000199"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Fleischtasche",
+        "Bemerkung":  "Der Untote kann kleine Objekte in seinem Leib oder Gerippe verbergen. Für eine auf diese Art versteckte Waffe (max. DK H) verfügt er über die SF Schnellziehen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000202"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 108",
+        "Name":  "Flimmernde Körperlosigkeit",
+        "Bemerkung":  "Der Untote verliert zeitweilig seine körperliche Form und ist in dieser Zeit nur noch als geisterhafte Gestalt wahrnehmbar.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000203"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Ghulgift",
+        "Bemerkung":  "Der Biss eines Ghuls ist giftig (Stufe 10, pro KR fallen KK und GE je -1 für 2W20 KR). Fällt KK oder GE dabei auf 0, ist das Opfer vollständig gelähmt wie unter der Eigenschaft Lähmung. Erst nach drei Stunden regenerieren sich die Werte um 1 pro SR. Pro 5 SP durch einen Biss besteht eine 5% Chance, dass die Verwandlung in einen Ghul eintritt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000205"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Grabeklauen",
+        "Bemerkung":  "Durch seine Pranken oder andere natürliche Grabinstrumente kann das Wesen Tunnel oder Erdlöcher graben. Die Pranken richten +1 TP im waffenlosen Kampf an.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000206"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Halluzinationen",
+        "Bemerkung":  "Der Blick, geistige Kontakt, ein Sekret o.ä. lösen beim Opfer Halluzinationen aus, die auf erzdämonische Weise pervertiert und schrecklich sind. Das Opfer ist durch die Macht der Herrin der Alpträume in Tagträumen gefangen, von denen alle fünf Sinne betroffen sind. Die Realitätsdichte entspricht der doppelten Kontrollschwierigkeit des Untoten.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000207"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Immobil",
+        "Bemerkung":  "Der Untote ist unbeweglich, hat keine PA und keine Fähigkeiten zum Ausweichen oder anderen defensiven Aktionen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000208"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "WdZ 234",
+        "Name":  "Infektion mit [Krankheit]",
+        "Bemerkung":  "durch Berührung kann der Untote ein Opfer mit einer Krankheit infizieren",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000209"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Immunität gegen kritische Treffer (Untot)",
+        "Bemerkung":  "Gegen den Untoten sind kritische Treffer nicht möglich. Sie zählen als glückliche Attacke.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000210"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Klebriges Sekret",
+        "Bemerkung":  "Ein aus der Haut oder dem Speichel abgesondertes Sekret des Untoten kann als klebender Stoff verwendet werden, um z.B. die Verriegelung von Türen zu verstärken o.ä. Auf Flächen, über die der Untote sich bewegt, kann man sich verfangen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000212"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Krallen (Stufe)",
+        "Bemerkung":  "Der Untote erhält besonders scharfe und mächtige Krallenhände. Diese verursachen je Stufe einen zusätzliche TP bei waffenlosen Angriffen (max. 3). Weiterhin schlagen die Krallen fürchterliche Wunden (WS-1 pro Stufe).",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000213"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "VTuU 109",
+        "Name":  "Lähmender Biss",
+        "Bemerkung":  "Der Untote kann mit seinem Biss Opfer lähmen. Je KR sinkt dabei KK und GE um je 1 für W6 Runden. Sinkt einer der Werte auf 0 ist das Opfer für mehrere Stunden gelähmt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000215"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Lähmende Berührung",
+        "Bemerkung":  "Der Untote kann mit seiner Berührung Opfer lähmen. Je KR sinkt dabei KK und GE um je 1 für W6 Runden. Sinkt einer der Werte auf 0 ist das Opfer für mehrere Stunden gelähmt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000216"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Lähmender Blick",
+        "Bemerkung":  "Der Untote kann mit seinem Blick Opfer lähmen. Je KR sinkt dabei KK und GE um je 1 für W6 Runden. Sinkt einer der Werte auf 0 ist das Opfer für mehrere Stunden gelähmt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000217"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "VTuU 109",
+        "Name":  "Lähmender Schrei",
+        "Bemerkung":  "Der Untote kann mit seinem Schrei Opfer lähmen. Je KR sinkt dabei KK und GE um je 1 für W6 Runden. Sinkt einer der Werte auf 0 ist das Opfer für mehrere Stunden gelähmt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000218"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Lebenshauch (Untot)",
+        "Bemerkung":  "Die Anatomie und der Geist des Untoten sind noch nahe genug am Leben, so dass einige motorische und erlernte Fähigkeiten noch fast so gut arbeiten wie zu Lebzeiten. Der halbe TaW aller Kampf- und körperlichen Talente bleiben erhalten, ebenso ein Viertel des TaW der handwerklichen Talente.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000224"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Limbuswanderer",
+        "Bemerkung":  "Der Untote hat die Macht durch den Limbus zu reisen, in dem er ein AUGE DES LIMBUS öffnet und die Sphären damit zerreißt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000225"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Lockruf",
+        "Bemerkung":  "Durch hypnotische Geräusche, einen süßen, aber tödlichen Gesang oder auf andere Art, kann das Untote Geschöpf Opfer zu sich locken.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000226"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 109",
+        "Name":  "Resistenz gegen Wunden",
+        "Bemerkung":  "Der Untote wird von der Auswirkung von Wunden kaum betroffen. Die Wundschwelle ist verdoppelt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000227"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Geisternebel",
+        "Bemerkung":  "Der Auftritt des Untoten ist mit gespenstischem Nebel verbunden, der ihn etwa 5 Schritt Radius umgibt. Die Sichtverhältnisse sind entsprechend eingeschränkt. Es sind Braggueske Fratzen und die scheinbaren Geister verstorbener Seelen zu sehen, deren Anblick wie eine Schreckgestalt I wirkt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000228"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Nekrotischer Biss",
+        "Bemerkung":  "Der Biss eines Untoten lässt berührte Gliedmaßen verkümmern und absterben. Zusätzlich zu einem Folgeschaden von 1 SP für 3 KR liegt die Wundschwelle des Opfers für diese Angriffe um 2 niedriger. Bereits zwei Wunden an einem Körperteil lassen es absterben.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000230"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Parasit",
+        "Bemerkung":  "Im Leib des Untoten hat sich ein Parasit niedergelassen, der den Körper mit hm teilt. Es handelt sich um ein eigenständig agierendes Wesen, das aber nicht ohne den Wirt existieren kann. Auf bestimmten Wegen kann sich der Parasit auf ein lebendes Opfer übertragen und es angreifen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000231"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Pestodem",
+        "Bemerkung":  "Der Untote kann mit einer Aktion eine Wolke üblen Pestgeruchs ausstoßen, der wie ein TLALUCS ODEM mit ZfP* in Höhe der Kontrollschwierigkeit des Untoten wirkt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000232"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Pestspeichel",
+        "Bemerkung":  "Der Untote kann mit einer Aktion eine Wolke üblen Pestgeruchs ausstoßen, der wie eine Miasmafaxius-Variante in Höhe von (1/3 Kontrollschwierigkeit Würfeln)  des Untoten wirkt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000233"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Pestsporen",
+        "Bemerkung":  "Der Untote kann mit einer Aktion eine Wolke üblen Pestgeruchs ausstoßen, der wie eine Miasmasphaero-Variante mit ZfP* in Höhe der Kontrollschwierigkeit des Untoten wirkt.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000234"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Rauch",
+        "Bemerkung":  "Etwa 5 Schritt um den Untoten herum befindet sich dicker, schwarzer Rauch. Die Sichtverhältnisse sind eingeschränkt (+4 auf FK-Proben) und ein Aufenthalt im Rauch verursacht 1W6-1 SP(A) pro KR. Im Nahkampf mit dem Untoten befindet man sich in allen Distanzklassen innerhalb des Wirkungsbereichs",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000235"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Säure-Geifer",
+        "Bemerkung":  "Dem Untoten ist es möglich, ein ätzendes Sekret abzusondern, das sich durch Materialien aller Art fressen kann. Bisse eines solchen Wesens erhöhen die TP um 2 und verursachen einen Folgeschaden von 1 SP pro KR für 3 KR. Für insgesamt 10 TP durch diesen Schaden sinkt der RS des Opfers um 1.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000239"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Schreckgeheul I",
+        "Bemerkung":  "Der Untote heult, kreischt oder brüllt auf dermaßen erschreckende Weise, dass jeder, der ihn hört, wie von einer Schreckgestalt I betroffen ist.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000240"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Schreckgeheul II",
+        "Bemerkung":  "Der Untote heult, kreischt oder brüllt auf dermaßen erschreckende Weise, dass jeder, der ihn hört, wie von einer Schreckgestalt II betroffen ist.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000241"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Schwächende Aura",
+        "Bemerkung":  "Das Opfer des Untoten wird geschwächt: Die Auro erfordert keine Berührung und erfordert bei allen Gegner in DK S oder niedriger eine KO-Probe +3 (DK H), +2 (DK N) oder +1 (DK S). Bei Misslingen erleidet das Opfer für 1 Punkt Abzug auf KK.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000242"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Schwächende Berührung",
+        "Bemerkung":  "Das Opfer des Untoten wird geschwächt: Bei Berührung oder erfolgreichem waffenlosen Angriff, der auch Schaden verursacht, erfolgt eine KO-Probe. Mei Misslingen erleidet das Opfer für 1W6 KR je 1 Punkt Abzug auf KK pro KR.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000243"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "VTuU 110",
+        "Name":  "Schwarmkörper",
+        "Bemerkung":  "Der Körper des Untoten kann sich innerhalb einer Aktion für 2W6 KR in einen Scharm aus Untoten Tieren verwandeln, deren Werte wie bei einer Rotte modifiziert sind.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000244"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Ängste auslösen (bestimmte Angst oder Schlechte Eigenschaft Aberglaube)",
+        "Bemerkung":  "MU-Probe oder schlechte Eigenschaft erschwert um diesen Wert",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000249"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Artefaktbeseelung",
+        "Bemerkung":  "Elemtn ist besonders für den Dinest Bindung in Artfekate geeignet, d. h. alle Proben sind um die Stufe (max. 3) erleichtert. Schlüsselwerte werden um die Stufe erhöht (Boni auf TP, RS, Talente oder Zauber) wenn sie affin zum Element sind. Patzerwahrscheinlichkeit liegt allerdings bei (20-Stufe) bei 20.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000250"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143 / VTuU 108",
+        "Name":  "Aura (Element)",
+        "Bemerkung":  "Jede KR richtet die Aura Schaden an. In DK S: 1 SP, in DK N: 2 SP und in DK H: 3 SP. ",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000251"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Blinkende Unsichtbarkeit",
+        "Bemerkung":  "Wesen macht sich schlagartig unsichtbar (PA Wert 18). Die Unsichtbarkeit dauert W6 KR.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000252"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Ersäufen",
+        "Bemerkung":  "Wesen zieht Gegner unter Wasser. Gelingt Angriff erleidet Opfer pro KR 1W6 TP (A). Jede KR kann das Opfer eine KK-Probe ablegen, die um die Anzahl KR unter Wasser erschwert ist. Bei einem Treffer von 10+ TP löst das Elementar seinen Griff. Das Elementar kann max. 1 Gegner unter Wasser halten.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000253"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Elementare Gewalt",
+        "Bemerkung":  "Die Angriffe von Elementaren richten magischen und elementaren (je nach Element) Schaden an, hinzukommen noch die elementaren Sekundäreffekte",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000254"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Elementare Fessel",
+        "Bemerkung":  "Am Hals schnürt es Luft ab (Pro KR 1W3 TP(A) und 1W3 SP pro KR. Um Handgelenk sind alle Aktionen im Kampf (AT und PA) sowie Zauber mit Gesten um Beherrschungsschwierigkeit erschert. Um Fuß sinken GE und GS um Beherrschungsschwierigkeit. Proben gegen Niederwerfen sind um Beherrschungsschwierigkeit erschwert. An Händen/Beinen erleidet das Opfer nur 1W3-1 SP pro KR. Selbstbeherrschungs-Proben sind während der Wirkung um die Beherrschungsschwierigkeit des Elementarwesens erschwert, MU-Proben um Beherrschungsschwierigkeit /2.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000255"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Elementares Inferno",
+        "Bemerkung":  "In einer Zone von 4+Beherrschungsschwierigkeit Schritt Radius schießt ein elementares Inferno hervor, das alle Wesen im Wirkungsbereich erfasst und ihnen 3W6+ZfP* TP zufügen. Zusätzlich kommt es zu elementaren Sekundärschäden. Der Einsatz der Eigenschaft dauert 8 Aktionen und kostet 25 AsP.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000256"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Elementarer Griff (Stufe)",
+        "Bemerkung":  "Jeder Angriff, den das Elementarwesen mit seinem Körper ausführt, richtet 1 SP pro Stufe extra bei Gegnern an, zusätzlich elementare Sekundäreffekte und Folgeschaden von 1 SP pro KR für 3 KR. Das Berühren beziehungsweise Überlaufen von zum Beispiel brennbaren Gegenständen kann diese entzünden (Feuer), Wasseroberflächen erstarren lassen (Eis) und Ähnliches je nach Element.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000257"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Elementare Regeneration",
+        "Bemerkung":  "Elementarwesen regenerieren pro Stunde Aufenthalt in ihrem Element einen LeP und 1W6 AsP.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000258"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 143",
+        "Name":  "Elementares Wachstum",
+        "Bemerkung":  "Das Elementarwesen wird durch die Nähe zu einem bestimmten Element langsam größer und mächtiger. Es erhält permanente LeP in Höhe von 1 pro 3 Monate Aufenthalt in einem Gebiet von elementarer Urkraft. Pro 15 so gewonnene LeP über den Grundwert hinaus erhält das Wesen +1 auf AT, PA, INI und TP. Je 50 LeP über den Grundwert hinaus steigern die DK sowie die Größenkategorie des Wesens um eine Stufe.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000259"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Elementarkritische Konsistenz",
+        "Bemerkung":  "Elementare Wesen mit dieser Eigenschaft gehen sofort in ihrem Element auf, wenn sie durch einen einzelnen Angriff durch ihr eigenes Element die Hälfte ihrer LeP verlieren würden",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000260"
+    },
+    {
+        "Manöver":  true,
+        "Literatur":  "EG 144 / VTuU 108",
+        "Name":  "Flächenangriff mit [Element]",
+        "Bemerkung":  "Mit dieser Eigenschaft kann ein Elementarwesen einen flächendeckenden Angriff mit seinem Element durchführen. Die Wirkung entspricht der eines IGNISPHAERO mit ZfP* in Höhe seiner Kontrollschwierigkeit inklusive eventueller Sekundäreffekte je nach Element. Der Einsatz dieser Eigenschaft dauert 7 Aktionen und kostet das Elementarwesen 15 AsP.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000261"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Flugfähigkeit",
+        "Bemerkung":  "Das Elementarwesen kann fliegen und sich mit der angegebenen Geschwindigkeit durch die Luft bewegen. Diese Sonderfertigkeit kommt bei Erzelementaren nur automatisch vor und kann nicht nachträglich verliehen werden.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000262"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Frost",
+        "Bemerkung":  "Ein oder mehrere Gegenstände (max. 50 Stein) werden eingefroren dass jede Berührung schmerzt. Um sie in der Hand zu halten ist eine Selbstbeherrschungs-Probe nötig, die um die Beherrschungsschwierigkeit des Elementarwesens erschwert ist. Pro KR verursacht dies 1 SP. Ein am Körper getragener Gegenstand richtet pro  KR für jeden RS 1 SP. Die Wirkung tritt augenblicklich ein und kostet das Elementarwesen 1 AsP pro KR pro 10 Stein Gewicht der Gegenstände.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000263"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Gesang",
+        "Bemerkung":  "Elementar zieht damit den Zuhörer in seinen Bann (als wirke Große Gier mit 12 ZfP*). Der Zuhör verspürt einen starken Drang sich dem Elementar zu nähern. Es vergisst es seine Umgebung, Menschenverstand und manchmal sogar den Überlebenswillen. Damit die Wirkung sich entfaltet, muss der Gesang min. 10 KR aufrechtgehalten und vom Opfer gehört werden. Wirkung fällt erst dann ab, wenn Gesang unterbrochen oder die Wirkung mittels Liturgien oder Antimagie (BEHERRSCHUNG BRECHEN, EINFLUSS BANNEN, aber auch der SILENTIUM kann hier wahre Wunder wirken) aufgehoben wird. Pro Opfer, den der Gesang fesseln soll, muss das Elementarwesen 5 AsP aufwenden.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000264"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144 / VTuU 108",
+        "Name":  "Gestank",
+        "Bemerkung":  "Einige pervertierte Elementare haben einen Gestank, der große Übelkeit verursacht. Es muss eine KO-Probe, erschwert um einen eventuellen Sensiblen Geruchssinn, abgelegt werden. Bei Misslingen muss man sich übergeben und verliert für 2 KR alle Angriffsaktionen. Zudem erleidet man –1W6 Punkte auf MU, AT, PA, FK und INI-Basis (keine Neuberechnung der Werte). Außerhalb der Geruchsweite (ca. TaW Sinnenschärf ein Schritt Entfernung) bauen sich die Mali um 1 Punkt pro SR wieder ab.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000265"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Glut",
+        "Bemerkung":  "Ein oder mehrere Gegenstände (max. 50 Stein) werden erhitzt dass jede Berührung schmerzt. Um sie in der Hand zu halten ist eine Selbstbeherrschungs-Probe nötig, die um die Beherrschungsschwierigkeit des Elementarwesens erschwert ist. Pro KR verursacht dies 1 SP. Ein am Körper getragener Gegenstand richtet pro  KR für jeden RS 1 SP. Die Wirkung tritt augenblicklich ein und kostet das Elementarwesen 1 AsP pro KR pro 10 Stein Gewicht der Gegenstände.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000266"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Immunität gegen Kritische Treffer",
+        "Bemerkung":  "Das Elementare Wesen wird von der Auswirkung von kritischen Attacken nicht anders als von normalen Angriffen betroffen, da seine Anatomie keine besonders verwundbaren Stellen aufweist.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000267"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144 / VTuU 109",
+        "Name":  "Immunität gegen Wunden",
+        "Bemerkung":  "Das Elementarwesen / der Untote ist von der Auswirkung von Wunden nicht betroffen, ebenso wenig erleidet es Einbußen durch niedrige LeP.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000268"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Lebenshauch",
+        "Bemerkung":  "Das Elementare Wesen ist in der Lage, selbst schwerste Verletzungen zu heilen. Es kann pro Tag bis zu 10W6 SP heilen, die beliebigem aufgeteilt werden können. Für je 7 Punkte wird außerdem eine Wunde geheilt. Sogar verlorenes Sikaryan kann auf diese Weise mit bis zu 10 Punkten pro Tag wieder hergestellt werden.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000269"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Kochendes Blut",
+        "Bemerkung":  "Wenn ein Wesen mit dieser Eigenschaft durch eine Verletzung 10 oder mehr LeP auf einmal verliert oder es getötet wird, spritzt sein heißes Blut umher und verursacht 3W6 TP bei allen mit ihr Kämpfenden in DK H oder N. Ausweichen ist möglich.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000270"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144 / VTuU 110",
+        "Name":  "Nebel",
+        "Bemerkung":  "Der Auftritt des Elementarwesen ist mit dichtem Nebel verbunden, der es in etwa 5 Schritt Radius umgibt. Die Sichtverhältnisse sind entsprechend eingeschränkt (+4 auf FK-Proben gegen das Elementarwesen). Bei pervertierten Elementaren verzerrt sich der Nebel oft zu unheimlichen Fratzen oder bildet gefährlich aussehende (aber harmlose) Tentakeln aus.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000271"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 144",
+        "Name":  "Rauch",
+        "Bemerkung":  "Etwa 5 Schritt um das elementare Wesen herum befindet sich dicker, schwarzer Rauch. Die Sichtverhältnisse sind eingeschränkt (+4 auf FK-Proben gegen das Wesen) und ein Aufenthalt im Qualm verursacht 1W6–1 SP(A) pro KR. Im Nahkampf mit dem Wesen befindet man sich in allen Distanzklassen automatisch innerhalb des Wirkungsbereichs.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000272"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 145",
+        "Name":  "Steinhaut",
+        "Bemerkung":  "Die Haut des Wesens ist so hart, dass der RS um die Stufe der Eigenschaft (maximal 6) erhöht wird. Nur Waffen mit TP* (Geschütz, s. Arsenal S. 49) richten noch normal Schaden an, gegen alle anderen Waffen besteht eine Resistenz (halber Schaden). Je 3 Punkte auf diese Art gewonnene RS steigern die TP waffenloser Angriffe (und solcher mit natürlichen Waffen) um 1. INI und GS sinken dagegen um Stufe/2 (Minimal auf 1).",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000273"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 145",
+        "Name":  "Starre",
+        "Bemerkung":  "Das Wesen kann binnen 1 Aktion in Tagesstarre verfallen, wodurch es unbeweglich wird und in jeder Hinsicht als Statue gilt, aber seine Umgebung weiter wahrnimmt. Binnen 5 Aktionen kann es in eine bis zu Jahrzehnte anhaltende Lange Starre verfallen, in der er lediglich größere Beschädigungen an seinem Körper wahrnimmt, nicht weiter altert, aber automatisch einmalig um eine Alterungsstufe aufsteigt. Es hat statt LeP in dieser Form LeP*2 StP, RS*10 Härte und Struktur je nach Haltung 6-12 (W6+6). Es kann in dieser Form keinen Schaden aus Hunger, Ersticken, Krankheit oder Gift erhalten. Binnen 1 Aktion (Tagesstarre) bzw. 5 Aktionen (Lange Starre) kann es wieder erwachen, wodurch Beschädigungen zu Narben werden. Eine Zerstörung der Statue tötet auch das Wesen. Wesen, die diese Eigenschaft automatisch besitzen, fallen zudem in hohem Alter in eine Letzte Starre, aus der sie lediglich durch z.B. Sikaryan-Zuführung oder sphärische Entladungen wieder erwachen können. Sie erstarren außerdem mit hohem Alter zunehmend. Je Alterungsstufe sinken IN, GE, AT, INI und GS um 1 (GS bleibt minimal 1). KK, RS, TP und Niederwerfen steigen hingegen je um 1, Hinterhalt um 3, KL um 1 je 2 Alterungsstufen. Eventuelle Flugfähigkeit ist ab GE 3 nicht mehr möglich. Sobald die AT auf 0 gesunken ist, kommt es zur letzten Starre.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000274"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 145",
+        "Name":  "Steinfraß",
+        "Bemerkung":  "Durch das Verspeisen bestimmter Gesteinsarten kann sich das Wesen stärken. Es erhält für 2W6+Stufe SR einen um die Stufe der Fähigkeit erhöhten Wert in Eigenschaften abhängig von der Art des Steins. Es kann jeweils nur unter der Wirkung einer einzelnen Gesteinsart gleichzeitig stehen. Gesteinsart Betroffener Wert: Tuffstein GE, Granit KK, Marmor CH, Schiefer KO, Sandstein FF, Kalkgestein KL, Quarz IN, Basalt MR, Kreidefels KK (um Stufe gesenkt;wird Opfern rituell zum Fraß gegeben). Halbedelsteine Alle 4 körperlichen Eigenschaften um Stufe erhöht Edelsteine Alle 4 geistigen Eigenschaften um doppelte Stufe erhöht. Die Fähigkeit kann in einem Ritual auch auf andere Mitesser übertragen werden. Diese müssen jedoch über die für das Zerbeißen von Steinen nötigen Beißwerkzeuge verfügen. Es soll eine Variante für das Element Eis geben, bei dem bestimmte Arten von Eis ähnliche Effekte bewirken.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000275"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 145",
+        "Name":  "Unbelebt",
+        "Bemerkung":  "Das Wesen gilt als unbelebt, ist also immun gegen Zauber wie den EXPOSAMI.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000276"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 145",
+        "Name":  "Verschmelzen mit Element",
+        "Bemerkung":  "Das Wesen kann jederzeit innerhalb 1 KR mit seinem Element verschmelzen, wodurch es faktisch nicht mehr sichtbar und sicher vor Schaden ist. Antimagie oder die Vernichtung des Gegenstands, in dem es sich verbirgt, bringen es wieder zum Vorschein und können ihm Schaden verursachen. Es kann sich mit dieser Fähigkeit jedoch nicht innerhalb des Elementes weiter bewegen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000277"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 145",
+        "Name":  "Versinken",
+        "Bemerkung":  "Der Boden unter dem Opfer (Beherrschungsschwierigkeit als Radius) wird zu einem Strudel oder matschigen Pfuhl, der es in die Tiefe zieht. Im Wirkungsbereich sinken GS und GE um 1 je KR. Sinkt die GE auf 0, ist das Opfer untergegangen und erleidet Schaden wie beim Ertrinken (WdS 140). Jede KR ist eine GEProbe möglich, um sich zu befreien (gesenkte GE beachten). Ist es untergegangen, können nur noch andere Personen helfen.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000278"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 146",
+        "Name":  "Wildwuchs",
+        "Bemerkung":  "Ein lebendes Wesen wächst um eine Größenkategorie mit allen daraus entstehenden Auswirkungen. KK und KO steigen um je 3, LeP um 5, RS und TP um 1. Im Falle von Pflanzen steigt die Größe um zwei Kategorien, die Pflanze wirkt evtl. durch dichteres Blattwerk wie eine WAND AUS DORNEN (mit Beherrschungsschwierigkeit ZfP*), die Wirkung von Kräutern wird verdoppelt (Heilpflanzen, Giftpflanzen, aber auch TP und LeP von gefährlichen Pflanzen). Die Verwandlung dauert 6 Aktionen und hält für 1 SR pro 5 eingesetzte AsP des Wesens an.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000279"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 146",
+        "Name":  "Zerbersten (Element)",
+        "Bemerkung":  "Wenn die LeP des Elementarwesens auf unter 0 sinken, explodiert sein Leib in einem hässlichen, elementaren Inferno und richtet in seiner Umgebung einen Schaden von 4W6+4 (in DK H) an. Der Schaden sinkt um 1W6+1 je DK weiter entfernt vom Ziel. Darüber hinaus treten eventuelle elementare Sekundäreffekte auf.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000280"
+    },
+    {
+        "Manöver":  false,
+        "Literatur":  "EG 146",
+        "Name":  "Zerschellender Panzer",
+        "Bemerkung":  "Nahkampfangriffe, die durch Waffen aus dem Element (bei Erz insbesondere alle Metallwaffen, bei Humus Holzwaffen) durchgeführt werden, müssen bei einem Treffer sowie bei einer gelungenen PA einen BF-Test machen, um nicht zu zerbrechen. Sehr selten und spezialisiert sind auch die Varianten für Feuer (gegen Waffen aus Obsidian, Feuerstein und bestimmte Vulkangesteine) sowie gegen Waffen aus Eis.",
+        "KampfregelGUID":  "00000000-0000-0000-0009-000000000281"
+    }
+]

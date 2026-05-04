@@ -1,0 +1,212 @@
+﻿[
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000002",
+        "Wesen":  "Dschinn",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000014",
+        "Wesen":  "Dschinn",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000017",
+        "Wesen":  "Dschinn",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000061",
+        "Wesen":  "Dschinn",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000106",
+        "Wesen":  "Dschinn",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000112",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000113",
+        "Wesen":  "Dschinn",
+        "Element":  "Eis"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000114",
+        "Wesen":  "Dschinn",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000115",
+        "Wesen":  "Dschinn",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000116",
+        "Wesen":  "Dschinn",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000117",
+        "Wesen":  "Dschinn",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000184",
+        "Wesen":  "Geist",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000185",
+        "Wesen":  "Geist",
+        "Element":  "Eis"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000186",
+        "Wesen":  "Geist",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000187",
+        "Wesen":  "Geist",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000188",
+        "Wesen":  "Geist",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000189",
+        "Wesen":  "Geist",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000310",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000377",
+        "Wesen":  "Meister",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000378",
+        "Wesen":  "Meister",
+        "Element":  "Eis"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000379",
+        "Wesen":  "Meister",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000380",
+        "Wesen":  "Meister",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000381",
+        "Wesen":  "Meister",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000382",
+        "Wesen":  "Meister",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000383",
+        "Wesen":  "Dschinn",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000503",
+        "Wesen":  "Dschinn",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000525",
+        "Wesen":  "Dschinn",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000546",
+        "Wesen":  "Dschinn",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000578",
+        "Wesen":  "Dschinn",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000584",
+        "Wesen":  "Dschinn",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000665",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000666",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000667",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000686",
+        "Wesen":  "Dschinn",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000703",
+        "Wesen":  "Dschinn",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000713",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000714",
+        "Wesen":  "Dschinn",
+        "Element":  "Eis"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000715",
+        "Wesen":  "Dschinn",
+        "Element":  "Erz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000716",
+        "Wesen":  "Dschinn",
+        "Element":  "Feuer"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000717",
+        "Wesen":  "Dschinn",
+        "Element":  "Humus"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000718",
+        "Wesen":  "Dschinn",
+        "Element":  "Wasser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000768",
+        "Wesen":  "Dschinn",
+        "Element":  "Luft"
+    }
+]

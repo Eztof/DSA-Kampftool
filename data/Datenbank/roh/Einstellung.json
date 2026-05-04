@@ -1,0 +1,370 @@
+﻿[
+    {
+        "Beschreibung":  "(Optional) Mit Ueberlastung spielen?",
+        "Name":  "MitUeberlastung",
+        "Typ":  "Boolean",
+        "Wert":  "True",
+        "Kategorie":  "Optional",
+        "Kontext":  "Inventar"
+    },
+    {
+        "Beschreibung":  "Spielt die Gruppe mit Überlastung?",
+        "Name":  "03_UeberlastungBerechnung",
+        "Typ":  "Integer",
+        "Wert":  "0",
+        "Kategorie":  null,
+        "Kontext":  "Inventar"
+    },
+    {
+        "Beschreibung":  "ChangeLog beim Start anzeigen",
+        "Name":  "ShowChangeLog",
+        "Typ":  "Boolean",
+        "Wert":  "True",
+        "Kategorie":  null,
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "Frage bei neuer Kampfrunde unterbinden",
+        "Name":  "FrageNeueKampfrundeAbstellen",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  null,
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Jingle beim Start deaktivieren",
+        "Name":  "JingleAbstellen",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  null,
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "Würfelsound abspielen",
+        "Name":  "WuerfelSoundAbspielen",
+        "Typ":  "Boolean",
+        "Wert":  "0",
+        "Kategorie":  null,
+        "Kontext":  "Proben"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "AudioDirektAbspielen",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "IsReadOnly",
+        "Typ":  "Boolean",
+        "Wert":  "0",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "Fading",
+        "Typ":  "Integer",
+        "Wert":  "900",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "SelectedTab",
+        "Typ":  "Integer",
+        "Wert":  "4",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "SelectedHeldenTab",
+        "Typ":  "Integer",
+        "Wert":  "0",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Helden"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "StartTabs",
+        "Typ":  "String",
+        "Wert":  "Notizen#Kalender#Karte#Helden#Kampf#Basar",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "KalenderExpandedSections",
+        "Typ":  "String",
+        "Wert":  "110011",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Kalender"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "ProbenAnzeigeModus",
+        "Typ":  "String",
+        "Wert":  "Zeile",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Proben"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "DatumAktuell",
+        "Typ":  "String",
+        "Wert":  "22|11|1022|0",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Kalender"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "UmrechnerExpandedSections",
+        "Typ":  "String",
+        "Wert":  "011111",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Umrechner"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "GegnerViewExpandedSections",
+        "Typ":  "String",
+        "Wert":  "11",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Gegner"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "GegnerDetailViewExpandedSections",
+        "Typ":  "String",
+        "Wert":  "111",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Gegner"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "Standort",
+        "Typ":  "String",
+        "Wert":  "#30.2389771084303#2.47833887456146",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "SelectedHeld",
+        "Typ":  "String",
+        "Wert":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Helden"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "ProbenFavoriten",
+        "Typ":  "String",
+        "Wert":  "",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Proben"
+    },
+    {
+        "Beschreibung":  "Befehl zum starten des PDF-Readers",
+        "Name":  "PdfReaderCommand",
+        "Typ":  "String",
+        "Wert":  "\"C:\\Program Files\\Tracker Software\\PDF Viewer\\PDFXCview.exe\"",
+        "Kategorie":  null,
+        "Kontext":  "Almanach"
+    },
+    {
+        "Beschreibung":  "Parameter für den Aufruf des PDF-Readers",
+        "Name":  "PdfReaderArguments",
+        "Typ":  "String",
+        "Wert":  "/A \"page={1}\" \"{0}\"",
+        "Kategorie":  null,
+        "Kontext":  "Almanach"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "KampfRecentColors",
+        "Typ":  "String",
+        "Wert":  null,
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Trefferpunkte und Körperkraft (TP/KK) (WdS 81f)",
+        "Name":  "TPKK",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  "Optional",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Auswirkungen niedriger LE (WdS 57)",
+        "Name":  "NiedrigeLE",
+        "Typ":  "Boolean",
+        "Wert":  "0",
+        "Kategorie":  "Optional",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Auswirkungen niedriger AU (WdS 83)",
+        "Name":  "NiedrigeAU",
+        "Typ":  "Boolean",
+        "Wert":  "0",
+        "Kategorie":  "Optional",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Ausdauerverlust (WdS 83)",
+        "Name":  "AusdauerImKampf",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  "Optional",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Maximal drei Wunden pro Trefferzone",
+        "Name":  "NurDreiZonenWunden",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  "Hausregel",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Patzer und Glückswürfe bei Eigenschafts-Proben (WdS 7)",
+        "Name":  "EigenschaftenProbePatzerGlück",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  "Optional",
+        "Kontext":  "Proben"
+    },
+    {
+        "Beschreibung":  null,
+        "Name":  "AudioVerzeichnis",
+        "Typ":  "String",
+        "Wert":  "C:\\DSA-Musik|D:\\GoogleDrive\\DSA-Musik|C:\\Temp\\_m\\DSA-Musik",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  null,
+        "Name":  "ShowPlaylistFavorite",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  null,
+        "Name":  "AudioSpieldauerBerechnen",
+        "Typ":  "Boolean",
+        "Wert":  "False",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "INTERN",
+        "Typ":  "Boolean",
+        "Wert":  "True",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "Tool Name im Tab-Titel ausblenden",
+        "Name":  "ToolTitelAusblenden",
+        "Typ":  "Boolean",
+        "Wert":  "False",
+        "Kategorie":  null,
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "Veränderungen der KO durch Wunden beinflussen die Wundschwellen",
+        "Name":  "WundenVerändernWundschwelle",
+        "Typ":  "Boolean",
+        "Wert":  "True",
+        "Kategorie":  "Unklarheit",
+        "Kontext":  "Kampf"
+    },
+    {
+        "Beschreibung":  "Wie wird die Rüstung eines Helden ermittelt?",
+        "Name":  "01_RSBerechnung",
+        "Typ":  "Integer",
+        "Wert":  "0",
+        "Kategorie":  null,
+        "Kontext":  "Inventar"
+    },
+    {
+        "Beschreibung":  "Wie wird die Behinderung eines Helden ermittelt?",
+        "Name":  "02_BEBerechnung",
+        "Typ":  "Integer",
+        "Wert":  "0",
+        "Kategorie":  null,
+        "Kontext":  "Inventar"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "AudioInAnderemPfadSuchen",
+        "Typ":  "Boolean",
+        "Wert":  "1",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  null,
+        "Name":  "GeneralMusikVolume",
+        "Typ":  "Integer",
+        "Wert":  "6",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  null,
+        "Name":  "GeneralGeräuscheVolume",
+        "Typ":  "Integer",
+        "Wert":  "13",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  null,
+        "Name":  "GeneralHotkeyVolume",
+        "Typ":  "Integer",
+        "Wert":  "74",
+        "Kategorie":  null,
+        "Kontext":  "Audioplayer"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "MeisterGeisterID",
+        "Typ":  "String",
+        "Wert":  "4d7ee36a-79b6-4b13-8c40-98881d52f551",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "SpielerInfoBilderPfad",
+        "Typ":  "String",
+        "Wert":  "D:\\Dropbox\\DSA 4\\Spielleiter\\Spieler in der Yvonya-Reihe",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "SpielerInfo"
+    },
+    {
+        "Beschreibung":  "",
+        "Name":  "SlideShowInterval",
+        "Typ":  "Double",
+        "Wert":  "6",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "SpielerInfo"
+    },
+    {
+        "Beschreibung":  "Regeledition",
+        "Name":  "Regeledition",
+        "Typ":  "String",
+        "Wert":  "DSA 4.1",
+        "Kategorie":  "Versteckt",
+        "Kontext":  "Allgemein"
+    }
+]

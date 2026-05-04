@@ -1,0 +1,7042 @@
+﻿[
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Bärengesicht",
+        "NscMerkmalId":  1
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "bildschön",
+        "NscMerkmalId":  2
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "breites Gesicht",
+        "NscMerkmalId":  3
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Bulldoggen-Gesicht",
+        "NscMerkmalId":  4
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "ebenmäßiges Gesicht",
+        "NscMerkmalId":  5
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "faltenlos",
+        "NscMerkmalId":  6
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "fast dreieckiges Gesicht",
+        "NscMerkmalId":  7
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Fuchsgesicht",
+        "NscMerkmalId":  8
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "großer Kopf",
+        "NscMerkmalId":  9
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "gutaussehend",
+        "NscMerkmalId":  10
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "hageres Gesicht",
+        "NscMerkmalId":  11
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "hässlich",
+        "NscMerkmalId":  12
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Hundeblick",
+        "NscMerkmalId":  13
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "kindliches Gesicht",
+        "NscMerkmalId":  14
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "klassisches Gesicht",
+        "NscMerkmalId":  15
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "kleiner Kopf",
+        "NscMerkmalId":  16
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Krötengesicht",
+        "NscMerkmalId":  17
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "langes Gesicht",
+        "NscMerkmalId":  18
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "lebhaftes Gesicht",
+        "NscMerkmalId":  19
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "markanter Kopf",
+        "NscMerkmalId":  20
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Maskengesicht",
+        "NscMerkmalId":  21
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "reifes Gesicht",
+        "NscMerkmalId":  22
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "rundes Gesicht",
+        "NscMerkmalId":  23
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "schmales Gesicht",
+        "NscMerkmalId":  24
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "sehr gutaussehend",
+        "NscMerkmalId":  25
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "spitzbübisches Gesicht",
+        "NscMerkmalId":  26
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "unansehnlich",
+        "NscMerkmalId":  27
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "unsymmetrisches Gesicht",
+        "NscMerkmalId":  28
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "unglaublich hässlich",
+        "NscMerkmalId":  29
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Wolfsgesicht",
+        "NscMerkmalId":  30
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "arroganter Blick",
+        "NscMerkmalId":  31
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Augen nah beieinander",
+        "NscMerkmalId":  32
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Augen weit auseinander",
+        "NscMerkmalId":  33
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Balkenaugenbraue (sog. Unibrow)",
+        "NscMerkmalId":  34
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "buschige Augenbrauen",
+        "NscMerkmalId":  35
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Falte zwischen den Augen",
+        "NscMerkmalId":  36
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "geschwungene Augenbrauen",
+        "NscMerkmalId":  37
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "glitzernde verzaubernde Augen",
+        "NscMerkmalId":  38
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Glubschaugen",
+        "NscMerkmalId":  39
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "große Augen",
+        "NscMerkmalId":  40
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "große Mandelaugen",
+        "NscMerkmalId":  41
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "großer Leberfleck an der Augenbraue",
+        "NscMerkmalId":  42
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "immer nur halb geöffnete Augen",
+        "NscMerkmalId":  43
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "irrer Blick",
+        "NscMerkmalId":  44
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "keine Augenbrauen",
+        "NscMerkmalId":  45
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "kleine Schweineaugen",
+        "NscMerkmalId":  46
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "lange Augenlider",
+        "NscMerkmalId":  47
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Mandelaugen",
+        "NscMerkmalId":  48
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Schlafzimmerblick",
+        "NscMerkmalId":  49
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schöne Augenbrauen",
+        "NscMerkmalId":  50
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schräge Augen",
+        "NscMerkmalId":  51
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schräge Augenbrauen",
+        "NscMerkmalId":  52
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schräge und große Augen (elfischer Einschlag)",
+        "NscMerkmalId":  53
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "sehr feine Augenbrauen",
+        "NscMerkmalId":  54
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "sehr kleine Augenbrauen",
+        "NscMerkmalId":  55
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Silberblick",
+        "NscMerkmalId":  56
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "stark geschwungene Augenbrauen",
+        "NscMerkmalId":  57
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "tiefe Augen",
+        "NscMerkmalId":  58
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "tränende Augen",
+        "NscMerkmalId":  59
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "verkniffene Augen",
+        "NscMerkmalId":  60
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "wachsame Augen",
+        "NscMerkmalId":  61
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "wanderndes Auge",
+        "NscMerkmalId":  62
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Warze an der Augenbraue",
+        "NscMerkmalId":  63
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "wirklich große Rehaugen",
+        "NscMerkmalId":  64
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "zugeschwollene Augen",
+        "NscMerkmalId":  65
+    },
+    {
+        "Kategorie":  "Gesicht Hals",
+        "Merkmal":  "kurzer Hals",
+        "NscMerkmalId":  66
+    },
+    {
+        "Kategorie":  "Gesicht Hals",
+        "Merkmal":  "langer Hals",
+        "NscMerkmalId":  67
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Ausschlag",
+        "NscMerkmalId":  68
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "bleicher Teint",
+        "NscMerkmalId":  69
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Denkfalten",
+        "NscMerkmalId":  70
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Denkfalten auf der Stirn",
+        "NscMerkmalId":  71
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "dunkler Teint",
+        "NscMerkmalId":  72
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "fettige Haut",
+        "NscMerkmalId":  73
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "große Poren",
+        "NscMerkmalId":  74
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Hautanomalie (dunkle und helle Flecken)",
+        "NscMerkmalId":  75
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "heller Teint",
+        "NscMerkmalId":  76
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "kleine Äderchen auf Nase und Wangen",
+        "NscMerkmalId":  77
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "kleine Tätowierung im Gesicht",
+        "NscMerkmalId":  78
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "makellose Haut",
+        "NscMerkmalId":  79
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Mitesser",
+        "NscMerkmalId":  80
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Pickel",
+        "NscMerkmalId":  81
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "pockennarbiges Gesicht",
+        "NscMerkmalId":  82
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "sehr dunkler Teint",
+        "NscMerkmalId":  83
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "sehr rosiger Teint",
+        "NscMerkmalId":  84
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Sorgenfalten",
+        "NscMerkmalId":  85
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "stellenweise Aknenarben",
+        "NscMerkmalId":  86
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "viele Aknenarben",
+        "NscMerkmalId":  87
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "viele Mitesser",
+        "NscMerkmalId":  88
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "viele Muttermale",
+        "NscMerkmalId":  89
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "viele Pickel",
+        "NscMerkmalId":  90
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "viele Sommersprossen",
+        "NscMerkmalId":  91
+    },
+    {
+        "Kategorie":  "Gesicht Haut",
+        "Merkmal":  "Warzen",
+        "NscMerkmalId":  92
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "fließendes Kinn",
+        "NscMerkmalId":  93
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "großer Leberfleck am Kinn",
+        "NscMerkmalId":  94
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "kantiges Kinn",
+        "NscMerkmalId":  95
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "Kinn mit ausgeprägtem Grübchen",
+        "NscMerkmalId":  96
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "kräftiges Kinn",
+        "NscMerkmalId":  97
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "Michael-Schumacher-Kinn",
+        "NscMerkmalId":  98
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "Narbe am Kinn",
+        "NscMerkmalId":  99
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "relativ frische Wunde am Kinn",
+        "NscMerkmalId":  100
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "spitzes Kinn",
+        "NscMerkmalId":  101
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "hervorspringendes Kinn",
+        "NscMerkmalId":  102
+    },
+    {
+        "Kategorie":  "Gesicht Kinn",
+        "Merkmal":  "Warze am Kinn",
+        "NscMerkmalId":  103
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Angelina-Jolie-Mund",
+        "NscMerkmalId":  104
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "attraktiver Mund",
+        "NscMerkmalId":  105
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "ausgeprägte Hasenscharte",
+        "NscMerkmalId":  106
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "blutleere Lippen",
+        "NscMerkmalId":  107
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "braune Zähne",
+        "NscMerkmalId":  108
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "breiter Mund",
+        "NscMerkmalId":  109
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "breiter schmaler Mund",
+        "NscMerkmalId":  110
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "breites Grinsen",
+        "NscMerkmalId":  111
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "breites Lächeln",
+        "NscMerkmalId":  112
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "deutlicher Überbiss",
+        "NscMerkmalId":  113
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "deutlicher Unterbiss",
+        "NscMerkmalId":  114
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "dunkelrote Lippen",
+        "NscMerkmalId":  115
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "dünne Lippen",
+        "NscMerkmalId":  116
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "dünne Unterlippe",
+        "NscMerkmalId":  117
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "eckiges Kinn",
+        "NscMerkmalId":  118
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "ehrliches Lächeln",
+        "NscMerkmalId":  119
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "fehlender Eckzahn (oben)",
+        "NscMerkmalId":  120
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "fehlender Eckzahn (unten)",
+        "NscMerkmalId":  121
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "fehlender Schneidezahn (oben)",
+        "NscMerkmalId":  122
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "fehlender Schneidezahn (unten)",
+        "NscMerkmalId":  123
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "gelbe Zähne",
+        "NscMerkmalId":  124
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "große Unterlippe",
+        "NscMerkmalId":  125
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "große Zahnlücke",
+        "NscMerkmalId":  126
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "großer Leberfleck an der Oberlippe",
+        "NscMerkmalId":  127
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "gute Zähne",
+        "NscMerkmalId":  128
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Hasenscharte",
+        "NscMerkmalId":  129
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Herpesbläschen",
+        "NscMerkmalId":  130
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Grinsen",
+        "NscMerkmalId":  131
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Kirschmund",
+        "NscMerkmalId":  132
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "kleine Zahnlücke",
+        "NscMerkmalId":  133
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "kleiner Mund",
+        "NscMerkmalId":  134
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "kleiner voller Mund",
+        "NscMerkmalId":  135
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Lachfältchen",
+        "NscMerkmalId":  136
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Lachfalten",
+        "NscMerkmalId":  137
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "relativ frische Wunde am Mund",
+        "NscMerkmalId":  138
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "rissige Lippen",
+        "NscMerkmalId":  139
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "schiefe Zähne",
+        "NscMerkmalId":  140
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "schiefes Lächeln",
+        "NscMerkmalId":  141
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Schmollmund",
+        "NscMerkmalId":  142
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "schwarze Zähne",
+        "NscMerkmalId":  143
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "strahlend weiße Zähne",
+        "NscMerkmalId":  144
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "verkniffenes Lächeln",
+        "NscMerkmalId":  145
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "viele schwarze Zähne",
+        "NscMerkmalId":  146
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Warze an der Oberlippe",
+        "NscMerkmalId":  147
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Zahnlücke",
+        "NscMerkmalId":  148
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "zwei große Hasenzähne",
+        "NscMerkmalId":  149
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Adlernase",
+        "NscMerkmalId":  150
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "bezaubernde Nase",
+        "NscMerkmalId":  151
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "dezente Stupsnase",
+        "NscMerkmalId":  152
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "eklig lange Nasenhaare",
+        "NscMerkmalId":  153
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Falten um die Nase",
+        "NscMerkmalId":  154
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "gebrochene und gut geheilte Nase",
+        "NscMerkmalId":  155
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "gebrochene und schlecht geheilte Nase (schief)",
+        "NscMerkmalId":  156
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "großer Leberfleck an der Nase",
+        "NscMerkmalId":  157
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Hakennase",
+        "NscMerkmalId":  158
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Höckernase",
+        "NscMerkmalId":  159
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "klassische Nase",
+        "NscMerkmalId":  160
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "kleine Äderchen auf Nase und Wangen",
+        "NscMerkmalId":  161
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Knollennase",
+        "NscMerkmalId":  162
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "lange Nase",
+        "NscMerkmalId":  163
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "leichte Höckernase",
+        "NscMerkmalId":  164
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "relativ frische Wunde an der Nase",
+        "NscMerkmalId":  165
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Riesenzinken",
+        "NscMerkmalId":  166
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "schiefe Nase",
+        "NscMerkmalId":  167
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "sehr breite Nase",
+        "NscMerkmalId":  168
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "sehr feine Nase",
+        "NscMerkmalId":  169
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "sehr kurze Nase",
+        "NscMerkmalId":  170
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "sehr schlanke Nase",
+        "NscMerkmalId":  171
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "spitze Nase",
+        "NscMerkmalId":  172
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Stupsnase",
+        "NscMerkmalId":  173
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "Warze an der Nase",
+        "NscMerkmalId":  174
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "Blumenkohlohren",
+        "NscMerkmalId":  175
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "fehlendes Ohr",
+        "NscMerkmalId":  176
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "große Ohren",
+        "NscMerkmalId":  177
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "kleine Ohren",
+        "NscMerkmalId":  178
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "leicht spitze Ohren",
+        "NscMerkmalId":  179
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "leichte Blumenkohlohren",
+        "NscMerkmalId":  180
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "leichte Segelohren",
+        "NscMerkmalId":  181
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "relativ frische Wunde am Ohr",
+        "NscMerkmalId":  182
+    },
+    {
+        "Kategorie":  "Gesicht Ohren",
+        "Merkmal":  "Segelohren",
+        "NscMerkmalId":  183
+    },
+    {
+        "Kategorie":  "Gesicht Stirn",
+        "Merkmal":  "fließende Stirn",
+        "NscMerkmalId":  184
+    },
+    {
+        "Kategorie":  "Gesicht Stirn",
+        "Merkmal":  "hohe Stirn",
+        "NscMerkmalId":  185
+    },
+    {
+        "Kategorie":  "Gesicht Stirn",
+        "Merkmal":  "Narbe auf der Stirn",
+        "NscMerkmalId":  186
+    },
+    {
+        "Kategorie":  "Gesicht Stirn",
+        "Merkmal":  "relativ frische Wunde an der Stirn",
+        "NscMerkmalId":  187
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "attraktive Wangenknochen",
+        "NscMerkmalId":  188
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "großer Leberfleck an der Wange",
+        "NscMerkmalId":  189
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "Grübchen",
+        "NscMerkmalId":  190
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "kräftige Wangenknochen",
+        "NscMerkmalId":  191
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "Narbe auf der Wange",
+        "NscMerkmalId":  192
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "relativ frische Wunde an der Wange",
+        "NscMerkmalId":  193
+    },
+    {
+        "Kategorie":  "Gesicht Wange",
+        "Merkmal":  "Warze an der Wange",
+        "NscMerkmalId":  194
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "„Bart“ streichen",
+        "NscMerkmalId":  195
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "„Bart“ zwirbeln",
+        "NscMerkmalId":  196
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "affektierte Gesten",
+        "NscMerkmalId":  197
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "an den Fingernägeln kauen",
+        "NscMerkmalId":  198
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "an den Fingernägeln kauen, es aber dann gleich wieder lassen… dann wieder",
+        "NscMerkmalId":  199
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "an eigenen Ohren ziehen",
+        "NscMerkmalId":  200
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "andauernd „den Hals einrecken“",
+        "NscMerkmalId":  201
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf den Mund starren",
+        "NscMerkmalId":  202
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf die Ohren starren",
+        "NscMerkmalId":  203
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf Oberlippe herumkauen",
+        "NscMerkmalId":  204
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf Stuhl wippen",
+        "NscMerkmalId":  205
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf Unterlippe beißen",
+        "NscMerkmalId":  206
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf Unterlippe herumkauen",
+        "NscMerkmalId":  207
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "auf Wangeinnenseite kauen",
+        "NscMerkmalId":  208
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augen reiben",
+        "NscMerkmalId":  209
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augen schließen wenn man spricht, immer nur kurz aufmachen",
+        "NscMerkmalId":  210
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augen stark zukneifen beim Sprechen",
+        "NscMerkmalId":  211
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augen weiten",
+        "NscMerkmalId":  212
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augen zukneifen",
+        "NscMerkmalId":  213
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augen zukneifen beim Sprechen",
+        "NscMerkmalId":  214
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augenbrauen heben",
+        "NscMerkmalId":  215
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Augenbrauen zusammenziehen",
+        "NscMerkmalId":  216
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Ausladende Gesten",
+        "NscMerkmalId":  217
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Backen leicht aufblasen",
+        "NscMerkmalId":  218
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "bei schnellen sprechen sich immer umschauen, als ob man sich gegenüber unsichtbaren Zuhörern rechtfertigen müsse",
+        "NscMerkmalId":  219
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "beim Sprechen immer falsch einatmen",
+        "NscMerkmalId":  220
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "beim Sprechen möglichst Gesichtsmuskeln anspannen",
+        "NscMerkmalId":  221
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Blick ins Leere",
+        "NscMerkmalId":  222
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "breites Grinsen",
+        "NscMerkmalId":  223
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "breites Lächeln",
+        "NscMerkmalId":  224
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Daumen umeinander kreisen lassen",
+        "NscMerkmalId":  225
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "den Gegenüber nur mit einem Auge anschauen (d.h. im nicht das volle Gesicht zuwenden)",
+        "NscMerkmalId":  226
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "den Kopf schräg legen beim sprechen",
+        "NscMerkmalId":  227
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "dezent dem Gegenüber die Muskeln zeigen",
+        "NscMerkmalId":  228
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "dezent Linien auf das eigene Gesicht malen",
+        "NscMerkmalId":  229
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "dezent so tun als ob ein Tierchen auf einem krabbelt",
+        "NscMerkmalId":  230
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "durch Zähne atmen",
+        "NscMerkmalId":  231
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "ein Auge nervös zucken lassen",
+        "NscMerkmalId":  232
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "etwas aus dem „Bart“ holen",
+        "NscMerkmalId":  233
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Gegenüber oft ins Wort fallen",
+        "NscMerkmalId":  234
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Gesicht aufstützen",
+        "NscMerkmalId":  235
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Gesicht mit beiden Händen reiben",
+        "NscMerkmalId":  236
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Haare nach hinten streichen",
+        "NscMerkmalId":  237
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Haare nach oben ziehen",
+        "NscMerkmalId":  238
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Haare zwirbeln",
+        "NscMerkmalId":  239
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hals hinten massieren",
+        "NscMerkmalId":  240
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hals vorne massieren",
+        "NscMerkmalId":  241
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hand auf die Brust legen",
+        "NscMerkmalId":  242
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hände reiben (\"Ausgezeichnet, Smithers…\")",
+        "NscMerkmalId":  243
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hände vor Bauch falten",
+        "NscMerkmalId":  244
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hände vor Gesicht falten",
+        "NscMerkmalId":  245
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Handrücken reiben",
+        "NscMerkmalId":  246
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hasenzähne imitieren",
+        "NscMerkmalId":  247
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "gelegentlich auf Stuhl trommeln",
+        "NscMerkmalId":  248
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "gelegentlich auf Unterarm trommeln",
+        "NscMerkmalId":  249
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Hundeblick",
+        "NscMerkmalId":  250
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "immer den Kopf schütteln beim sprechen",
+        "NscMerkmalId":  251
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "immer leicht verzweifelt dreinblicken",
+        "NscMerkmalId":  252
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "immer nicken beim sprechen",
+        "NscMerkmalId":  253
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "immer nur halb geöffnete Augen",
+        "NscMerkmalId":  254
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "immer wieder seufzen",
+        "NscMerkmalId":  255
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "in die Augen starren",
+        "NscMerkmalId":  256
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "In-den-Ausschnitt-starren ",
+        "NscMerkmalId":  257
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "italienische Handgesten",
+        "NscMerkmalId":  258
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Käptn Jack Sparrow nachahmen",
+        "NscMerkmalId":  259
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Kinn kneifen",
+        "NscMerkmalId":  260
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Kinn kratzen",
+        "NscMerkmalId":  261
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Kinn mit dem Finger beklopfen",
+        "NscMerkmalId":  262
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Kinn reiben",
+        "NscMerkmalId":  263
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Knöchel aneinander schlagen",
+        "NscMerkmalId":  264
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "komische Handgesten machen",
+        "NscMerkmalId":  265
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "kurzzeitig schielen",
+        "NscMerkmalId":  266
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Lippen befeuchten",
+        "NscMerkmalId":  267
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit dem Finger ins Leer deuten",
+        "NscMerkmalId":  268
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit dem Fuß auf den Boden klopfen",
+        "NscMerkmalId":  269
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit dem Fuß über den Boden kratzen",
+        "NscMerkmalId":  270
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit dem Fuß über den Boden streichen",
+        "NscMerkmalId":  271
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit dem Kopf hin- und herwackeln",
+        "NscMerkmalId":  272
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit den Fingern in den Zähnen bohren",
+        "NscMerkmalId":  273
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit den Fingernägeln knispeln",
+        "NscMerkmalId":  274
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit den Knöcheln der einen Hand gegen den Ballen der anderen Klopfen",
+        "NscMerkmalId":  275
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit der Zunge in den Zahnlücken nach Essensresten bohren",
+        "NscMerkmalId":  276
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit Gesten die ganze Welt umfassen",
+        "NscMerkmalId":  277
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Mund leicht offen lassen",
+        "NscMerkmalId":  278
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Mundwinkel nach unten ziehen (Merkel-Gesicht)",
+        "NscMerkmalId":  279
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Nase kneifen",
+        "NscMerkmalId":  280
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Nase kratzen",
+        "NscMerkmalId":  281
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Nase mit dem Finger beklopfen",
+        "NscMerkmalId":  282
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Nase reiben",
+        "NscMerkmalId":  283
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Nasenflügel weiten",
+        "NscMerkmalId":  284
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "nicht den Gegenüber fixieren",
+        "NscMerkmalId":  285
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "nur eine Augenbraue heben",
+        "NscMerkmalId":  286
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "obere Zahnreihe zeigen",
+        "NscMerkmalId":  287
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Oberlippe kneifen",
+        "NscMerkmalId":  288
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Oberlippe kratzen",
+        "NscMerkmalId":  289
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Oberlippe mit dem Finger beklopfen",
+        "NscMerkmalId":  290
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Oberlippe reiben",
+        "NscMerkmalId":  291
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "oft schlucken",
+        "NscMerkmalId":  292
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Ohr kneifen",
+        "NscMerkmalId":  293
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Ohr kratzen",
+        "NscMerkmalId":  294
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Ohr mit dem Finger beklopfen",
+        "NscMerkmalId":  295
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Ohr reiben",
+        "NscMerkmalId":  296
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Ohr(en) massieren",
+        "NscMerkmalId":  297
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "runden Mund machen",
+        "NscMerkmalId":  298
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "schiefen Mund machen",
+        "NscMerkmalId":  299
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Schneidezähne möglichst immer zeigen",
+        "NscMerkmalId":  300
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Schultern gelegentlich leicht kreisen",
+        "NscMerkmalId":  301
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sehr leise wiederholen was der Gegenüber sagt",
+        "NscMerkmalId":  302
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich andauernd strecken",
+        "NscMerkmalId":  303
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich auf dem Stuhl abstützen",
+        "NscMerkmalId":  304
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich dem Gegenüber entgegenlehnen",
+        "NscMerkmalId":  305
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich immer was aus dem Auge holen",
+        "NscMerkmalId":  306
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich selbst abbürsten",
+        "NscMerkmalId":  307
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich über den Hals streichen",
+        "NscMerkmalId":  308
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "stark Luft holen am Satzanfang",
+        "NscMerkmalId":  309
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Staub von Dinge wischen",
+        "NscMerkmalId":  310
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Stirn kneifen",
+        "NscMerkmalId":  311
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Stirn kratzen",
+        "NscMerkmalId":  312
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Stirn mit dem Finger beklopfen",
+        "NscMerkmalId":  313
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Stirn reiben",
+        "NscMerkmalId":  314
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Stirn runzeln",
+        "NscMerkmalId":  315
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Strähne (auch imaginäre) aus dem Gesicht pusten",
+        "NscMerkmalId":  316
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Strähne (auch imaginäre) aus dem Gesicht streichen",
+        "NscMerkmalId":  317
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Unterarme reiben",
+        "NscMerkmalId":  318
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "untere Augenlider nach oben schieben",
+        "NscMerkmalId":  319
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "untere Zahnreihe zeigen",
+        "NscMerkmalId":  320
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Unterlippe hervor schieben beim Sprechen",
+        "NscMerkmalId":  321
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Unterlippe kneifen",
+        "NscMerkmalId":  322
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Unterlippe kratzen",
+        "NscMerkmalId":  323
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Unterlippe mit dem Finger beklopfen",
+        "NscMerkmalId":  324
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Unterlippe reiben",
+        "NscMerkmalId":  325
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "versuchen sich einen Scheitel zu machen",
+        "NscMerkmalId":  326
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "viel blinzeln",
+        "NscMerkmalId":  327
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Wange kneifen",
+        "NscMerkmalId":  328
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Wange kratzen",
+        "NscMerkmalId":  329
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Wange mit dem Finger beklopfen",
+        "NscMerkmalId":  330
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Wange reiben",
+        "NscMerkmalId":  331
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "wenn Gegenüber spricht nur halb hinhören",
+        "NscMerkmalId":  332
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "wenn Gegenüber spricht oft die Stirn runzeln",
+        "NscMerkmalId":  333
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "wenn Gegenüber spricht oft nicken",
+        "NscMerkmalId":  334
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "wenn Gegenüber spricht oft seufzen",
+        "NscMerkmalId":  335
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Zähne zusammenpressen",
+        "NscMerkmalId":  336
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "zu Boden schauen beim sprechen",
+        "NscMerkmalId":  337
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "auf Stuhl wippen",
+        "NscMerkmalId":  338
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Blick ins Leere",
+        "NscMerkmalId":  339
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "dezent dem Gegenüber die Muskeln zeigen",
+        "NscMerkmalId":  340
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Finster dreinblicken (Kopf nach unten neigen aber immer noch in die Augen schauen)",
+        "NscMerkmalId":  341
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Hand auf die Brust legen",
+        "NscMerkmalId":  342
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Hände vor Bauch falten",
+        "NscMerkmalId":  343
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Hände vor Gesicht falten",
+        "NscMerkmalId":  344
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "hängende Schultern",
+        "NscMerkmalId":  345
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "hochgezogene Schulter",
+        "NscMerkmalId":  346
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "In-den-Ausschnitt-starren ",
+        "NscMerkmalId":  347
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Käptn Jack Sparrow nachahmen",
+        "NscMerkmalId":  348
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "kerzengerade sitzen",
+        "NscMerkmalId":  349
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Mund leicht offen lassen",
+        "NscMerkmalId":  350
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "nicht den Gegenüber fixieren",
+        "NscMerkmalId":  351
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "schief sitzen",
+        "NscMerkmalId":  352
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Schneidezähne möglichst immer zeigen",
+        "NscMerkmalId":  353
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "Schultern gelegentlich leicht kreisen",
+        "NscMerkmalId":  354
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "sich andauernd strecken",
+        "NscMerkmalId":  355
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "sich auf dem Stuhl abstützen",
+        "NscMerkmalId":  356
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "sich dem Gegenüber entgegenlehnen",
+        "NscMerkmalId":  357
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "sich immer wieder anders hinsetzen",
+        "NscMerkmalId":  358
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "verdrehter Oberkörper (dem Partner nicht zugewandt)",
+        "NscMerkmalId":  359
+    },
+    {
+        "Kategorie":  "Haltung",
+        "Merkmal":  "zusammengesunken sitzen",
+        "NscMerkmalId":  360
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Augen schließen wenn man spricht, immer nur kurz aufmachen",
+        "NscMerkmalId":  361
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Augen stark zukneifen beim Sprechen",
+        "NscMerkmalId":  362
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Augen zukneifen beim Sprechen",
+        "NscMerkmalId":  363
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "bei schnellen sprechen sich immer umschauen, als ob man sich gegenüber unsichtbaren Zuhörern rechtfertigen müsse",
+        "NscMerkmalId":  364
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "beim Sprechen immer falsch einatmen",
+        "NscMerkmalId":  365
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "beim Sprechen versuchen den Mund rund zu machen",
+        "NscMerkmalId":  366
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "beim Sprechen versuchen die Zähne zu zeigen",
+        "NscMerkmalId":  367
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "beim Sprechen versuchen möglichst wenig den Mund zu bewegen",
+        "NscMerkmalId":  368
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "bellt mehr, als dass er spricht",
+        "NscMerkmalId":  369
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "betont deutlich Vokale",
+        "NscMerkmalId":  370
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "betont immer das „t“",
+        "NscMerkmalId":  371
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "betont immer das Ende von Wörtern",
+        "NscMerkmalId":  372
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "betont sehr stark („Misssster Aaaannnnderson…“)",
+        "NscMerkmalId":  373
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "den Kopf schräg legen beim sprechen",
+        "NscMerkmalId":  374
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Gegenüber immer den Satz vollenden lassen",
+        "NscMerkmalId":  375
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Gegenüber oft ins Wort fallen",
+        "NscMerkmalId":  376
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "hat von Grammatik keine Ahnung",
+        "NscMerkmalId":  377
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "immer den Kopf schütteln beim sprechen",
+        "NscMerkmalId":  378
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "immer nicken beim sprechen",
+        "NscMerkmalId":  379
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "keinen Satz vollenden sondern mittendrin einen Neuen beginnen",
+        "NscMerkmalId":  380
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lacht heiser (Hrhrhr!)",
+        "NscMerkmalId":  381
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lacht keifend",
+        "NscMerkmalId":  382
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lacht laut und aufdringlich",
+        "NscMerkmalId":  383
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lacht wie ein Pferd",
+        "NscMerkmalId":  384
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lacht wie eine Hyäne",
+        "NscMerkmalId":  385
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lispelt",
+        "NscMerkmalId":  386
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "lispelt sehr stark",
+        "NscMerkmalId":  387
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "macht immer „Pfff“",
+        "NscMerkmalId":  388
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "macht Pausen in Sätzen",
+        "NscMerkmalId":  389
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "macht Pausen nach Sätzen",
+        "NscMerkmalId":  390
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "mit schiefem Mund sprechen",
+        "NscMerkmalId":  391
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "nuschelt",
+        "NscMerkmalId":  392
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "nuschelt sehr stark",
+        "NscMerkmalId":  393
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „...ich mein...\"",
+        "NscMerkmalId":  394
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Hm hm…“",
+        "NscMerkmalId":  395
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Ja ja, so is\u0027 das…“",
+        "NscMerkmalId":  396
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Jo jo.“",
+        "NscMerkmalId":  397
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Ne?“ am Ende des Satzes",
+        "NscMerkmalId":  398
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Nh.“ am Ende des Satzes",
+        "NscMerkmalId":  399
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Nichwar?“",
+        "NscMerkmalId":  400
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Schlimm schlimm…“",
+        "NscMerkmalId":  401
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt immer „Wa?“ am Ende des Satzes",
+        "NscMerkmalId":  402
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt oft „äh“",
+        "NscMerkmalId":  403
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt oft „ähem“",
+        "NscMerkmalId":  404
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt oft „öh“",
+        "NscMerkmalId":  405
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt oft „Verstehste?“",
+        "NscMerkmalId":  406
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sagt oft „Weißte?“",
+        "NscMerkmalId":  407
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Schmatzgeräusche beim Sprechen",
+        "NscMerkmalId":  408
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "schnell sprechen",
+        "NscMerkmalId":  409
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sehr leise wiederholen was der Gegenüber sagt",
+        "NscMerkmalId":  410
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "so lange sprechen bis man keine Luft hat, dann ausführlich Luft holen",
+        "NscMerkmalId":  411
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht als ob die Luft aus einem herausströmt, um dann wieder kräftig Luft zu holen",
+        "NscMerkmalId":  412
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht durch die Nase",
+        "NscMerkmalId":  413
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht in ausschweifenden Sätzen",
+        "NscMerkmalId":  414
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht mit falscher Betonung",
+        "NscMerkmalId":  415
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht mit gepresster Stimme",
+        "NscMerkmalId":  416
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht mit hoher Stimme",
+        "NscMerkmalId":  417
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht mit kühler Stimme",
+        "NscMerkmalId":  418
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht mit tiefem Bass",
+        "NscMerkmalId":  419
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht mit warmer Stimme",
+        "NscMerkmalId":  420
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht nur in kurzen Sätzen",
+        "NscMerkmalId":  421
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht sehr monoton",
+        "NscMerkmalId":  422
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "spricht unangenehm langsam",
+        "NscMerkmalId":  423
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "stark Luft holen am Satzanfang",
+        "NscMerkmalId":  424
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Unterlippe hervor schieben beim Sprechen",
+        "NscMerkmalId":  425
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "wiederholt sich andauernd",
+        "NscMerkmalId":  426
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "zu Boden schauen beim sprechen",
+        "NscMerkmalId":  427
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Bart mit Zopf",
+        "NscMerkmalId":  428
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Bart mit Zöpfen",
+        "NscMerkmalId":  429
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Drei-Tage-Bart",
+        "NscMerkmalId":  430
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Eckiger Vollbart",
+        "NscMerkmalId":  431
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Fischerkrause (Vollbart minus Schnurrbart)",
+        "NscMerkmalId":  432
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Fussel im Gesicht",
+        "NscMerkmalId":  433
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Gabelbart",
+        "NscMerkmalId":  434
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Henriquatre (Oberlippenbart und Kinnbart, verbunden)",
+        "NscMerkmalId":  435
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Kaiserlicher Backenbart (Schnurrbart + Wangen + Koteletten, kein Kinnbart)",
+        "NscMerkmalId":  436
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Karl-Marx-Gedächtnisbart",
+        "NscMerkmalId":  437
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Kinnbart (kurz)",
+        "NscMerkmalId":  438
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Kinnbart (lang)",
+        "NscMerkmalId":  439
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "kleiner Schnäuzer (Charlie-Chaplin-Bärtchen)",
+        "NscMerkmalId":  440
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Knebelbart (Kinnbart mit gezwirbeltem Schnurrbart)",
+        "NscMerkmalId":  441
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Koteletten (lang)",
+        "NscMerkmalId":  442
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Oberlippenflaum",
+        "NscMerkmalId":  443
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Schnurrbart",
+        "NscMerkmalId":  444
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Schnurrbart (dick)",
+        "NscMerkmalId":  445
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Schnurrbart (dünn)",
+        "NscMerkmalId":  446
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Schnurrbart und Unterlippenbart",
+        "NscMerkmalId":  447
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Spitzbart",
+        "NscMerkmalId":  448
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Thierse-Gedächtnis-Bart",
+        "NscMerkmalId":  449
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Unterlippenbart",
+        "NscMerkmalId":  450
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (an den Wangen besonders lang)",
+        "NscMerkmalId":  451
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (gestutzt am Kinn länger)",
+        "NscMerkmalId":  452
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (gestutzt)",
+        "NscMerkmalId":  453
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (gestutzt, an den Wangen länger)",
+        "NscMerkmalId":  454
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (lang)",
+        "NscMerkmalId":  455
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (mittellang)",
+        "NscMerkmalId":  456
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (mittellang, am Kinn länger)",
+        "NscMerkmalId":  457
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (sehr kurz am Kinn länger)",
+        "NscMerkmalId":  458
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Vollbart (sehr kurz)",
+        "NscMerkmalId":  459
+    },
+    {
+        "Kategorie":  "Barttracht",
+        "Merkmal":  "Walrossbart (sehr langer Schnurrbart)",
+        "NscMerkmalId":  460
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "abergläubisch",
+        "NscMerkmalId":  461
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aktiv",
+        "NscMerkmalId":  462
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "albern",
+        "NscMerkmalId":  463
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "anbiedernd",
+        "NscMerkmalId":  464
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Angeber",
+        "NscMerkmalId":  465
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "angespannt",
+        "NscMerkmalId":  466
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ängstlich (MU \u003c 10)",
+        "NscMerkmalId":  467
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "anmutig (CH \u003e 13)",
+        "NscMerkmalId":  468
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "anstrengend",
+        "NscMerkmalId":  469
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "antriebslos",
+        "NscMerkmalId":  470
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "arrogant",
+        "NscMerkmalId":  471
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "asexuell",
+        "NscMerkmalId":  472
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aufgeschlossen",
+        "NscMerkmalId":  473
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aufrichtig",
+        "NscMerkmalId":  474
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ausgeglichen",
+        "NscMerkmalId":  475
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "äußerst klug (KL \u003e 16)",
+        "NscMerkmalId":  476
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "äußerst Weise (IN \u003e 16)",
+        "NscMerkmalId":  477
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "autoritätshörig",
+        "NscMerkmalId":  478
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "barsch (CH \u003c 11)",
+        "NscMerkmalId":  479
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bedächtig",
+        "NscMerkmalId":  480
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "begeisterungsfähig",
+        "NscMerkmalId":  481
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "beherrscht",
+        "NscMerkmalId":  482
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bequem",
+        "NscMerkmalId":  483
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bescheiden",
+        "NscMerkmalId":  484
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders avesgläubig",
+        "NscMerkmalId":  485
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders borongläubig",
+        "NscMerkmalId":  486
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders efferdgläubig",
+        "NscMerkmalId":  487
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders firungläubig",
+        "NscMerkmalId":  488
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders hesindegläubig",
+        "NscMerkmalId":  489
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders ifirngläubig",
+        "NscMerkmalId":  490
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders ingerimmgläubig",
+        "NscMerkmalId":  491
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders korgläubig",
+        "NscMerkmalId":  492
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders nandusgläubig",
+        "NscMerkmalId":  493
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders perainegläubig",
+        "NscMerkmalId":  494
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders praiosgläubig",
+        "NscMerkmalId":  495
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders rahjagläubig",
+        "NscMerkmalId":  496
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders rondragläubig",
+        "NscMerkmalId":  497
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders traviagläubig",
+        "NscMerkmalId":  498
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonders tsagläubig",
+        "NscMerkmalId":  499
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "besonnen",
+        "NscMerkmalId":  500
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bewundernswert (CH \u003e 13)",
+        "NscMerkmalId":  501
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bezaubernd (CH \u003e 16)",
+        "NscMerkmalId":  502
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bisexuell",
+        "NscMerkmalId":  503
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bodenständig",
+        "NscMerkmalId":  504
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bösartig / gehässig",
+        "NscMerkmalId":  505
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "charismatisch (CH \u003e 14)",
+        "NscMerkmalId":  506
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "charmant (CH \u003e 13)",
+        "NscMerkmalId":  507
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "denkfaul (KL \u003c 11)",
+        "NscMerkmalId":  508
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "depressiv",
+        "NscMerkmalId":  509
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "dickhäutig",
+        "NscMerkmalId":  510
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "diskret",
+        "NscMerkmalId":  511
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "dominant",
+        "NscMerkmalId":  512
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "dünnhäutig",
+        "NscMerkmalId":  513
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "egoistisch",
+        "NscMerkmalId":  514
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ehrlich",
+        "NscMerkmalId":  515
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "einfach",
+        "NscMerkmalId":  516
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "einfallsreich (KL oder IN \u003e 13)",
+        "NscMerkmalId":  517
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "eisern",
+        "NscMerkmalId":  518
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "eitel",
+        "NscMerkmalId":  519
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "emotional",
+        "NscMerkmalId":  520
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "empathisch (CH oder IN \u003e 12)",
+        "NscMerkmalId":  521
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erfinderisch",
+        "NscMerkmalId":  522
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erfolgsorientiert",
+        "NscMerkmalId":  523
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erlebnishungrig",
+        "NscMerkmalId":  524
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erstaunlich dämlich (KL / IN  \u003c 8)",
+        "NscMerkmalId":  525
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "extrem rassistisch",
+        "NscMerkmalId":  526
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "extrovertiert",
+        "NscMerkmalId":  527
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "exzentrisch",
+        "NscMerkmalId":  528
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "feige (MU \u003c 9)",
+        "NscMerkmalId":  529
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "feindselig",
+        "NscMerkmalId":  530
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "feminin",
+        "NscMerkmalId":  531
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "findig (KL oder IN \u003e 13)",
+        "NscMerkmalId":  532
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "flexibel",
+        "NscMerkmalId":  533
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "fordernd",
+        "NscMerkmalId":  534
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "freundlich",
+        "NscMerkmalId":  535
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "friedfertig",
+        "NscMerkmalId":  536
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "frohsinnig",
+        "NscMerkmalId":  537
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "fürsorglich",
+        "NscMerkmalId":  538
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gehorsam",
+        "NscMerkmalId":  539
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "geizig",
+        "NscMerkmalId":  540
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gelassen",
+        "NscMerkmalId":  541
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gemächlich",
+        "NscMerkmalId":  542
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "geradlinig",
+        "NscMerkmalId":  543
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gescheit (KL \u003e 14)",
+        "NscMerkmalId":  544
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gesetzestreu",
+        "NscMerkmalId":  545
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gierig",
+        "NscMerkmalId":  546
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "goldgierig",
+        "NscMerkmalId":  547
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "großzügig",
+        "NscMerkmalId":  548
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "heikel",
+        "NscMerkmalId":  549
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "heroisch (MU \u003e 18)",
+        "NscMerkmalId":  550
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "herumkommandierend",
+        "NscMerkmalId":  551
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "herzlich",
+        "NscMerkmalId":  552
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "hilfsbereit",
+        "NscMerkmalId":  553
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "homosexuell",
+        "NscMerkmalId":  554
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "humorvoll",
+        "NscMerkmalId":  555
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "hysterisch",
+        "NscMerkmalId":  556
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "impulsiv",
+        "NscMerkmalId":  557
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "intellektuell (KL \u003e 12)",
+        "NscMerkmalId":  558
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "interessiert",
+        "NscMerkmalId":  559
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "jähzornig",
+        "NscMerkmalId":  560
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "jugendlich",
+        "NscMerkmalId":  561
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "keusch",
+        "NscMerkmalId":  562
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "klagend",
+        "NscMerkmalId":  563
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kleinkariert",
+        "NscMerkmalId":  564
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Klugscheißer",
+        "NscMerkmalId":  565
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "komplexe Persönlichkeit",
+        "NscMerkmalId":  566
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kompliziert",
+        "NscMerkmalId":  567
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "konsequent",
+        "NscMerkmalId":  568
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "konservativ",
+        "NscMerkmalId":  569
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kontaktfreudig",
+        "NscMerkmalId":  570
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kreativ (IN \u003e 14)",
+        "NscMerkmalId":  571
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kühl",
+        "NscMerkmalId":  572
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kühn",
+        "NscMerkmalId":  573
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kultiviert",
+        "NscMerkmalId":  574
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "langsam (geistig – KL / IN   \u003c 10)",
+        "NscMerkmalId":  575
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lässig",
+        "NscMerkmalId":  576
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lasziv",
+        "NscMerkmalId":  577
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "launisch",
+        "NscMerkmalId":  578
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lebensfroh",
+        "NscMerkmalId":  579
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lebenslustig",
+        "NscMerkmalId":  580
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lebhaft",
+        "NscMerkmalId":  581
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "leicht durchgeknallt",
+        "NscMerkmalId":  582
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "leicht Hysterisch",
+        "NscMerkmalId":  583
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "leichtlebig",
+        "NscMerkmalId":  584
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "locker",
+        "NscMerkmalId":  585
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lüstern",
+        "NscMerkmalId":  586
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "maskulin",
+        "NscMerkmalId":  587
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "melancholisch",
+        "NscMerkmalId":  588
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "milde",
+        "NscMerkmalId":  589
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "misserfolgsorientiert",
+        "NscMerkmalId":  590
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "misstrauisch",
+        "NscMerkmalId":  591
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Mitläufer",
+        "NscMerkmalId":  592
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "modebewusst",
+        "NscMerkmalId":  593
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "moralisch",
+        "NscMerkmalId":  594
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "mürrisch",
+        "NscMerkmalId":  595
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "mütterlich/väterlich",
+        "NscMerkmalId":  596
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "nachsichtig",
+        "NscMerkmalId":  597
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "nervös",
+        "NscMerkmalId":  598
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "neugierig",
+        "NscMerkmalId":  599
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "optimistisch",
+        "NscMerkmalId":  600
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ordnungsliebend",
+        "NscMerkmalId":  601
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "originell",
+        "NscMerkmalId":  602
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "pathetisch",
+        "NscMerkmalId":  603
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "pedantisch",
+        "NscMerkmalId":  604
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Perfektionist",
+        "NscMerkmalId":  605
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "pervers",
+        "NscMerkmalId":  606
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "pessimistisch",
+        "NscMerkmalId":  607
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "pingelig",
+        "NscMerkmalId":  608
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "präzise",
+        "NscMerkmalId":  609
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "prinzipientreu",
+        "NscMerkmalId":  610
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "prüde",
+        "NscMerkmalId":  611
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Querulant",
+        "NscMerkmalId":  612
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "quirlig",
+        "NscMerkmalId":  613
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "rassistisch",
+        "NscMerkmalId":  614
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "reif",
+        "NscMerkmalId":  615
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "religiöser Fanatiker",
+        "NscMerkmalId":  616
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "respektiert jeden",
+        "NscMerkmalId":  617
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "risikofreudig",
+        "NscMerkmalId":  618
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "romantisch",
+        "NscMerkmalId":  619
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "rücksichtsvoll",
+        "NscMerkmalId":  620
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ruhig",
+        "NscMerkmalId":  621
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "scheu",
+        "NscMerkmalId":  622
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schizophren",
+        "NscMerkmalId":  623
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schläfrig",
+        "NscMerkmalId":  624
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr abergläubisch",
+        "NscMerkmalId":  625
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr Arrogant",
+        "NscMerkmalId":  626
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr geizig",
+        "NscMerkmalId":  627
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr gläubig",
+        "NscMerkmalId":  628
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr goldgierig",
+        "NscMerkmalId":  629
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr jähzornig",
+        "NscMerkmalId":  630
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr klug (KL \u003e 16)",
+        "NscMerkmalId":  631
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr mutig (MU \u003e 16)",
+        "NscMerkmalId":  632
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr neugierig",
+        "NscMerkmalId":  633
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr selbstbeherrscht",
+        "NscMerkmalId":  634
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sehr vergesslich",
+        "NscMerkmalId":  635
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "selbstbewusst (MU \u003e 14)",
+        "NscMerkmalId":  636
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "selbstgenügsam",
+        "NscMerkmalId":  637
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "selbstlos",
+        "NscMerkmalId":  638
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "selbstverliebt",
+        "NscMerkmalId":  639
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sinnlich",
+        "NscMerkmalId":  640
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sonniges Gemüt",
+        "NscMerkmalId":  641
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "souverän",
+        "NscMerkmalId":  642
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sparsam",
+        "NscMerkmalId":  643
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "streberhaft",
+        "NscMerkmalId":  644
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "streitlustig",
+        "NscMerkmalId":  645
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "streng",
+        "NscMerkmalId":  646
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "süchtig",
+        "NscMerkmalId":  647
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "tapfer (MU \u003e 14)",
+        "NscMerkmalId":  648
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "tiefgründig",
+        "NscMerkmalId":  649
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "tolerant",
+        "NscMerkmalId":  650
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "tollkühn (hoher MU, niedrige Kl/IN)",
+        "NscMerkmalId":  651
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "traditionsbewusst",
+        "NscMerkmalId":  652
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "traurig",
+        "NscMerkmalId":  653
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "treu",
+        "NscMerkmalId":  654
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "überempfindlich",
+        "NscMerkmalId":  655
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "umsichtig",
+        "NscMerkmalId":  656
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unabhängig",
+        "NscMerkmalId":  657
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unangenehm (CH \u003c 8)",
+        "NscMerkmalId":  658
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unbekümmert",
+        "NscMerkmalId":  659
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unempathisch (CH oder IN \u003c 11)",
+        "NscMerkmalId":  660
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unentschlossen",
+        "NscMerkmalId":  661
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unerschütterlich",
+        "NscMerkmalId":  662
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ungehemmt",
+        "NscMerkmalId":  663
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ungeschickt",
+        "NscMerkmalId":  664
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ungesprächig",
+        "NscMerkmalId":  665
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unkompliziert",
+        "NscMerkmalId":  666
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unkreativ (IN \u003c 11)",
+        "NscMerkmalId":  667
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unkultiviert",
+        "NscMerkmalId":  668
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unpersönlich",
+        "NscMerkmalId":  669
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unruhig",
+        "NscMerkmalId":  670
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unstet",
+        "NscMerkmalId":  671
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unsympathisch (CH \u003c 9)",
+        "NscMerkmalId":  672
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unterhaltsam (CH \u003e 13)",
+        "NscMerkmalId":  673
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unternehmungslustig",
+        "NscMerkmalId":  674
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unterwürfig",
+        "NscMerkmalId":  675
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "intolerant",
+        "NscMerkmalId":  676
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verfressen",
+        "NscMerkmalId":  677
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verlässlich",
+        "NscMerkmalId":  678
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verlegen",
+        "NscMerkmalId":  679
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verletzlich (MU \u003c 11)",
+        "NscMerkmalId":  680
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verplant",
+        "NscMerkmalId":  681
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verrückt",
+        "NscMerkmalId":  682
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verwöhnt",
+        "NscMerkmalId":  683
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vorsichtig (MU \u003c 11)",
+        "NscMerkmalId":  684
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wählerisch",
+        "NscMerkmalId":  685
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wahrhaftig",
+        "NscMerkmalId":  686
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "weint manchmal ohne Grund",
+        "NscMerkmalId":  687
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "weise (IN \u003e 16)",
+        "NscMerkmalId":  688
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wetterfühlig",
+        "NscMerkmalId":  689
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "widerborstig",
+        "NscMerkmalId":  690
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wohlerzogen",
+        "NscMerkmalId":  691
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zackig",
+        "NscMerkmalId":  692
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zärtlich",
+        "NscMerkmalId":  693
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zauberhaft (CH \u003e 13)",
+        "NscMerkmalId":  694
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zaudernd",
+        "NscMerkmalId":  695
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zerstreut",
+        "NscMerkmalId":  696
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zögerlich",
+        "NscMerkmalId":  697
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zufrieden",
+        "NscMerkmalId":  698
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zuversichtlich",
+        "NscMerkmalId":  699
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "gezähmte Lockenpracht, lang",
+        "NscMerkmalId":  700
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Igelfrisur",
+        "NscMerkmalId":  701
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Kurze Haare mit Fett nach hinten gestylt",
+        "NscMerkmalId":  702
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), gescheitelt",
+        "NscMerkmalId":  703
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), Haarreif",
+        "NscMerkmalId":  704
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), Haarspange",
+        "NscMerkmalId":  705
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), Haarspangen",
+        "NscMerkmalId":  706
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), hinters Ohr geklemmt",
+        "NscMerkmalId":  707
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), ins Gesicht fallend",
+        "NscMerkmalId":  708
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), mit Haarband zusammengehalten",
+        "NscMerkmalId":  709
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), mit zwei Haarbändern links und rechts ",
+        "NscMerkmalId":  710
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), Mittelscheitel",
+        "NscMerkmalId":  711
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), nach hinten gekämmt",
+        "NscMerkmalId":  712
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), Pony",
+        "NscMerkmalId":  713
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (bis Rücken), Zöpfe mit Haarnadeln am Kopf befestigt",
+        "NscMerkmalId":  714
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), gescheitelt",
+        "NscMerkmalId":  715
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Haarbänder",
+        "NscMerkmalId":  716
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Haarreif",
+        "NscMerkmalId":  717
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Haarspange",
+        "NscMerkmalId":  718
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Haarspangen",
+        "NscMerkmalId":  719
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), hinters Ohr geklemmt",
+        "NscMerkmalId":  720
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), ins Gesicht fallend",
+        "NscMerkmalId":  721
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), mit Haarband zusammengehalten",
+        "NscMerkmalId":  722
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), mit Haarspange zusammengehalten",
+        "NscMerkmalId":  723
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), mit zwei Haarbändern links und rechts ",
+        "NscMerkmalId":  724
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Mittelscheitel",
+        "NscMerkmalId":  725
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), nach hinten gekämmt",
+        "NscMerkmalId":  726
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Pony",
+        "NscMerkmalId":  727
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Stirnband",
+        "NscMerkmalId":  728
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), unter Kopftuch",
+        "NscMerkmalId":  729
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), viele Zöpfe",
+        "NscMerkmalId":  730
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare (Schulterlang), Zöpfe mit Haarnadeln am Kopf befestigt",
+        "NscMerkmalId":  731
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare mit Fett nach hinten gestylt",
+        "NscMerkmalId":  732
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, Dutt am Hinterkopf",
+        "NscMerkmalId":  733
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, Dutt oben",
+        "NscMerkmalId":  734
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, Dutt herausfallende Strähnen",
+        "NscMerkmalId":  735
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, kunstvoll aufgetürmt",
+        "NscMerkmalId":  736
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, mit vielen Bändchen zusammengehalten",
+        "NscMerkmalId":  737
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, Prinzessin-Leia-Gedächtnisfrisur",
+        "NscMerkmalId":  738
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange Haare, Zopf kunstvoll um den Kopf gewickelt",
+        "NscMerkmalId":  739
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken),  hinters Ohr geklemmt",
+        "NscMerkmalId":  740
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), gescheitelt",
+        "NscMerkmalId":  741
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), Haarreif",
+        "NscMerkmalId":  742
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), Haarspange",
+        "NscMerkmalId":  743
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), Haarspangen",
+        "NscMerkmalId":  744
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), ins Gesicht fallend",
+        "NscMerkmalId":  745
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), mit Haarband zusammengehalten",
+        "NscMerkmalId":  746
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), mit zwei Haarbändern links und rechts ",
+        "NscMerkmalId":  747
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), nach hinten gekämmt",
+        "NscMerkmalId":  748
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), Pony",
+        "NscMerkmalId":  749
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (bis Rücken), Zöpfe mit Haarnadeln am Kopf befestigt",
+        "NscMerkmalId":  750
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang),  hinters Ohr geklemmt",
+        "NscMerkmalId":  751
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), gescheitelt",
+        "NscMerkmalId":  752
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Haarband",
+        "NscMerkmalId":  753
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Haarbänder",
+        "NscMerkmalId":  754
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Haarreif",
+        "NscMerkmalId":  755
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Haarspange",
+        "NscMerkmalId":  756
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), ins Gesicht fallend",
+        "NscMerkmalId":  757
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), mit Haarband zusammengehalten",
+        "NscMerkmalId":  758
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), mit zwei Haarbändern links und rechts ",
+        "NscMerkmalId":  759
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Mittelscheitel",
+        "NscMerkmalId":  760
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), nach hinten gekämmt",
+        "NscMerkmalId":  761
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Pony",
+        "NscMerkmalId":  762
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Stirnband",
+        "NscMerkmalId":  763
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), unter Kopftuch",
+        "NscMerkmalId":  764
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Zöpfe mit Haarnadeln am Kopf befestigt",
+        "NscMerkmalId":  765
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Lockenkopf, kurz",
+        "NscMerkmalId":  766
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Lockenkopf, mittellang",
+        "NscMerkmalId":  767
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Lockenpracht, lang",
+        "NscMerkmalId":  768
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Lockenpracht, unter Kopftuch",
+        "NscMerkmalId":  769
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), dicker Zopf",
+        "NscMerkmalId":  770
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), gescheitelt",
+        "NscMerkmalId":  771
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), Haarreif",
+        "NscMerkmalId":  772
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), ins Gesicht fallend",
+        "NscMerkmalId":  773
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), mit Haarband",
+        "NscMerkmalId":  774
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), mit Haarbändern",
+        "NscMerkmalId":  775
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), mit Haarspange",
+        "NscMerkmalId":  776
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), Mittelscheitel",
+        "NscMerkmalId":  777
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), nach hinten gekämmt",
+        "NscMerkmalId":  778
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), Pony",
+        "NscMerkmalId":  779
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), unter Haube",
+        "NscMerkmalId":  780
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), unter Kopftuch",
+        "NscMerkmalId":  781
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), viele Zöpfe",
+        "NscMerkmalId":  782
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), Zöpfe mit Haarnadeln am Kopf befestigt",
+        "NscMerkmalId":  783
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), zwei Zöpfe",
+        "NscMerkmalId":  784
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare (bis Kinn), zwei Zöpfe an der Seite",
+        "NscMerkmalId":  785
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare mit Fett nach hinten gestylt",
+        "NscMerkmalId":  786
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange Haare mit mittels Brennschere erzeugten Locken",
+        "NscMerkmalId":  787
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), gescheitelt",
+        "NscMerkmalId":  788
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Haarband",
+        "NscMerkmalId":  789
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Haarbänder",
+        "NscMerkmalId":  790
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Haarreif",
+        "NscMerkmalId":  791
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Haarspange",
+        "NscMerkmalId":  792
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), ins Gesicht fallend",
+        "NscMerkmalId":  793
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Mittelscheitel",
+        "NscMerkmalId":  794
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Pony",
+        "NscMerkmalId":  795
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Mittelscheitel, an den Schläfen kurz rasiert",
+        "NscMerkmalId":  796
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Mittelscheitel, kurz",
+        "NscMerkmalId":  797
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Mittelscheitel, schlecht geschnitten",
+        "NscMerkmalId":  798
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Mittelscheitel, schlecht geschnitten (Fransen)",
+        "NscMerkmalId":  799
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Mittelscheitel, schlecht geschnitten, an den Schläfen kurz rasiert",
+        "NscMerkmalId":  800
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Prinz-Eisenherz-Frisur",
+        "NscMerkmalId":  801
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "sehr lange Haare (bis Hüfte)",
+        "NscMerkmalId":  802
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "sehr lange Haare (bis Hüfte) gewellt",
+        "NscMerkmalId":  803
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "sehr lange Haare (bis Hüfte) Pony",
+        "NscMerkmalId":  804
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Seitenscheitel, an den Schläfen kurz rasiert",
+        "NscMerkmalId":  805
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Seitenscheitel, kurz",
+        "NscMerkmalId":  806
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Seitenscheitel, schlecht geschnitten",
+        "NscMerkmalId":  807
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "Seitenscheitel, schlecht geschnitten, an den Schläfen kurz rasiert",
+        "NscMerkmalId":  808
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "ungezähmte Lockenpracht, lang",
+        "NscMerkmalId":  809
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "ungezähmter Lockenkopf, kurz",
+        "NscMerkmalId":  810
+    },
+    {
+        "Kategorie":  "Haartracht Frau",
+        "Merkmal":  "ungezähmter Lockenkopf, mittellang",
+        "NscMerkmalId":  811
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Geheimratsecken, Rest Haarband",
+        "NscMerkmalId":  812
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Geheimratsecken, Rest kurz",
+        "NscMerkmalId":  813
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Geheimratsecken, Rest lang",
+        "NscMerkmalId":  814
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Geheimratsecken, Rest mittellang",
+        "NscMerkmalId":  815
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Geheimratsecken, Rest Zopf",
+        "NscMerkmalId":  816
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Glatze (durch Haarausfall)",
+        "NscMerkmalId":  817
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Glatze (rasiert)",
+        "NscMerkmalId":  818
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Glatze mit ein paar Haarfusseln, welche wild nach oben stehen",
+        "NscMerkmalId":  819
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Halbglatze kurz",
+        "NscMerkmalId":  820
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Halbglatze mit über den Schädel gekämmten Haaren",
+        "NscMerkmalId":  821
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Halbglatze, lange Haare",
+        "NscMerkmalId":  822
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Halbglatze, mittellang",
+        "NscMerkmalId":  823
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Halbglatze, Zopf",
+        "NscMerkmalId":  824
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Igel-Frisur",
+        "NscMerkmalId":  825
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Igel-Frisur, Zopf am Hinterkopf",
+        "NscMerkmalId":  826
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "kurz rasiert",
+        "NscMerkmalId":  827
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "kurz rasiert (unregelmäßig)",
+        "NscMerkmalId":  828
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "kurz rasiert, Zopf am Hinterkopf",
+        "NscMerkmalId":  829
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "kurze Haare mit Fett nach hinten gestylt",
+        "NscMerkmalId":  830
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "kurze Haare, schlecht geschnitten (Fransen)",
+        "NscMerkmalId":  831
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), gescheitelt",
+        "NscMerkmalId":  832
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), ins Gesicht fallend",
+        "NscMerkmalId":  833
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), mit Haarband zusammengehalten",
+        "NscMerkmalId":  834
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), mit Haarreif",
+        "NscMerkmalId":  835
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), mit Haarspange zusammengehalten",
+        "NscMerkmalId":  836
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), Mittelscheitel",
+        "NscMerkmalId":  837
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), nach hinten gekämmt",
+        "NscMerkmalId":  838
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), Pony",
+        "NscMerkmalId":  839
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), Stirnband",
+        "NscMerkmalId":  840
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), viele Zöpfe",
+        "NscMerkmalId":  841
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare (Schulterlang), Zöpfe an den Schläfen",
+        "NscMerkmalId":  842
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange Haare mit Fett nach hinten gestylt",
+        "NscMerkmalId":  843
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), gescheitelt",
+        "NscMerkmalId":  844
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), mit Haarband zusammengehalten",
+        "NscMerkmalId":  845
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), mit Haarspange zusammengehalten",
+        "NscMerkmalId":  846
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "lange, gewellte Haare (Schulterlang), Stirnband",
+        "NscMerkmalId":  847
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Lockenkopf, kurz",
+        "NscMerkmalId":  848
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Lockenkopf, mittellang",
+        "NscMerkmalId":  849
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange gewellte Haare (bis Kinn), Zöpfe an den Schläfen",
+        "NscMerkmalId":  850
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare (bis Kinn), gescheitelt",
+        "NscMerkmalId":  851
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare (bis Kinn), ins Gesicht fallend",
+        "NscMerkmalId":  852
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare (bis Kinn), Mittelscheitel",
+        "NscMerkmalId":  853
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare (bis Kinn), nach hinten gekämmt",
+        "NscMerkmalId":  854
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare (bis Kinn), Pony",
+        "NscMerkmalId":  855
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare (bis Kinn), Zöpfe an den Schläfen",
+        "NscMerkmalId":  856
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange Haare mit Fett nach hinten gestylt",
+        "NscMerkmalId":  857
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), gescheitelt",
+        "NscMerkmalId":  858
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Haarreif",
+        "NscMerkmalId":  859
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), ins Gesicht fallend",
+        "NscMerkmalId":  860
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Mittelscheitel",
+        "NscMerkmalId":  861
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "mittellange, gewellte Haare (bis Kinn), Pony",
+        "NscMerkmalId":  862
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Mittelscheitel",
+        "NscMerkmalId":  863
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Mittelscheitel, an den Schläfen kurz rasiert",
+        "NscMerkmalId":  864
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Mittelscheitel, schlecht geschnitten (Fransen)",
+        "NscMerkmalId":  865
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Mittelscheitel, schlecht geschnitten (Fransen), an den Schläfen kurz rasiert",
+        "NscMerkmalId":  866
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Prinz-Eisenherz-Frisur",
+        "NscMerkmalId":  867
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "sehr kurze Haare",
+        "NscMerkmalId":  868
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Seitenscheitel",
+        "NscMerkmalId":  869
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Seitenscheitel, an den Schläfen kurz rasiert",
+        "NscMerkmalId":  870
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Seitenscheitel, schlecht geschnitten (Fransen)",
+        "NscMerkmalId":  871
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Seitenscheitel, schlecht geschnitten (Fransen), an den Schläfen kurz rasiert",
+        "NscMerkmalId":  872
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "starke Geheimratsecken, Rest Haarband",
+        "NscMerkmalId":  873
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "starke Geheimratsecken, Rest kurz",
+        "NscMerkmalId":  874
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "starke Geheimratsecken, Rest lang",
+        "NscMerkmalId":  875
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "starke Geheimratsecken, Rest mittellang",
+        "NscMerkmalId":  876
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "starke Geheimratsecken, Rest Zopf",
+        "NscMerkmalId":  877
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Stirnglatze, Rest kurz",
+        "NscMerkmalId":  878
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Stirnglatze, Rest lang",
+        "NscMerkmalId":  879
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Stirnglatze, Rest mittellang",
+        "NscMerkmalId":  880
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Stirnglatze, Rest rasiert",
+        "NscMerkmalId":  881
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "Topfschnitt",
+        "NscMerkmalId":  882
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "vorne kurz, hinten lang (Vokuhila)",
+        "NscMerkmalId":  883
+    },
+    {
+        "Kategorie":  "Haartracht Mann",
+        "Merkmal":  "vorne kurz, hinten lang (Vokuhila) mit Halbglatze",
+        "NscMerkmalId":  884
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "bei den Großeltern aufgewachsen",
+        "NscMerkmalId":  885
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "bei Verwandten aufgewachsen",
+        "NscMerkmalId":  886
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "berüchtigter Schläger",
+        "NscMerkmalId":  887
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "besaß ein magisches Artefakt",
+        "NscMerkmalId":  888
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "ehemaliger Abenteurer",
+        "NscMerkmalId":  889
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "ehemaliger Sträfling",
+        "NscMerkmalId":  890
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "Einzelkind",
+        "NscMerkmalId":  891
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "elfischer Abstammung",
+        "NscMerkmalId":  892
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat große Schuld auf sich geladen",
+        "NscMerkmalId":  893
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat in der Vergangenheit viel Gutes erlebt",
+        "NscMerkmalId":  894
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat in der Vergangenheit viel Schlechtes erlebt",
+        "NscMerkmalId":  895
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat in der Vergangenheit viel Ungewöhnliches erlebt",
+        "NscMerkmalId":  896
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat Kind adoptiert",
+        "NscMerkmalId":  897
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat kürzlich etwas wichtiges verloren",
+        "NscMerkmalId":  898
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat kürzlich wichtiges Vorhaben beendet",
+        "NscMerkmalId":  899
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat mal eine Alveranier gesehen",
+        "NscMerkmalId":  900
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat mal eine Fee gesehen",
+        "NscMerkmalId":  901
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat mal einen Dämon gesehen",
+        "NscMerkmalId":  902
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat mal einen Drachen gesehen",
+        "NscMerkmalId":  903
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat mal einen Geist gesehen",
+        "NscMerkmalId":  904
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hat mal einen Vampir gesehen",
+        "NscMerkmalId":  905
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hatte kürzlich einen Trauerfall in der Familie",
+        "NscMerkmalId":  906
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hatte schon mit vielen geschlafen",
+        "NscMerkmalId":  907
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "hoch verschuldet",
+        "NscMerkmalId":  908
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "Kriegsveteran",
+        "NscMerkmalId":  909
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "kürzlich mit wichtigem Vorhaben gescheitert",
+        "NscMerkmalId":  910
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "kürzlich Vater/Mutter/Opa/Oma geworden",
+        "NscMerkmalId":  911
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "musste schon früh für die Geschwister sorgen",
+        "NscMerkmalId":  912
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckte Hexe",
+        "NscMerkmalId":  913
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Anbeter des Namenlosen",
+        "NscMerkmalId":  914
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Betrüger",
+        "NscMerkmalId":  915
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Dämonenanbeter (noch nicht Paktierer)",
+        "NscMerkmalId":  916
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Dieb",
+        "NscMerkmalId":  917
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Druide",
+        "NscMerkmalId":  918
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Ehebrecher",
+        "NscMerkmalId":  919
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Freigeister/Revolutionär",
+        "NscMerkmalId":  920
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Mörder",
+        "NscMerkmalId":  921
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Vergewaltiger",
+        "NscMerkmalId":  922
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unentdeckter Wilderer",
+        "NscMerkmalId":  923
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "unter einem Schwur",
+        "NscMerkmalId":  924
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "verflucht von Hexe",
+        "NscMerkmalId":  925
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "Veteran einer Schlacht",
+        "NscMerkmalId":  926
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "viel gereist",
+        "NscMerkmalId":  927
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "Vorfahren waren adelig",
+        "NscMerkmalId":  928
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "Waise",
+        "NscMerkmalId":  929
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "Witwe/Witwer",
+        "NscMerkmalId":  930
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "wurde unter ungewöhnlichen Umständen geboren",
+        "NscMerkmalId":  931
+    },
+    {
+        "Kategorie":  "Historie",
+        "Merkmal":  "wurde von einen Dämon versucht",
+        "NscMerkmalId":  932
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "äußerst geschickt (FF \u003e 18)",
+        "NscMerkmalId":  933
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "äußerst gewandt (GE \u003e 18)",
+        "NscMerkmalId":  934
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "äußerst robust (KO \u003e 18)",
+        "NscMerkmalId":  935
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "äußerst stark (KK \u003e 18)",
+        "NscMerkmalId":  936
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "geschickt (FF \u003e 14)",
+        "NscMerkmalId":  937
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "gewandt (GE \u003e 14)",
+        "NscMerkmalId":  938
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "robust (KO \u003e 14)",
+        "NscMerkmalId":  939
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "sehr behaart",
+        "NscMerkmalId":  940
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "sehr geschickt (FF \u003e 16)",
+        "NscMerkmalId":  941
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "sehr gewandt (GE \u003e 16)",
+        "NscMerkmalId":  942
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "sehr klein (1,50 schritt -)",
+        "NscMerkmalId":  943
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "sehr robust (KO \u003e 16)",
+        "NscMerkmalId":  944
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "sehr stark (KK \u003e 16)",
+        "NscMerkmalId":  945
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "stark (KK \u003e 14)",
+        "NscMerkmalId":  946
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "viele Tätowierungen",
+        "NscMerkmalId":  947
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "zäher Hund",
+        "NscMerkmalId":  948
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "adoptiert",
+        "NscMerkmalId":  949
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Einzelgänger",
+        "NscMerkmalId":  950
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Elfenfreund",
+        "NscMerkmalId":  951
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "feiert sehr gerne",
+        "NscMerkmalId":  952
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "frisch verheiratet",
+        "NscMerkmalId":  953
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Gesucht I",
+        "NscMerkmalId":  954
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Gesucht II",
+        "NscMerkmalId":  955
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Gesucht III",
+        "NscMerkmalId":  956
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat ein treues Haustier",
+        "NscMerkmalId":  957
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat eine große Familie",
+        "NscMerkmalId":  958
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat einen Erzfeind",
+        "NscMerkmalId":  959
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat einen guten Ruf",
+        "NscMerkmalId":  960
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat einen schlechten Ruf",
+        "NscMerkmalId":  961
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat einen sehr guten Ruf",
+        "NscMerkmalId":  962
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat einen sehr schlechten Ruf",
+        "NscMerkmalId":  963
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat keine Familie",
+        "NscMerkmalId":  964
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat keine Freunde",
+        "NscMerkmalId":  965
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat nur eine kleine Familie",
+        "NscMerkmalId":  966
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat reichen Verwandten",
+        "NscMerkmalId":  967
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hat viele Freunde",
+        "NscMerkmalId":  968
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "hört nie richtig zu",
+        "NscMerkmalId":  969
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kann gut zuhören",
+        "NscMerkmalId":  970
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kann sehr gut argumentieren",
+        "NscMerkmalId":  971
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kann sehr gut feilschen",
+        "NscMerkmalId":  972
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kann sehr gut kochen",
+        "NscMerkmalId":  973
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kann sehr gut lügen",
+        "NscMerkmalId":  974
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kennt sich mit dem anderen Geschlecht aus",
+        "NscMerkmalId":  975
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kennt sich mit dem anderen Geschlecht nicht aus",
+        "NscMerkmalId":  976
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kennt viele Gerüchte",
+        "NscMerkmalId":  977
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kennt viele Lieder",
+        "NscMerkmalId":  978
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "kennt viele Sagen",
+        "NscMerkmalId":  979
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "lebt in einer harmonischen Beziehung",
+        "NscMerkmalId":  980
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "lebt in einer stürmischen Beziehung",
+        "NscMerkmalId":  981
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "notorischer Betrüger",
+        "NscMerkmalId":  982
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "notorischer Dieb",
+        "NscMerkmalId":  983
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "notorischer Ehebrecher",
+        "NscMerkmalId":  984
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "notorischer Mörder",
+        "NscMerkmalId":  985
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "notorischer Vergewaltiger",
+        "NscMerkmalId":  986
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "schwer verliebt",
+        "NscMerkmalId":  987
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "sehr gute Beziehungen",
+        "NscMerkmalId":  988
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "sympathisiert mit Borbarad(s Erben)",
+        "NscMerkmalId":  989
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "überdurchschnittlich wohlhabend",
+        "NscMerkmalId":  990
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "verglichen am Stand arm",
+        "NscMerkmalId":  991
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "verglichen am Stand reich",
+        "NscMerkmalId":  992
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Echsen",
+        "NscMerkmalId":  993
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Elfen",
+        "NscMerkmalId":  994
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Fahrendem Volk",
+        "NscMerkmalId":  995
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Geweihten",
+        "NscMerkmalId":  996
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Magiekundigen",
+        "NscMerkmalId":  997
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Südländern",
+        "NscMerkmalId":  998
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Vorurteile gegenüber Zwergen",
+        "NscMerkmalId":  999
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "wird vom Partner betrogen",
+        "NscMerkmalId":  1000
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "wird von jedem geärgert",
+        "NscMerkmalId":  1001
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "wird von jedem gemocht",
+        "NscMerkmalId":  1002
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "blutunterlaufene Augen",
+        "NscMerkmalId":  1003
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "tiefliegende Augen",
+        "NscMerkmalId":  1004
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Kuhaugen",
+        "NscMerkmalId":  1005
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "lebhafte Augen",
+        "NscMerkmalId":  1006
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "glitzernde Augen",
+        "NscMerkmalId":  1007
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schielende Augen",
+        "NscMerkmalId":  1008
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schläfrig blickende Augen",
+        "NscMerkmalId":  1009
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "intensiv leuchtende Augen",
+        "NscMerkmalId":  1010
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "trübe Augen",
+        "NscMerkmalId":  1011
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "müde blickende Augen",
+        "NscMerkmalId":  1012
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "lebendige Augen",
+        "NscMerkmalId":  1013
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "gerötete Augen",
+        "NscMerkmalId":  1014
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "ständig tränende Augen",
+        "NscMerkmalId":  1015
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "stechende Augen",
+        "NscMerkmalId":  1016
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "gereizte Augen",
+        "NscMerkmalId":  1017
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "leuchtende Augen",
+        "NscMerkmalId":  1018
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "funkelnde Augen",
+        "NscMerkmalId":  1019
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "gelangweilt schauende Augen",
+        "NscMerkmalId":  1020
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "fiebrige Augen",
+        "NscMerkmalId":  1021
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "fiebrig blickende Augen",
+        "NscMerkmalId":  1022
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "kalt blickende Augen",
+        "NscMerkmalId":  1023
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "warme Augen",
+        "NscMerkmalId":  1024
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "Veilchen",
+        "NscMerkmalId":  1025
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "verträumt blickende Augen",
+        "NscMerkmalId":  1026
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "schüchtern blickende Augen",
+        "NscMerkmalId":  1027
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "listige Augen",
+        "NscMerkmalId":  1028
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "verschiedenfarbige Augen",
+        "NscMerkmalId":  1029
+    },
+    {
+        "Kategorie":  "Gesicht Augen",
+        "Merkmal":  "besondere Augenfarbe",
+        "NscMerkmalId":  1030
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "sorgfältig",
+        "NscMerkmalId":  1031
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "abenteuerlustig",
+        "NscMerkmalId":  1032
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "abgelenkt",
+        "NscMerkmalId":  1033
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "abstoßend",
+        "NscMerkmalId":  1034
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "abweisend",
+        "NscMerkmalId":  1035
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "abwesend",
+        "NscMerkmalId":  1036
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aggressiv",
+        "NscMerkmalId":  1037
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ängstlich",
+        "NscMerkmalId":  1038
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "anlehnungsbedürftig",
+        "NscMerkmalId":  1039
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "athletisch",
+        "NscMerkmalId":  1040
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aufdringlich",
+        "NscMerkmalId":  1041
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aufgeblasen",
+        "NscMerkmalId":  1042
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aufmerksam",
+        "NscMerkmalId":  1043
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "aufmüpfig",
+        "NscMerkmalId":  1044
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "beflissen",
+        "NscMerkmalId":  1045
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "begriffsstutzig",
+        "NscMerkmalId":  1046
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "behäbig",
+        "NscMerkmalId":  1047
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "beleidigend",
+        "NscMerkmalId":  1048
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "beleidigt",
+        "NscMerkmalId":  1049
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "belesen",
+        "NscMerkmalId":  1050
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bestechlich",
+        "NscMerkmalId":  1051
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "blasiert",
+        "NscMerkmalId":  1052
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "blass",
+        "NscMerkmalId":  1053
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "brutal",
+        "NscMerkmalId":  1054
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "bucklig",
+        "NscMerkmalId":  1055
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "charmant",
+        "NscMerkmalId":  1056
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "clever",
+        "NscMerkmalId":  1057
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "dickköpfig",
+        "NscMerkmalId":  1058
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "dumm",
+        "NscMerkmalId":  1059
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ehrenhaft",
+        "NscMerkmalId":  1060
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ehrenwert",
+        "NscMerkmalId":  1061
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "eifrig",
+        "NscMerkmalId":  1062
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "eilig",
+        "NscMerkmalId":  1063
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "einschüchternd",
+        "NscMerkmalId":  1064
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "elegant",
+        "NscMerkmalId":  1065
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "empfindlich",
+        "NscMerkmalId":  1066
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erhaben",
+        "NscMerkmalId":  1067
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erkältet",
+        "NscMerkmalId":  1068
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "fahrig",
+        "NscMerkmalId":  1069
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "fanatisch",
+        "NscMerkmalId":  1070
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "faul",
+        "NscMerkmalId":  1071
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "flatterhaft",
+        "NscMerkmalId":  1072
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "fleißig",
+        "NscMerkmalId":  1073
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "freigiebig",
+        "NscMerkmalId":  1074
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "frostig",
+        "NscMerkmalId":  1075
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "geheimnisvoll",
+        "NscMerkmalId":  1076
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gelangweilt",
+        "NscMerkmalId":  1077
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gelehrt",
+        "NscMerkmalId":  1078
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gerecht",
+        "NscMerkmalId":  1079
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "geschäftig",
+        "NscMerkmalId":  1080
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "geschäftstüchtig",
+        "NscMerkmalId":  1081
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "gläubig",
+        "NscMerkmalId":  1082
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "heuchlerisch",
+        "NscMerkmalId":  1083
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "hinterlistig",
+        "NscMerkmalId":  1084
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "hochnäsig",
+        "NscMerkmalId":  1085
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "höflich",
+        "NscMerkmalId":  1086
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "hölzern",
+        "NscMerkmalId":  1087
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hübsch",
+        "NscMerkmalId":  1088
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "humorlos",
+        "NscMerkmalId":  1089
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ideenlos",
+        "NscMerkmalId":  1090
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "irritiert",
+        "NscMerkmalId":  1091
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "klug",
+        "NscMerkmalId":  1092
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "konzentriert",
+        "NscMerkmalId":  1093
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kräftig",
+        "NscMerkmalId":  1094
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "langsam",
+        "NscMerkmalId":  1095
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "listig",
+        "NscMerkmalId":  1096
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "logisch",
+        "NscMerkmalId":  1097
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lustig",
+        "NscMerkmalId":  1098
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "musikalisch",
+        "NscMerkmalId":  1099
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "mutig",
+        "NscMerkmalId":  1100
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "nachdenklich",
+        "NscMerkmalId":  1101
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "naiv",
+        "NscMerkmalId":  1102
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "offen",
+        "NscMerkmalId":  1103
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ordentlich",
+        "NscMerkmalId":  1104
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "pausbäckig",
+        "NscMerkmalId":  1105
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "penibel",
+        "NscMerkmalId":  1106
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "perfektionistisch",
+        "NscMerkmalId":  1107
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "pfiffig",
+        "NscMerkmalId":  1108
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "phantasievoll",
+        "NscMerkmalId":  1109
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "plump",
+        "NscMerkmalId":  1110
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "polternd",
+        "NscMerkmalId":  1111
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "protzig",
+        "NscMerkmalId":  1112
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "rachsüchtig",
+        "NscMerkmalId":  1113
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "reserviert",
+        "NscMerkmalId":  1114
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "roh",
+        "NscMerkmalId":  1115
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "rondragefällig",
+        "NscMerkmalId":  1116
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "rücksichtslos",
+        "NscMerkmalId":  1117
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schlagfertig",
+        "NscMerkmalId":  1118
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schlampig",
+        "NscMerkmalId":  1119
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schleimig",
+        "NscMerkmalId":  1120
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schmierig",
+        "NscMerkmalId":  1121
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schüchtern",
+        "NscMerkmalId":  1122
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schwatzhaft",
+        "NscMerkmalId":  1123
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "schweigsam ",
+        "NscMerkmalId":  1124
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "selbstbewusst",
+        "NscMerkmalId":  1125
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "senil",
+        "NscMerkmalId":  1126
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "spitzfindig",
+        "NscMerkmalId":  1127
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "spitzzüngig",
+        "NscMerkmalId":  1128
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "spöttisch",
+        "NscMerkmalId":  1129
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "standesbewusst",
+        "NscMerkmalId":  1130
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "starrsinnig",
+        "NscMerkmalId":  1131
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "steif",
+        "NscMerkmalId":  1132
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "stumm",
+        "NscMerkmalId":  1133
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "stur",
+        "NscMerkmalId":  1134
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "theatralisch",
+        "NscMerkmalId":  1135
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "trampelig",
+        "NscMerkmalId":  1136
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "überdreht",
+        "NscMerkmalId":  1137
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "überheblich",
+        "NscMerkmalId":  1138
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "überlegt",
+        "NscMerkmalId":  1139
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "übellaunig",
+        "NscMerkmalId":  1140
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unbedacht",
+        "NscMerkmalId":  1141
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ungläubig",
+        "NscMerkmalId":  1142
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unhöflich",
+        "NscMerkmalId":  1143
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unmusikalisch",
+        "NscMerkmalId":  1144
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unnahbar",
+        "NscMerkmalId":  1145
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unsicher",
+        "NscMerkmalId":  1146
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unverdorben",
+        "NscMerkmalId":  1147
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unverwüstlich",
+        "NscMerkmalId":  1148
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "unzuverlässig",
+        "NscMerkmalId":  1149
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verführerisch",
+        "NscMerkmalId":  1150
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vergeistigt",
+        "NscMerkmalId":  1151
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vergesslich",
+        "NscMerkmalId":  1152
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verhärmt",
+        "NscMerkmalId":  1153
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verletzlich",
+        "NscMerkmalId":  1154
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verletzt",
+        "NscMerkmalId":  1155
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verliebt",
+        "NscMerkmalId":  1156
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verlogen",
+        "NscMerkmalId":  1157
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vernascht",
+        "NscMerkmalId":  1158
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verschlafen",
+        "NscMerkmalId":  1159
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verschlagen",
+        "NscMerkmalId":  1160
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verschmitzt",
+        "NscMerkmalId":  1161
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verschreckt",
+        "NscMerkmalId":  1162
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "versoffen",
+        "NscMerkmalId":  1163
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verständnisvoll",
+        "NscMerkmalId":  1164
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vertrauensvoll",
+        "NscMerkmalId":  1165
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vertrauenswürdig",
+        "NscMerkmalId":  1166
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verträumt",
+        "NscMerkmalId":  1167
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "verzweifelt",
+        "NscMerkmalId":  1168
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "vornehm",
+        "NscMerkmalId":  1169
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wankelmütig",
+        "NscMerkmalId":  1170
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "weltfremd",
+        "NscMerkmalId":  1171
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wortkarg",
+        "NscMerkmalId":  1172
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "wütend",
+        "NscMerkmalId":  1173
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zielstrebig",
+        "NscMerkmalId":  1174
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zornig",
+        "NscMerkmalId":  1175
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zurückhaltend",
+        "NscMerkmalId":  1176
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "zuverlässig",
+        "NscMerkmalId":  1177
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "humpelt",
+        "NscMerkmalId":  1178
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "Buckel",
+        "NscMerkmalId":  1179
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "schwerhörig",
+        "NscMerkmalId":  1180
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "taubstumm",
+        "NscMerkmalId":  1181
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "stark weitsichtig",
+        "NscMerkmalId":  1182
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "stark kurzsichtig",
+        "NscMerkmalId":  1183
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "schielt",
+        "NscMerkmalId":  1184
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "einäugig",
+        "NscMerkmalId":  1185
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "Glasknochen",
+        "NscMerkmalId":  1186
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "Gelenkrheuma",
+        "NscMerkmalId":  1187
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "Hasenscharte",
+        "NscMerkmalId":  1188
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "steifes Bein",
+        "NscMerkmalId":  1189
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "einbeinig",
+        "NscMerkmalId":  1190
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "gelähmt",
+        "NscMerkmalId":  1191
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "Klumpfuß",
+        "NscMerkmalId":  1192
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "bucklig",
+        "NscMerkmalId":  1193
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "steifer Arm",
+        "NscMerkmalId":  1194
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "fehlender Finger",
+        "NscMerkmalId":  1195
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "einhändig",
+        "NscMerkmalId":  1196
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "verkrüppelte Hand",
+        "NscMerkmalId":  1197
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "einarmig",
+        "NscMerkmalId":  1198
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "lispelt",
+        "NscMerkmalId":  1199
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "wettergegerbtes Gesicht",
+        "NscMerkmalId":  1200
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "sonnenverbranntes Gesicht",
+        "NscMerkmalId":  1201
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "bleiches Gesicht",
+        "NscMerkmalId":  1202
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "asymmetrisches Gesicht",
+        "NscMerkmalId":  1203
+    },
+    {
+        "Kategorie":  "Gesicht Nase",
+        "Merkmal":  "rote Trinkernase",
+        "NscMerkmalId":  1204
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "schiefer Mund",
+        "NscMerkmalId":  1205
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "betätigt sich gerne körperlich",
+        "NscMerkmalId":  1206
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "betätigt sich nicht gerne körperlich",
+        "NscMerkmalId":  1207
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "dichtet gerne",
+        "NscMerkmalId":  1208
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Hunde",
+        "NscMerkmalId":  1209
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Katzen",
+        "NscMerkmalId":  1210
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Kompromisse",
+        "NscMerkmalId":  1211
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Pferde",
+        "NscMerkmalId":  1212
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Pflanzen und Bäume",
+        "NscMerkmalId":  1213
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Saures",
+        "NscMerkmalId":  1214
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst scharfes Essen",
+        "NscMerkmalId":  1215
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Süßes",
+        "NscMerkmalId":  1216
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Tiere",
+        "NscMerkmalId":  1217
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hasst Vögel",
+        "NscMerkmalId":  1218
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "lässt gerne Steinchen auf dem Wasser springen",
+        "NscMerkmalId":  1219
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Hunde",
+        "NscMerkmalId":  1220
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Katzen",
+        "NscMerkmalId":  1221
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Pferde",
+        "NscMerkmalId":  1222
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Pflanzen und Bäume",
+        "NscMerkmalId":  1223
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Saures",
+        "NscMerkmalId":  1224
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt scharfes Essen",
+        "NscMerkmalId":  1225
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Süßes",
+        "NscMerkmalId":  1226
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Tiere",
+        "NscMerkmalId":  1227
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "liebt Vögel",
+        "NscMerkmalId":  1228
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "singt gerne",
+        "NscMerkmalId":  1229
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "blind",
+        "NscMerkmalId":  1230
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "farbenblind",
+        "NscMerkmalId":  1231
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "gelähmter Arm",
+        "NscMerkmalId":  1232
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "wäre gern ein Magier",
+        "NscMerkmalId":  1233
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Stubenhocker",
+        "NscMerkmalId":  1234
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Tierfreund",
+        "NscMerkmalId":  1235
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "verfügt über Geheimwissen!",
+        "NscMerkmalId":  1236
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Stigma (Stärke: W6)",
+        "NscMerkmalId":  1237
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Koboldfreund",
+        "NscMerkmalId":  1238
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Glückspilz",
+        "NscMerkmalId":  1239
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Magiedilettant",
+        "NscMerkmalId":  1240
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Magiegespür",
+        "NscMerkmalId":  1241
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Begabung für Gesellschaftliches Talent",
+        "NscMerkmalId":  1242
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Begabung für Handwerkstalent",
+        "NscMerkmalId":  1243
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Begabung für Kampftalent",
+        "NscMerkmalId":  1244
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Begabung für Körperliches Talent",
+        "NscMerkmalId":  1245
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Begabung für Naturtalent",
+        "NscMerkmalId":  1246
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Begabung für Wissenstalent",
+        "NscMerkmalId":  1247
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "begnadete(r) Maler(in)",
+        "NscMerkmalId":  1248
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "begnadete(r) Sänger(in)",
+        "NscMerkmalId":  1249
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "begnadete(r) Tänzer(in)",
+        "NscMerkmalId":  1250
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "begnadete(r) Zeichner(in)",
+        "NscMerkmalId":  1251
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt ein außergewöhnliches Tier",
+        "NscMerkmalId":  1252
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt ein besonderes Buch",
+        "NscMerkmalId":  1253
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt ein besonderes Schmuckstück",
+        "NscMerkmalId":  1254
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt ein Haus (über seinem Stand)",
+        "NscMerkmalId":  1255
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt ein magisches Artefakt",
+        "NscMerkmalId":  1256
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt einen großen Schatz (300D+)",
+        "NscMerkmalId":  1257
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "besitzt einen Schatz (100D+)",
+        "NscMerkmalId":  1258
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Depressionen",
+        "NscMerkmalId":  1259
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Dunkelangst",
+        "NscMerkmalId":  1260
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Einbildungen",
+        "NscMerkmalId":  1261
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Feenfreund",
+        "NscMerkmalId":  1262
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Gefahreninstinkt",
+        "NscMerkmalId":  1263
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Affinität zu Dämonen",
+        "NscMerkmalId":  1264
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Affinität zu Geistern",
+        "NscMerkmalId":  1265
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "stark geschminkt",
+        "NscMerkmalId":  1266
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Angst vor Feuer",
+        "NscMerkmalId":  1267
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Angst vor Nagetieren",
+        "NscMerkmalId":  1268
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Angst vor Schlangen",
+        "NscMerkmalId":  1269
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Angst vor Spinnen",
+        "NscMerkmalId":  1270
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Arkanophobie",
+        "NscMerkmalId":  1271
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "lichtscheu",
+        "NscMerkmalId":  1272
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Meeresangst",
+        "NscMerkmalId":  1273
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "soziale Phobie",
+        "NscMerkmalId":  1274
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "Zwangsstörung",
+        "NscMerkmalId":  1275
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Alkoholiker/in",
+        "NscMerkmalId":  1276
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "nuscheln",
+        "NscMerkmalId":  1277
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "ständig blinzeln",
+        "NscMerkmalId":  1278
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Pferdegebiss",
+        "NscMerkmalId":  1279
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "näselnde Stimme",
+        "NscMerkmalId":  1280
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Mundgeruch",
+        "NscMerkmalId":  1281
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "fehlende Zähne",
+        "NscMerkmalId":  1282
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "Grübchen",
+        "NscMerkmalId":  1283
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "faulige Zähne",
+        "NscMerkmalId":  1284
+    },
+    {
+        "Kategorie":  "Gesicht Mund",
+        "Merkmal":  "verschmitztes Lächeln",
+        "NscMerkmalId":  1285
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "stottern",
+        "NscMerkmalId":  1286
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Doppelkinn",
+        "NscMerkmalId":  1287
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "extrem rassistisch",
+        "NscMerkmalId":  1288
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erfolgsgewöhnt",
+        "NscMerkmalId":  1289
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "sehr feuchte Aussprache",
+        "NscMerkmalId":  1290
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "mondsüchtig",
+        "NscMerkmalId":  1291
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "Missbildung",
+        "NscMerkmalId":  1292
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "misserfolgsgewöhnt",
+        "NscMerkmalId":  1293
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "leicht magische Haare",
+        "NscMerkmalId":  1294
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "leidet an Epilepsie",
+        "NscMerkmalId":  1295
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Imman-Fan",
+        "NscMerkmalId":  1296
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Jungfrau/-mann",
+        "NscMerkmalId":  1297
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hohe Magieresistenz",
+        "NscMerkmalId":  1298
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "prophetische Gabe",
+        "NscMerkmalId":  1299
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Schaukampf-Fan",
+        "NscMerkmalId":  1300
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Schlangenmensch",
+        "NscMerkmalId":  1301
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "Turnier-Fan",
+        "NscMerkmalId":  1302
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "glaubt an eine bestimmte Heilige",
+        "NscMerkmalId":  1303
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "glaubt an einen bestimmten Heiligen",
+        "NscMerkmalId":  1304
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "glaubt dass alle Menschen lügen",
+        "NscMerkmalId":  1305
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "erstaunlich gebildet",
+        "NscMerkmalId":  1306
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "große Narbe",
+        "NscMerkmalId":  1307
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "riecht angenehm",
+        "NscMerkmalId":  1308
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "riecht sehr angenehm",
+        "NscMerkmalId":  1309
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "schwitzt sehr viel",
+        "NscMerkmalId":  1310
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "stinkt",
+        "NscMerkmalId":  1311
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "stinkt leicht",
+        "NscMerkmalId":  1312
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "Muttermale",
+        "NscMerkmalId":  1313
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Warze",
+        "NscMerkmalId":  1314
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "Albino",
+        "NscMerkmalId":  1315
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "führt Selbstgespräche",
+        "NscMerkmalId":  1316
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "geringes Schlafbedürfnis",
+        "NscMerkmalId":  1317
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "großes Schlafbedürfnis",
+        "NscMerkmalId":  1318
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "kauft immer zuviel ein",
+        "NscMerkmalId":  1319
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "kaut gerne Fingernägel",
+        "NscMerkmalId":  1320
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ungewöhnlicher Glaube (Elementare, Tierkönige, etc.)",
+        "NscMerkmalId":  1321
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "nervöse Ticks",
+        "NscMerkmalId":  1322
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "oft geistesabwesend",
+        "NscMerkmalId":  1323
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hat Flöhe",
+        "NscMerkmalId":  1324
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hat Läuse",
+        "NscMerkmalId":  1325
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Hautkrankheit",
+        "NscMerkmalId":  1326
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hört Stimmen",
+        "NscMerkmalId":  1327
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hortet allerlei Dinge",
+        "NscMerkmalId":  1328
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "krank (Flinker Difar, Triefnase, etc.)",
+        "NscMerkmalId":  1329
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "begrenzter Wortschatz",
+        "NscMerkmalId":  1330
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Blähungen",
+        "NscMerkmalId":  1331
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "chronische Kopfschmerzen",
+        "NscMerkmalId":  1332
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "chronische Rückenschmerzen",
+        "NscMerkmalId":  1333
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "erwartet den Weltuntergang",
+        "NscMerkmalId":  1334
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "gebirgskundig",
+        "NscMerkmalId":  1335
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "großer Wortschatz",
+        "NscMerkmalId":  1336
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "ortskundig",
+        "NscMerkmalId":  1337
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Pechvogel",
+        "NscMerkmalId":  1338
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Schluckauf",
+        "NscMerkmalId":  1339
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "schwer Erkrankt (Lungenentzündung, Krebs, etc.)",
+        "NscMerkmalId":  1340
+    },
+    {
+        "Kategorie":  "Soziales",
+        "Merkmal":  "sehr hoch verschuldet",
+        "NscMerkmalId":  1341
+    },
+    {
+        "Kategorie":  "Vorlieben",
+        "Merkmal":  "hält immer Mittagsschlaf",
+        "NscMerkmalId":  1342
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hat geheimen Rückzugsort",
+        "NscMerkmalId":  1343
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "sumpfkundig",
+        "NscMerkmalId":  1344
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "wildniserfahren",
+        "NscMerkmalId":  1345
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "tiefe Narbe",
+        "NscMerkmalId":  1346
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "Pockennarben",
+        "NscMerkmalId":  1347
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "Feuermal",
+        "NscMerkmalId":  1348
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "Tätowierung",
+        "NscMerkmalId":  1349
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "schwächlich",
+        "NscMerkmalId":  1350
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "robust",
+        "NscMerkmalId":  1351
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "herausragendes Aussehen",
+        "NscMerkmalId":  1352
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Doppelgänger einer Person/Held",
+        "NscMerkmalId":  1353
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "von Narben entstelltes Gesicht (z. B. Brandnarben)",
+        "NscMerkmalId":  1354
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "auffällige Narbe im Gesicht",
+        "NscMerkmalId":  1355
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "auffällige Warze(n) im Gesicht",
+        "NscMerkmalId":  1356
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Hasenscharte",
+        "NscMerkmalId":  1357
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "kann nicht sprechen",
+        "NscMerkmalId":  1358
+    },
+    {
+        "Kategorie":  "Behinderung",
+        "Merkmal":  "nachtblind",
+        "NscMerkmalId":  1359
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Sein Hund schnüffelt ständig an den Helden",
+        "NscMerkmalId":  1360
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hat ein Haustier dabei ",
+        "NscMerkmalId":  1361
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Kleidung passt nicht zum Stand/ Beruf",
+        "NscMerkmalId":  1362
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "trägt ein auffälliges Amulett",
+        "NscMerkmalId":  1363
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "trägt unzählige Amulette.",
+        "NscMerkmalId":  1364
+    },
+    {
+        "Kategorie":  "Gesicht Allgemein",
+        "Merkmal":  "Tätowiert im Gesicht",
+        "NscMerkmalId":  1365
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "Waffe passt nicht zum Stand/ Beruf",
+        "NscMerkmalId":  1366
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hält einen Helden für jemand anderen.",
+        "NscMerkmalId":  1367
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "raucht stark duftenden/ stinkenden Tabak",
+        "NscMerkmalId":  1368
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "spuckt ständig Kautabak überallhin.",
+        "NscMerkmalId":  1369
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hält sich für einen großen Helden",
+        "NscMerkmalId":  1370
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "hat das Gedächtnis verloren.",
+        "NscMerkmalId":  1371
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "trampelig, ungeschickt (sehr niedrige GE)",
+        "NscMerkmalId":  1372
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "schwächlich (sehr niedrige KK)",
+        "NscMerkmalId":  1373
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "anfällig, atemlos (sehr niedrige KO)",
+        "NscMerkmalId":  1374
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "zwei linke Hände (sehr niedrige FF)",
+        "NscMerkmalId":  1375
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "wirkt tumb (sehr niedriges CH)",
+        "NscMerkmalId":  1376
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "anmutig, elegant (sehr hohe GE)",
+        "NscMerkmalId":  1377
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "kräftig (sehr hohe KK)",
+        "NscMerkmalId":  1378
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "robust (sehr hohe KO)",
+        "NscMerkmalId":  1379
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "geschickt (sehr hohe FF)",
+        "NscMerkmalId":  1380
+    },
+    {
+        "Kategorie":  "Körperliche Eigenschaft",
+        "Merkmal":  "charismatisch, beeindruckend (sehr hohes CH)",
+        "NscMerkmalId":  1381
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "unsteter Blick",
+        "NscMerkmalId":  1382
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Gesprächspartner nie in die Augen blicken",
+        "NscMerkmalId":  1383
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "sich ständig überall kratzen",
+        "NscMerkmalId":  1384
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "in der Nase bohren",
+        "NscMerkmalId":  1385
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "Fingernägel kauen",
+        "NscMerkmalId":  1386
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "hat starke Blähungen",
+        "NscMerkmalId":  1387
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "ständig rülpsen und furzen",
+        "NscMerkmalId":  1388
+    },
+    {
+        "Kategorie":  "Gesten",
+        "Merkmal":  "mit einem Gegenstand spielen",
+        "NscMerkmalId":  1389
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "ständig fluchen",
+        "NscMerkmalId":  1390
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "eine Redewendung andauernd benutzen",
+        "NscMerkmalId":  1391
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Namen ständig verwechseln",
+        "NscMerkmalId":  1392
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Fremdwörter häufig benutzen",
+        "NscMerkmalId":  1393
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "extrem feuchte Aussprache haben",
+        "NscMerkmalId":  1394
+    },
+    {
+        "Kategorie":  "Sprache",
+        "Merkmal":  "Fremdwörter häufig und falsch benutzen",
+        "NscMerkmalId":  1395
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "kleptomanisch",
+        "NscMerkmalId":  1396
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "nymphomanisch",
+        "NscMerkmalId":  1397
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "erzählt ständig von eigenen Heldentaten",
+        "NscMerkmalId":  1398
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "macht ständig schlechte Scherze",
+        "NscMerkmalId":  1399
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "denkt ständig nur ans Essen und/ oder Trinken",
+        "NscMerkmalId":  1400
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "versucht jeden seinem Glauben zu bekehren",
+        "NscMerkmalId":  1401
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "feige (sehr niedriger MU)",
+        "NscMerkmalId":  1402
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "dumm (sehr niedrige KL)",
+        "NscMerkmalId":  1403
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "ideenlos (sehr niedrige IN)",
+        "NscMerkmalId":  1404
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "magieanfällig (sehr niedrige MR)",
+        "NscMerkmalId":  1405
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "draufgängerisch (sehr hohe KL)",
+        "NscMerkmalId":  1406
+    },
+    {
+        "Kategorie":  "Charakter",
+        "Merkmal":  "intuitiv, ideenreich (sehr hohe IN)",
+        "NscMerkmalId":  1407
+    },
+    {
+        "Kategorie":  "Besonderes",
+        "Merkmal":  "magieresistent (sehr hohe MR)",
+        "NscMerkmalId":  1408
+    }
+]

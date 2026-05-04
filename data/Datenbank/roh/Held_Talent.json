@@ -1,0 +1,2002 @@
+﻿[
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000130",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000016",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000030",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000034",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000041",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000043",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000061",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000068",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  3,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000070",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000071",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000079",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  9
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000080",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000081",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000087",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000181",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000184",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000189",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  7,
+        "ZuteilungPA":  3,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000203",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000204",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  1,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000207",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000227",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000228",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000231",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000232",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000235",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000238",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000241",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000243",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000244",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000245",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  3,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000247",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000286",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000340",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000354",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000367",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000370",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000372",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  -1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000376",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000377",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000379",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000380",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000382",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  9,
+        "ZuteilungPA":  5,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000384",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "TaW":  14
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000016",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000022",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000024",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  11
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000025",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000026",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  2,
+        "ZuteilungPA":  2,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000030",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000034",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000040",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000043",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000048",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  -2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000061",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000001",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000016",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  2,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000030",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000034",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000036",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000040",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000041",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000043",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000044",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000057",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000061",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000068",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  7,
+        "ZuteilungPA":  2,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000070",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  9
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000071",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000079",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000080",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000081",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000087",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000118",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000181",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000184",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000189",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000192",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  5,
+        "ZuteilungPA":  2,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000203",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000204",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000206",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  5,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000207",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000212",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000227",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000228",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000231",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000235",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000238",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000241",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000243",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000244",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000245",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  1,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000247",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000249",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000286",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000321",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000339",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000367",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  -1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000369",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000370",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000372",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000376",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000377",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  9
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000379",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000380",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000382",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  5,
+        "ZuteilungPA":  2,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000384",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000065",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000068",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000070",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000071",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000079",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000080",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000081",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  9
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000087",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000088",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000127",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000130",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000180",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000181",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000184",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000186",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000189",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000192",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000203",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000204",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000205",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  -2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000206",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000207",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  3,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000227",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000228",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000231",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000235",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000238",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000241",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000243",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000244",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000245",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  11
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000264",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000286",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000299",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000364",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000365",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000367",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000370",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000372",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000376",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000377",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000380",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000382",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "TaW":  -2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000004",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  12
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000015",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000016",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000022",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000028",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  2,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000030",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000033",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000034",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000037",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000048",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000049",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000050",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000058",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000059",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000061",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000063",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000064",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000065",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000068",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000069",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000070",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000071",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  1,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000073",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000079",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000080",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000081",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000087",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000088",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000130",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  7
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000135",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000156",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000180",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000181",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000184",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  9
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000189",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000192",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000193",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  1,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000203",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000204",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000205",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000206",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  1,
+        "ZuteilungPA":  1,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000207",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000208",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  7,
+        "ZuteilungPA":  7,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000227",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  14
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000228",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000229",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000231",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000233",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000235",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000238",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000241",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  8
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000242",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000243",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000244",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000245",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  10
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000272",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000285",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000286",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  11
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000329",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000342",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000359",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  1
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000364",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000367",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  3
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000016",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000030",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000034",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000061",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000068",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000070",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000071",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000079",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000080",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000081",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000087",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000181",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000184",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000189",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000203",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000204",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000207",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000227",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000228",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000231",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000235",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000238",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000241",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000243",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000244",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000245",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000367",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000372",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000377",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000380",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000382",
+        "HeldGUID":  "00000000-0000-0000-045c-000000000041",
+        "TaW":  0
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000368",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000370",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  4
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000372",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  9
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000377",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  6
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000380",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  2
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  0,
+        "ZuteilungPA":  0,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000382",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  5
+    },
+    {
+        "Bemerkung":  null,
+        "ZuteilungAT":  null,
+        "ZuteilungPA":  null,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000055",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "TaW":  0
+    }
+]

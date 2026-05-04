@@ -1,0 +1,4358 @@
+﻿[
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 6, Elf 6, Hex 6, Mag 6, Geo 5, Ach 4, Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000001"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Srl 4, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000002"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 6, Mag 5, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000003"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Ach 3, Dru 3, Geo 3, Hex 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000004"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Ach 3, Mag 3, Dru 2, Hex 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000005"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Ach 5, Dru 5, Mag 5, Geo 4, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000006"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000007"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000008"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000009"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000010"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000011"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Ach 3, Dru 2, Geo 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000012"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7, Geo 5, Dru 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000013"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000014"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000015"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000016"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Bor 1, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000017"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 2, Hex 2,  Dru 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000018"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 2, Hex 2, Dru 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000019"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 2, Hex 2, Dru 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000020"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000021"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Mag 6, Hex 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000022"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000023"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Ach 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000024"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Elf 5, Geo 5, Hex 5, Mag 5, Ach 3, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000025"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000026"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000027"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Srl 6, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000028"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000029"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Ach 5, Sch 5, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000030"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 7, Ach 5, Geo 5, Dru 4, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000031"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Hex 4, Dru 3, Mag 3, Ach 2, Bor 2, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000032"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 6, Dru 3, Hex 3, Srl 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000033"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Ach 3, Mag 3(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000034"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Geo 6, Mag 6, Hex 5, Ach 4, Elf 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000035"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000036"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000037"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Dru 2, Hex 2, Elf 2, Geo 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000038"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Elf 4, Sch 4, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000039"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000040"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7, Mag 3, Srl 3(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000041"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000343"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Geo 5, Mag 5, Ach 4, Dru 4, Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000042"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000043"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Mag 5, Ach 4, Dru 4, Hex 4, Geo 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000044"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Geo 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000045"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 6, Dru 5, Hex 5, Ach 4, Geo 4, Sch 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000046"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Geo 6, Ach 5, Bor 2, Hex 2, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000047"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 6, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000048"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000049"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Hex 3, Mag 3(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000050"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000051"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000052"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 2, Mag 1(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000053"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 2, Elf 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000054"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Hex 5, Srl 5, Dru 2(Hex), Elf 2, Sch 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000055"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Elf 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000056"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 6, Mag 4, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000057"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Ach 2, Hex 2, Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000058"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 6, Mag 6, Srl 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000059"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000060"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000061"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000062"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Ach 2, Elf 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000063"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000064"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Dru 3, Geo 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000065"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Geo 4, Mag 4, Sch 4, Ach 3, Hex 3, Srl 3(Mag), Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000066"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Srl 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000067"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Bor 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000068"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 6, Ach 5, Dru 5, Geo 5, Mag 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000069"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 6, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000070"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 6, Geo 6, Hex 6, Ach 5, Elf 5, Mag 4, Sch 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000071"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 7, Dru 5, Elf 2, Hex 2(Geo), Mag 2 (Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000072"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Ach 5, Dru 5, Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000073"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000074"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000075"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000076"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 6, Dru 5, Ach 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000077"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000078"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000079"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 4, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000080"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Ach 4, Dru 4, Geo 4, Hex 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000081"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000082"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Srl 6, Mag 5, Sch 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000083"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000084"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000085"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6 (Firnelf), Elf 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000086"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 7, Elf 7, Mag 7, Dru 6, Hex 6, Geo 5, Sch 4, Srl 4(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000087"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Bor 2, Hex 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000088"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Srl 5, Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000089"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Ach 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000090"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000091"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000092"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 5, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000093"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Ach 2, Geo 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000094"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000095"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000096"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 5, Ach 3, Hex 3, Mag 3, Srl 3(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000097"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Mag 5, Geo 4, Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000098"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 6, Geo 3, Hex 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000099"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000100"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7, Geo 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000101"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Geo 7, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000102"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Geo 4, Hex 2, Mag 2(Dru), Srl 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000103"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7, Ach 3, Dru 3, Mag 3, Sch 3, Srl 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000104"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 5, Ach 4, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000105"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Geo 3, Dru 2, Hex 2, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000106"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000107"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 6, Geo 6, Mag 5, Sch 5, Ach 4, Elf 4, Hex 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000108"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 3, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000109"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Geo 6, Elf 3, Hex 3, Ach 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000110"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000111"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7, Bor 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000112"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000113"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000114"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7, Dru 2, Mag 2, Srl 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000115"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 3 (bei Katzen, Raben, Eulen)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000116"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 7, Geo 5, Mag 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000117"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Ach 3, Geo 3, Dru 3(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000118"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 7, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000119"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000120"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Bor 4, Dru 3, Hex 2(Dru), Srl 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000121"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000122"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Ach 3, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000123"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Ach 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000124"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000125"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 4, Hex 3, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000126"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000127"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000128"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000129"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 1, Elf 1, Geo 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000130"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000131"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 5, Mag 5, Hex 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000132"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Ach 4, Bor 4, Hex 4, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000133"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 1(Bor)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000134"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000135"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Ach 3, Bor 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000136"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 4, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000137"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Ach 3, Dru 3, Elf 3, Geo 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000138"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7, Hex 3, Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000139"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000140"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 5, Ach 2, Elf 1, Hex 1(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000141"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000142"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Ach 2, Geo 2, Hex 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000143"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 3, Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000144"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 5, Ach 3, Dru 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000145"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000146"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 4, Ach 3, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000147"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000148"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000149"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000150"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000151"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000152"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000153"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Elf 3, Ach 2, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000154"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Elf 2, Dru 1, Geo 1(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000155"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Elf 3, Geo 2, Dru 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000156"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3, Sch 3, Dru 2, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000157"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 4, Elf 2, Dru 2(Hex), Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000158"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3, Ach 2, Dru 2, Geo 2, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000159"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Hex 2, Bor 2, Mag 2(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000160"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 4, Mag 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000161"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000162"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000163"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000164"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 5, Mag 2, Hex 2(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000165"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 3, Dru, Srl 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000166"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 6, Geo 4, Mag 3, Ach 2, Bor 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000167"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000168"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000169"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 7, Dru 5, Geo 5, Mag 5, Hex 3, Srl 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000170"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 4, Geo 4, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000171"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7, Geo 5, Dru 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000172"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3, Mag 3, Ach 2, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000173"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000174"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000175"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000176"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000177"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000178"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Sch 5, Ach 4, Elf 4, Hex 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000179"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Dru 3, Hex 3, Mag 3(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000180"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000181"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000182"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000183"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000184"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Ach 4, Dru 3, Geo 3, Mag 2, Hex 2(Elf), Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000185"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Dru 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000186"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000187"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Ach 2, Bor 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000188"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Ach 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000189"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 5, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000190"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Dru 4, Elf 4, Geo 3, Hex 2, Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000191"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Ach 4, Hex 3, Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000192"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000193"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 7, Elf 7, Mag 7, Geo 6, Dru 5, Hex 5, Sch 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000194"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000195"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000196"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 4, Hex 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000197"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 3, Mag 1(Bor)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000198"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000199"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 7, Dru 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000200"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 5, Hex 3(Mag), Sch 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000201"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Elf 4, Sch 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000202"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Dru 2, Geo 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000203"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 6, Hex 5, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000204"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 1, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000205"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Elf 1 (nur Au- und Firnelfen)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000206"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000207"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000208"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Ach 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000209"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3 (nur Firnelfen)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000210"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 1, rituelle Form: Ach, Dru, Elf, Hex",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000211"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 7, Dru 5, Geo 5, Hex 5, Ach 4, Elf 4, Sch 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000212"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Srl 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000213"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000214"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 6, Dru 5, Geo 5, Hex 5, Ach 3, Srl 3, Elf 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000215"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000216"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000217"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 4, Bor 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000218"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 7, Dru 5, Geo 5, Elf 4, Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000219"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Mag 3, Dru 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000220"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Ach 4, Mag 4, Dru 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000221"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Ach 3, Hex 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000222"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 6, Hex 6, Dru 4, Elf 4, Ach 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000223"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 4, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000224"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000225"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000226"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000227"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000228"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000229"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 6, Mag 2, Srl 2(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000230"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000231"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 6, Mag 4, Bor 2, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000232"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 4, Mag 3, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000233"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 6, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000234"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 3, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000235"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 2, Dru 2, Geo 2, Hex 2, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000236"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 6, Srl 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000237"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3, Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000238"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000239"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 6, Dru 5, Hex 5, Geo 5, Ach 4, Sch 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000240"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 4, Hex 2, Mag 2(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000241"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Mag 5, Sch 5, Geo 4, Srl 4, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000242"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000243"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 4, Bor 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000244"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Mag 2, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000245"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Mag 5, Ach 3, Dru 3, Geo 3, Hex 3, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000246"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 4, Ach 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000247"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Dru 3, Geo 3, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000248"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 2, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000249"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000250"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000251"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000252"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000253"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 5, Dru 4, Hex 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000254"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000255"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000256"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000257"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000258"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 6, Dru 2, Geo 2, Elf 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000259"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5, Geo 5, Ach 4, Dru 4, Hex 4, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000260"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Bor 2, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000261"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000262"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Geo 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000263"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000264"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000265"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 5, Dru 3, Elf 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000266"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 6, Mag 4, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000267"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 7, Hex 6, Mag 6, Ach 4, Dru 4, Geo 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000268"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 2, Hex 1(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000269"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 5, Geo 5, Mag 5, Dru 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000270"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000271"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Ach 5, Dru 5, Mag 5, Geo 4, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000272"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Hex 5, Mag 5, Geo 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000273"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000274"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Mag 5, Sch 5, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000275"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 5, Sch 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000276"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 5, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000277"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000278"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000279"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000280"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000281"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000282"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000283"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000284"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Dru 2, Geo 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000285"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Bor 5, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000286"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 5, Srl 5, Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000287"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 4, Elf 2, Mag 2(Dru), Hex 1(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000288"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000289"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 5 (nur Auelf), Elf 3(andere Elfen), Ach 2, Dru 2, Geo 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000290"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Geo 4, Ach 3, Hex 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000291"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000292"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Geo 4, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000293"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 6, Mag 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000294"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4 (nur Waldelf), Elf 2 (andere Elfen), Ach 2, Geo 2, Dru 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000295"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000296"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 7, Mag 2(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000297"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000298"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3, Elf 2, Hex 2, Geo 2, Dru 2(Mag), Dru 2(Geo), Dru 2(Hex), Ach 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000299"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000300"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Hex 3, Sch 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000301"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Hex 5, Dru 3, Geo 3, Ach 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000302"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Ach 5, Dru 5, Geo 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000303"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 5, Geo 4, Hex 2, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000304"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 7, Geo 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000305"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000306"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000307"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000308"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000331"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000332"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000333"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000334"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000335"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000336"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000337"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000338"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000339"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000340"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000341"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000342"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 6, Mag 5, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000003"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Ach 3, Dru 3, Geo 3, Hex 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000004"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Ach 3, Mag 3, Dru 2, Hex 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000005"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Ach 5, Dru 5, Mag 5, Geo 4, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000006"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000007"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000008"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000009"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000010"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000011"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Ach 3, Dru 2, Geo 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000012"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7, Geo 5, Dru 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000013"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000014"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000015"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000016"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Bor 1, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000017"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 2, Hex 2,  Dru 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000018"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 2, Hex 2, Dru 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000019"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 2, Hex 2, Dru 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000020"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000021"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Mag 6, Hex 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000022"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000023"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Ach 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000024"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Elf 5, Geo 5, Hex 5, Mag 5, Ach 3, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000025"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000026"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000027"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Srl 6, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000028"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000029"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Ach 5, Sch 5, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000030"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 7, Ach 5, Geo 5, Dru 4, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000031"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Hex 4, Dru 3, Mag 3, Ach 2, Bor 2, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000032"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 6, Dru 3, Hex 3, Srl 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000033"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4, Ach 3, Mag 3(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000034"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Geo 6, Mag 6, Hex 5, Ach 4, Elf 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000035"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000036"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000037"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Dru 2, Hex 2, Elf 2, Geo 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000038"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Elf 4, Sch 4, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000039"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000040"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7, Mag 3, Srl 3(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000041"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000343"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Geo 5, Mag 5, Ach 4, Dru 4, Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000042"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000043"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Mag 5, Ach 4, Dru 4, Hex 4, Geo 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000044"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Geo 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000045"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 6, Dru 5, Hex 5, Ach 4, Geo 4, Sch 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000046"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Geo 6, Ach 5, Bor 2, Hex 2, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000047"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 6, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000048"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Mag 4, Geo 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000049"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Hex 3, Mag 3(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000050"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000051"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000052"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 2, Mag 1(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000053"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 2, Elf 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000054"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Hex 5, Srl 5, Dru 2(Hex), Elf 2, Sch 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000055"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Elf 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000056"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 6, Mag 4, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000057"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Ach 2, Hex 2, Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000058"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 6, Mag 6, Srl 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000059"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000060"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000061"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000062"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Ach 2, Elf 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000063"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000064"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Dru 3, Geo 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000065"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Geo 4, Mag 4, Sch 4, Ach 3, Hex 3, Srl 3(Mag), Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000066"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Srl 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000067"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Bor 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000068"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 6, Ach 5, Dru 5, Geo 5, Mag 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000069"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 6, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000070"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 6, Geo 6, Hex 6, Ach 5, Elf 5, Mag 4, Sch 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000071"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 7, Dru 5, Elf 2, Hex 2(Geo), Mag 2 (Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000072"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Ach 5, Dru 5, Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000073"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000074"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000075"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000076"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 6, Dru 5, Ach 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000077"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000078"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000079"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 4, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000080"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Ach 4, Dru 4, Geo 4, Hex 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000081"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000082"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Srl 6, Mag 5, Sch 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000083"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000084"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000085"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6 (Firnelf), Elf 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000086"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 7, Elf 7, Mag 7, Dru 6, Hex 6, Geo 5, Sch 4, Srl 4(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000087"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Bor 2, Hex 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000088"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Srl 5, Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000089"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Ach 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000090"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000091"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000092"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 5, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000093"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Ach 2, Geo 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000094"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000095"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000096"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 5, Ach 3, Hex 3, Mag 3, Srl 3(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000097"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Mag 5, Geo 4, Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000098"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 6, Geo 3, Hex 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000099"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000100"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7, Geo 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000101"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Geo 7, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000102"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Geo 4, Hex 2, Mag 2(Dru), Srl 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000103"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7, Ach 3, Dru 3, Mag 3, Sch 3, Srl 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000104"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 5, Ach 4, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000105"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Geo 3, Dru 2, Hex 2, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000106"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000107"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 6, Geo 6, Mag 5, Sch 5, Ach 4, Elf 4, Hex 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000108"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 3, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000109"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Geo 6, Elf 3, Hex 3, Ach 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000110"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000111"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7, Bor 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000112"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000113"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000114"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7, Dru 2, Mag 2, Srl 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000115"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 3 (bei Katzen, Raben, Eulen)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000116"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 7, Geo 5, Mag 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000117"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4, Ach 3, Geo 3, Dru 3(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000118"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 7, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000119"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000120"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Bor 4, Dru 3, Hex 2(Dru), Srl 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000121"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000122"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Ach 3, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000123"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Ach 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000124"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000125"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 4, Hex 3, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000126"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000127"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000128"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000129"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 1, Elf 1, Geo 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000130"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000131"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 5, Mag 5, Hex 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000132"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Ach 4, Bor 4, Hex 4, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000133"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 1(Bor)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000134"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000135"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Ach 3, Bor 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000136"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 4, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000137"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Ach 3, Dru 3, Elf 3, Geo 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000138"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7, Hex 3, Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000139"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000140"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 5, Ach 2, Elf 1, Hex 1(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000141"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000142"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Ach 2, Geo 2, Hex 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000143"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 3, Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000144"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 5, Ach 3, Dru 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000145"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000146"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 4, Ach 3, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000147"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000148"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000149"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000150"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000151"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000152"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000153"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Elf 3, Ach 2, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000154"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Elf 2, Dru 1, Geo 1(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000155"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Elf 3, Geo 2, Dru 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000156"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 3, Sch 3, Dru 2, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000157"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 4, Elf 2, Dru 2(Hex), Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000158"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 3, Ach 2, Dru 2, Geo 2, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000159"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Hex 2, Bor 2, Mag 2(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000160"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 4, Mag 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000161"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000162"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000163"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000164"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 5, Mag 2, Hex 2(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000165"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 3, Dru, Srl 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000166"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 6, Geo 4, Mag 3, Ach 2, Bor 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000167"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000168"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000169"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 7, Dru 5, Geo 5, Mag 5, Hex 3, Srl 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000170"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 4, Geo 4, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000171"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7, Geo 5, Dru 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000172"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 3, Mag 3, Ach 2, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000173"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000174"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000175"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000176"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000177"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000178"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Sch 5, Ach 4, Elf 4, Hex 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000179"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Dru 3, Hex 3, Mag 3(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000180"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000181"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000182"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000183"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000184"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Ach 4, Dru 3, Geo 3, Mag 2, Hex 2(Elf), Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000185"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Dru 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000186"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000187"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Ach 2, Bor 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000188"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Ach 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000189"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 5, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000190"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Dru 4, Elf 4, Geo 3, Hex 2, Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000191"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Ach 4, Hex 3, Srl 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000192"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000193"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 7, Elf 7, Mag 7, Geo 6, Dru 5, Hex 5, Sch 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000194"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Geo 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000195"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000196"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 4, Hex 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000197"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 3, Mag 1(Bor)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000198"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000199"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 7, Dru 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000200"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 5, Hex 3(Mag), Sch 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000201"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Elf 4, Sch 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000202"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Dru 2, Geo 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000203"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 6, Hex 5, Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000204"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 1, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000205"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Elf 1 (nur Au- und Firnelfen)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000206"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000207"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000208"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4, Ach 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000209"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 3 (nur Firnelfen)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000210"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 1, rituelle Form: Ach, Dru, Elf, Hex",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000211"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 7, Dru 5, Geo 5, Hex 5, Ach 4, Elf 4, Sch 4, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000212"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Srl 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000213"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000214"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 6, Dru 5, Geo 5, Hex 5, Ach 3, Srl 3, Elf 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000215"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000216"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000217"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Bor 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000218"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 7, Dru 5, Geo 5, Elf 4, Hex 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000219"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Mag 3, Dru 2, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000220"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Ach 4, Mag 4, Dru 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000221"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Ach 3, Hex 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000222"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 6, Hex 6, Dru 4, Elf 4, Ach 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000223"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 4, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000224"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000225"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000226"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000227"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000228"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000229"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 6, Mag 2, Srl 2(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000230"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000231"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 6, Mag 4, Bor 2, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000232"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 4, Mag 3, Hex 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000233"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 6, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000234"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 3, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000235"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 2, Dru 2, Geo 2, Hex 2, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000236"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 6, Srl 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000237"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 3, Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000238"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000239"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 6, Dru 5, Hex 5, Geo 5, Ach 4, Sch 4, Srl 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000240"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Hex 2, Mag 2(Ach)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000241"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Mag 5, Sch 5, Geo 4, Srl 4, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000242"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000243"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 4, Bor 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000244"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4, Mag 2, Mag 2(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000245"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Mag 5, Ach 3, Dru 3, Geo 3, Hex 3, Sch 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000246"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 4, Ach 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000247"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Dru 3, Geo 3, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000248"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 2, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000249"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000250"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000251"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Geo 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000252"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Mag 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000253"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 5, Dru 4, Hex 3, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000254"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000255"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000256"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000257"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000258"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 6, Dru 2, Geo 2, Elf 2(Hex)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000259"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5, Geo 5, Ach 4, Dru 4, Hex 4, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000260"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Bor 2, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000261"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000262"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Geo 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000263"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000264"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000265"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 5, Dru 3, Elf 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000266"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 6, Mag 4, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000267"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 7, Hex 6, Mag 6, Ach 4, Dru 4, Geo 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000268"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 2, Hex 1(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000269"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 5, Geo 5, Mag 5, Dru 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000270"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000271"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Ach 5, Dru 5, Mag 5, Geo 4, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000272"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Hex 5, Mag 5, Geo 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000273"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Hex 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000274"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Mag 5, Sch 5, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000275"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 5, Sch 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000276"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 5, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000277"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 4, Dru 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000278"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000279"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000280"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000281"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000282"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Dru 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000283"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000284"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Dru 2, Geo 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000285"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 5, Ach 3, Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000286"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 5, Srl 5, Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000287"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Geo 4, Dru 4, Elf 2, Mag 2(Dru), Hex 1(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000288"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000289"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 5 (nur Auelf), Elf 3(andere Elfen), Ach 2, Dru 2, Geo 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000290"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Geo 4, Ach 3, Hex 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000291"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Srl 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000292"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Geo 4, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000293"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 6, Mag 2, Dru 2(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000294"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 4 (nur Waldelf), Elf 2 (andere Elfen), Ach 2, Geo 2, Dru 2(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000295"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000296"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 7, Mag 2(Sch)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000297"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sch 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000298"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Elf 2, Hex 2, Geo 2, Dru 2(Mag), Dru 2(Geo), Dru 2(Hex), Ach 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000299"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Elf 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000300"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 3, Hex 3, Sch 3, Elf 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000301"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Hex 5, Dru 3, Geo 3, Ach 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000302"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 5, Dru 5, Geo 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000303"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 5, Geo 4, Hex 2, Sch 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000304"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Dru 7, Geo 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000305"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000306"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000307"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2, Ach 2, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000308"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Alh 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000309"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 3, Kop 3, Sat 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000310"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 3, Ach 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000311"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000312"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Gro 4/2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000313"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000314"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mud 5, Kop 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000315"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Alh 7",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000316"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Gül 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000317"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Gül 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000318"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Gül 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000319"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000320"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Alh 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000321"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Gül 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000322"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 4, Gül 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000323"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sat 5",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000324"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000325"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mud 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000326"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Sat 6",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000327"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mud 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000328"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Alh 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000329"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Kop 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000330"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000332"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000333"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000334"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000335"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000336"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000337"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000338"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000339"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000340"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000341"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000342"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 3, Elf 2, Dru 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000347"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000348"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3, Mag 2, Dru 1, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000349"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3, Hex 2, Mag 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000350"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000351"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 4, Srl 4,  Mag 2, Dru 1,Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000352"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3, Geo 1, Dru 1, Mag 1(Elf)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000353"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000354"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Hex 3, Ach 2,Elf 2, Mag 2(Dru)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000355"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4, Geo 3, Dru 3, Mag 2(Dru), Hex 1(Geo)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000356"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 3, Dru 2, Mag 2, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000357"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Mag 3, Elf 1 (allgemein, WAND AUS FLAMMEN Dru, Mag je 4, GLETSCHERWAND Dru 2, Geo 1)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000358"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000359"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 1, Elf 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000360"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Ach 2, Bor 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000361"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Ach 4, Hex 2, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000362"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Bor 2, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000363"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000364"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Srl 6, Mag 5, Sch 3(Mag)",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000365"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Bor 4, Hex 3, Mag 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000366"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Repräsentationen":  "Mag 3, Bor 2, Dru 2, Hex 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000367"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 3, Elf 2; Dru 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000368"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 1, Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000369"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3; Mag 2; Dru 1, Hex 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000370"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru 3; Hex 2; Mag 1, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000371"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000372"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Sch 4, Srl 4; Mag 2; Dru 1, Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000373"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 3; Geo 1, Dru 1, Mag (Elf) 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000374"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000375"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Dru 3, Hex 3; Ach 2, Elf 2, Mag (Dru) 2",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000376"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Elf 4; Geo 3, Dru 3; Mag (Dru) 2, Hex (Geo) 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000377"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 3, Dru 2, Mag 2, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000378"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4; Dru 3, Mag 3, Elf 1 ",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000379"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4, Elf 1 Dru 4, Mag 4",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000380"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 1; Dru 2, Mag je 3, Elf 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000381"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4; Dru 3, Mag 3, Elf 1,  Mag 4,  Geo 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000382"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4; Dru 3, Mag 3, Elf 1 ",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000383"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Geo 4; Dru 3, Mag 3, Elf 1 ",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000384"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Mag 3",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000385"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Repräsentationen":  "Dru , Elf 1 Mag 1",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000386"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Goldene Haut",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000022"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000045"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Nepillomes Zunge / Des Goldenen Zunge / Rätselzunge",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000064"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000073"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Obsidiankälte",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000074"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000093"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000098"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000099"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Pantherkrallen / Jaguarkrallen",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000116"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000118"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000137"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000144"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000146"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000186"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000190"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000193"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Caljixiuhs Grüne Hölle",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000197"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000203"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Goldener Arm",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000212"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000218"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Schön wie der Tag",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000225"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000241"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000257"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  null,
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000265"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Repräsentationen":  "Xo\u0027Artal",
+        "Name":  "Xaa-Olkins-Starre",
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000267"
+    }
+]

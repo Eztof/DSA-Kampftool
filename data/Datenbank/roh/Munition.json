@@ -1,0 +1,233 @@
+﻿[
+    {
+        "Preismodifikator":  0,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 21",
+        "Bemerkungen":  null,
+        "Art":  "Schleuderblei",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000001",
+        "Probe":  0,
+        "Name":  "Stein"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 21",
+        "Bemerkungen":  "Fernkampf um 1 erleichtert, TP + 1",
+        "Art":  "Schleuderblei",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000002",
+        "Probe":  0,
+        "Name":  "Schleuderblei"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  "Klingenspitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 46 / MyA 105",
+        "Bemerkungen":  "wiederverwendbar",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000003",
+        "Probe":  0,
+        "Name":  "Jagdpfeil"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  "Widerhaken-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 46 / MyA 106",
+        "Bemerkungen":  "Bei einer 5 oder 6 bleibt die Spitze stecken und verursacht pro KR in der das Opfer sich heftig bewegt zusätzl. 1W3 SP(A) + 1 Punkt Erschöpfung. Bewegt sich das Opfer gar nicht oder langsam, beträgt der Schaden 1W3 SP (A) + 1 Punkt Erschöpfung pro SR. Die Spitze kann im Kampf gewaltsam entfernt werden (dazu ist eine Akt. und eine gelungene KK-Probe erforderlich) und verursacht 1W+2 SP. Nach dem Kampf kann sie auch in Ruhe entfernt werden, was eine SR dauert und nach gelungener Probe auf Heilkunde Wunden 1W-2 SP verursacht, bei misslungener Probe 1WSP.",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000004",
+        "Probe":  2,
+        "Name":  "Kriegspfeil"
+    },
+    {
+        "Preismodifikator":  3,
+        "Spitze":  "Kettenstecher-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 47 / MyA 105",
+        "Bemerkungen":  "RS durch Kettengeflecht wird ignoriert, RS von Mischrüstungen (Spiegelpanzer, Baburiner Hut, ...) wird halbiert",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000006",
+        "Probe":  4,
+        "Name":  "Kettenbrecher"
+    },
+    {
+        "Preismodifikator":  2,
+        "Spitze":  "Stumpfe Spitze",
+        "Härtbar":  false,
+        "Literatur":  "AA 47 / MyA 106",
+        "Bemerkungen":  "Halbe Reichweite, richtet TP(A) an, Scharfschütze kann einen gezielten Schuß +4 zum niederwerfen machen (KK + TP(A)/2 oder man liegt am Boden)",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000007",
+        "Probe":  2,
+        "Name":  "Stumpfer Pfeil"
+    },
+    {
+        "Preismodifikator":  3,
+        "Spitze":  "Mondsichel-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 47 / MyA 106",
+        "Bemerkungen":  "TP+1W6, RS*2, Halbe Reichweite, siehe Ogerfänger",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000008",
+        "Probe":  4,
+        "Name":  "Sehnen-Seilschneider"
+    },
+    {
+        "Preismodifikator":  8,
+        "Spitze":  "Brandkorbspitze",
+        "Härtbar":  false,
+        "Literatur":  "AA 48 / MyA 106",
+        "Bemerkungen":  "Halbe Reichweite, wie stumpfer Pfeil",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000009",
+        "Probe":  4,
+        "Name":  "Brandpfeil"
+    },
+    {
+        "Preismodifikator":  2,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 48",
+        "Bemerkungen":  "macht Geräusche im Flug, je nach Qualität bis zehnfacher Preis und TP Abzug bis zu 2",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000010",
+        "Probe":  4,
+        "Name":  "Singender Pfeil"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  "Klingenspitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 46 / MyA 105",
+        "Bemerkungen":  "wiederverwendbar",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000011",
+        "Probe":  0,
+        "Name":  "Jagdbolzen"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  "Widerhaken-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 46 / MyA 106",
+        "Bemerkungen":  "Bei einer 5 oder 6 bleibt die Spitze stecken und verursacht pro KR in der das Opfer sich heftig bewegt zusätzl. 1W3 SP(A) + 1 Punkt Erschöpfung. Bewegt sich das Opfer gar nicht oder langsam, beträgt der Schaden 1W3 SP (A) + 1 Punkt Erschöpfung pro SR. Die Spitze kann im Kampf gewaltsam entfernt werden (dazu ist eine Akt. und eine gelungene KK-Probe erforderlich) und verursacht 1W+2 SP. Nach dem Kampf kann sie auch in Ruhe entfernt werden, was eine SR dauert und nach gelungener Probe auf Heilkunde Wunden 1W-2 SP verursacht, bei misslungener Probe 1WSP.",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000012",
+        "Probe":  2,
+        "Name":  "Kriegsbolzen"
+    },
+    {
+        "Preismodifikator":  3,
+        "Spitze":  "Kettenstecher-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 47 / MyA 105",
+        "Bemerkungen":  "RS durch Kettengeflecht wird ignoriert, RS von Mischrüstungen (Spiegelpanzer, Baburiner Hut, ...) wird halbiert",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000014",
+        "Probe":  4,
+        "Name":  "Kettenbrecher"
+    },
+    {
+        "Preismodifikator":  2,
+        "Spitze":  "Stumpfe Spitze",
+        "Härtbar":  false,
+        "Literatur":  "AA 47 / MyA 106",
+        "Bemerkungen":  "Halbe Reichweite, richtet TP(A) an, Scharfschütze kann einen gezielten Schuß +4 zum niederwerfen machen (KK + TP(A)/2 oder man liegt am Boden)",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000015",
+        "Probe":  2,
+        "Name":  "Stumpfer Bolzen"
+    },
+    {
+        "Preismodifikator":  3,
+        "Spitze":  "Mondsichel-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "AA 47 / MyA 106",
+        "Bemerkungen":  "TP+1W6, RS*2, Halbe Reichweite, siehe Ogerfänger",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000016",
+        "Probe":  4,
+        "Name":  "Sehnen-Seilschneider"
+    },
+    {
+        "Preismodifikator":  8,
+        "Spitze":  "Brandkorb-Spitze",
+        "Härtbar":  false,
+        "Literatur":  "AA 48 / MyA 106",
+        "Bemerkungen":  "Halbe Reichweite, wie stumpfer Bolzen",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000017",
+        "Probe":  4,
+        "Name":  "Brandbolzen"
+    },
+    {
+        "Preismodifikator":  2,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 48",
+        "Bemerkungen":  "macht Geräusche im Flug, je nach Qualität bis zehnfacher Preis und TP Abzug bis zu 2",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000018",
+        "Probe":  4,
+        "Name":  "Singender Bolzen"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 83",
+        "Bemerkungen":  "vergiftet",
+        "Art":  "Blasrohrpfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000019",
+        "Probe":  0,
+        "Name":  "Blasrohrpfeil"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 22",
+        "Bemerkungen":  "Geschoß für eine Speerschleuder",
+        "Art":  "Speer",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000020",
+        "Probe":  0,
+        "Name":  "Schleuderspeer"
+    },
+    {
+        "Preismodifikator":  1,
+        "Spitze":  null,
+        "Härtbar":  false,
+        "Literatur":  "AA 40",
+        "Bemerkungen":  null,
+        "Art":  "Kugel",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000021",
+        "Probe":  0,
+        "Name":  "Bleikugel"
+    },
+    {
+        "Preismodifikator":  4,
+        "Spitze":  "Plattenstecher-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "MyA 105",
+        "Bemerkungen":  "RS aus allen Formen von künstlichen Rüstungen wird halbiert. Natürlicher RS wirkt normal.",
+        "Art":  "Pfeil",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000022",
+        "Probe":  4,
+        "Name":  "Plattenstecher"
+    },
+    {
+        "Preismodifikator":  4,
+        "Spitze":  "Plattenstecher-Spitze",
+        "Härtbar":  true,
+        "Literatur":  "MyA 105",
+        "Bemerkungen":  "RS aus allen Formen von künstlichen Rüstungen wird halbiert. Natürlicher RS wirkt normal.",
+        "Art":  "Bolzen",
+        "MunitionGUID":  "00000000-0000-0000-000f-000000000025",
+        "Probe":  4,
+        "Name":  "Plattenstecher"
+    }
+]

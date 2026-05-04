@@ -1,0 +1,224 @@
+﻿[
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000097",
+        "Bekannt":  true,
+        "ID":  "03a03028-0bbc-41ed-b479-b5c050e1e017"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000088",
+        "Bekannt":  true,
+        "ID":  "0cc68d6a-0c00-4a5f-a661-b92c9be63535"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000107",
+        "Bekannt":  true,
+        "ID":  "0d957471-e306-419f-a0d7-0152ef1e4aab"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000096",
+        "Bekannt":  true,
+        "ID":  "1b7e2745-598d-4141-a8f4-9da2e78e38f2"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000022",
+        "Bekannt":  true,
+        "ID":  "33c2b8ce-ea62-4020-b3da-d358fb071447"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000019",
+        "Bekannt":  true,
+        "ID":  "351b2b23-d3a6-42b9-b405-366b0aa734fb"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000110",
+        "Bekannt":  true,
+        "ID":  "35d12f9e-c11c-46c9-8fec-6acabdce0f4a"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000033",
+        "Bekannt":  true,
+        "ID":  "360bbebd-88ac-4781-bee7-34fc9d61ff43"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000113",
+        "Bekannt":  true,
+        "ID":  "449729aa-2277-4cfe-b81f-a74ab78875ee"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000023",
+        "Bekannt":  true,
+        "ID":  "5ef1c381-24d5-47b9-b525-275dd9201473"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000001",
+        "Bekannt":  true,
+        "ID":  "7d532479-edb4-4190-9314-b024a3618c37"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000090",
+        "Bekannt":  true,
+        "ID":  "8378426c-46ef-43b6-bf86-0e37ebae9dc0"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000100",
+        "Bekannt":  true,
+        "ID":  "88334efa-98a6-4773-82bb-cb819521bec9"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000042",
+        "Bekannt":  true,
+        "ID":  "8ae5c109-f43c-4962-b01d-50018e460176"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000002",
+        "Bekannt":  true,
+        "ID":  "8c1a34a2-8ddd-4a04-b225-fdb5368ad853"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000013",
+        "Bekannt":  true,
+        "ID":  "a4913587-f535-40a2-befd-a89c0e2cccf3"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000115",
+        "Bekannt":  true,
+        "ID":  "b0ac9012-69e7-4022-bdb2-2a4bcb756e7c"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000008",
+        "Bekannt":  true,
+        "ID":  "c09aa728-90db-48ca-b25e-819f4b7d3d94"
+    },
+    {
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000096",
+        "Bekannt":  true,
+        "ID":  "b2792f01-9041-4726-9d1c-6902cce6f9b0"
+    },
+    {
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000097",
+        "Bekannt":  true,
+        "ID":  "641942c1-99a6-437f-bd24-fc5e31dfcccd"
+    },
+    {
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000107",
+        "Bekannt":  true,
+        "ID":  "b5faded5-d385-4a26-b3c6-1e51fd74d668"
+    },
+    {
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000110",
+        "Bekannt":  true,
+        "ID":  "234cee01-3dd4-45fd-994f-59093a1a4443"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000105",
+        "Bekannt":  true,
+        "ID":  "2330631c-ec16-4e4e-ab1f-bb4da3ccc5ca"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000021",
+        "Bekannt":  true,
+        "ID":  "2d68fd59-0a04-4fe5-928a-c4c2081339eb"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000008",
+        "Bekannt":  true,
+        "ID":  "408e303d-5664-4e73-91bc-b14bf68155c7"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000013",
+        "Bekannt":  true,
+        "ID":  "70befac0-5d90-4a1c-925b-328876472f1c"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000022",
+        "Bekannt":  true,
+        "ID":  "8dccf6e8-70dc-4408-aae7-a2149ef4fc12"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000118",
+        "Bekannt":  true,
+        "ID":  "9c51c1ad-c1d7-4519-b2c7-b7763c645951"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000077",
+        "Bekannt":  true,
+        "ID":  "a4f46b0f-279d-48d5-be10-141f6b474a02"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000115",
+        "Bekannt":  true,
+        "ID":  "ada16b00-b84d-4cde-bded-27875c2361ae"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000097",
+        "Bekannt":  true,
+        "ID":  "afdb007c-e95b-4f43-89fe-39b3d386b848"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000090",
+        "Bekannt":  true,
+        "ID":  "bf6b77d1-5f06-4a69-babe-191198aee832"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000002",
+        "Bekannt":  true,
+        "ID":  "c15e29d6-5cc6-4805-99f1-743988a4dd24"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000041",
+        "Bekannt":  true,
+        "ID":  "c562daf1-ca6c-4338-8983-fd42faea3e49"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000110",
+        "Bekannt":  true,
+        "ID":  "dd1d4710-ccf9-4cc3-b652-b3fca5a2df63"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000010",
+        "Bekannt":  true,
+        "ID":  "deeea7d5-8a82-4bb7-b00e-6db4f3a9e390"
+    },
+    {
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199",
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000107",
+        "Bekannt":  true,
+        "ID":  "ef30b715-a641-45f5-912c-0b20f9bebb1f"
+    }
+]

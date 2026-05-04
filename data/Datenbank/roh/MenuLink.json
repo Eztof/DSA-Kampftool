@@ -1,0 +1,50 @@
+﻿[
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\DSA 4 - Liber Cantiones Deluxe.pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege der Magie",
+        "Name":  "Liber Cantiones Deluxe"
+    },
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\DSA 4 - Wege des Schwertes.pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege des Kampfes",
+        "Name":  "Wege des Schwertes"
+    },
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\Dsa 4 - Wege Der Helden.pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege des Kampfes",
+        "Name":  "Wege Der Helden"
+    },
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\DSA 4 - Zoo-Botanica Aventurica (sehr gut).pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege des Meisters",
+        "Name":  "Zoo-Botanica Aventurica"
+    },
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\Spielhilfen\\R2 Stäbe, Ringe, Dschinnenlampen.pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege des Meisters",
+        "Name":  "Stäbe, Ringe, Dschinnenlampen"
+    },
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\Spielhilfen\\R1 Aventurisches Arsenal.pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege des Kampfes",
+        "Name":  "Aventurisches Arsenal"
+    },
+    {
+        "ProgrammPfad":  "T:\\_Sync\\DSA\\DSA 4\\Buchinfos DSA4\\Spielhilfen\\Meisterschirm.pdf",
+        "Bild":  "Icons/Extensions/pdf.png",
+        "MenuPunkt":  "Wege des Meisters",
+        "Name":  "Meisterschirm"
+    },
+    {
+        "ProgrammPfad":  "T:\\Delphi\\SL_Spicker\\SL_Spicker.exe",
+        "Bild":  null,
+        "MenuPunkt":  "Eigene Wege",
+        "Name":  "SL-Spicker"
+    }
+]

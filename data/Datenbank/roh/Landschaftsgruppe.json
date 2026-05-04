@@ -1,0 +1,66 @@
+﻿[
+    {
+        "LandschaftsgruppeID":  "A",
+        "Name":  "Eis"
+    },
+    {
+        "LandschaftsgruppeID":  "B",
+        "Name":  "Wüste, Wüstenrand"
+    },
+    {
+        "LandschaftsgruppeID":  "C",
+        "Name":  "Gebirge"
+    },
+    {
+        "LandschaftsgruppeID":  "D",
+        "Name":  "Hochland"
+    },
+    {
+        "LandschaftsgruppeID":  "E",
+        "Name":  "Steppe, Buschland"
+    },
+    {
+        "LandschaftsgruppeID":  "F",
+        "Name":  "Grasland, Wiesen"
+    },
+    {
+        "LandschaftsgruppeID":  "G",
+        "Name":  "Flüsse, Teiche, Seen"
+    },
+    {
+        "LandschaftsgruppeID":  "H",
+        "Name":  "Küste, Strand"
+    },
+    {
+        "LandschaftsgruppeID":  "I",
+        "Name":  "Flussauen"
+    },
+    {
+        "LandschaftsgruppeID":  "J",
+        "Name":  "Sumpf, Moor"
+    },
+    {
+        "LandschaftsgruppeID":  "K",
+        "Name":  "Regenwald"
+    },
+    {
+        "LandschaftsgruppeID":  "L",
+        "Name":  "Wald"
+    },
+    {
+        "LandschaftsgruppeID":  "M",
+        "Name":  "Waldrand"
+    },
+    {
+        "LandschaftsgruppeID":  "N",
+        "Name":  "Höhlen, Ruinen"
+    },
+    {
+        "LandschaftsgruppeID":  "O",
+        "Name":  "Meer"
+    },
+    {
+        "LandschaftsgruppeID":  "P",
+        "Name":  "Sonstiges"
+    }
+]

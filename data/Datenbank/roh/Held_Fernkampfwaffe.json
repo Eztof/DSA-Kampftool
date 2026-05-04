@@ -1,0 +1,51 @@
+﻿[
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0002-000000000039",
+        "TalentGUID":  null,
+        "HeldAusrüstungGUID":  "274d94ec-2c18-41b1-8d25-eb78c6ab094c",
+        "KKErleichterung":  false
+    },
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0001-000000000020",
+        "TalentGUID":  null,
+        "HeldAusrüstungGUID":  "6864beaa-6a55-4753-8ea3-4b07fa0e0fd2",
+        "KKErleichterung":  false
+    },
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0002-000000000013",
+        "TalentGUID":  null,
+        "HeldAusrüstungGUID":  "29a2db71-a01e-4cb4-b904-86f0ccbcdf87",
+        "KKErleichterung":  false
+    },
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0002-000000000039",
+        "TalentGUID":  "00000000-0000-0000-0000-000000000000",
+        "HeldAusrüstungGUID":  "99bcd78e-d7d1-4dcf-ab61-0392f455e42e",
+        "KKErleichterung":  false
+    },
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0002-000000000039",
+        "TalentGUID":  "00000000-0000-0000-0000-000000000000",
+        "HeldAusrüstungGUID":  "5072d232-f494-491b-82c4-f66b2ebae14b",
+        "KKErleichterung":  false
+    },
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0001-000000000020",
+        "TalentGUID":  null,
+        "HeldAusrüstungGUID":  "b49f072e-b5cd-435d-abd0-a2c688205be1",
+        "KKErleichterung":  false
+    },
+    {
+        "FKErleichterung":  0,
+        "FernkampfwaffeGUID":  "00000000-0000-0000-0002-000000000026",
+        "TalentGUID":  null,
+        "HeldAusrüstungGUID":  "db0580b2-b4da-4e6e-8c3f-310375bdba6b",
+        "KKErleichterung":  false
+    }
+]

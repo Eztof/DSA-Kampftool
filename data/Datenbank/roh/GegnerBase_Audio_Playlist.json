@@ -1,0 +1,440 @@
+﻿[
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000048",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "c22f2d8b-1769-4eee-ae67-78280aa0f0b5"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000048",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "4c291f33-a49b-48fe-a469-eb91a050ecd6"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000048",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "5b4c9e4b-cc0f-4032-bd2d-e732723aa73b"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000048",
+        "Kategorie":  "Wunde",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "a5dd19f6-6f38-4f53-9b61-792470979da2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000048",
+        "Kategorie":  "Fernkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/fernkampf.png",
+        "Audio_PlaylistGUID":  "244f1bf9-15ad-453b-90a1-7dfbbdacbd85"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000049",
+        "Kategorie":  "Fernkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/fernkampf.png",
+        "Audio_PlaylistGUID":  "244f1bf9-15ad-453b-90a1-7dfbbdacbd85"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000049",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "4c291f33-a49b-48fe-a469-eb91a050ecd6"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000049",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "5b4c9e4b-cc0f-4032-bd2d-e732723aa73b"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000049",
+        "Kategorie":  "Wunde",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "a5dd19f6-6f38-4f53-9b61-792470979da2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000049",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "c22f2d8b-1769-4eee-ae67-78280aa0f0b5"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000047",
+        "Kategorie":  "Fernkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/fernkampf.png",
+        "Audio_PlaylistGUID":  "244f1bf9-15ad-453b-90a1-7dfbbdacbd85"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000047",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "4c291f33-a49b-48fe-a469-eb91a050ecd6"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000047",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "5b4c9e4b-cc0f-4032-bd2d-e732723aa73b"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000047",
+        "Kategorie":  "Wunde",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "a5dd19f6-6f38-4f53-9b61-792470979da2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000047",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "c22f2d8b-1769-4eee-ae67-78280aa0f0b5"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000745",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "ed923c50-4168-4190-8fc2-67d6f5bb219c"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000745",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "9c777ea9-f0b6-4431-926a-0a08a5bfcc84"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000745",
+        "Kategorie":  "Wunde",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "3856c10a-e341-45f7-98cb-a6e55217e711"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000745",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "007def6c-a641-4776-82db-a4855513ba75"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000259",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "0405c681-9df4-4425-9f02-06e6e4602a09"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000260",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "0405c681-9df4-4425-9f02-06e6e4602a09"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000645",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a5dd19f6-6f38-4f53-9b61-792470979da2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000645",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/General/speaker.png",
+        "Audio_PlaylistGUID":  "c22f2d8b-1769-4eee-ae67-78280aa0f0b5"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000646",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "4c291f33-a49b-48fe-a469-eb91a050ecd6"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000645",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "4c291f33-a49b-48fe-a469-eb91a050ecd6"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000645",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "5b4c9e4b-cc0f-4032-bd2d-e732723aa73b"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000646",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "5b4c9e4b-cc0f-4032-bd2d-e732723aa73b"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000646",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a5dd19f6-6f38-4f53-9b61-792470979da2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000646",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/General/speaker.png",
+        "Audio_PlaylistGUID":  "c22f2d8b-1769-4eee-ae67-78280aa0f0b5"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000647",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "4c291f33-a49b-48fe-a469-eb91a050ecd6"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000647",
+        "Kategorie":  "Nahkampf",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_02.png",
+        "Audio_PlaylistGUID":  "5b4c9e4b-cc0f-4032-bd2d-e732723aa73b"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000647",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a5dd19f6-6f38-4f53-9b61-792470979da2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000647",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/General/speaker.png",
+        "Audio_PlaylistGUID":  "c22f2d8b-1769-4eee-ae67-78280aa0f0b5"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000233",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "0223ee6c-9cfa-4dd8-8432-b4607aaf3f48"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000233",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "37a8dd22-dfe5-464d-9cee-e09ed41b335d"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000645",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/jagd.png",
+        "Audio_PlaylistGUID":  "63e692a4-cfb9-46c6-8007-a98d591c7b37"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000997",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000997",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000046",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000046",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000073",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000073",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "246828bc-bc22-416d-b502-e9348cf84bac",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "246828bc-bc22-416d-b502-e9348cf84bac",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000155",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000155",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000271",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000271",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "7a084293-953c-4d83-9884-459e686d903c",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "7a084293-953c-4d83-9884-459e686d903c",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "f4f47692-aa24-4bf7-b9a6-00555a28eaf8",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "f4f47692-aa24-4bf7-b9a6-00555a28eaf8",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000460",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000460",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000560",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000560",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000001123",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "84a26723-06dc-4ba0-925d-1cb3b83cce49"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000001123",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a4500769-d83b-47d3-b65c-1e67566159d4"
+    },
+    {
+        "GegnerBaseGUID":  "c947771c-419b-4857-8bea-d25c4bfc38fd",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a809b93c-c90c-41ee-b1fc-11dfaa8794d9"
+    },
+    {
+        "GegnerBaseGUID":  "803f3a9d-02d4-47f4-8421-1bb5042d0041",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a809b93c-c90c-41ee-b1fc-11dfaa8794d9"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000452",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a809b93c-c90c-41ee-b1fc-11dfaa8794d9"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000456",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "a809b93c-c90c-41ee-b1fc-11dfaa8794d9"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000509",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "434651ee-5149-4f98-bbd6-10fd0f201123"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000774",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "dcc35aeb-a85d-4a3b-92d6-a64655fadce2"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000774",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "d1f0464d-afaa-4464-ae0a-d837e5c5386c"
+    },
+    {
+        "GegnerBaseGUID":  "a21a390f-87d6-4ef9-b0ae-0763605f5612",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "2b181c29-db92-456a-89bf-838d2cf0cb32"
+    },
+    {
+        "GegnerBaseGUID":  "a21a390f-87d6-4ef9-b0ae-0763605f5612",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_03.png",
+        "Audio_PlaylistGUID":  "cd1a370c-f7f8-4562-afc9-7e5689637baf"
+    },
+    {
+        "GegnerBaseGUID":  "a21a390f-87d6-4ef9-b0ae-0763605f5612",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/ueberanstrengung.png",
+        "Audio_PlaylistGUID":  "2b6e68e3-8b2c-4d44-8b9f-aacf8e48ab9b"
+    },
+    {
+        "GegnerBaseGUID":  "a21a390f-87d6-4ef9-b0ae-0763605f5612",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/schaden.png",
+        "Audio_PlaylistGUID":  "8f2f2ddb-66c7-4a44-b422-cdeac5525f09"
+    },
+    {
+        "GegnerBaseGUID":  "a21a390f-87d6-4ef9-b0ae-0763605f5612",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/tot.png",
+        "Audio_PlaylistGUID":  "5d073885-139f-46e2-87fb-d67e011a9ead"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000438",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Audio_PlaylistGUID":  "c4282d88-68bd-4bea-a077-8bbb1097d7ea"
+    },
+    {
+        "GegnerBaseGUID":  "cda9de37-14fb-457c-b24c-c139b83a26f2",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/fernkampf.png",
+        "Audio_PlaylistGUID":  "244f1bf9-15ad-453b-90a1-7dfbbdacbd85"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000772",
+        "Kategorie":  "Allgemein",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/nahkampf_01.png",
+        "Audio_PlaylistGUID":  "2047cfa3-0d85-4727-b716-ebd4deaf774a"
+    }
+]

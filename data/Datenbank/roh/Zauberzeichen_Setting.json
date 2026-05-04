@@ -1,0 +1,656 @@
+﻿[
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000045",
+        "Verbreitung":  "Mag 6, Utu 6, Wdm 6, Ach 5, Zib 4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000046",
+        "Verbreitung":  "Mag 6, Utu 6, Wdm 6, Ach 5, Zib 5"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000047",
+        "Verbreitung":  "Mag 7, Alc 5, Wdm 4, Zib 3, Utu 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000048",
+        "Verbreitung":  "Mag 7, Alc 5, Wdm 4, Zib 3, Utu 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000043",
+        "Verbreitung":  "Ach 5, Alc 4, Mag 3, Utu 2, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000044",
+        "Verbreitung":  "Ach 5, Alc 4, Mag 3, Utu 2, Wdm 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000049",
+        "Verbreitung":  "Mag 5, Alc 2, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000050",
+        "Verbreitung":  "Mag 5, Alc 2, Wdm 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000052",
+        "Verbreitung":  "Zib 6, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000053",
+        "Verbreitung":  "Ach 6, Utu 5, Wdm 5, Mag 4, Alc 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000051",
+        "Verbreitung":  "Mag 3, Alc 2, Utu 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000041",
+        "Verbreitung":  "Mag 3, Ach 2, Wdm 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000042",
+        "Verbreitung":  "Mag 3, Ach 2, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000013",
+        "Verbreitung":  "Alc 6, Mag 6, Ach 3, Wdm 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000021",
+        "Verbreitung":  "Ach 5, Mag 5, Alc 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000015",
+        "Verbreitung":  "Zib 5, Ach 4, Mag 4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000011",
+        "Verbreitung":  "Zib 6, Utu 5, Ach 4, Alc 4, Wdm 4, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000008",
+        "Verbreitung":  "Ach 6, Alc 5, Mag 5, Utu 5, Wdm 5"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000022",
+        "Verbreitung":  "Zib 5, Wdm 4, Mag 3, Ach 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000009",
+        "Verbreitung":  "Alc 6, Mag 4, Ach 4, Utu 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000027",
+        "Verbreitung":  "Ach 4, Mag 3, Alc 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000028",
+        "Verbreitung":  "Mag 4, Ach 1, Sch 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000014",
+        "Verbreitung":  "Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000005",
+        "Verbreitung":  "Ach 2, Mag1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000010",
+        "Verbreitung":  "Ach 4, Zib 4, Utu 3, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000001",
+        "Verbreitung":  "Mag 2, Ach 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000002",
+        "Verbreitung":  "Mag 2, Ach 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000036",
+        "Verbreitung":  "SF Zauberzeichen"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000037",
+        "Verbreitung":  "Ach 5, Alc 4, Mag 4, Utu 4, Wdm 4, Zib 4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000070",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000062",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000068",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000061",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000075",
+        "Verbreitung":  "5"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000060",
+        "Verbreitung":  "6"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000072",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000069",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000074",
+        "Verbreitung":  "1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000058",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000063",
+        "Verbreitung":  "5"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000057",
+        "Verbreitung":  "2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000055",
+        "Verbreitung":  "2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000056",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000059",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000064",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000065",
+        "Verbreitung":  "1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000066",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000067",
+        "Verbreitung":  "2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000071",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000073",
+        "Verbreitung":  "4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000076",
+        "Verbreitung":  "3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000054",
+        "Verbreitung":  "Mag 2, Wdm 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000003",
+        "Verbreitung":  "Wdm 4, Ach 2, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000004",
+        "Verbreitung":  "Ach 3, Mag 3, Zib 3, Alc 1, Wdm 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000006",
+        "Verbreitung":  "Ach 3, Alc 2, Wdm 2, Zib 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000007",
+        "Verbreitung":  "Ach 2, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000012",
+        "Verbreitung":  "Ach 4, Mag 3, Wdm 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000016",
+        "Verbreitung":  "Wdm 5, Zib 5, Ach 3, Alc 3, Mag 3, Utu 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000017",
+        "Verbreitung":  "Ach 5, Wdm 4, Mag 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000018",
+        "Verbreitung":  "Ach 4, Alc 3, Mag 3, Wdm 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000019",
+        "Verbreitung":  "Alc 5, Mag 4, Utu 4, Wdm 4, Ach 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000020",
+        "Verbreitung":  "Mag 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000023",
+        "Verbreitung":  "Mag 2, Zib 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000024",
+        "Verbreitung":  "Zib 5, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000025",
+        "Verbreitung":  "Ach 3, Wdm 2, Zib 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000026",
+        "Verbreitung":  "Ach 3, Zib 2, Mag 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000029",
+        "Verbreitung":  "Alc 5, Utu 5, Wdm 5, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000030",
+        "Verbreitung":  "Ach 4, Mag 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000031",
+        "Verbreitung":  "Mag 2, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000032",
+        "Verbreitung":  "Ach 3, Mag 3,"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000033",
+        "Verbreitung":  "Ach 1, Mag 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000034",
+        "Verbreitung":  "unbekannt"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000035",
+        "Verbreitung":  "Mag 4, Alc 3, Ach 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000038",
+        "Verbreitung":  "Zib 4, Alc 2, Mag 2, Utu 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000039",
+        "Verbreitung":  "Mag 6, Zib 5, Alc 5, Ach 4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000040",
+        "Verbreitung":  "Zib 5, Mag 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000005",
+        "Verbreitung":  "Ach 2, Mag1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000006",
+        "Verbreitung":  "Ach 3, Alc 2, Wdm 2, Zib 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000008",
+        "Verbreitung":  "Ach 6, Alc 5, Mag 5, Utu 5, Wdm 5"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000011",
+        "Verbreitung":  "Zib 6, Utu 5, Ach 4, Alc 4, Wdm 4, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000012",
+        "Verbreitung":  "Ach 4, Mag 3, Wdm 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000013",
+        "Verbreitung":  "Alc 6, Mag 6, Ach 3, Wdm 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000016",
+        "Verbreitung":  "Wdm 5, Zib 5, Ach 3, Alc 3, Mag 3, Utu 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000020",
+        "Verbreitung":  "Mag 3, Zib 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000021",
+        "Verbreitung":  "Ach 5, Mag 5, Alc 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000024",
+        "Verbreitung":  "Zib 5, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000028",
+        "Verbreitung":  "Mag 4, Ach 1, Sch 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000030",
+        "Verbreitung":  "Ach 4, Mag 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000032",
+        "Verbreitung":  "Ach 3, Mag 3,"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000033",
+        "Verbreitung":  "Ach 1, Mag 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000037",
+        "Verbreitung":  "Ach 5, Alc 4, Mag 4, Utu 4, Wdm 4, Zib 4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000038",
+        "Verbreitung":  "Zib 4, Alc 2, Mag 2, Utu 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000041",
+        "Verbreitung":  "Mag 3, Ach 2, Wdm 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000042",
+        "Verbreitung":  "Mag 3, Ach 2, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000045",
+        "Verbreitung":  "Mag 6, Utu 6, Wdm 6, Ach 5, Zib 4"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000046",
+        "Verbreitung":  "Mag 6, Utu 6, Wdm 6, Ach 5, Zib 5"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000047",
+        "Verbreitung":  "Mag 7, Alc 5, Wdm 4, Zib 3, Utu 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000048",
+        "Verbreitung":  "Mag 7, Alc 5, Wdm 4, Zib 3, Utu 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000049",
+        "Verbreitung":  "Mag 5, Alc 2, Wdm 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000050",
+        "Verbreitung":  "Mag 5, Alc 2, Wdm 3"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000052",
+        "Verbreitung":  "Zib 6, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000077",
+        "Verbreitung":  "Alc 4; Ach 3, Mag  3, Utu 1, Wdm 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000078",
+        "Verbreitung":  "Alc 3, Mag 2, Ach 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000079",
+        "Verbreitung":  "Alc 3, Mag 3, Ach 3, Wdm 2, Utu 2, Zib 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000080",
+        "Verbreitung":  "Ach 1, Alc 1, Utu 1, Mag 2"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000081",
+        "Verbreitung":  "Ach 2, Alc 2, Mag 2, Utu 1, Wdm 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000082",
+        "Verbreitung":  "Ach 2, Alc 2, Mag 2, Utu 1, Wdm 1, Zib 1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000083",
+        "Verbreitung":  "1"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Name":  null,
+        "ZauberzeichenGUID":  "00000000-0000-0000-000a-000000000084",
+        "Verbreitung":  "3"
+    }
+]

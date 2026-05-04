@@ -1,0 +1,194 @@
+﻿[
+    {
+        "Id":  111,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "4a9d835f-765f-4309-8857-209d80f36223",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "Id":  114,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "ba48a903-5cd6-4c3d-8b1b-7afe95ce4f86",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "Id":  93,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "1638a96d-a622-4aa6-aaf1-621e7e235dbb",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "Id":  98,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "0e53da4f-830b-4d21-a9f7-e023ef76402b",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  99,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "1dbe1740-adea-4217-b8d6-1edaf3a50234",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  96,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "bcdaefc5-146f-491d-b1d0-f4c55bfd9fe7",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "Id":  100,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "516beae8-370e-442f-a578-83ef2bc30522",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  101,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "5ab7103a-01c2-4459-8b88-7f5f3cb7a90e",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  102,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "5bfc3d10-3c15-417d-818c-e36975577ab3",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  103,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "6702b876-bd50-48f7-a445-c9b778f55128",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  104,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "7b084009-b576-4446-bbf0-78daaa37f427",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  105,
+        "Angelegt":  false,
+        "Anzahl":  12,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "a5ebc440-c694-4341-9d31-81c0c2bffb87",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  106,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "badb4ac4-1451-453e-82cc-baf7b457281c",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  107,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "c0b48650-698f-42bc-a08f-ce1b77e730ce",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  108,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "fc4ab67a-f345-4cf9-9ab3-2e73616b990b",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  109,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "2588244c-8c4f-4b84-ac4e-d003b658af76",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "Id":  44,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "0be5aa5d-36c2-4770-b7b1-4424c0724d1e",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  50,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "144d21d3-a72a-47f0-825a-ef47ce33cc69",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  48,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "1a749a69-3427-4413-b82d-a3e9e78d60da",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  47,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "5e840f1f-e009-496d-990a-9925e0bbc4c0",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  45,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "720e8474-24af-4c28-9287-4ca3cf8dac85",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  43,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "c76beca4-cb77-4243-888e-102969331dd9",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  46,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "e689d509-21e3-41a3-a730-8fdadf2941f6",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "Id":  49,
+        "Angelegt":  false,
+        "Anzahl":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "InventarGUID":  "28a0c6eb-1fd3-412d-a9da-b8a0e0bc0dee",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    }
+]

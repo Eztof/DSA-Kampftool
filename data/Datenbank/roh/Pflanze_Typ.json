@@ -1,0 +1,810 @@
+﻿[
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000001",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000002",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000003",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000004",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000005",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000006",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000007",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000008",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000009",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000010",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000011",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000013",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000014",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000015",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000016",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000017",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000018",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000019",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000020",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000021",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000022",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000023",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000025",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000026",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000027",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000028",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000029",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000030",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000032",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000033",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000034",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000035",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000036",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000037",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000038",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000039",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000040",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000041",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000042",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000043",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000044",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000045",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000046",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000047",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000049",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000051",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000052",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000053",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000054",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000055",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000056",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000057",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000058",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000060",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000061",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000063",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000064",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000066",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000067",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000068",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000069",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000070",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000072",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000073",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000074",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000075",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000076",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000077",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000078",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000079",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000080",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000081",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000082",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000109",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000145",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000083",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000084",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000085",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000086",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000087",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000088",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000089",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000090",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000091",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000092",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000093",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000094",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000046",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000037",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000027",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000095",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000096",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000097",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000098",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000100",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000101",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000102",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000104",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000105",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000106",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000107",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000110",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000111",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000112",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000113",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000115",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000117",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000118",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000119",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000120",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000121",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000124",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000126",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000129",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000130",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000131",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000134",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000135",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000138",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000139",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000140",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000142",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000143",
+        "Typ":  "Wildpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000108",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000146",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000148",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000150",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000152",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000154",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000156",
+        "Typ":  "Wildpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000157",
+        "Typ":  "Wildpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000158",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000159",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000160",
+        "Typ":  "Parasit"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000161",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000162",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000163",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000164",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000165",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000166",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000167",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000168",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000169",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000170",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000171",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000172",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000173",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000174",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000175",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000176",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000177",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000178",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000179",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000180",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000181",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000182",
+        "Typ":  "Nutzpflanze "
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000183",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000185",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000186",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000187",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000188",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000190",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000191",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000192",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000194",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000195",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000196",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000197",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000199",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000200",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000201",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000203",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000204",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000205",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000206",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000207",
+        "Typ":  "Übernatürliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000208",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000199",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000156",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000124",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000115",
+        "Typ":  "Heilpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000209",
+        "Typ":  "Gefährliche Pflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000204",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000201",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000191",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000162",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000143",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000140",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000121",
+        "Typ":  "Parasit"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000120",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000118",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000092",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000085",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000084",
+        "Typ":  "Droge"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000070",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000057",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000056",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000038",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000036",
+        "Typ":  "Giftpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000035",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000034",
+        "Typ":  "Nutzpflanze"
+    },
+    {
+        "PflanzeGUID":  "00000000-0000-0000-00ff-000000000030",
+        "Typ":  "Nutzpflanze"
+    }
+]

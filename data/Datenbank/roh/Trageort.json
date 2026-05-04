@@ -1,0 +1,62 @@
+﻿[
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000001",
+        "Name":  "Kopf"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000002",
+        "Name":  "Linker Arm"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000003",
+        "Name":  "Rechter Arm"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000004",
+        "Name":  "Rechte Hand"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000005",
+        "Name":  "Linke Hand"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000006",
+        "Name":  "Rücken"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000007",
+        "Name":  "Oberkörper"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000008",
+        "Name":  "Linkes Bein"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000009",
+        "Name":  "Rechtes Bein"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000010",
+        "Name":  "Schwanz"
+    },
+    {
+        "TragkraftFaktor":  1,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000011",
+        "Name":  "Rucksack"
+    },
+    {
+        "TragkraftFaktor":  0,
+        "TrageortGUID":  "00000000-0000-0000-001a-000000000012",
+        "Name":  "Tragetier"
+    }
+]

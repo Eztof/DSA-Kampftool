@@ -1,0 +1,74 @@
+﻿[
+    {
+        "Typ":  "Land",
+        "ID":  1,
+        "Name":  "Reichsstraße",
+        "Multiplikator":  1.1
+    },
+    {
+        "Typ":  "Land",
+        "ID":  2,
+        "Name":  "Straße",
+        "Multiplikator":  1
+    },
+    {
+        "Typ":  "Land",
+        "ID":  3,
+        "Name":  "Weg",
+        "Multiplikator":  0.8
+    },
+    {
+        "Typ":  "Land",
+        "ID":  4,
+        "Name":  "Wald",
+        "Multiplikator":  0.6
+    },
+    {
+        "Typ":  "Land",
+        "ID":  5,
+        "Name":  "Gebirge",
+        "Multiplikator":  0.2
+    },
+    {
+        "Typ":  "Land",
+        "ID":  6,
+        "Name":  "Wüste",
+        "Multiplikator":  0.5
+    },
+    {
+        "Typ":  "Fluss",
+        "ID":  7,
+        "Name":  "Stromauf",
+        "Multiplikator":  0.5
+    },
+    {
+        "Typ":  "Fluss",
+        "ID":  8,
+        "Name":  "Stromab",
+        "Multiplikator":  1
+    },
+    {
+        "Typ":  "Meer",
+        "ID":  9,
+        "Name":  "Meer",
+        "Multiplikator":  1
+    },
+    {
+        "Typ":  "Land",
+        "ID":  10,
+        "Name":  "Offenes Gelände",
+        "Multiplikator":  0.75
+    },
+    {
+        "Typ":  "Land",
+        "ID":  11,
+        "Name":  "Gebirgspass",
+        "Multiplikator":  0.4
+    },
+    {
+        "Typ":  "Fluss",
+        "ID":  12,
+        "Name":  "See",
+        "Multiplikator":  0.75
+    }
+]

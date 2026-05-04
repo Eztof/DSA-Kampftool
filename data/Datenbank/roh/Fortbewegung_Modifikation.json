@@ -1,0 +1,218 @@
+﻿[
+    {
+        "Fortbewegung":  1,
+        "ID":  1,
+        "Wegtyp":  1,
+        "Multiplikator":  1.1
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  2,
+        "Wegtyp":  2,
+        "Multiplikator":  1
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  3,
+        "Wegtyp":  3,
+        "Multiplikator":  0.8
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  4,
+        "Wegtyp":  4,
+        "Multiplikator":  0.53
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  5,
+        "Wegtyp":  5,
+        "Multiplikator":  0.2
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  6,
+        "Wegtyp":  6,
+        "Multiplikator":  0.5
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  7,
+        "Wegtyp":  7,
+        "Multiplikator":  0.5
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  8,
+        "Wegtyp":  8,
+        "Multiplikator":  1
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  9,
+        "Wegtyp":  9,
+        "Multiplikator":  1
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  10,
+        "Wegtyp":  10,
+        "Multiplikator":  0.7
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  11,
+        "Wegtyp":  11,
+        "Multiplikator":  0.3
+    },
+    {
+        "Fortbewegung":  1,
+        "ID":  12,
+        "Wegtyp":  12,
+        "Multiplikator":  0.77
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  13,
+        "Wegtyp":  1,
+        "Multiplikator":  1.3
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  14,
+        "Wegtyp":  2,
+        "Multiplikator":  1.17
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  15,
+        "Wegtyp":  3,
+        "Multiplikator":  0.93
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  16,
+        "Wegtyp":  4,
+        "Multiplikator":  0.5
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  17,
+        "Wegtyp":  5,
+        "Multiplikator":  0.1
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  18,
+        "Wegtyp":  6,
+        "Multiplikator":  0.6
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  19,
+        "Wegtyp":  7,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  20,
+        "Wegtyp":  8,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  21,
+        "Wegtyp":  9,
+        "Multiplikator":  1
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  22,
+        "Wegtyp":  10,
+        "Multiplikator":  0.77
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  23,
+        "Wegtyp":  11,
+        "Multiplikator":  0.27
+    },
+    {
+        "Fortbewegung":  2,
+        "ID":  24,
+        "Wegtyp":  12,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  25,
+        "Wegtyp":  1,
+        "Multiplikator":  2
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  26,
+        "Wegtyp":  2,
+        "Multiplikator":  1.67
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  27,
+        "Wegtyp":  3,
+        "Multiplikator":  1.33
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  28,
+        "Wegtyp":  4,
+        "Multiplikator":  0.2
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  29,
+        "Wegtyp":  5,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  30,
+        "Wegtyp":  6,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  31,
+        "Wegtyp":  7,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  32,
+        "Wegtyp":  8,
+        "Multiplikator":  0
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  33,
+        "Wegtyp":  9,
+        "Multiplikator":  1
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  34,
+        "Wegtyp":  10,
+        "Multiplikator":  0.6
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  35,
+        "Wegtyp":  11,
+        "Multiplikator":  0.33
+    },
+    {
+        "Fortbewegung":  3,
+        "ID":  36,
+        "Wegtyp":  12,
+        "Multiplikator":  0
+    }
+]

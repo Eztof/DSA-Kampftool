@@ -1,0 +1,14 @@
+﻿[
+    {
+        "Name":  "Fußmarsch",
+        "ID":  1
+    },
+    {
+        "Name":  "Wanderritt",
+        "ID":  2
+    },
+    {
+        "Name":  "Reisekutsche",
+        "ID":  3
+    }
+]

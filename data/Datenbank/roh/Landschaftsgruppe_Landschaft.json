@@ -1,0 +1,454 @@
+﻿[
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "A"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000003",
+        "LandschaftsgruppeID":  "A"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000004",
+        "LandschaftsgruppeID":  "A"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "B"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000037",
+        "LandschaftsgruppeID":  "B"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000056",
+        "LandschaftsgruppeID":  "B"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000057",
+        "LandschaftsgruppeID":  "B"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000013",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000014",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000015",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000034",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000066",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000069",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000070",
+        "LandschaftsgruppeID":  "C"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000013",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000014",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000015",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000019",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000034",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000040",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000057",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000066",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000069",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000070",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000077",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "E"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000043",
+        "LandschaftsgruppeID":  "E"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000062",
+        "LandschaftsgruppeID":  "E"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000067",
+        "LandschaftsgruppeID":  "E"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000079",
+        "LandschaftsgruppeID":  "E"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "F"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000005",
+        "LandschaftsgruppeID":  "F"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000008",
+        "LandschaftsgruppeID":  "F"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000018",
+        "LandschaftsgruppeID":  "F"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000055",
+        "LandschaftsgruppeID":  "F"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000009",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000012",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000041",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000048",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000049",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000071",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000078",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000011",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000017",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000029",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000031",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000044",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000073",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000009",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000010",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000011",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000012",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000076",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000030",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000035",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000045",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000046",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000075",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "K"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000033",
+        "LandschaftsgruppeID":  "K"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000038",
+        "LandschaftsgruppeID":  "K"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000063",
+        "LandschaftsgruppeID":  "K"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000007",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000032",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000052",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000074",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000076",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "M"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000007",
+        "LandschaftsgruppeID":  "M"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000032",
+        "LandschaftsgruppeID":  "M"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000054",
+        "LandschaftsgruppeID":  "M"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000076",
+        "LandschaftsgruppeID":  "M"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000020",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000021",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000022",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000023",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000024",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000025",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000026",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000050",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000051",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "O"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000059",
+        "LandschaftsgruppeID":  "O"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000061",
+        "LandschaftsgruppeID":  "O"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000002",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000027",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000028",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000042",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000060",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000064",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000072",
+        "LandschaftsgruppeID":  "P"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "D"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "E"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "F"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "G"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "H"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "I"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "J"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "K"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "L"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "M"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000006",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "LandschaftsgruppeID":  "N"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000068",
+        "LandschaftsgruppeID":  "P"
+    }
+]

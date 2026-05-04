@@ -1,0 +1,730 @@
+﻿[
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000003",
+        "KostenFaktor":  0,
+        "Id":  243,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000016",
+        "KostenFaktor":  1,
+        "Id":  244,
+        "KostenGrund":  0,
+        "Wert":  "3",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000075",
+        "KostenFaktor":  0,
+        "Id":  245,
+        "KostenGrund":  7,
+        "Wert":  "Dummy",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000076",
+        "KostenFaktor":  0,
+        "Id":  246,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000088",
+        "KostenFaktor":  0,
+        "Id":  247,
+        "KostenGrund":  12,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000091",
+        "KostenFaktor":  0,
+        "Id":  248,
+        "KostenGrund":  12,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000092",
+        "KostenFaktor":  0,
+        "Id":  249,
+        "KostenGrund":  3,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000093",
+        "KostenFaktor":  0,
+        "Id":  250,
+        "KostenGrund":  5,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000127",
+        "KostenFaktor":  0,
+        "Id":  251,
+        "KostenGrund":  1,
+        "Wert":  "Taschendiebstahl",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000127",
+        "KostenFaktor":  0,
+        "Id":  252,
+        "KostenGrund":  1,
+        "Wert":  "Alchimie",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000127",
+        "KostenFaktor":  0,
+        "Id":  253,
+        "KostenGrund":  1,
+        "Wert":  "Heilkunde: Gift",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000142",
+        "KostenFaktor":  0,
+        "Id":  254,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000145",
+        "KostenFaktor":  0,
+        "Id":  255,
+        "KostenGrund":  1,
+        "Wert":  "Analys Arkanstruktur",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000145",
+        "KostenFaktor":  0,
+        "Id":  256,
+        "KostenGrund":  1,
+        "Wert":  "Armatrutz",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000145",
+        "KostenFaktor":  0,
+        "Id":  257,
+        "KostenGrund":  1,
+        "Wert":  "Manifesto Element",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000145",
+        "KostenFaktor":  0,
+        "Id":  258,
+        "KostenGrund":  1,
+        "Wert":  "Motoricus",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000145",
+        "KostenFaktor":  0,
+        "Id":  259,
+        "KostenGrund":  1,
+        "Wert":  "Odem Arcanum",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000150",
+        "KostenFaktor":  0,
+        "Id":  260,
+        "KostenGrund":  5,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000020",
+        "KostenFaktor":  0,
+        "Id":  202,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000062",
+        "KostenFaktor":  0,
+        "Id":  203,
+        "KostenGrund":  0,
+        "Wert":  "Zweihandhiebwaffen",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000001",
+        "KostenFaktor":  0,
+        "Id":  204,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000135",
+        "KostenFaktor":  0,
+        "Id":  205,
+        "KostenGrund":  3,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000137",
+        "KostenFaktor":  5,
+        "Id":  206,
+        "KostenGrund":  0,
+        "Wert":  "2",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000157",
+        "KostenFaktor":  0,
+        "Id":  207,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000163",
+        "KostenFaktor":  -1,
+        "Id":  208,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000168",
+        "KostenFaktor":  -1,
+        "Id":  209,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000173",
+        "KostenFaktor":  -0.5,
+        "Id":  210,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000174",
+        "KostenFaktor":  0,
+        "Id":  211,
+        "KostenGrund":  -15,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000207",
+        "KostenFaktor":  -1.5,
+        "Id":  212,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000230",
+        "KostenFaktor":  -1,
+        "Id":  213,
+        "KostenGrund":  0,
+        "Wert":  "7",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000235",
+        "KostenFaktor":  -1.5,
+        "Id":  214,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000238",
+        "KostenFaktor":  0,
+        "Id":  215,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000270",
+        "KostenFaktor":  0,
+        "Id":  216,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000012",
+        "KostenFaktor":  0,
+        "Id":  217,
+        "KostenGrund":  3,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000020",
+        "KostenFaktor":  0,
+        "Id":  218,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000062",
+        "KostenFaktor":  0,
+        "Id":  219,
+        "KostenGrund":  0,
+        "Wert":  "Bogen",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000077",
+        "KostenFaktor":  0,
+        "Id":  220,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000082",
+        "KostenFaktor":  0,
+        "Id":  221,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000001",
+        "KostenFaktor":  0,
+        "Id":  35,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000020",
+        "KostenFaktor":  0,
+        "Id":  36,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000062",
+        "KostenFaktor":  0,
+        "Id":  37,
+        "KostenGrund":  0,
+        "Wert":  "Zweihandhiebwaffen",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000073",
+        "KostenFaktor":  0,
+        "Id":  38,
+        "KostenGrund":  12,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000118",
+        "KostenFaktor":  0,
+        "Id":  39,
+        "KostenGrund":  5,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000127",
+        "KostenFaktor":  0,
+        "Id":  40,
+        "KostenGrund":  1,
+        "Wert":  "Körperkraft",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000135",
+        "KostenFaktor":  0,
+        "Id":  41,
+        "KostenGrund":  3,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000137",
+        "KostenFaktor":  5,
+        "Id":  42,
+        "KostenGrund":  0,
+        "Wert":  "2",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000093",
+        "KostenFaktor":  0,
+        "Id":  222,
+        "KostenGrund":  5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000107",
+        "KostenFaktor":  0,
+        "Id":  223,
+        "KostenGrund":  5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000134",
+        "KostenFaktor":  0,
+        "Id":  224,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000151",
+        "KostenFaktor":  0,
+        "Id":  225,
+        "KostenGrund":  20,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000154",
+        "KostenFaktor":  0,
+        "Id":  226,
+        "KostenGrund":  10,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000161",
+        "KostenFaktor":  0,
+        "Id":  227,
+        "KostenGrund":  7,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000163",
+        "KostenFaktor":  -1,
+        "Id":  228,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000165",
+        "KostenFaktor":  0,
+        "Id":  229,
+        "KostenGrund":  0,
+        "Wert":  "Menschenmassen (5)",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000168",
+        "KostenFaktor":  -1,
+        "Id":  230,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000189",
+        "KostenFaktor":  0,
+        "Id":  231,
+        "KostenGrund":  -30,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000206",
+        "KostenFaktor":  0,
+        "Id":  232,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000228",
+        "KostenFaktor":  0,
+        "Id":  233,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000230",
+        "KostenFaktor":  -1,
+        "Id":  234,
+        "KostenGrund":  0,
+        "Wert":  "8",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000238",
+        "KostenFaktor":  0,
+        "Id":  235,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000240",
+        "KostenFaktor":  -1.5,
+        "Id":  236,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000254",
+        "KostenFaktor":  -1.5,
+        "Id":  237,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000293",
+        "KostenFaktor":  0,
+        "Id":  238,
+        "KostenGrund":  0,
+        "Wert":  "Zechen",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000311",
+        "KostenFaktor":  0,
+        "Id":  239,
+        "KostenGrund":  0,
+        "Wert":  "Magier (6)",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000313",
+        "KostenFaktor":  0,
+        "Id":  240,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000314",
+        "KostenFaktor":  0,
+        "Id":  241,
+        "KostenGrund":  0,
+        "Wert":  "Besitz (6)",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000314",
+        "KostenFaktor":  0,
+        "Id":  242,
+        "KostenGrund":  0,
+        "Wert":  "Götterverehrung (6)",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000188",
+        "KostenFaktor":  -1,
+        "Id":  261,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000196",
+        "KostenFaktor":  -0.5,
+        "Id":  262,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000201",
+        "KostenFaktor":  -1,
+        "Id":  263,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000230",
+        "KostenFaktor":  -1,
+        "Id":  264,
+        "KostenGrund":  0,
+        "Wert":  "7",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000245",
+        "KostenFaktor":  0,
+        "Id":  265,
+        "KostenGrund":  -10,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000248",
+        "KostenFaktor":  0,
+        "Id":  266,
+        "KostenGrund":  0,
+        "Wert":  "1000",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000258",
+        "KostenFaktor":  -1,
+        "Id":  267,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000293",
+        "KostenFaktor":  0,
+        "Id":  268,
+        "KostenGrund":  0,
+        "Wert":  "Staatskunst",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000297",
+        "KostenFaktor":  0,
+        "Id":  269,
+        "KostenGrund":  -10,
+        "Wert":  "",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000140",
+        "KostenFaktor":  0,
+        "Id":  89,
+        "KostenGrund":  3,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000145",
+        "KostenFaktor":  0,
+        "Id":  90,
+        "KostenGrund":  1,
+        "Wert":  "Armatrutz",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000150",
+        "KostenFaktor":  0,
+        "Id":  91,
+        "KostenGrund":  5,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000163",
+        "KostenFaktor":  -1,
+        "Id":  92,
+        "KostenGrund":  0,
+        "Wert":  "7",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000165",
+        "KostenFaktor":  0,
+        "Id":  93,
+        "KostenGrund":  0,
+        "Wert":  "Spinnen (5)",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000174",
+        "KostenFaktor":  0,
+        "Id":  94,
+        "KostenGrund":  -15,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000201",
+        "KostenFaktor":  -1,
+        "Id":  95,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000206",
+        "KostenFaktor":  0,
+        "Id":  96,
+        "KostenGrund":  -5,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000207",
+        "KostenFaktor":  -1.5,
+        "Id":  97,
+        "KostenGrund":  0,
+        "Wert":  "6",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000223",
+        "KostenFaktor":  -1,
+        "Id":  98,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000230",
+        "KostenFaktor":  -1,
+        "Id":  99,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000236",
+        "KostenFaktor":  0,
+        "Id":  100,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000266",
+        "KostenFaktor":  0,
+        "Id":  101,
+        "KostenGrund":  -10,
+        "Wert":  "",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000267",
+        "KostenFaktor":  -1,
+        "Id":  102,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "VorNachteilGUID":  "00000000-0000-0000-f024-000000000309",
+        "KostenFaktor":  -1,
+        "Id":  103,
+        "KostenGrund":  0,
+        "Wert":  "5",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    }
+]

@@ -1,0 +1,14 @@
+﻿[
+    {
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Kategorie":  "Allgemein",
+        "Audio_PlaylistGUID":  "acd79a4e-b776-4696-91c3-8ee288c0f6fa"
+    },
+    {
+        "HeldGUID":  "4e1d3250-f700-3000-0001-459192049480",
+        "Icon":  "pack://application:,,,/DSA MeisterGeister;component/Images/Icons/sprache.png",
+        "Kategorie":  "Allgemein",
+        "Audio_PlaylistGUID":  "acd79a4e-b776-4696-91c3-8ee288c0f6fa"
+    }
+]

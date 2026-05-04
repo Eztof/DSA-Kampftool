@@ -1,0 +1,206 @@
+﻿[
+    {
+        "Name":  "schwarz",
+        "FarbeID":  1
+    },
+    {
+        "Name":  "braun",
+        "FarbeID":  2
+    },
+    {
+        "Name":  "dunkelblond",
+        "FarbeID":  3
+    },
+    {
+        "Name":  "blond",
+        "FarbeID":  4
+    },
+    {
+        "Name":  "weissblond",
+        "FarbeID":  5
+    },
+    {
+        "Name":  "rot",
+        "FarbeID":  6
+    },
+    {
+        "Name":  "dunkelbraun",
+        "FarbeID":  7
+    },
+    {
+        "Name":  "grün",
+        "FarbeID":  8
+    },
+    {
+        "Name":  "blau",
+        "FarbeID":  9
+    },
+    {
+        "Name":  "grau",
+        "FarbeID":  10
+    },
+    {
+        "Name":  "mittelbraun",
+        "FarbeID":  11
+    },
+    {
+        "Name":  "hellbraun",
+        "FarbeID":  12
+    },
+    {
+        "Name":  "rotblond",
+        "FarbeID":  13
+    },
+    {
+        "Name":  "kupferrot",
+        "FarbeID":  14
+    },
+    {
+        "Name":  "bernsteinfarben",
+        "FarbeID":  15
+    },
+    {
+        "Name":  "blauschwarz",
+        "FarbeID":  16
+    },
+    {
+        "Name":  "silbern",
+        "FarbeID":  17
+    },
+    {
+        "Name":  "hellblond",
+        "FarbeID":  18
+    },
+    {
+        "Name":  "mittelblond",
+        "FarbeID":  19
+    },
+    {
+        "Name":  "schwarzbraun",
+        "FarbeID":  20
+    },
+    {
+        "Name":  "graublau",
+        "FarbeID":  21
+    },
+    {
+        "Name":  "saphirblau",
+        "FarbeID":  22
+    },
+    {
+        "Name":  "smaragdgrün",
+        "FarbeID":  23
+    },
+    {
+        "Name":  "dunkelviolett",
+        "FarbeID":  24
+    },
+    {
+        "Name":  "goldgesprenkelt",
+        "FarbeID":  25
+    },
+    {
+        "Name":  "amethystfarben",
+        "FarbeID":  26
+    },
+    {
+        "Name":  "goldblond",
+        "FarbeID":  27
+    },
+    {
+        "Name":  "rubinrot",
+        "FarbeID":  28
+    },
+    {
+        "Name":  "amethystviolett",
+        "FarbeID":  29
+    },
+    {
+        "Name":  "schneeweiss",
+        "FarbeID":  30
+    },
+    {
+        "Name":  "silbergrau",
+        "FarbeID":  31
+    },
+    {
+        "Name":  "eisgrau",
+        "FarbeID":  32
+    },
+    {
+        "Name":  "dunkelgrau",
+        "FarbeID":  33
+    },
+    {
+        "Name":  "hellgrau",
+        "FarbeID":  34
+    },
+    {
+        "Name":  "salzweiss",
+        "FarbeID":  35
+    },
+    {
+        "Name":  "silberweiss",
+        "FarbeID":  36
+    },
+    {
+        "Name":  "feuerrot",
+        "FarbeID":  37
+    },
+    {
+        "Name":  "tiefschwarz",
+        "FarbeID":  38
+    },
+    {
+        "Name":  "gelb",
+        "FarbeID":  39
+    },
+    {
+        "Name":  "orangerot",
+        "FarbeID":  40
+    },
+    {
+        "Name":  "rotbraun",
+        "FarbeID":  41
+    },
+    {
+        "Name":  "dunkelrot",
+        "FarbeID":  42
+    },
+    {
+        "Name":  "rotgrau",
+        "FarbeID":  43
+    },
+    {
+        "Name":  "hellrot",
+        "FarbeID":  44
+    },
+    {
+        "Name":  "rotviolett",
+        "FarbeID":  45
+    },
+    {
+        "Name":  "hellgrün",
+        "FarbeID":  46
+    },
+    {
+        "Name":  "olivgrün",
+        "FarbeID":  47
+    },
+    {
+        "Name":  "dunkelgrün",
+        "FarbeID":  48
+    },
+    {
+        "Name":  "braungrün",
+        "FarbeID":  49
+    },
+    {
+        "Name":  "golden",
+        "FarbeID":  50
+    },
+    {
+        "Name":  "kupfern",
+        "FarbeID":  51
+    }
+]

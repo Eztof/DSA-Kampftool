@@ -1,0 +1,410 @@
+﻿[
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000008",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000012",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000023",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000024",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000028",
+        "Domäne":  "Aphasmayra"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000029",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000034",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000035",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000036",
+        "Domäne":  "Blakharaz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000042",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000043",
+        "Domäne":  "Tasfarelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000055",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000056",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000068",
+        "Domäne":  "Tasfarelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000080",
+        "Domäne":  "Thargunitoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000088",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000092",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000093",
+        "Domäne":  "Aphasmayra"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000095",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000097",
+        "Domäne":  "Asfaloth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000103",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000104",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000120",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000129",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000134",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000136",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000198",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000205",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000223",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000224",
+        "Domäne":  "Namenloser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000226",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000241",
+        "Domäne":  "Blakharaz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000242",
+        "Domäne":  "Blakharaz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000256",
+        "Domäne":  "Shaz-man-yat"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000257",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000264",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000266",
+        "Domäne":  "Blakharaz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000270",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000295",
+        "Domäne":  "Blakharaz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000297",
+        "Domäne":  "Shaz-man-yat"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000298",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000299",
+        "Domäne":  "Namenloser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000301",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000302",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000311",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000313",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000314",
+        "Domäne":  "Belhalhar"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000315",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000316",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000317",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000318",
+        "Domäne":  "Tasfarelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000323",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000341",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000349",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000369",
+        "Domäne":  "Namenloser"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000372",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000398",
+        "Domäne":  "Thargunitoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000404",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000416",
+        "Domäne":  "Thargunitoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000419",
+        "Domäne":  "Thargunitoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000420",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000372",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000301",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000257",
+        "Domäne":  "Tasfarelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000226",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000012",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000223",
+        "Domäne":  "Blakharaz"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000437",
+        "Domäne":  "Tasfarelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000478",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000493",
+        "Domäne":  "Aphasmayra"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000495",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000496",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000569",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000577",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000579",
+        "Domäne":  "Belhalhar"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000580",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000585",
+        "Domäne":  "Belhalhar"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000596",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000644",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000650",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000651",
+        "Domäne":  "Belkelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000659",
+        "Domäne":  "Belzhorash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000668",
+        "Domäne":  "Asfaloth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000701",
+        "Domäne":  "Agrimoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000704",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000705",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000706",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000707",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000708",
+        "Domäne":  "Tasfarelel"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000719",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000762",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000779",
+        "Domäne":  "Amazeroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000782",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000783",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000784",
+        "Domäne":  "Belshirash"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000785",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000787",
+        "Domäne":  "Lolgramoth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000788",
+        "Domäne":  "Charyptoroth"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000789",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000790",
+        "Domäne":  "Frei"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000794",
+        "Domäne":  "Belhalhar"
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000795",
+        "Domäne":  "Frei"
+    }
+]

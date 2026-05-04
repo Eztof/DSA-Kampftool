@@ -1,0 +1,479 @@
+﻿[
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  true,
+        "Name":  "Stadt",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "7101b0d0-6251-4dde-a3ee-8559d05b4708"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Am Hofe",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "dc9d6461-c208-4ae4-9524-061fb9c84a3c"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Am Hafen",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "5c033a65-3b0e-4f81-8194-c119cc761125"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Markt",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "bc3e21a6-a65e-4004-bc12-4a6efa199a71"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Faun",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "a6eefb4b-f829-4a63-b496-d31a6afeaa98"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  true,
+        "Name":  "Taverne",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "77f2b5be-d4ba-4b2d-9b6b-a76d1f18d03a"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Seereise",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "c8a14ed0-4eb5-481d-8a00-46834fea0ef5"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Fischerdorf",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "972885ba-1986-42ce-9a1e-98152aec8ae9"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Gewitter",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "1d7c720e-925e-412a-a748-3185480492dd"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Basargeschichten",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "7d208f35-455c-40d0-a977-5f338acbae74"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Hafenstadt",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "4edcffd2-e0a7-425e-8fa2-dc573c6d69dd"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Burg",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "34c06dd1-936f-4ce5-a47a-73dc0f1cf759"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Regen",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "619571ce-8d4e-4cd3-913f-2fd3dc3d0bd8"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Dorf",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "e3e643c1-45c8-4e5a-8218-b4f5b706b8d4"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Festbankett",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "7bcd1b08-fa77-4cda-824e-1152f800b33d"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Wald",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "b8b0d1ba-f0d0-4ec7-a96f-9836ca197d98"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Tempel und Kirchen",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "d0391f9c-d0be-4568-ac86-5aef9ead6c7c"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Ruhig",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "15129a7e-e182-401e-9c12-df5224142151"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "_Kampf",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "9aaa7e95-112c-468e-9ab8-1fa5623904b8"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Grüne Hölle (nachtsüber)",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "9805904b-20e0-4d69-a108-e5a3322cc8c2"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Grüne Hölle (tagsüber)",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "60946f47-6405-4cc6-bcaa-b89bd42a71ab"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Dungeon",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "b3a91e5e-57f5-40e2-977e-689c5fdf4645"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Das alte Haus (Geistervilla)",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "ae42df01-45b4-4f16-a78a-e7addae1bce2"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Die Schwarzen Lande ",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "601ca6ed-3fdc-488e-8599-dd2b0ae3eb36"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Ebenen Aventuriens",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "39f6b32c-f2a5-4bce-b779-b74c6ffaa9b2"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Eishöhle",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "6b3f4e58-be1f-4486-a9d0-263729f8f7cf"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Fluss",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "aa408c03-0940-4a59-bc7e-abda0efe86a6"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Friedhof",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "9a6b7e15-564e-420b-b781-a866416cf275"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Froschkonzert ",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "5af881af-d137-4fac-82d2-1d5953ac2b08"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Grüne Hölle -Nachts",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "ae9931bd-abf3-42a4-943b-767b6f66e97d"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Grüne Hölle -tagsüber",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "15331ead-f04e-409e-919c-1b4dd2fe4ea2"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "heulender Wind",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "a166fc36-35eb-4421-b5d3-22e586bbc8b1"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Hochsommer in Aventurien/ Almada",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "b37ed1a9-86ef-4950-9245-5024ab4e5f23"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Häuser in Flammen",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "479194c1-17e4-431f-bb89-b04feec1d39d"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Höhle",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "06333684-b10e-42a8-ad8e-61fd498e84bb"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Juvernarium",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "17bf2a4c-5be9-40f0-96b8-fa8f834f7c68"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Kanalisation",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "41ab1d25-5393-48ed-823f-523b621c8829"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Kerker",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "faceccda-b9e0-4a7f-bc26-167020429f98"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Klagefelder von Tobrien (schwarze Lande)",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "5adfd175-981f-4c08-b431-26a16666896a"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Regen, leicht",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "ce926b04-9766-4466-bf0a-e92e7a319013"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Schlafsaal",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "a6755650-f30c-4516-b589-730d1279b55c"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "schwimmen im Wasser",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "3525845c-18be-4158-9435-27e35f79d4ee"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Skelettpatrullie",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "f45e22eb-f9e4-41bf-be07-101ccfc518c1"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Stadt bei Nacht",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "b52b4ca9-62dc-4dfa-bb9b-702624e7466b"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Sumpf",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "6d61947b-bff6-46bc-ba45-e80509ec531e"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Tavernenatmosphäre",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "0b3fec29-544f-4c57-ada6-7d4b5748efa2"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Therme (Caldarium)",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "abd2e8eb-8c5e-4793-8ff4-b6d2ea9c4d4b"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Wald im Winter",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "73e3e4cd-82ef-4e24-859a-16e4f44fde88"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Wanderung Tags",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "7d68def8-9df9-4bb7-9a7d-a5d539774a68"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Neues Theme",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "fdc39ac7-1e12-45b4-a714-5a2a9be8f8c6"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  false,
+        "Name":  "Hintergrund",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  "ruhig",
+        "Audio_ThemeGUID":  "5e7aae97-7ec2-4861-a91c-2f80ad0eb2ce"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  null,
+        "Name":  "Wind",
+        "NurGeräusche":  true,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "5ec7fab7-1a54-4953-a3c4-0bb35256b63a"
+    },
+    {
+        "Hintergrund_VolMod":  50,
+        "Favorite":  null,
+        "Name":  "Wind (Sturm)",
+        "NurGeräusche":  false,
+        "Klang_VolMod":  50,
+        "Kategorie":  null,
+        "Audio_ThemeGUID":  "a777cd75-fc53-453c-b44c-ce3ff849c0de"
+    }
+]

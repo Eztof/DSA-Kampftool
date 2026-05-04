@@ -1,0 +1,101 @@
+﻿[
+    {
+        "WaffeGUID":  "00000000-0000-0000-0002-000000000039",
+        "INI":  -1,
+        "WMPA":  -2,
+        "HeldAusrüstungGUID":  "274d94ec-2c18-41b1-8d25-eb78c6ab094c",
+        "TPBonus":  3,
+        "TalentGUID":  null,
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000020",
+        "INI":  0,
+        "WMPA":  -1,
+        "HeldAusrüstungGUID":  "6864beaa-6a55-4753-8ea3-4b07fa0e0fd2",
+        "TPBonus":  1,
+        "TalentGUID":  null,
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000079",
+        "INI":  -2,
+        "WMPA":  -3,
+        "HeldAusrüstungGUID":  "284d0bf7-7957-4426-a97d-45abc5d4c7ad",
+        "TPBonus":  0,
+        "TalentGUID":  "00000000-0000-0000-0000-000000000000",
+        "WMAT":  -2
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000123",
+        "INI":  0,
+        "WMPA":  -1,
+        "HeldAusrüstungGUID":  "2e08baf1-11f4-470b-8a21-3af7a8cf1541",
+        "TPBonus":  4,
+        "TalentGUID":  "00000000-0000-0000-007a-000000000070",
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0002-000000000039",
+        "INI":  -1,
+        "WMPA":  -2,
+        "HeldAusrüstungGUID":  "99bcd78e-d7d1-4dcf-ab61-0392f455e42e",
+        "TPBonus":  3,
+        "TalentGUID":  "00000000-0000-0000-0000-000000000000",
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000008",
+        "INI":  -2,
+        "WMPA":  -4,
+        "HeldAusrüstungGUID":  "d7bfc3dd-0d7e-4142-8da6-73dde8dbc418",
+        "TPBonus":  2,
+        "TalentGUID":  null,
+        "WMAT":  -1
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000106",
+        "INI":  1,
+        "WMPA":  0,
+        "HeldAusrüstungGUID":  "7b580d9f-b97e-4d92-8bc5-97e0dc8c2c30",
+        "TPBonus":  4,
+        "TalentGUID":  null,
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000047",
+        "INI":  -1,
+        "WMPA":  -2,
+        "HeldAusrüstungGUID":  "e00329dd-cd18-496b-b002-f3327f9377f6",
+        "TPBonus":  2,
+        "TalentGUID":  null,
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000002",
+        "INI":  1,
+        "WMPA":  0,
+        "HeldAusrüstungGUID":  "04bc027b-5568-49e9-9eb3-cf8e2eaa2855",
+        "TPBonus":  5,
+        "TalentGUID":  null,
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0001-000000000020",
+        "INI":  0,
+        "WMPA":  -1,
+        "HeldAusrüstungGUID":  "b49f072e-b5cd-435d-abd0-a2c688205be1",
+        "TPBonus":  1,
+        "TalentGUID":  null,
+        "WMAT":  0
+    },
+    {
+        "WaffeGUID":  "00000000-0000-0000-0002-000000000039",
+        "INI":  -1,
+        "WMPA":  -2,
+        "HeldAusrüstungGUID":  "5072d232-f494-491b-82c4-f66b2ebae14b",
+        "TPBonus":  3,
+        "TalentGUID":  "00000000-0000-0000-0000-000000000000",
+        "WMAT":  0
+    }
+]

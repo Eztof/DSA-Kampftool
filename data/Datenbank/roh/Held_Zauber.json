@@ -1,0 +1,234 @@
+﻿[
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000022",
+        "Hauszauber":  false,
+        "Bemerkung":  null,
+        "ZfW":  3,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000005",
+        "Hauszauber":  null,
+        "Bemerkung":  "Luchs",
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000022",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  10,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000030",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  9,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000110",
+        "Hauszauber":  false,
+        "Bemerkung":  null,
+        "ZfW":  3,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000136",
+        "Hauszauber":  false,
+        "Bemerkung":  null,
+        "ZfW":  3,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000221",
+        "Hauszauber":  false,
+        "Bemerkung":  null,
+        "ZfW":  3,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000031",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  11,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000033",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  9,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000052",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  1,
+        "Repräsentation":  "Mag",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000081",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000087",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  10,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000180",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000185",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  7,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000194",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  11,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000208",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000209",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000220",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  2,
+        "Repräsentation":  "Mag",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000246",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000249",
+        "Hauszauber":  false,
+        "Bemerkung":  null,
+        "ZfW":  3,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "013f0ea9-a24f-47bd-a552-b2f693911500"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000248",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  6,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000275",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  9,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000289",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  7,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000300",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  10,
+        "Repräsentation":  "Elf",
+        "HeldGUID":  "4e1d3250-f700-3000-0001-387712958907"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000012",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  3,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000022",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  7,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000170",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  5,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000179",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  4,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    },
+    {
+        "ZauberGUID":  "00000000-0000-0000-00ca-000000000194",
+        "Hauszauber":  null,
+        "Bemerkung":  null,
+        "ZfW":  5,
+        "Repräsentation":  "Dil",
+        "HeldGUID":  "0c90c592-35ea-4a20-b7a2-222132cbe199"
+    }
+]

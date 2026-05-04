@@ -1,0 +1,62 @@
+﻿[
+    {
+        "Kurzname":  "Kampf",
+        "TalentgruppeID":  1,
+        "Gruppenname":  "Kampftalent"
+    },
+    {
+        "Kurzname":  "Körper",
+        "TalentgruppeID":  2,
+        "Gruppenname":  "Körperliches Talent"
+    },
+    {
+        "Kurzname":  "Gesellschaft",
+        "TalentgruppeID":  3,
+        "Gruppenname":  "Gesellschaftliches Talent"
+    },
+    {
+        "Kurzname":  "Natur",
+        "TalentgruppeID":  4,
+        "Gruppenname":  "Natur-Talent"
+    },
+    {
+        "Kurzname":  "Wissen",
+        "TalentgruppeID":  5,
+        "Gruppenname":  "Wissenstalent"
+    },
+    {
+        "Kurzname":  "Handwerk",
+        "TalentgruppeID":  6,
+        "Gruppenname":  "Handwerkstalent"
+    },
+    {
+        "Kurzname":  "Sprachen/Schriften",
+        "TalentgruppeID":  7,
+        "Gruppenname":  "Sprachen und Schriften"
+    },
+    {
+        "Kurzname":  "Meta",
+        "TalentgruppeID":  8,
+        "Gruppenname":  "Meta-Talent"
+    },
+    {
+        "Kurzname":  "Gabe",
+        "TalentgruppeID":  9,
+        "Gruppenname":  "Gabe"
+    },
+    {
+        "Kurzname":  "Ritualkenntnis",
+        "TalentgruppeID":  10,
+        "Gruppenname":  "Ritualkenntnis"
+    },
+    {
+        "Kurzname":  "Liturgiekenntnis",
+        "TalentgruppeID":  11,
+        "Gruppenname":  "Liturgiekenntnis"
+    },
+    {
+        "Kurzname":  null,
+        "TalentgruppeID":  0,
+        "Gruppenname":  "Keine Gruppe"
+    }
+]

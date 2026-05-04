@@ -1,0 +1,1400 @@
+﻿[
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000002",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000003",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  7,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000004",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000061",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000068",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  0,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000008",
+        "Beschwörungskosten":  20,
+        "Kontrolle":  5,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000012",
+        "Beschwörungskosten":  11,
+        "Kontrolle":  7,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000014",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  3,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000092",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  5,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000093",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  5,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000095",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  5,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000097",
+        "Beschwörungskosten":  12,
+        "Kontrolle":  8,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000103",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  4,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000104",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000106",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000017",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000042",
+        "Beschwörungskosten":  16,
+        "Kontrolle":  6,
+        "Beschwörung":  13
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000043",
+        "Beschwörungskosten":  30,
+        "Kontrolle":  10,
+        "Beschwörung":  18
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000023",
+        "Beschwörungskosten":  30,
+        "Kontrolle":  7,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000024",
+        "Beschwörungskosten":  30,
+        "Kontrolle":  7,
+        "Beschwörung":  15
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000029",
+        "Beschwörungskosten":  50,
+        "Kontrolle":  10,
+        "Beschwörung":  21
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000034",
+        "Beschwörungskosten":  30,
+        "Kontrolle":  8,
+        "Beschwörung":  15
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000035",
+        "Beschwörungskosten":  30,
+        "Kontrolle":  9,
+        "Beschwörung":  17
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000036",
+        "Beschwörungskosten":  16,
+        "Kontrolle":  8,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "ca421cb9-8bac-447c-8a3d-c40028f37360",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  2,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000028",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  8,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000055",
+        "Beschwörungskosten":  7,
+        "Kontrolle":  3,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000056",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  2,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000577",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  5,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000578",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000579",
+        "Beschwörungskosten":  12,
+        "Kontrolle":  7,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000580",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  null,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000112",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000113",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000114",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000115",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000116",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000117",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "b445c89e-f0b4-40a2-8ba8-833a697af85b",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  3,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000266",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  2,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000270",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  2,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "4f3fad67-12a5-4527-8b29-9cfbc2b0d310",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "e95a6bf0-2f08-47bb-914c-913fa4e49d2b",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "51251204-b6e3-4a81-b354-ac4e5374741c",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "9fb781dc-99f5-4e9a-b99b-bcc4ba5373a7",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  3,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000478",
+        "Beschwörungskosten":  4,
+        "Kontrolle":  4,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000377",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  12,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000543",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  20
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000310",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  10,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000311",
+        "Beschwörungskosten":  9,
+        "Kontrolle":  6,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000313",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  4,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000314",
+        "Beschwörungskosten":  60,
+        "Kontrolle":  20,
+        "Beschwörung":  25
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000315",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  1,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000316",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  5,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000317",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  7,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000318",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  15
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000186",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000120",
+        "Beschwörungskosten":  15,
+        "Kontrolle":  9,
+        "Beschwörung":  15
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000176",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  1,
+        "Beschwörung":  20
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000183",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  null,
+        "Beschwörung":  -1
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000184",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000185",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000323",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  3,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000080",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  1,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000082",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  null,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000088",
+        "Beschwörungskosten":  16,
+        "Kontrolle":  11,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000256",
+        "Beschwörungskosten":  16,
+        "Kontrolle":  8,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000257",
+        "Beschwörungskosten":  12,
+        "Kontrolle":  6,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000260",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  14,
+        "Beschwörung":  25
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000264",
+        "Beschwörungskosten":  7,
+        "Kontrolle":  7,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000129",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  5,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000130",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  0,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000134",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  5,
+        "Beschwörung":  18
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000135",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  45
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000136",
+        "Beschwörungskosten":  12,
+        "Kontrolle":  8,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000143",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  null,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000163",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  41
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000167",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  26
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000584",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000585",
+        "Beschwörungskosten":  15,
+        "Kontrolle":  5,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000187",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000188",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000189",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000198",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  30,
+        "Beschwörung":  18
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000205",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  5,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000223",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000224",
+        "Beschwörungskosten":  20,
+        "Kontrolle":  7,
+        "Beschwörung":  28
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000226",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  2,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000241",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  4,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000242",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  4,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000826",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  4,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000829",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  7,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000832",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000280",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  null,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000281",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  3,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000292",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000295",
+        "Beschwörungskosten":  20,
+        "Kontrolle":  10,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000296",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000297",
+        "Beschwörungskosten":  9,
+        "Kontrolle":  6,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000298",
+        "Beschwörungskosten":  32,
+        "Kontrolle":  16,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000299",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  4,
+        "Beschwörung":  18
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000301",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  4,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000302",
+        "Beschwörungskosten":  30,
+        "Kontrolle":  7,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000503",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  7,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000546",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000378",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000379",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000380",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  12,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000381",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  12,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000382",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  12,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000383",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  7,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000384",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  28
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000341",
+        "Beschwörungskosten":  9,
+        "Kontrolle":  6,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000342",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  17
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000344",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  3,
+        "Beschwörung":  2
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000349",
+        "Beschwörungskosten":  18,
+        "Kontrolle":  9,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000353",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  12,
+        "Beschwörung":  37
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000365",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000369",
+        "Beschwörungskosten":  20,
+        "Kontrolle":  10,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000372",
+        "Beschwörungskosten":  27,
+        "Kontrolle":  9,
+        "Beschwörung":  17
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000665",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000666",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000667",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000668",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  8,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000398",
+        "Beschwörungskosten":  12,
+        "Kontrolle":  4,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000401",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  7,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000404",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  5,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000410",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  1
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000416",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  3,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000419",
+        "Beschwörungskosten":  18,
+        "Kontrolle":  7,
+        "Beschwörung":  17
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000420",
+        "Beschwörungskosten":  12,
+        "Kontrolle":  7,
+        "Beschwörung":  15
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000437",
+        "Beschwörungskosten":  9,
+        "Kontrolle":  6,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000440",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  3,
+        "Beschwörung":  29
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000779",
+        "Beschwörungskosten":  40,
+        "Kontrolle":  15,
+        "Beschwörung":  25
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000782",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  6,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000783",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  5,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000784",
+        "Beschwörungskosten":  15,
+        "Kontrolle":  10,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000785",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  3,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000512",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  60
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000493",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000495",
+        "Beschwörungskosten":  16,
+        "Kontrolle":  8,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000496",
+        "Beschwörungskosten":  32,
+        "Kontrolle":  16,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000768",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000771",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000525",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000535",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  2,
+        "Beschwörung":  23
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000787",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  5,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000788",
+        "Beschwörungskosten":  36,
+        "Kontrolle":  10,
+        "Beschwörung":  19
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000789",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  7,
+        "Beschwörung":  12
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000790",
+        "Beschwörungskosten":  10,
+        "Kontrolle":  7,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000794",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  3,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000795",
+        "Beschwörungskosten":  8,
+        "Kontrolle":  6,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000569",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  3,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000573",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  3,
+        "Beschwörung":  17
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000591",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000596",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  4,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000600",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  10,
+        "Beschwörung":  50
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000604",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000833",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  3,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000848",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  5,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000849",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  3,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000852",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  4,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000853",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  2,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000855",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  12,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000859",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000760",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  21
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000762",
+        "Beschwörungskosten":  49,
+        "Kontrolle":  12,
+        "Beschwörung":  21
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000644",
+        "Beschwörungskosten":  9,
+        "Kontrolle":  3,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000650",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  0,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000651",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000659",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  4,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000819",
+        "Beschwörungskosten":  4,
+        "Kontrolle":  6,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000844",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000686",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  10
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000701",
+        "Beschwörungskosten":  20,
+        "Kontrolle":  8,
+        "Beschwörung":  13
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000703",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  10,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000704",
+        "Beschwörungskosten":  6,
+        "Kontrolle":  4,
+        "Beschwörung":  11
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000705",
+        "Beschwörungskosten":  14,
+        "Kontrolle":  7,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000706",
+        "Beschwörungskosten":  25,
+        "Kontrolle":  12,
+        "Beschwörung":  20
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000707",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  2,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000708",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  0,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000713",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000714",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000715",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000716",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000717",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000718",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000719",
+        "Beschwörungskosten":  27,
+        "Kontrolle":  9,
+        "Beschwörung":  17
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000803",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  4,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000816",
+        "Beschwörungskosten":  4,
+        "Kontrolle":  6,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000817",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000877",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  6,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000881",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000882",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  7,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000884",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  1,
+        "Beschwörung":  16
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000885",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  6,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000864",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000865",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  5,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000868",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  2,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000869",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000871",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  3,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000872",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  8,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000890",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  2,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000899",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000902",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  3,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000905",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000906",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000908",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  6,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000913",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000915",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  2,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000916",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  4,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000918",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000920",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  7,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000921",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  5,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000923",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  9,
+        "Beschwörung":  9
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000925",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  4,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000928",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  1,
+        "Beschwörung":  14
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000929",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000931",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  2,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000933",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  1,
+        "Beschwörung":  30
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000935",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  1,
+        "Beschwörung":  23
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000938",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  6,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000940",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  2,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000941",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  7,
+        "Beschwörung":  8
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000942",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  7,
+        "Beschwörung":  7
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000948",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  7,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000949",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  3,
+        "Beschwörung":  2
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000951",
+        "Beschwörungskosten":  1,
+        "Kontrolle":  2,
+        "Beschwörung":  2
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000953",
+        "Beschwörungskosten":  5,
+        "Kontrolle":  6,
+        "Beschwörung":  6
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000954",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  null,
+        "Beschwörung":  5
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000957",
+        "Beschwörungskosten":  3,
+        "Kontrolle":  5,
+        "Beschwörung":  4
+    },
+    {
+        "GegnerBaseGUID":  "00000000-0000-0000-006e-000000000959",
+        "Beschwörungskosten":  2,
+        "Kontrolle":  4,
+        "Beschwörung":  3
+    },
+    {
+        "GegnerBaseGUID":  "a21a390f-87d6-4ef9-b0ae-0763605f5612",
+        "Beschwörungskosten":  null,
+        "Kontrolle":  5,
+        "Beschwörung":  4
+    }
+]

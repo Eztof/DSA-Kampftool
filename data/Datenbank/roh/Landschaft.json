@@ -1,0 +1,367 @@
+﻿[
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000001",
+        "Kundig":  null,
+        "Name":  "überall"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000002",
+        "Kundig":  null,
+        "Name":  "Hausgärten"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000003",
+        "Kundig":  "Eiskundig",
+        "Name":  "Eisgebiete"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000004",
+        "Kundig":  "Eiskundig",
+        "Name":  "Eiswüste"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000005",
+        "Kundig":  null,
+        "Name":  "Feuchte Grasländer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000006",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Feuchte Höhlen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000007",
+        "Kundig":  "Waldkundig",
+        "Name":  "Feuchte Waldgebiete"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000008",
+        "Kundig":  "Steppenkundig",
+        "Name":  "Feuchte Wiesen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000009",
+        "Kundig":  null,
+        "Name":  "Fließende Gewässer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000010",
+        "Kundig":  null,
+        "Name":  "Flussauen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000011",
+        "Kundig":  null,
+        "Name":  "Flussläufe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000012",
+        "Kundig":  null,
+        "Name":  "Flussufer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000013",
+        "Kundig":  "Gebirgskundig",
+        "Name":  "Gebirge"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000014",
+        "Kundig":  "Gebirgskundig",
+        "Name":  "Gebirgshänge"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000015",
+        "Kundig":  "Gebirgskundig",
+        "Name":  "Gebirgshöhen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000017",
+        "Kundig":  null,
+        "Name":  "Gezeitenzone"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000018",
+        "Kundig":  "Steppenkundig",
+        "Name":  "Grasland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000019",
+        "Kundig":  null,
+        "Name":  "Hochland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000020",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhlen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000021",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhlen ab 100 Schritt Tiefe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000022",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhlen ab 1000 Schritt tiefe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000023",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhlen ab 300 Schritt Tiefe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000024",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhlen ab 50 Schritt Tiefe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000025",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhlen ab 75 Schritt Tiefe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000026",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Höhleneingänge und Ruinen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000027",
+        "Kundig":  null,
+        "Name":  "in der Nähe astraler Quellen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000028",
+        "Kundig":  null,
+        "Name":  "Kulturland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000029",
+        "Kundig":  null,
+        "Name":  "Küste"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000030",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "Brackwassersümpfe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000031",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "Küstensümpfe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000032",
+        "Kundig":  "Waldkundig",
+        "Name":  "lichte Laubwälder"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000033",
+        "Kundig":  "Maraskankundig",
+        "Name":  "Maraskanische Wälder"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000034",
+        "Kundig":  "Maraskankundig",
+        "Name":  "Maraskankette"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000035",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "Moor"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000037",
+        "Kundig":  "Wüstenkundig",
+        "Name":  "Wüstenrandgebiete"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000038",
+        "Kundig":  "Dschungelkundig",
+        "Name":  "Regenwald"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000040",
+        "Kundig":  null,
+        "Name":  "schattige Gebiete im Hochland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000041",
+        "Kundig":  null,
+        "Name":  "Seeufer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000042",
+        "Kundig":  null,
+        "Name":  "Stätten der Namenlosen Macht"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000043",
+        "Kundig":  "Steppenkundig",
+        "Name":  "Steppen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000044",
+        "Kundig":  null,
+        "Name":  "Strand"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000045",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "südliche Sümpfe"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000046",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "Sumpf"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000048",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "sumpfige Uferstreifen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000049",
+        "Kundig":  null,
+        "Name":  "Teiche"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000050",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Trockene Höhlen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000051",
+        "Kundig":  "Höhlenkundig",
+        "Name":  "Trockene Höhlen und Gänge"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000052",
+        "Kundig":  "Waldkundig",
+        "Name":  "Wald"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000054",
+        "Kundig":  "Waldkundig",
+        "Name":  "Waldrand"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000055",
+        "Kundig":  null,
+        "Name":  "Wiesen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000056",
+        "Kundig":  "Wüstenkundig",
+        "Name":  "Wüste"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000057",
+        "Kundig":  "Wüstenkundig",
+        "Name":  "Wüstenähnliches Hochland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000059",
+        "Kundig":  "Meereskundig",
+        "Name":  "offenes Meer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000060",
+        "Kundig":  null,
+        "Name":  "oberirdische Hitzequellen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000061",
+        "Kundig":  "Meereskundig",
+        "Name":  "Meer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000062",
+        "Kundig":  "Steppenkundig",
+        "Name":  "Tundra"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000063",
+        "Kundig":  "Dschungelkundig",
+        "Name":  "Dschungel"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000064",
+        "Kundig":  null,
+        "Name":  "Orismanis"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000066",
+        "Kundig":  "Gebirgskundig",
+        "Name":  "Gebirgslagen bis zur Schneegrenze"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000067",
+        "Kundig":  "Steppenkundig",
+        "Name":  "Buschland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000068",
+        "Kundig":  null,
+        "Name":  "vor Regen geschützte Hitzequellen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000069",
+        "Kundig":  "Gebirgskundig",
+        "Name":  "Hochgebirge"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000070",
+        "Kundig":  "Gebirgskundig",
+        "Name":  "baumlose Teile von Hochgebirgen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000071",
+        "Kundig":  null,
+        "Name":  "sonstige Binnengewässer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000072",
+        "Kundig":  null,
+        "Name":  "Domänen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000073",
+        "Kundig":  "Meereskundig",
+        "Name":  "Küstengewässer"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000074",
+        "Kundig":  "Waldkundig",
+        "Name":  "Waldlichtungen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000075",
+        "Kundig":  "Sumpfkundig",
+        "Name":  "Hochmoore"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000076",
+        "Kundig":  "Waldkundig",
+        "Name":  "Auwälder"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000077",
+        "Kundig":  null,
+        "Name":  "Hügelland"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000078",
+        "Kundig":  null,
+        "Name":  "Seen"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000079",
+        "Kundig":  "Steppenkundig",
+        "Name":  "Savanne"
+    },
+    {
+        "LandschaftGUID":  "00000000-0000-0000-00fe-000000000080",
+        "Kundig":  null,
+        "Name":  "überall außer Eis, Gebirge und Wüste"
+    }
+]

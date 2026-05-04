@@ -1,0 +1,1290 @@
+﻿[
+    {
+        "Top":  45.9502906637792,
+        "Bot":  13.1051259921612,
+        "Right":  13.3164314367243,
+        "Name":  "Aventurien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000001",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  30.592651369319,
+        "Bot":  28.0810512998032,
+        "Right":  -0.428990632001501,
+        "Name":  "Albernia",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000002",
+        "Left":  -3.39463255483349
+    },
+    {
+        "Top":  25.3865772218027,
+        "Bot":  23.4997283185206,
+        "Right":  7.57824330097503,
+        "Name":  "Balash",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000003",
+        "Left":  5.34182769510747
+    },
+    {
+        "Top":  17.3618367702183,
+        "Bot":  15.9136963102768,
+        "Right":  4.82386130310897,
+        "Name":  "Altoum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000004",
+        "Left":  1.67038035603778
+    },
+    {
+        "Top":  26.8238754209012,
+        "Bot":  25.8949279904687,
+        "Right":  2.87176318740975,
+        "Name":  "Amhallassih",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000005",
+        "Left":  0.154388525306132
+    },
+    {
+        "Top":  19.1060652166583,
+        "Bot":  18.3004417378838,
+        "Right":  -0.63560055941673,
+        "Name":  "alanfanische Plantagen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000006",
+        "Left":  -0.965666532580229
+    },
+    {
+        "Top":  31.3561851006339,
+        "Bot":  21.6461460269819,
+        "Right":  -0.209136388115979,
+        "Name":  "Westküste zwischen Salza und Mengbilla",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000007",
+        "Left":  -4.13904868610567
+    },
+    {
+        "Top":  32.7645226478115,
+        "Bot":  16.846656641413,
+        "Right":  -0.209136388115979,
+        "Name":  "Westküste zwischen Thorwal und Brabak",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000008",
+        "Left":  -4.4820158299384
+    },
+    {
+        "Top":  37.4264211054575,
+        "Bot":  32.8903475038568,
+        "Right":  12.633918967579,
+        "Name":  "Bornland",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000009",
+        "Left":  7.42658421913248
+    },
+    {
+        "Top":  41.051987279055,
+        "Bot":  36.1610877863845,
+        "Right":  13.1095374388148,
+        "Name":  "Ehernes Schwert",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000010",
+        "Left":  11.2442607571273
+    },
+    {
+        "Top":  45.9502906637792,
+        "Bot":  25.5501496918044,
+        "Right":  13.3164314367243,
+        "Name":  "nördlich der Linie Grangor-Elburum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000011",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  45.9502906637792,
+        "Bot":  27.6311055991588,
+        "Right":  13.3164314367243,
+        "Name":  "nördlich des Yaquir",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000012",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  45.9502906637792,
+        "Bot":  22.4874594216468,
+        "Right":  13.3164314367243,
+        "Name":  "nördlich einer Linie Drôl-Thalusa",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000013",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  45.9502906637792,
+        "Bot":  28.514115186352,
+        "Right":  13.3164314367243,
+        "Name":  "nördlich einer Linie Havena-Perricum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000014",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  45.9502906637792,
+        "Bot":  21.9857762691105,
+        "Right":  13.3164314367243,
+        "Name":  "nördlich einer Linie Neetha-Khunchom",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000015",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  36.2215323667907,
+        "Bot":  13.1051259921612,
+        "Right":  13.1895957986272,
+        "Name":  "südlich der Gelben Sichel",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000016",
+        "Left":  -8.29222739435971
+    },
+    {
+        "Top":  28.8844080216084,
+        "Bot":  13.1051259921612,
+        "Right":  13.0685176407768,
+        "Name":  "südlich einer Linie Havena-Perricum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000017",
+        "Left":  -8.09708224387379
+    },
+    {
+        "Top":  34.1840709353933,
+        "Bot":  31.4700653974482,
+        "Right":  10.4430531251905,
+        "Name":  "nördliches Tobrien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000018",
+        "Left":  6.48664380263892
+    },
+    {
+        "Top":  39.1780862767777,
+        "Bot":  13.1051259921612,
+        "Right":  13.0176253934294,
+        "Name":  "südlich des Blauen Sees",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000019",
+        "Left":  -8.63220069216899
+    },
+    {
+        "Top":  35.9010951704063,
+        "Bot":  13.1051259921612,
+        "Right":  13.2182571886668,
+        "Name":  "südlich einer Linie Olport-Festum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000020",
+        "Left":  -8.80510596788628
+    },
+    {
+        "Top":  34.0020794430901,
+        "Bot":  13.1051259921612,
+        "Right":  13.292544271898,
+        "Name":  "südlich einer Linie Thorwal-Festum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000021",
+        "Left":  -8.59589643296849
+    },
+    {
+        "Top":  33.7425303073527,
+        "Bot":  13.1051259921612,
+        "Right":  13.4636136633794,
+        "Name":  "südlich von Festum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000022",
+        "Left":  -8.27047451336387
+    },
+    {
+        "Top":  36.6793727994053,
+        "Bot":  13.1051259921612,
+        "Right":  13.0336127256012,
+        "Name":  "südlich von Gerasim",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000023",
+        "Left":  -8.29349494700281
+    },
+    {
+        "Top":  37.2537140081631,
+        "Bot":  13.1051259921612,
+        "Right":  13.0436731401524,
+        "Name":  "südlich von Riva",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000025",
+        "Left":  -8.10562361259383
+    },
+    {
+        "Top":  36.6793727994053,
+        "Bot":  21.4800247301792,
+        "Right":  13.0336127256012,
+        "Name":  "zwischen Gerasim und Mengbilla",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000026",
+        "Left":  -8.29349494700281
+    },
+    {
+        "Top":  37.2537140081631,
+        "Bot":  17.8958313775297,
+        "Right":  13.0436731401524,
+        "Name":  "zwischen Riva und Al\u0027Anfa",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000027",
+        "Left":  -8.10562361259383
+    },
+    {
+        "Top":  37.2537140081631,
+        "Bot":  21.3114068719745,
+        "Right":  13.0436731401524,
+        "Name":  "zwischen Riva und Mengbilla",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000028",
+        "Left":  -8.10562361259383
+    },
+    {
+        "Top":  33.3645923718331,
+        "Bot":  26.3760270812888,
+        "Right":  13.209252371703,
+        "Name":  "zwischen Trallop und Punin",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000029",
+        "Left":  -8.44106654604784
+    },
+    {
+        "Top":  33.8858756377548,
+        "Bot":  31.4829904331852,
+        "Right":  10.4838732710509,
+        "Name":  "um Vallusa",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000031",
+        "Left":  8.50427553467424
+    },
+    {
+        "Top":  30.7694203205598,
+        "Bot":  28.1036024378751,
+        "Right":  6.81722056657972,
+        "Name":  "Garetien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000032",
+        "Left":  1.67317308499159
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "keine natürlichen Vorkommen bekannt",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000033",
+        "Left":  null
+    },
+    {
+        "Top":  26.5328158143025,
+        "Bot":  22.0660474528674,
+        "Right":  5.69799328086742,
+        "Name":  "Randgebiete der Khôm",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000034",
+        "Left":  -0.188918366178427
+    },
+    {
+        "Top":  28.0209810784443,
+        "Bot":  26.1429566630804,
+        "Right":  9.21566114366655,
+        "Name":  "Küste um die Elburische Halbinsel",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000035",
+        "Left":  6.77639904780909
+    },
+    {
+        "Top":  28.6346741966696,
+        "Bot":  26.3577976543763,
+        "Right":  4.02791662605455,
+        "Name":  "Almada",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000036",
+        "Left":  -0.991302052119721
+    },
+    {
+        "Top":  28.1537366995458,
+        "Bot":  21.1546562374584,
+        "Right":  11.8361808676176,
+        "Name":  "Maraskan",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000037",
+        "Left":  7.74511196567661
+    },
+    {
+        "Top":  28.319466832609,
+        "Bot":  24.9912395387093,
+        "Right":  8.58229285920135,
+        "Name":  "aranische Küste",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000038",
+        "Left":  6.52609057529793
+    },
+    {
+        "Top":  25.8558729824736,
+        "Bot":  24.5489886969631,
+        "Right":  7.71715244871623,
+        "Name":  "um Khunchom",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000039",
+        "Left":  6.89503663540307
+    },
+    {
+        "Top":  27.3858375538707,
+        "Bot":  23.796533331234,
+        "Right":  11.7129010049352,
+        "Name":  "Maraskankette",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000040",
+        "Left":  9.16844867685805
+    },
+    {
+        "Top":  24.1478237754937,
+        "Bot":  22.0666842698207,
+        "Right":  5.70937695510185,
+        "Name":  "Unauer Berge",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000041",
+        "Left":  3.34437907835331
+    },
+    {
+        "Top":  33.882355491285,
+        "Bot":  21.6316152232665,
+        "Right":  13.1837810706439,
+        "Name":  "Mittelaventurien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000042",
+        "Left":  -8.51781470926124
+    },
+    {
+        "Top":  33.3645923718331,
+        "Bot":  20.5950215993103,
+        "Right":  13.209252371703,
+        "Name":  "zwischen Lowangen und Selem",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000043",
+        "Left":  -8.44106654604784
+    },
+    {
+        "Top":  34.9362249919743,
+        "Bot":  23.5942155801174,
+        "Right":  13.0384016995676,
+        "Name":  "zwischen Salamandersteinen und Ongalo-Bergen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000044",
+        "Left":  -7.52898839924399
+    },
+    {
+        "Top":  27.9723554189053,
+        "Bot":  26.2005203208627,
+        "Right":  9.18546672766124,
+        "Name":  "Moghulat Oron",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000045",
+        "Left":  6.84700327840633
+    },
+    {
+        "Top":  34.7046015206891,
+        "Bot":  33.6641982427431,
+        "Right":  5.29817643040917,
+        "Name":  "Neunaugensee",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000046",
+        "Left":  4.40620480001428
+    },
+    {
+        "Top":  26.4764066190888,
+        "Bot":  22.0878992126929,
+        "Right":  1.29931738605575,
+        "Name":  "Liebliches Feld",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000048",
+        "Left":  -1.91323318524087
+    },
+    {
+        "Top":  28.1747779024942,
+        "Bot":  26.1311167122416,
+        "Right":  6.58697510492459,
+        "Name":  "aranisches Hochland",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000049",
+        "Left":  4.54350159592047
+    },
+    {
+        "Top":  45.9502934592314,
+        "Bot":  32.0367481392408,
+        "Right":  13.3164304807985,
+        "Name":  "Nordaventurien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000050",
+        "Left":  -10.720399990519
+    },
+    {
+        "Top":  45.9502934592314,
+        "Bot":  28.596451797815,
+        "Right":  13.3164304807985,
+        "Name":  "nördlich einer Linie Nostria-Vallusa",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000051",
+        "Left":  -10.720399990519
+    },
+    {
+        "Top":  45.9502906637792,
+        "Bot":  24.7878162328029,
+        "Right":  13.3164314367243,
+        "Name":  "nördlich der Khôm",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000052",
+        "Left":  -10.7203825930299
+    },
+    {
+        "Top":  39.6779095026054,
+        "Bot":  32.02254571649,
+        "Right":  13.0804843755367,
+        "Name":  "Nordostaventurien von der Letta bis zur Tobimora",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000053",
+        "Left":  6.60943361944683
+    },
+    {
+        "Top":  30.9388242315981,
+        "Bot":  27.3241208008948,
+        "Right":  1.54426040526377,
+        "Name":  "Nordmarken",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000054",
+        "Left":  -1.72491353072587
+    },
+    {
+        "Top":  30.4840358256453,
+        "Bot":  26.2175484280182,
+        "Right":  10.2125571509588,
+        "Name":  "am Golf von Perricum",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000055",
+        "Left":  5.46990312793341
+    },
+    {
+        "Top":  36.0722082876003,
+        "Bot":  32.803707913122,
+        "Right":  0.890947564852866,
+        "Name":  "Orkland",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000056",
+        "Left":  -4.10783751720498
+    },
+    {
+        "Top":  33.9115476891098,
+        "Bot":  31.3053787526722,
+        "Right":  3.77938844933371,
+        "Name":  "Finsterkamm",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000057",
+        "Left":  -0.039941395964405
+    },
+    {
+        "Top":  39.5337656807077,
+        "Bot":  36.924452731802,
+        "Right":  -0.494051929616859,
+        "Name":  "Gjalsker Öden",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000058",
+        "Left":  -3.73802370661451
+    },
+    {
+        "Top":  34.4664792744977,
+        "Bot":  33.7899263488682,
+        "Right":  2.59202742751518,
+        "Name":  "Svelltsümpfe",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000059",
+        "Left":  1.38638084624546
+    },
+    {
+        "Top":  36.4338246980191,
+        "Bot":  33.1939374328403,
+        "Right":  3.45915061550909,
+        "Name":  "Svellttal",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000060",
+        "Left":  0.376996040791823
+    },
+    {
+        "Top":  33.4127840035292,
+        "Bot":  26.7951900663339,
+        "Right":  10.4727397661171,
+        "Name":  "Ostaventurien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000061",
+        "Left":  4.9586327994123
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "östliche Khôm",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000062",
+        "Left":  null
+    },
+    {
+        "Top":  24.1433593193642,
+        "Bot":  23.2808253584751,
+        "Right":  -3.48455660169031,
+        "Name":  "Pailos",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000063",
+        "Left":  -4.34390392271936
+    },
+    {
+        "Top":  25.9877700660625,
+        "Bot":  24.2332175566209,
+        "Right":  7.31898717149977,
+        "Name":  "Randgebiete der Gorischen Wüste",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000064",
+        "Left":  5.47113542158471
+    },
+    {
+        "Top":  29.2775685570254,
+        "Bot":  26.0887921256544,
+        "Right":  5.34700660974067,
+        "Name":  "Raschtulswall",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000065",
+        "Left":  2.30568301806875
+    },
+    {
+        "Top":  32.9423971143093,
+        "Bot":  29.6548778206218,
+        "Right":  11.1492866692612,
+        "Name":  "Schwarz-Tobrien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000066",
+        "Left":  5.68330546313237
+    },
+    {
+        "Top":  32.9942672430028,
+        "Bot":  28.9110103385166,
+        "Right":  11.1492866692612,
+        "Name":  "Xeraanien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000067",
+        "Left":  8.29594350822549
+    },
+    {
+        "Top":  33.9263538006995,
+        "Bot":  32.2672080939008,
+        "Right":  0.180493981243956,
+        "Name":  "Steineichenwald",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000068",
+        "Left":  -3.87944038673507
+    },
+    {
+        "Top":  23.9369198870175,
+        "Bot":  13.1061918771521,
+        "Right":  12.8403748634763,
+        "Name":  "südlich einer Linie Neetha-Thalusa",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000070",
+        "Left":  -8.77168575634201
+    },
+    {
+        "Top":  21.6339732875761,
+        "Bot":  13.1061918771521,
+        "Right":  12.8403748634763,
+        "Name":  "Südaventurien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000071",
+        "Left":  -7.83790096670111
+    },
+    {
+        "Top":  21.2593503559303,
+        "Bot":  13.1061918771521,
+        "Right":  12.9114842788996,
+        "Name":  "südlich des Loch Harodrôl",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000074",
+        "Left":  -7.81203539775572
+    },
+    {
+        "Top":  23.3485237522228,
+        "Bot":  21.3841453718731,
+        "Right":  4.73832802901913,
+        "Name":  "südliche Randgebiete der Khôm",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000075",
+        "Left":  1.4099473566425
+    },
+    {
+        "Top":  25.0318724520276,
+        "Bot":  22.2824441747973,
+        "Right":  10.9666582089793,
+        "Name":  "südliches Maraskan und die umliegenden Inseln",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000076",
+        "Left":  8.51602671450485
+    },
+    {
+        "Top":  21.7435613360527,
+        "Bot":  15.2505887099823,
+        "Right":  1.73916463357497,
+        "Name":  "Südwestaventurien südlich von Mengbilla",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000077",
+        "Left":  -3.7394784294541
+    },
+    {
+        "Top":  34.3880225390246,
+        "Bot":  23.5942155801174,
+        "Right":  12.9539901151901,
+        "Name":  "zwischen Donnerbach und Rashdul",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000078",
+        "Left":  -7.27063999273204
+    },
+    {
+        "Top":  37.2537140081631,
+        "Bot":  22.9994146842016,
+        "Right":  13.0436731401524,
+        "Name":  "zwischen Riva und Neetha",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000079",
+        "Left":  -8.10562361259383
+    },
+    {
+        "Top":  37.3824112298277,
+        "Bot":  35.36721759617,
+        "Right":  8.30892330864853,
+        "Name":  "Grüne Ebene",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000080",
+        "Left":  5.58415040310285
+    },
+    {
+        "Top":  36.7214093178481,
+        "Bot":  34.4722951134754,
+        "Right":  7.19339547621917,
+        "Name":  "Wälder um die Salamandersteine",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000081",
+        "Left":  2.10917714430838
+    },
+    {
+        "Top":  17.7850483074031,
+        "Bot":  16.6249824545476,
+        "Right":  -1.39793897759293,
+        "Name":  "Mysobgebiet",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000082",
+        "Left":  -3.47062956290804
+    },
+    {
+        "Top":  17.3244128282718,
+        "Bot":  14.5809486264612,
+        "Right":  12.6015666771851,
+        "Name":  "Waldinseln von Ost-Altoum bis Ibonka",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000083",
+        "Left":  3.71578605536041
+    },
+    {
+        "Top":  31.3655798617859,
+        "Bot":  29.1449071519815,
+        "Right":  9.11189180359216,
+        "Name":  "Warunkei",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000084",
+        "Left":  5.78376257745091
+    },
+    {
+        "Top":  34.9240750520435,
+        "Bot":  16.846656641413,
+        "Right":  -0.209136388115979,
+        "Name":  "Westküste",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000085",
+        "Left":  -5.87122388103901
+    },
+    {
+        "Top":  19.3738671063139,
+        "Bot":  16.6141782523471,
+        "Right":  -0.266500244050974,
+        "Name":  "südöstlich des Regengebirges zwischen Brabak und Mirham",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000086",
+        "Left":  -3.08234699605219
+    },
+    {
+        "Top":  21.3577734077382,
+        "Bot":  18.3408281577254,
+        "Right":  0.051044923338452,
+        "Name":  "westliches Regengebirge",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000087",
+        "Left":  -1.95306586095819
+    },
+    {
+        "Top":  22.9363320829496,
+        "Bot":  16.846656641413,
+        "Right":  -0.429840989218491,
+        "Name":  "Westküste südlich von Drôl",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000138",
+        "Left":  -3.5416291860291
+    },
+    {
+        "Top":  25.1451234278441,
+        "Bot":  22.4276532156621,
+        "Right":  -0.642839597096469,
+        "Name":  "Zyklopeninseln",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000139",
+        "Left":  -4.63517020940839
+    },
+    {
+        "Top":  27.3003415270053,
+        "Bot":  24.8284540186012,
+        "Right":  6.36403280565418,
+        "Name":  "Mhanadistan",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000140",
+        "Left":  2.55960988148632
+    },
+    {
+        "Top":  21.1620696444342,
+        "Bot":  17.0149662211888,
+        "Right":  2.02956840509148,
+        "Name":  "Perlenmeer zwischen Selem und Charypso",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000141",
+        "Left":  -1.00834733709402
+    },
+    {
+        "Top":  32.4445197407445,
+        "Bot":  29.6401741615628,
+        "Right":  -0.247975487732788,
+        "Name":  "Nostria",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000145",
+        "Left":  -4.10686794783956
+    },
+    {
+        "Top":  17.7936553737301,
+        "Bot":  17.3502701663185,
+        "Right":  4.81972511210671,
+        "Name":  "Souram",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000146",
+        "Left":  4.00845243501368
+    },
+    {
+        "Top":  16.0358251532458,
+        "Bot":  15.7641497705247,
+        "Right":  5.18831442888907,
+        "Name":  "Nikkali",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000147",
+        "Left":  4.9347767192483
+    },
+    {
+        "Top":  25.9914632468124,
+        "Bot":  24.2477193910678,
+        "Right":  7.33766270108208,
+        "Name":  "Gorien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000148",
+        "Left":  5.44648730686859
+    },
+    {
+        "Top":  28.3659466930485,
+        "Bot":  25.0511044876029,
+        "Right":  8.51192042734519,
+        "Name":  "Aranien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000149",
+        "Left":  4.55244836305212
+    },
+    {
+        "Top":  24.7349548367063,
+        "Bot":  22.0443508098043,
+        "Right":  7.61153096993996,
+        "Name":  "Thalusien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000150",
+        "Left":  3.79685731754012
+    },
+    {
+        "Top":  22.7909207752576,
+        "Bot":  20.6066671042621,
+        "Right":  2.73538299377361,
+        "Name":  "Szintotal",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000151",
+        "Left":  1.42525061031708
+    },
+    {
+        "Top":  33.0644712357536,
+        "Bot":  30.5165776438296,
+        "Right":  0.944668015161085,
+        "Name":  "Andergast",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000152",
+        "Left":  -2.2472472222222
+    },
+    {
+        "Top":  31.0866912727394,
+        "Bot":  28.5788946630959,
+        "Right":  1.1810663133931,
+        "Name":  "Koschberge",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000153",
+        "Left":  -0.0967328758823385
+    },
+    {
+        "Top":  28.2654783806951,
+        "Bot":  27.4363432108749,
+        "Right":  1.57617126117842,
+        "Name":  "Eisenwald",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000154",
+        "Left":  -0.823786616814004
+    },
+    {
+        "Top":  40.0389716018952,
+        "Bot":  31.2891502701573,
+        "Right":  2.08029562355708,
+        "Name":  "Thorwal",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000155",
+        "Left":  -8.03359169456445
+    },
+    {
+        "Top":  22.200642784653,
+        "Bot":  20.0358652315955,
+        "Right":  5.1905896179299,
+        "Name":  "Echsensümpfe",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000156",
+        "Left":  1.57627333299547
+    },
+    {
+        "Top":  32.3468251698417,
+        "Bot":  31.8067690552077,
+        "Right":  8.0536240884814,
+        "Name":  "am Yslisee",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000157",
+        "Left":  7.61979887872883
+    },
+    {
+        "Top":  21.5054385315801,
+        "Bot":  18.2722254482588,
+        "Right":  0.611906158993577,
+        "Name":  "Regengebirge",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000158",
+        "Left":  -2.1546763122179
+    },
+    {
+        "Top":  21.6449054731602,
+        "Bot":  16.9544866758093,
+        "Right":  1.14058069466333,
+        "Name":  "Wälder um das Regengebirge",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000159",
+        "Left":  -3.09655965594291
+    },
+    {
+        "Top":  17.9255915426898,
+        "Bot":  14.5809486264612,
+        "Right":  12.8044935045293,
+        "Name":  "Waldinseln",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000160",
+        "Left":  1.67038035603778
+    },
+    {
+        "Top":  26.131453078467,
+        "Bot":  22.333508844984,
+        "Right":  5.4344414300372,
+        "Name":  "Khôm",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000161",
+        "Left":  0.209954449408315
+    },
+    {
+        "Top":  29.2241082732919,
+        "Bot":  26.2974906568056,
+        "Right":  5.35275570643572,
+        "Name":  "Höhen des Raschtulswalls",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000162",
+        "Left":  2.90410057101479
+    },
+    {
+        "Top":  25.9639347613219,
+        "Bot":  24.0415949484654,
+        "Right":  5.68868892133705,
+        "Name":  "Höhen des Khoramgebirges",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000163",
+        "Left":  2.43731637534728
+    },
+    {
+        "Top":  22.9800268907622,
+        "Bot":  21.3841453718731,
+        "Right":  3.90610921335872,
+        "Name":  "Shadif",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000164",
+        "Left":  1.80165022308466
+    },
+    {
+        "Top":  21.7997511473886,
+        "Bot":  17.570242315628,
+        "Right":  0.00733317555526014,
+        "Name":  "westlich des Regengebirges ab Mengbilla",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000165",
+        "Left":  -3.11727217963917
+    },
+    {
+        "Top":  31.9412560920048,
+        "Bot":  28.8434940883142,
+        "Right":  8.21146591890846,
+        "Name":  "Darpatien",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000166",
+        "Left":  3.44501145649289
+    },
+    {
+        "Top":  31.1923309042848,
+        "Bot":  30.352302266736,
+        "Right":  8.82261503431226,
+        "Name":  "Warunk",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000167",
+        "Left":  7.30878395468815
+    },
+    {
+        "Top":  30.5070052698501,
+        "Bot":  28.9124395033455,
+        "Right":  10.2285475057698,
+        "Name":  "Beilunk",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000168",
+        "Left":  7.32222054028998
+    },
+    {
+        "Top":  37.1483378831874,
+        "Bot":  36.711988718711,
+        "Right":  10.4167423338808,
+        "Name":  "Totenmoor",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000169",
+        "Left":  9.60042763252076
+    },
+    {
+        "Top":  34.2656900566283,
+        "Bot":  34.1823970668069,
+        "Right":  -3.47270968254008,
+        "Name":  "Einsiedlersee",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000170",
+        "Left":  -3.60834685762242
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "von der Sphärenkraft durchdrungene Gewässer",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000171",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Myranor",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030001",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Tharamans Rippen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030002",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Louranath",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030003",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Karonius",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030004",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Centralis",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030005",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Cranarenius",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030006",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Baan-Bashur",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030007",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Berge von Xarxaron",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030008",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Cedaria-Berge",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030009",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Gyldraland",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030010",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "vom Großem Orismani bis zum Thalassion",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030011",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Makshapuram",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030012",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Randgebiete nördlich des Meeres der Schwimmenden Inseln",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030013",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Aschenwald",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030089",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Arhtax",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030090",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Wolkenkämme",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030091",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Binnengewässer zwischen Orismani-Fällen und Valantischem Meer (nicht Grüner Orismani)",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030092",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Tharpurische Thalassionküste",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030096",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Era\u0027Sumu",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030097",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "gemäßigte nördliche Breiten bis zum Großen Orismani",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030100",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "gemäßigte nördliche Breiten",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030101",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Große Steppe westlich des Orismani",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030102",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Südliches Imperium",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030103",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Gemäßigtes Klima",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030104",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Tharpura",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030105",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "tropischer Teil des Thalassions",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030106",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Mittlere und nördliche Breiten",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030107",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Narkramar",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030108",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Brillantsteine",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030109",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Nebelwald",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030111",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "nördlich einer Linie Balan Cantara-Daranel bis zur winterlichen Eisgrenze",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030113",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "nördliche Wälder, im Osten bis an den Rand Valantias und Mayenios",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030114",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "im Norden",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030115",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "hoch gelegene Dschungelgebiete",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030117",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Süden der nördlichen Wälder bis nach Cantera",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030118",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "südlich von Ochobenius bis nach Valantia",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030119",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Subtropen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030121",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Alamar",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030124",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Gebirge des Nordens bis nach Karonius",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030125",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Mayenios",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030127",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Ufergebiete des Meeres der Schwimmenden Inseln",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030129",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Wald von Amaunath",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030130",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Wälder des nördlichen Myranor bis zur großen Steppe",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030131",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Xarxaron",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030134",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "zwischen den Polarregionen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030136",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "zwischen Frostweste, den Bergen von Skiresis und Nitharus-Bergen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030137",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Meer der Schwimmenden Inseln",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030142",
+        "Left":  null
+    },
+    {
+        "Top":  null,
+        "Bot":  null,
+        "Right":  null,
+        "Name":  "Tropen",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000030143",
+        "Left":  null
+    },
+    {
+        "Top":  23.7559918391783,
+        "Bot":  23.7029723881684,
+        "Right":  -3.91868622893972,
+        "Name":  "Palakar",
+        "GebietGUID":  "00000000-0000-0000-00f9-000000000024",
+        "Left":  -3.97073518205224
+    }
+]

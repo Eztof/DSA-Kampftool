@@ -1,0 +1,32 @@
+﻿[
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000001",
+        "Aktiv":  true,
+        "Name":  "Aventurien"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000002",
+        "Aktiv":  false,
+        "Name":  "Dunkle Zeiten"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000003",
+        "Aktiv":  false,
+        "Name":  "Myranor"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000004",
+        "Aktiv":  false,
+        "Name":  "Rakshazar"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000005",
+        "Aktiv":  false,
+        "Name":  "Uthuria"
+    },
+    {
+        "SettingGUID":  "00000000-0000-0000-5e77-000000000006",
+        "Aktiv":  false,
+        "Name":  "Tharun"
+    }
+]
